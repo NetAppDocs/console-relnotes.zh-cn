@@ -1,0 +1,563 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery, netapp console, console' 
+summary: 了解NetApp控制台的功能和数据服务的最新变化。 
+---
+= NetApp控制台中的最新更改
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解NetApp控制台的功能和数据服务的最新变化。要查看完整的发布历史记录，请访问link:release-notes-index.html["全套发行说明"]针对每项单独的服务。
+
+
+
+== 管理功能
+
+本节介绍与NetApp控制台管理功能相关的新功能：组织、识别和访问、控制台代理、云提供商凭据等。
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 警报
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP alerts现已升级ONTAP警报
+
+BlueXP alerts已重命名为ONTAP警报。
+
+您可以通过选择“NetApp控制台”左侧导航栏中的“*存储*”>“*警报*”来访问它。
+
+
+
+==== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+=== 2024年10月7日
+
+
+
+==== BlueXP alerts列表页面
+
+您可以快速识别容量低或性能低的ONTAP集群、评估可用性程度并识别安全风险。您可以查看与容量、性能、保护、可用性、安全性和配置相关的警报。
+
+
+
+==== 警报详情
+
+您可以深入了解警报详细信息并找到建议。
+
+
+
+==== 查看链接到ONTAP System Manager 的集群详细信息
+
+通过BlueXP alerts，您可以查看与ONTAP存储环境相关的警报并深入了解与ONTAP系统管理器相关的详细信息。
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["了解BlueXP alerts"] 。
+
+
+
+== 适用于ONTAP 的Amazon FSx
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Amazon S3 存储
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Azure Blob 存储
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-blob-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Azure NetApp Files
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-azure-netapp-files/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 备份和恢复
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-backup-recovery/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 数据分类
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-data-classification/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Cloud Volumes ONTAP
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 复制和同步
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 数字顾问
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+=== 2025年8月6日
+
+
+
+==== 支持授权开关
+
+您现在可以查看有关有权获得支持的Brocade光纤通道 SAN 交换机的信息。这包括有关交换机型号、序列号和支持状态的详细信息。link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["了解如何查看支持授权开关"] 。
+
+
+
+==== RSS AutoSupport数据的阈值
+
+AutoSupport小部件中的“最近停止发送 (RSS)”限制已从 48 小时（2 天）延长至 216 小时（9 天），之后系统才会被标记为 RSS。这样做是为了适应仅发送每周AutoSupport数据的StorageGRID等平台。
+
+
+
+==== Digital Advisor API 目录中已弃用的 API 部分
+
+Digital Advisor API 目录中提供了一个新的弃用 API 部分。它列出了计划弃用的 API，以及弃用时间表和替代 API。
+
+
+
+==== 容量预测 V2 和支持结束 API 模块弃用
+
+容量预测 V2 和支持终止 API 模块计划弃用。要访问已弃用的 API 或了解弃用时间表和替代 API，请导航至 *API 服务 -> 浏览 -> 已弃用的 API*。
+
+
+
+=== 2025 年 7 月 09 日
+
+
+
+==== Upgrade Advisor
+
+* 升级顾问计划中包含多格式下载选项，以简化ONTAP升级计划并解决潜在的阻碍或警告。您现在可以下载 Excel、PDF 和 JSON 格式的升级顾问计划。
+* 在升级顾问计划的 Excel 格式中，进行了以下增强：
++
+** 您可以查看在集群上执行的预检查，并使用“通过”、“失败”或“跳过”等指示标记结果。这可确保集群处于最佳状态以完成ONTAP升级。
+** 您可以查看适用于集群的推荐最新固件更新，以及ONTAP目标版本附带的版本。
+** 已包含一个新选项卡，提供 SAN 集群的互操作性检查。它提供了所选目标ONTAP版本支持的主机操作系统版本的视图。
+
+
+
+
+
+
+== 许可证和订阅
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+=== 2025年3月10日
+
+
+
+==== 可以删除订阅
+
+如果您已取消订阅，现在可以从数字钱包中删除订阅。
+
+
+
+==== 查看 Marketplace 订阅的已消耗容量
+
+查看 PAYGO 订阅时，您现在可以查看订阅的已消耗容量。
+
+
+
+=== 2025年2月10日
+
+BlueXP digital wallet经过重新设计，易于使用，现在提供额外的订阅和许可证管理。
+
+
+
+==== 新的概览仪表板
+
+数字钱包主页具有更新的NetApp许可证和 Marketplace 订阅仪表板，可以深入了解特定服务、许可证类型和所需的操作。
+
+
+
+==== 配置凭证订阅
+
+BlueXP digital wallet现在允许您配置对提供商凭证的订阅。通常，您在首次订阅 Marketplace 订阅或年度合同时执行此操作。以前，只能在“凭据”页面上更改订阅的凭据。
+
+
+
+==== 将订阅与组织关联
+
+您现在可以直接从数字钱包更新与订阅关联的组织。
+
+
+
+==== 管理 Cloud Volume ONTAP许可证
+
+您现在可以通过主页或“直接许可证”选项卡管理Cloud Volumes ONTAP许可证。使用“市场订阅”选项卡查看您的订阅信息。
+
+
+
+=== 2024年3月5日
+
+
+
+==== BlueXP disaster recovery
+
+BlueXP digital wallet现在使您能够管理BlueXP disaster recovery的许可证。您可以添加许可证、更新许可证以及查看有关许可容量的详细信息。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["了解如何管理BlueXP数据服务的许可证"]
+
+
+
+=== 2023 年 7 月 30 日
+
+
+
+==== 使用情况报告增强功能
+
+Cloud Volumes ONTAP使用情况报告现已有几项改进：
+
+* TiB 单位现在包含在列名中。
+* 现在包含一个用于序列号的新_node(s)_字段。
+* 存储虚拟机使用情况报告下现在包含一个新的“工作负载类型”列。
+* 工作环境名称现在包含在存储虚拟机和卷使用情况报告中。
+* 卷类型_file_现在标记为_Primary (Read/Write)_。
+* 卷类型 _secondary_ 现在标记为 _Secondary (DP)_。
+
+
+有关使用情况报告的更多信息，请参阅 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下载使用情况报告"]。
+
+
+
+== 灾难恢复
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== E系列系统
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-e-series/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 生命周期规划
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP economic efficiency现在是生命周期规划
+
+BlueXP economic efficiency已更名为生命周期规划。
+
+您可以通过选择“NetApp控制台”左侧导航栏中的“存储”>“生命周期规划”来访问它。
+
+
+
+==== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+=== 2024年5月15日
+
+
+
+==== 已禁用的功能
+
+一些BlueXP economic efficiency功能已被暂时禁用：
+
+* 技术更新
+* 添加容量
+
+
+
+
+=== 2024年3月14日
+
+
+
+==== 技术更新选项
+
+如果您已有现有资产并想确定某项技术是否需要更新，则可以使用BlueXP经济效率技术更新选项。您可以查看当前工作负载的简短评估并获得建议，或者如果您在过去 90 天内将AutoSupport日志发送给NetApp ，该服务现在可以提供工作负载模拟，以查看工作负载在新硬件上的表现。
+
+您还可以添加工作负载并从模拟中排除现有工作负载。
+
+以前，您只能对您的资产进行评估并确定是否建议进行技术更新。
+
+该功能现在是左侧导航中技术更新选项的一部分。
+
+详细了解 https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["评估技术更新"]。
+
+
+
+== 边缘缓存
+
+边缘缓存服务于 2024 年 8 月 7 日被删除。
+
+
+
+== Google Cloud NetApp Volumes
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Google Cloud Storage
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Keystone
+
+
+
+=== 2025年10月6日
+
+
+
+==== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+2ef72cc8a56fc5999e258b450b9fca24
+
+
+
+=== 2025年9月22日
+
+
+
+==== 增加警报监控
+
+BlueXP中的Keystone仪表板现在包括一个“监控”选项卡，用于管理您订阅中的警报和监控器。此新选项卡使您能够：
+
+* 查看和解决活动警报，包括系统生成的和用户定义的容量使用情况和订阅到期警报。
+* 创建警报监视器来跟踪容量使用情况和订阅到期事件。
+
+
+要了解更多信息，请参阅link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["查看和管理警报和监视器"]。
+
+
+
+==== 简化的性能服务级别查看
+
+您可以在“*订阅*”选项卡中查看性能服务级别信息，现在该信息已从单独的选项卡移至可扩展视图。单击“到期日期”列旁边的向下箭头可查看每个订阅的到期日期。要了解更多信息，请参阅link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的Keystone订阅的详细信息"]。
+
+
+
+=== 2025年8月28日
+
+
+
+==== 使用新列增强逻辑使用情况跟踪
+
+添加了新列“总占用空间”，以增强对FabricPool卷的Keystone消耗跟踪：
+
+* * BlueXP中的Keystone仪表板 *：您可以在 *Assets* 选项卡中的 *Volumes in clusters* 选项卡中看到 *Total footprint* 列。
+* *Digital Advisor*：您可以在 *卷和对象* 选项卡中的 *卷详细信息* 选项卡中看到 *总足迹* 列。
+
+
+此列显示使用FabricPool分层的卷的总逻辑占用空间，包括性能层和冷层的数据，因此您可以准确计算Keystone消耗。
+
+
+
+== Kubernetes
+
+2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支持被取消。
+
+
+
+== 迁移报告
+
+迁移报告服务已于 2024 年 8 月 7 日移除。
+
+
+
+== 本地ONTAP集群
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 运营弹性
+
+运营弹性功能已于 2025 年 8 月 22 日被移除。
+
+
+
+== 勒索软件抵御能力
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 修复
+
+补救服务已于 2024 年 4 月 22 日删除。
+
+
+
+== 复制
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 软件更新
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== StorageGRID
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 云层
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 卷缓存
+
+<stdin> 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== 工作负载工厂
+
+
+
+=== 2025年6月29日
+
+
+
+==== 数据库权限更新
+
+现在，数据库在只读模式下具有以下权限： `cloudwatch:GetMetricData` 。
+
+https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限参考变更日志"]
+
+
+
+==== BlueXP workload factory通知服务支持
+
+BlueXP workload factory通知服务使工作负载工厂能够向BlueXP alerts服务或 Amazon SNS 主题发送通知。发送到BlueXP alerts的通知会出现在BlueXP alerts面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点接收通知（例如电子邮件或短信）。
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置BlueXP workload factory通知"]
+
+
+
+=== 2025年5月4日
+
+
+
+==== CloudShell 自动完成支持
+
+使用BlueXP workload factoryCloudShell 时，您可以开始输入命令并按 Tab 键查看可用选项。如果存在多种可能性，CLI 将显示建议列表。此功能通过最大限度地减少错误和加快命令执行来提高生产力。
+
+
+
+==== 更新了权限术语
+
+工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
+
+
+
+=== 2025年3月30日
+
+
+
+==== CloudShell 报告 AI 生成的ONTAP CLI 命令错误响应
+
+使用 CloudShell 时，每次发出ONTAP CLI 命令并发生错误时，您都可以获得 AI 生成的错误响应，其中包括故障描述、故障原因和详细解决方案。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
+
+
+
+==== iam:SimulatePermissionPolicy 权限更新
+
+现在您可以管理 `iam:SimulatePrincipalPolicy`当您添加其他 AWS 账户凭证或添加新的工作负载功能（例如 GenAI 工作负载）时，可以从工作负载工厂控制台获得权限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限参考变更日志"]
+
+
+
+=== 2025年2月2日
+
+
+
+==== BlueXP workload factory控制台中可用的 CloudShell
+
+可以从BlueXP workload factory控制台的任何位置使用 CloudShell。  CloudShell 允许您使用您在BlueXP帐户中提供的 AWS 和ONTAP凭证，并在类似 shell 的环境中执行 AWS CLI 命令或ONTAP CLI 命令。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
+
+
+
+==== 数据库权限更新
+
+现在，数据库在读取模式下具有以下权限： `iam:SimulatePrincipalPolicy` 。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限参考变更日志"]

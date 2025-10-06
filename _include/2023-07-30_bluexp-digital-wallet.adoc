@@ -1,0 +1,19 @@
+= 使用情况报告增强功能
+:allow-uri-read: 
+
+
+
+
+=== 使用情况报告增强功能
+
+Cloud Volumes ONTAP使用情况报告现已有几项改进：
+
+* TiB 单位现在包含在列名中。
+* 现在包含一个用于序列号的新_node(s)_字段。
+* 存储虚拟机使用情况报告下现在包含一个新的“工作负载类型”列。
+* 工作环境名称现在包含在存储虚拟机和卷使用情况报告中。
+* 卷类型_file_现在标记为_Primary (Read/Write)_。
+* 卷类型 _secondary_ 现在标记为 _Secondary (DP)_。
+
+
+有关使用情况报告的更多信息，请参阅 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下载使用情况报告"]。

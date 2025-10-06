@@ -1,0 +1,10 @@
+= 
+:allow-uri-read: 
+
+
+* 当您从BlueXP在 AWS 中创建连接器时，您现在可以在密钥对字段内进行搜索，以更轻松地找到要与连接器实例一起使用的密钥对。
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["从BlueXP在 AWS 中创建连接器时，网络页面上出现的密钥对字段中的搜索选项的屏幕截图。"]
+
+* 此更新还包括错误修复。
+

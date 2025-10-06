@@ -1,0 +1,13 @@
+= Azure 中对 Lsv3 系列 VM 的支持
+:allow-uri-read: 
+
+
+连接器 3.9.33 版本引入了以下更改。
+
+
+
+=== Azure 中对 Lsv3 系列 VM 的支持
+
+从 9.13.1 版本开始，Azure 中的Cloud Volumes ONTAP现在支持 L48s_v3 和 L64s_v3 实例类型，用于在单个和多个可用区域中具有共享托管磁盘的单节点和高可用性对部署。这些实例类型支持 Flash Cache。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["查看 Azure 中Cloud Volumes ONTAP支持的配置"^] link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["查看 Azure 中Cloud Volumes ONTAP的存储限制"^]

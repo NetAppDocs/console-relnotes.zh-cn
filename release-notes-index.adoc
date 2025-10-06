@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: 查看NetApp控制台管理和存储功能以及NetApp数据服务的完整发行说明。 
+---
+= 发行说明索引
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+查看NetApp控制台功能和NetApp数据服务的完整发行说明。
+
+
+
+== 管理
+
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["设置和管理"^]
+* https://docs.netapp.com/us-en/console-alerts/whats-new.html["警报"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["自动化中心"^]
+* https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["数字顾问"^]
+* https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["经济效益"^]
+* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["许可证和订阅"^]
+* https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["软件更新"^]
+
+
+
+
+== 存储
+
+* https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["适用于ONTAP 的Amazon FSx"^]
+* https://docs.netapp.com/us-en/storage-management-s3-storage/whats-new.html["Amazon S3 存储"^]
+* https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Azure Blob 存储"^]
+* https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["NetApp控制台中的Cloud Volumes ONTAP管理"^]
+* https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["E系列系统"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
+* https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Google Cloud Storage"^]
+* https://docs.netapp.com/us-en/storage-management-ontap-onprem/whats-new.html["本地ONTAP集群"^]
+* https://docs.netapp.com/us-en/storage-management-storagegrid/whats-new.html["StorageGRID"^]
+
+
+
+
+== 存储即服务
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
+
+
+
+
+== 数据服务
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["备份和恢复"^]
+* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["数据分类"^]
+* https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["复制和同步"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["灾难恢复"^]
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["勒索软件抵御能力"^]
+* https://docs.netapp.com/us-en/data-services-replication/whats-new.html["复制"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/whats-new.html["云层"^]
+* https://docs.netapp.com/us-en/console-volume-caching/release-notes/cache-whats-new.html["卷缓存"^]
+* https://docs.netapp.com/us-en/workload-relnotes/whats-new.html["工作负载工厂"^]
+
