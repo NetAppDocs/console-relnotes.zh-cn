@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="doc"></block>
+  <block id="30fee46958559c602b944cc387c72292" category="paragraph">客户现在可以在三个新的 AWS 区域创建Amazon FSx for NetApp ONTAP文件系统：欧洲（苏黎世）、欧洲（西班牙）和亚太地区（海得拉巴）。</block>
+  <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">Amazon FSx for NetApp ONTAP现已在另外三个区域推出</block>
+  <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">参考<block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block>了解详细信息。</block>
+  <block id="7741410e87d6144c42e8ca73837c3707" category="doc">Google Cloud 中的 Flash Cache 和高写入速度支持</block>
+  <block id="4325a8ea9cec7ffa18f3ee74d15997fe" category="paragraph">连接器 3.9.32 版本引入了以下变化。</block>
+  <block id="4f90c73c3d52d1bd4329e9961707db5c" category="paragraph">可以在 Google Cloud for Cloud Volumes ONTAP 9.13.1 及更高版本中单独启用闪存和高写入速度。所有受支持的实例类型均具有高写入速度。以下实例类型支持 Flash Cache：</block>
+  <block id="79561dd1a4e00a3e05c0d892a01e77bf" category="list-text">n2-标准-16</block>
+  <block id="8f66358785ed8f4d9a356630a4ee515c" category="list-text">n2-标准-32</block>
+  <block id="33031b274bf5d81fbfbd69c1f2ea39a2" category="list-text">n2-标准-48</block>
+  <block id="7c347fcea29ffaea485ee6128a9d7a06" category="list-text">n2-标准-64</block>
+  <block id="0891ba6a1f7a37c01cb3698c692751bc" category="paragraph">您可以在单节点和高可用性对部署中单独或一起使用这些功能。</block>
+  <block id="5195e4b472b1871018c47fface61dc40" category="inline-link-macro">在 Google Cloud 中启动Cloud Volumes ONTAP</block>
+  <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
+  <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用情况报告增强功能</block>
+  <block id="ec123c8f161f9dfe4383b8db1d8883c4" category="paragraph">现在可以对使用报告中显示的信息进行各种改进。以下是使用情况报告的增强功能：</block>
+  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">TiB 单位现在包含在列名中。</block>
+  <block id="fc7fa4a44c2c9442201bf8725e6237b7" category="list-text">现在包含一个用于序列号的新“节点”字段。</block>
+  <block id="68d761e353cd9d529997fa49bfe51f92" category="list-text">存储虚拟机使用情况报告下现在包含一个新的“工作负载类型”列。</block>
+  <block id="26f51c309f5237522421f24bf4df04e0" category="list-text">工作环境名称现在包含在存储虚拟机和卷使用报告中。</block>
+  <block id="fa3abcbc43662c93139af3f3f6421a6f" category="list-text">卷类型“文件”现在标记为“主（读/写）”。</block>
+  <block id="b259e22e76e27ad956b503941804b4c6" category="list-text">卷类型“辅助”现在标记为“辅助 (DP)”。</block>
+  <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">下载使用情况报告</block>
+  <block id="a8c4bf4701c4d99d778be1176c8c8616" category="paragraph">有关使用情况报告的更多信息，请参阅<block ref="b9c4007084372a89d5df93919658aa73" category="inline-link-macro-rx"></block>。</block>
+  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP使用情况报告现已有几项改进：</block>
+  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">现在包含一个用于序列号的新_node(s)_字段。</block>
+  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">存储虚拟机使用情况报告下现在包含一个新的“工作负载类型”列。</block>
+  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">工作环境名称现在包含在存储虚拟机和卷使用情况报告中。</block>
+  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">卷类型_file_现在标记为_Primary (Read/Write)_。</block>
+  <block id="af30dca925032347d49fd49d710f0164" category="list-text">卷类型 _secondary_ 现在标记为 _Secondary (DP)_。</block>
+  <block id="7cc7b7a6d80d31d0e4806abd9de3d8f3" category="paragraph">有关使用情况报告的更多信息，请参阅<block ref="a7d17f594b62c1bde4179fc580d7da6f" category="inline-link-rx"></block>。</block>
+  <block id="87377698a8dca305b9579a13060142f2" category="doc">创建FlexGroup卷</block>
+  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">如果您使用连接器管理集群，则现在可以使用BlueXP API 创建FlexGroup卷。</block>
+  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">了解如何创建FlexGroup卷</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
+  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">了解什么是FlexGroup卷</block>
+  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="7af14628b780746da1b2b7396f10a07e" category="list-text">您现在可以使用BlueXP审计服务 API 导出审计日志。</block>
+  <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">审计服务记录有关BlueXP服务执行的操作的信息。这包括工作区、使用的连接器和其他遥测数据。您可以使用这些数据来确定执行了哪些操作、谁执行了这些操作以及这些操作何时发生。</block>
+  <block id="5a97fe4fe664c9e98d8ad88cdbf44d98" category="inline-link">了解有关使用审计服务 API 的更多信息</block>
+  <block id="23822bdcf5039c31a637229d8ca51ffa" category="paragraph"><block ref="23822bdcf5039c31a637229d8ca51ffa" category="inline-link-rx"></block></block>
+  <block id="d00604985bd7a191952bde8a0cec39fd" category="paragraph">请注意，此链接也可以从时间线页面上的BlueXP用户界面访问。</block>
+  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">此版本的连接器还包括Cloud Volumes ONTAP增强功能和本地ONTAP集群增强功能。</block>
+  <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">了解Cloud Volumes ONTAP增强功能</block>
+  <block id="23c565330e0f5d82619b18108f5a32ca" category="list-text"><block ref="23c565330e0f5d82619b18108f5a32ca" category="inline-link-rx"></block></block>
+  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">了解ONTAP本地集群增强功能</block>
+  <block id="405527e38d3c42926031f86b50d381d4" category="list-text"><block ref="405527e38d3c42926031f86b50d381d4" category="inline-link-rx"></block></block>
+  <block id="e752fa0925615f823987d88e457d59fd" category="doc">已添加对将卷备份到 S3 配置的ONTAP系统上的存储桶的支持</block>
+  <block id="94798620994cb827b675957027c80437" category="list-text">由于重要的安全增强，您的连接器现在需要对其他端点进行出站互联网访问，以便管理公共云环境中的备份和恢复资源。如果此端点尚未添加到防火墙的“允许”列表中，您将在 UI 中看到有关“服务不可用”或“无法确定服务状态”的错误：</block>
+  <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\ https://netapp-cloud-account.auth0.com</block>
+  <block id="9aa936e4dd7e0d3efaa0a77d15dc632b" category="list-text">当您使用“CVO Professional”包时，现在需要备份和恢复 PAYGO 订阅，该包使您能够捆绑Cloud Volumes ONTAP和BlueXP backup and recovery。过去这并不是必需的。符合条件的Cloud Volumes ONTAP系统的备份和恢复订阅不会产生任何费用，但在任何新卷上配置备份时需要付费。</block>
+  <block id="2f90f6337bfaddfb7cef01155147c18e" category="paragraph">现在，您可以使用已配置为简单存储服务 (S3) 的ONTAP系统将卷备份到对象存储。本地ONTAP系统和Cloud Volumes ONTAP系统均支持此功能。此配置在云部署和没有互联网访问的本地位置（“私有”模式部署）中受支持。</block>
+  <block id="d59048f21fd887ad520398ce677be586" category="inline-link">了解更多</block>
+  <block id="d93a426929555b449107b332f0c5df78" category="paragraph"><block ref="2d1eb9b9d1143acaa6fbfc289c32041b" category="inline-link-rx"></block> 。</block>
+  <block id="70fbb23fd6cfcbe729580a8c7071730a" category="section-title">现在，您可以将受保护卷中的现有快照包含在备份文件中</block>
+  <block id="7c312a822a10d6845bb9cf257a3b41f5" category="paragraph">过去，您可以将初始备份文件中读写卷的现有 Snapshot 副本包含到对象存储中（而不是从最新的 Snapshot 副本开始）。只读卷（数据保护卷）的现有 Snapshot 副本未包含在备份文件中。现在您可以选择将较旧的 Snapshot 副本包含在“DP”卷的备份文件中。</block>
+  <block id="a52e9db6c55aaea07e1f222122cf9475" category="paragraph">备份向导会在备份步骤结束时显示一个提示，您可以在其中选择这些“现有快照”。</block>
+  <block id="6136d2619abda8ba9c4b9f6c76f6d430" category="section-title">BlueXP backup and recovery不再支持将来添加的卷的自动备份</block>
+  <block id="3b17b8ee7680ecdabf14e962be98ba50" category="paragraph">以前，您可以在备份向导中选中一个框，将选定的备份策略应用于添加到集群的所有未来卷。根据用户反馈和此功能的使用不足，此功能已被删除。您需要手动为添加到集群的任何新卷启用备份。</block>
+  <block id="0420a611a93fd8e2b4b4669f2533284c" category="section-title">作业监控页面已更新新功能</block>
+  <block id="99e43b54749f1014f6aeb5b8c1c56742" category="paragraph">作业监控页面现在提供更多与 3-2-1 备份策略相关的信息。该服务还提供与备份策略相关的额外警报通知。</block>
+  <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">“备份生命周期”类型过滤器已重命名为“保留”。使用此过滤器来跟踪备份生命周期并识别所有备份副本的到期时间。  “保留”作业类型捕获在受BlueXP backup and recovery保护的卷上启动的所有快照删除作业。</block>
+  <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">了解有关更新的 Job Monitor 的更多信息</block>
+  <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block> 。</block>
+  <block id="b1026ebb435e887031ec24334255046b" category="paragraph">BlueXP disaster recovery预览是一种基于云的灾难恢复服务，可自动执行灾难恢复工作流程。最初，借助BlueXP disaster recovery预览版，您可以使用Amazon FSx for ONTAP将运行NetApp存储的本地基于 NFS 的 VMware 工作负载保护到 AWS 上的 VMware Cloud (VMC)。</block>
+  <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">对于此预览版产品， NetApp保留在正式发布之前修改产品详细信息、内容和时间表的权利。</block>
+  <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link">了解有关BlueXP disaster recovery的更多信息</block>
+  <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block> 。</block>
+  <block id="8f34806925352860a20b553ca661087f" category="paragraph">此版本包括以下更新：</block>
+  <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link">选择要复制的应用程序并分配资源组</block>
+  <block id="3c588cce706af28ae858573fe547adee" category="list-text">*资源组更新启动顺序*：创建灾难恢复或复制计划时，您可以将虚拟机添加到功能资源组中。资源组使您能够将一组依赖的虚拟机放入满足您要求的逻辑组中。例如，组可以包含恢复时可以执行的启动顺序。在此版本中，每个资源组可以包含一个或多个虚拟机。虚拟机将根据您在计划中包含的顺序启动。参考<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>。</block>
+  <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link">将应用程序复制到另一个站点</block>
+  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">*复制验证*：创建灾难恢复或复制计划后，在向导中确定重复，并启动到灾难恢复站点的复制，每 30 分钟BlueXP disaster recovery会验证复制是否确实按照计划进行。您可以在作业监视器页面中监视进度。请参阅<block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block> 。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link">创建复制计划</block>
+  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">*复制计划显示恢复点目标 (RPO) 传输计划*：创建灾难恢复或复制计划时，请选择虚拟机。在此版本中，您现在可以查看与数据存储区或虚拟机关联的每个卷关联的SnapMirror 。您还可以查看与SnapMirror计划关联的 RPO 传输计划。 RPO 可帮助您确定备份计划是否足以在灾难后恢复。参考<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link">监控灾难恢复作业</block>
+  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">*作业监视器更新*：作业监视器页面现在包含一个刷新选项，以便您可以获得最新的操作状态。请参阅<block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block> 。</block>
+  <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">已修复的问题</block>
+  <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">本页</block>
+  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">此版本修复了<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。更新的软件包可在<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="doc">创建数据代理时使用现有的 Azure 安全组</block>
+  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">用户现在可以选择在创建数据代理时使用现有的 Azure 安全组。</block>
+  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">创建数据代理时使用的服务帐户必须具有以下权限：</block>
+  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">“Microsoft.Network/networkSecurityGroups/securityRules/读取”</block>
+  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">“Microsoft.Network/networkSecurityGroups/读取”</block>
+  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">了解有关在 Azure 中创建数据代理的更多信息。</block>
+  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
+  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">同步到 Google 存储空间时加密数据</block>
+  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">用户现在可以选择在以 Google 存储桶为目标创建同步关系时指定客户管理的加密密钥。您可以手动输入您的密钥或从单个区域的密钥列表中选择。</block>
+  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.列表</block>
+  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keyRings.列表</block>
+  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">详细了解 Google Cloud Storage 存储桶要求。</block>
+  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
+  <block id="b839d32c555694a5245fa2fa33d17d88" category="doc">对存储分层数据的存储桶名称使用自定义前缀</block>
+  <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">过去，定义存储桶名称时需要使用默认的“fabric-pool”前缀，例如 _fabric-pool-bucket1_。现在您可以在命名存储桶时使用自定义前缀。仅当将数据分层到 Amazon S3 时此功能才可用。<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block> 。</block>
+  <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">在所有BlueXP连接器中搜索集群</block>
+  <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">如果您使用多个连接器来管理环境中的所有存储系统，则您想要实施分层的某些集群可能位于不同的连接器中。如果您不确定哪个连接器正在管理某个集群，您可以使用BlueXP tiering在所有连接器中进行搜索。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> 。</block>
+  <block id="84a4e9be01e1e0b2123f0992743bb3be" category="doc">通过正则表达式排除文件</block>
+  <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">用户现在可以选择使用正则表达式排除文件。</block>
+  <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">了解有关*排除文件扩展名*功能的更多信息。</block>
+  <block id="8ca7330f80b3c6b405f94cdadf97a80c" category="paragraph"><block ref="8ca7330f80b3c6b405f94cdadf97a80c" category="inline-link-rx"></block></block>
+  <block id="f32e3be81b145c34740db00a44c46e93" category="section-title">创建 Azure 数据代理时添加 S3 密钥</block>
+  <block id="7631c04fd88511e09fd26f0ce9f65ce1" category="paragraph">用户现在可以在创建 Azure 数据代理时添加 AWS S3 访问密钥和密钥。</block>
+  <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
+  <block id="a0c145fadd8b464775a61d2f1a2e0474" category="paragraph">更新后的BlueXP迁移报告服务提供报告数据的更新。报告现在包括分配的容量。</block>
+  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="doc">中小型部署暂时不可用</block>
+  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">当您在 AWS 中部署BlueXP classification实例时，此时无法选择 *部署 &gt; 配置* 并选择小型或中型实例。您仍然可以通过选择*部署&gt;部署*来使用大实例大小部署实例。</block>
+  <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">在调查结果页面中为最多 100,000 个项目添加标签</block>
+  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">了解详情</block>
+  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">过去，您一次只能在调查结果页面中将标签应用于单个页面（20 个项目）。现在您可以在调查结果页面中选择*所有*项目并将标签应用于所有项目 - 一次最多 100,000 个项目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block> 。</block>
+  <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">识别最小文件大小为 1 MB 的重复文件</block>
+  <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP classification仅用于在文件大小为 50 MB 或更大时识别重复文件。现在可以识别以 1 MB 开头的重复文件。您可以使用调查页面过滤器“文件大小”和“重复项”来查看您的环境中哪些特定大小的文件是重复的。</block>
+  <block id="e749c9d187d1531bb81af1a3c9eb73be" category="doc">Azure 中对 Lsv3 系列 VM 的支持</block>
+  <block id="3e34162a2379c48e3eaf3f3857b029c0" category="paragraph">连接器 3.9.33 版本引入了以下变化。</block>
+  <block id="cc2bfd53f6bcbc23893aaa8fab8b1eb2" category="paragraph">从 9.13.1 版本开始，Azure 中的Cloud Volumes ONTAP现在支持 L48s_v3 和 L64s_v3 实例类型，用于在单个和多个可用区域中具有共享托管磁盘的单节点和高可用性对部署。这些实例类型支持 Flash Cache。</block>
+  <block id="c2af1dd6b400531e930c62dad5095f7d" category="inline-link-macro">查看 Azure 中Cloud Volumes ONTAP支持的配置</block>
+  <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">查看 Azure 中Cloud Volumes ONTAP的存储限制</block>
+  <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block> <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
+  <block id="d8465669650730f887acd3754f3dea9f" category="list-text">当您从BlueXP在 AWS 中创建连接器时，您现在可以在密钥对字段内进行搜索，以更轻松地找到要与连接器实例一起使用的密钥对。</block>
+  <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">从BlueXP在 AWS 中创建连接器时，网络页面上出现的密钥对字段中的搜索选项的屏幕截图。</block>
+  <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">此更新还包括错误修复。</block>
+  <block id="101143ec501ddd03e76bf93ad136c2de" category="doc">ONTAP数据的新策略管理</block>
+  <block id="d3744875712ea1e210c10ab00d139b5b" category="paragraph">此版本包括在 UI 中创建自定义快照策略、复制策略以及用于将ONTAP数据备份到对象存储的策略的功能。</block>
+  <block id="99a56480b438dfe7afa3558f8c8e61d0" category="inline-link">详细了解政策</block>
+  <block id="53a26cd89d8676b12d682e92f9b49a79" category="paragraph"><block ref="99a3bdb35a901d86516bb48e573064a3" category="inline-link-rx"></block> 。</block>
+  <block id="90bd868a90cdf44166755a0fdec24b6e" category="section-title">支持从ONTAP S3 对象存储中的卷还原文件和文件夹</block>
+  <block id="efec702225db296adcaac3abb0665451" category="paragraph">以前，当卷备份到ONTAP S3 对象存储时，您无法使用“浏览和还原”功能还原文件和文件夹。此版本取消了该限制。</block>
+  <block id="38da59f967f6f913365cf5cefb459344" category="inline-link">了解有关恢复数据的更多信息</block>
+  <block id="7b3040066d7e59383891bdcb2977076f" category="paragraph"><block ref="bfc7bc1f2f7fff3212c093c1fc6b6317" category="inline-link-rx"></block> 。</block>
+  <block id="f63476943179d5dd83527cd0b9c7ade4" category="section-title">能够立即存档备份数据，而不必先写入标准存储</block>
+  <block id="cc702ed839181d5a4eb3655eba656f65" category="paragraph">现在，您可以立即将备份文件发送到存档存储，而不必将数据写入标准云存储。对于很少需要访问云备份数据的用户或正在替换磁带环境备份的用户来说，这尤其有用。</block>
+  <block id="52cc7bb26d5185a2c3b92b71a3d6e319" category="section-title">对备份和恢复SnapLock卷的额外支持</block>
+  <block id="4cb4cd292be9258bfc850d1aa644d9f6" category="paragraph">备份和恢复现在可以备份使用SnapLock Compliance或SnapLock Enterprise保护模式配置的FlexVol和FlexGroup卷。您的集群必须运行ONTAP 9.14 或更高版本才能获得此支持。自ONTAP版本 9.11.1 起，支持使用SnapLock Enterprise模式备份FlexVol卷。早期的ONTAP版本不支持备份SnapLock保护卷。</block>
+  <block id="115e674b1dc0942f53bc91e279bbd7eb" category="inline-link">了解有关保护ONTAP数据的更多信息</block>
+  <block id="5ea7c922bf64f9c4520ccdf833e34e39" category="paragraph"><block ref="287ce1c3ffcd9fd04ac3fb9608fef690" category="inline-link-rx"></block> 。</block>
+  <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-link-macro">Upgrade Advisor</block>
+  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用<block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block>关联。</block>
+  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">了解如何生成和查看升级计划</block>
+  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升级方案经过优化，去除了多余的升级步骤，简化了退出方案。集群中所有节点的通用步骤已合并，可在升级计划中的常规信息部分中找到。<block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block> 。</block>
+  <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">BlueXP disaster recovery的预览版本包括以下更新：</block>
+  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">*仪表板更新*：您现在可以单击仪表板上的选项，从而更轻松地快速查看信息。此外，仪表板现在显示故障转移和迁移的状态。</block>
+  <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">在仪表板上查看灾难恢复计划的运行状况</block>
+  <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">参考<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block>。</block>
+  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">*复制计划更新*：</block>
+  <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">*RPO*：您现在可以在复制计划的数据存储部分输入恢复点目标 (RPO) 和保留计数。这表示必须存在且不早于设定时间的数据量。例如，如果将其设置为 5 分钟，则在发生灾难时系统可能会丢失最多 5 分钟的数据，而不会影响关键业务需求。</block>
+  <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">参考<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">*网络增强*：当您在复制计划的虚拟机部分中映射源位置和目标位置之间的网络时， BlueXP disaster recovery现在提供两个选项：DHCP 或静态 IP。以前，仅支持 DHCP。对于静态 IP，您可以配置子网、网关和 DNS 服务器。此外，您现在可以输入虚拟机的凭据。</block>
+  <block id="fe329f91281efd1c71c4145c82444ecd" category="list-text">*编辑时间表*：您现在可以更新复制计划时间表。</block>
+  <block id="ecd36d02576c4fe28ab61b5c14fa69c4" category="inline-link">管理资源</block>
+  <block id="4cfb152ee6cdcd5bb952055f0451eb1e" category="paragraph">参考<block ref="62052e6a6f987a8752e8d90cacdd602d" category="inline-link-rx"></block>。</block>
+  <block id="58adec32627fd44ceeefdcc62aeec6fc" category="list-text">* SnapMirror自动化*：在此版本中创建复制计划时，您可以在以下配置之一中定义源卷和目标卷之间的SnapMirror关系：</block>
+  <block id="92b7daac1d86d399dc5b1e009d09f0f5" category="list-text">1 至 1</block>
+  <block id="352d4f9f99cbd649fab2edc17c761e66" category="list-text">扇出架构中的一对多</block>
+  <block id="7d2e89736c1e0a679ed3c86b8b5e6141" category="list-text">多对一作为一致性组</block>
+  <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">多对多</block>
+  <block id="74246010013353726bd9ff99866fa7d4" category="doc">支持在 RHEL 版本 9 上本地安装BlueXP classification</block>
+  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 8 和 9 版本不支持 Docker 引擎；而BlueXP classification安装需要该引擎。我们现在支持在 RHEL 9.0、9.1 和 9.2 上使用 Podman 版本 4 或更高版本作为容器基础设施进行BlueXP classification安装。如果您的环境需要使用最新版本的 RHEL，现在您可以在使用 Podman 时安装BlueXP classification（版本 1.26 或更高版本）。</block>
+  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">目前，在使用 RHEL 9.x 时，我们不支持暗站安装或分布式扫描环境（使用主节点和远程扫描器节点）。</block>
+  <block id="44d133359b344c4542acdebe6209e101" category="doc">Cloud Volumes ONTAP 9.14.0</block>
+  <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">连接器 3.9.34 版本引入了以下变化。</block>
+  <block id="c5fa627d231c9a8813c9a2421d86136f" category="paragraph">BlueXP现在可以在 AWS、Azure 和 Google Cloud 中部署和管理Cloud Volumes ONTAP 9.14.0 通用可用性版本。</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link-macro">了解此版本Cloud Volumes ONTAP中包含的新功能</block>
+  <block id="c2282365523aa8fbb305c5432e90d5d7" category="paragraph"><block ref="6f9b2ccd962907ef2c43f6fa9517a053" category="inline-link-macro-rx"></block> 。</block>
+  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">此版本包含一些小的改进和错误修复。</block>
+  <block id="197747cde80c31576877de78be696240" category="doc">BlueXP backup and recovery的增强功能（云原生）</block>
+  <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Microsoft SQL Server 数据库</block>
+  <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">支持备份、还原和恢复驻留在Amazon FSx for NetApp ONTAP上的 Microsoft SQL Server 数据库</block>
+  <block id="d4da4ec044327991fbcd43ca1778c38f" category="list-text">所有操作仅通过 REST API 支持。</block>
+  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANA 系统</block>
+  <block id="3b05cd173ffd47ef0b4346901ab9e0d3" category="list-text">在系统刷新期间，卷的自动挂载和卸载是使用工作流而不是脚本执行的</block>
+  <block id="29db6fe351e2079efe0622a1b5bd15f4" category="list-text">支持通过UI添加、移除、编辑、删除、维护、升级插件宿主</block>
+  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">BlueXP backup and recovery的增强功能（混合）</block>
+  <block id="b4445605950c5dae15c10f509d6f0f79" category="list-text">支持数据锁定和勒索软件保护</block>
+  <block id="188502bd01986373f9c31291dc835e82" category="list-text">支持将备份从 StorageGrid 移动到归档层</block>
+  <block id="541019d49feaf31b8000318aac636f92" category="list-text">支持将 MongoDB、MySQL 和 PostgreSQL 应用程序数据从本地ONTAP系统备份到 Amazon Web Services、Microsoft Azure、Google Cloud Platform 和StorageGRID。您可以在需要时恢复数据。</block>
+  <block id="11a3809c55f7c25dbda24854a827db05" category="section-title">BlueXP backup and recovery的增强</block>
+  <block id="60a7ad592c196ecee9eebdab38d4ed7e" category="list-text">支持连接器代理部署模型</block>
+  <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">BlueXP disaster recovery的预览版本包括以下更新。</block>
+  <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">现在，借助BlueXP disaster recovery，您可以保护您的本地基于 NFS 的 VMware 工作负载免受公共云之外的另一个本地基于 NFS 的 VMware 环境的灾难影响。  BlueXP disaster recovery协调灾难恢复计划的完成。</block>
+  <block id="f1d5b892646c28fdb747b890f0787976" category="doc">3-2-1 备份激活期间创建备份策略</block>
+  <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">以前，必须在启动快照、复制或备份之前创建自定义策略。现在，您可以使用BlueXP backup and recoveryUI 在备份激活过程中创建策略。</block>
+  <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">支持按需快速恢复ONTAP卷</block>
+  <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">BlueXP backup and recovery现在提供将卷从云存储“快速恢复”到Cloud Volumes ONTAP系统的功能。快速恢复非常适合需要尽快提供对卷的访问的灾难恢复情况。快速还原将备份文件中的元数据还原到卷，而不是还原整个备份文件。</block>
+  <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">Cloud Volumes ONTAP目标系统必须运行ONTAP版本 9.13.0 或更高版本。<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block> 。</block>
+  <block id="a508551aa743c3098667d5ae32149739" category="paragraph">BlueXP backup and recovery作业监视器还显示有关快速恢复作业进度的信息。</block>
+  <block id="2bc953fcced4addf338156cc4681b683" category="doc">Azure 中支持 HA 多可用区部署的新区域</block>
+  <block id="13ff77e69df5acabc2f0da9e5ebc94b8" category="paragraph">Azure 中的以下区域现在支持Cloud Volumes ONTAP 9.14.0 及更高版本的高可用性多可用区部署：</block>
+  <block id="cee3f0213dd8b7eb15d7b31824e01754" category="list-text">澳大利亚东部</block>
+  <block id="f74e1c0c8ee8410fa5bfe03676347257" category="list-text">东亚</block>
+  <block id="bea1bd3d23555c539dab5f3f5426184c" category="list-text">法国中部</block>
+  <block id="d0fe0e3b6520479f718b98f0d471b7d0" category="list-text">北欧</block>
+  <block id="055ffb1451e38deb0c8ac651e32d77ec" category="list-text">卡塔尔中央</block>
+  <block id="7def8b46a24f875959130a855cd80918" category="list-text">瑞典中央</block>
+  <block id="8fb2033d01e3efa2825282a13f86c14e" category="list-text">西欧</block>
+  <block id="c349d3a26cf4231660785a0c5b4cb007" category="list-text">美国西部 2</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全球区域地图</block>
+  <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">有关支持多个可用区域的所有区域的列表，请参阅<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP、NETAPP 徽标和NetApp商标页面上列出的标志是NetApp, Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp拥有的专利的最新列表可以在以下位置找到：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开源</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关NetApp软件中使用的第三方版权和许可的信息。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp Console通知</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="b29a85c15005651c48574fb5545ac642" category="summary">查看NetApp Console管理和存储功能以及NetApp数据服务的完整发行说明。</block>
+  <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">发行说明索引</block>
+  <block id="dbcccb2147a9d40ab6fc69fe3c89deb4" category="paragraph">查看NetApp Console功能和NetApp数据服务的完整发行说明。</block>
+  <block id="7258e7251413465e0a3eb58094430bde" category="section-title">管理</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">设置和管理</block>
+  <block id="66eba6e27d94f9b0c691b0483249667f" category="list-text"><block ref="66eba6e27d94f9b0c691b0483249667f" category="inline-link-rx"></block></block>
+  <block id="df583ae7ba964fd4806b55904da81813" category="inline-link">警报</block>
+  <block id="fd341debd2a7a8947c7eceb0303387db" category="list-text"><block ref="fd341debd2a7a8947c7eceb0303387db" category="inline-link-rx"></block></block>
+  <block id="83ef6035e494fa89c7cde91bba5f1672" category="inline-link">自动化中心</block>
+  <block id="d0bbc8386467107f2822b68ce8f4fd53" category="list-text"><block ref="d0bbc8386467107f2822b68ce8f4fd53" category="inline-link-rx"></block></block>
+  <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="inline-link">数字顾问</block>
+  <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
+  <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="inline-link">经济效益</block>
+  <block id="b727cbb596aac54508c1419e8e2a577d" category="list-text"><block ref="b727cbb596aac54508c1419e8e2a577d" category="inline-link-rx"></block></block>
+  <block id="0e83ec1135d78041291977ef91f42a52" category="inline-link">Licenses and subscriptions</block>
+  <block id="a867f49218cc7725086e47bc5d9d2be6" category="list-text"><block ref="a867f49218cc7725086e47bc5d9d2be6" category="inline-link-rx"></block></block>
+  <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">软件更新</block>
+  <block id="d6e02c1660722659bb2e7d72c644568f" category="list-text"><block ref="d6e02c1660722659bb2e7d72c644568f" category="inline-link-rx"></block></block>
+  <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">存储</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link">适用于ONTAP 的Amazon FSx</block>
+  <block id="458b2251de1c1363d20f4eb8db37d936" category="list-text"><block ref="458b2251de1c1363d20f4eb8db37d936" category="inline-link-rx"></block></block>
+  <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3 存储</block>
+  <block id="1603dc71ab9b01ead0d94e6ad9abddde" category="list-text"><block ref="1603dc71ab9b01ead0d94e6ad9abddde" category="inline-link-rx"></block></block>
+  <block id="2b3e8f910d66604cd77f93b333670468" category="inline-link">Azure Blob 存储</block>
+  <block id="d31b92296aae5fa4d04118463bc998de" category="list-text"><block ref="d31b92296aae5fa4d04118463bc998de" category="inline-link-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link">Azure NetApp Files</block>
+  <block id="9560459a69e764e2e86aab935fdbfb04" category="list-text"><block ref="9560459a69e764e2e86aab935fdbfb04" category="inline-link-rx"></block></block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="d5cf0012c1559cd0fc39cf41bafb6cd2" category="list-text"><block ref="d5cf0012c1559cd0fc39cf41bafb6cd2" category="inline-link-rx"></block></block>
+  <block id="0118e27f465be29898bb3430f8b06df3" category="inline-link">NetApp Console中的Cloud Volumes ONTAP管理</block>
+  <block id="e41e4f17303d96079d9b6007db8a1370" category="list-text"><block ref="e41e4f17303d96079d9b6007db8a1370" category="inline-link-rx"></block></block>
+  <block id="6b068f0a943d421535c7d8d412ee3522" category="inline-link">E系列系统</block>
+  <block id="ac9a3f8b3977ce92dd22bf600eeedcbc" category="list-text"><block ref="ac9a3f8b3977ce92dd22bf600eeedcbc" category="inline-link-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link">Google Cloud NetApp Volumes</block>
+  <block id="426f7cfa5fa5eaa74950ee093e395099" category="list-text"><block ref="426f7cfa5fa5eaa74950ee093e395099" category="inline-link-rx"></block></block>
+  <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google Cloud Storage</block>
+  <block id="d12f59d0727a8ae7eaf924b3af276176" category="list-text"><block ref="d12f59d0727a8ae7eaf924b3af276176" category="inline-link-rx"></block></block>
+  <block id="d0f1687c68ee0f0d9bac765716d18923" category="inline-link">本地ONTAP集群</block>
+  <block id="35ad8f1c2b89ec89f9b0fab965d4a135" category="list-text"><block ref="35ad8f1c2b89ec89f9b0fab965d4a135" category="inline-link-rx"></block></block>
+  <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
+  <block id="9feec66e0e25082669fb48a10c3840fe" category="list-text"><block ref="9feec66e0e25082669fb48a10c3840fe" category="inline-link-rx"></block></block>
+  <block id="fb9ff32b98b673f9a79144a526a3c3ba" category="section-title">存储即服务</block>
+  <block id="1ce2096c300f78bbb8389ca2603e6dd9" category="inline-link">Keystone</block>
+  <block id="b49987f3f316f01d3769520e570e03c1" category="list-text"><block ref="b49987f3f316f01d3769520e570e03c1" category="inline-link-rx"></block></block>
+  <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">数据服务</block>
+  <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link">备份和恢复</block>
+  <block id="7a07c5a1c722a3ac42eb82b2ec878373" category="list-text"><block ref="7a07c5a1c722a3ac42eb82b2ec878373" category="inline-link-rx"></block></block>
+  <block id="604880f6f585767eee17ec85b3c76533" category="inline-link">数据分类</block>
+  <block id="b31bd4d213bc7c73048e2663f45d0ad0" category="list-text"><block ref="b31bd4d213bc7c73048e2663f45d0ad0" category="inline-link-rx"></block></block>
+  <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">复制和同步</block>
+  <block id="04ea90fa4ce52ced6ae4f5b48b533a78" category="list-text"><block ref="04ea90fa4ce52ced6ae4f5b48b533a78" category="inline-link-rx"></block></block>
+  <block id="e413eba49b15917b0c9dbf2620f3e66e" category="inline-link">灾难恢复</block>
+  <block id="82d0a3fa0ba2f708148bfc004d8dcd3e" category="list-text"><block ref="82d0a3fa0ba2f708148bfc004d8dcd3e" category="inline-link-rx"></block></block>
+  <block id="c36b12344113082dcf8a9786e36a3536" category="inline-link">勒索软件抵御能力</block>
+  <block id="5cf189efd137f2ff71d843beeb81ba92" category="list-text"><block ref="5cf189efd137f2ff71d843beeb81ba92" category="inline-link-rx"></block></block>
+  <block id="8c340dc334134096f68b880b42a8692c" category="inline-link">复制</block>
+  <block id="43ee62486aaa2dd3b380ebebc11f7364" category="list-text"><block ref="43ee62486aaa2dd3b380ebebc11f7364" category="inline-link-rx"></block></block>
+  <block id="92d2b6aba6afa3f690540cf3dba9b633" category="inline-link">云层</block>
+  <block id="7e11dfc9abaf04458df59415ceac05d5" category="list-text"><block ref="7e11dfc9abaf04458df59415ceac05d5" category="inline-link-rx"></block></block>
+  <block id="ff45d71e69fb5930de79de7c94326d7b" category="inline-link">卷缓存</block>
+  <block id="7e03f9bb7153d5b3040df4bfd7a48686" category="list-text"><block ref="7e03f9bb7153d5b3040df4bfd7a48686" category="inline-link-rx"></block></block>
+  <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">工作负载工厂</block>
+  <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
+  <block id="408e61facc1c13aa7e65b38dc1640383" category="summary">了解NetApp Console的功能和数据服务的最新变化。</block>
+  <block id="d993253a036cc611c31d10230987c4bf" category="doc">NetApp Console中的最新更改</block>
+  <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">全套发行说明</block>
+  <block id="e5edd9b09362e413b0820d9a92c20456" category="paragraph">了解NetApp Console的功能和数据服务的最新变化。要查看完整的发布历史记录，请访问<block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block>针对每项单独的服务。</block>
+  <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
+  <block id="eda012cb030b90a4fd456d7fac051308" category="paragraph">本节介绍与NetApp Console管理功能相关的新功能：组织、识别和访问、控制台代理、云提供商凭据等。</block>
+  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025年10月6日</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="section-title">BlueXP现在是NetApp Console</block>
+  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程以及高度安全且合规的简化管理。</block>
+  <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">导航菜单和页面</block>
+  <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">NetApp将大多数菜单选项移至左侧导航窗格，并重新组织菜单以便在NetApp Console中更轻松地导航。</block>
+  <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">画布被系统页面取代</block>
+  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">NetApp将 Canvas 重命名为 *Systems* 页面。从“*存储 &gt; 管理*”菜单导航到“*系统*”页面。</block>
+  <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">系统页面的屏幕截图。</block>
+  <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">扩展存储菜单</block>
+  <block id="e4374974e911590511a1add55932606e" category="paragraph">*存储*菜单包括*警报*，用于查看ONTAP系统警报和*生命周期规划*（以前称为*经济效率*），用于识别未使用或未充分利用的资源。</block>
+  <block id="b3289075ae80ce2a2ae0b68cf8c95606" category="paragraph">NetApp已将Keystone移至 *存储* 菜单，您可以在其中管理您的NetApp Keystone订阅并查看您的使用情况。</block>
+  <block id="0bc00d5c9372c38aa1f6078843c22005" category="inline-image-macro">存储菜单的屏幕截图。</block>
+  <block id="f445c6d565697b0932cf841aca945e2a" category="paragraph"><block ref="f445c6d565697b0932cf841aca945e2a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e279d1eb32921bbbc940faea63f4db6" category="section-title">管理菜单</block>
+  <block id="08386d27df9de73a030b8e5da1f8112b" category="paragraph">使用集中式*管理*菜单来管理NetApp Console、支持案例、许可证和订阅（以前称为数字钱包）。</block>
+  <block id="c952530b2009e9e6caa227e55b2c5e17" category="inline-image-macro">管理菜单的屏幕截图。</block>
+  <block id="728ef7c59bd4ee6cc2dc652bfa8b7724" category="paragraph"><block ref="728ef7c59bd4ee6cc2dc652bfa8b7724" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e50100ff2f51950e126a3dbaa4b4ef09" category="section-title">健康菜单</block>
+  <block id="ad7e4f5f6f60985f3399015db62758db" category="paragraph">高效的*健康*菜单包括*软件更新*（您可以在其中管理ONTAP软件更新）、*可持续性*（您可以在其中监控对环境的影响）和*Digital Advisor*（您可以在其中获得主动建议以优化您的存储环境）。</block>
+  <block id="57c608afd91ed07846d392ab3573d362" category="inline-image-macro">健康菜单的屏幕截图。</block>
+  <block id="378c09e0c5c36dad3c574eb6116e190d" category="paragraph"><block ref="378c09e0c5c36dad3c574eb6116e190d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0faa8df8101b114b9791a097a9ee9c24" category="section-title">治理菜单</block>
+  <block id="f6edeb6fe9d83e893f282e018535255e" category="paragraph">*治理*菜单包括*数据分类*，您可以在其中管理数据分类和合规性，以及*自动化中心*，您可以在其中创建和管理自动化工作流程。</block>
+  <block id="d84377f0ff9f4c9d765690e219a05b9e" category="inline-image-macro">治理菜单的屏幕截图。</block>
+  <block id="ee631e6affe0c80b3b6fcb825e738791" category="paragraph"><block ref="ee631e6affe0c80b3b6fcb825e738791" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f5bafc8e64005ab8e0ab21be6dd862ea" category="section-title">元素、数据服务和功能的命名更加直观</block>
+  <block id="d17c4f20c3bce4ab77d1716163da4ea8" category="paragraph">NetApp重命名了几个元素、数据服务和功能以明确其用途。主要变化包括：</block>
+  <block id="7a07575f34b771108115df89d720fe52" category="cell">*曾用名*</block>
+  <block id="44f7d4416512ddf1752dda33cbe7f320" category="cell">* NetApp Console名称*</block>
+  <block id="fe4a785cf549e843e958f443c4baf0fe" category="cell">连接器</block>
+  <block id="e31b45fe41b7087523da6d9cd8dffb81" category="paragraph">控制台代理。</block>
+  <block id="19e700ebc01a62f4b2c6e556e26b940b" category="paragraph">从*管理&gt;代理*菜单查看、添加和管理您的代理。</block>
+  <block id="f3ce4049040b68c57f0cafd280f3373b" category="cell">时间线页面</block>
+  <block id="50c786c9efcadf10b6b80a91b4bb98cf" category="paragraph">审计页面</block>
+  <block id="cad5a8979fad73eaeb6c7d23e28457ba" category="paragraph">从*管理&gt;审计*菜单查看审计控制台活动。</block>
+  <block id="8e7eaac4ef6ddba0d9f93228ce3ac6e7" category="cell">工作环境</block>
+  <block id="d685640410801eb03bb5dcb58186458f" category="paragraph">系统</block>
+  <block id="e0c587dd9b957ebcce9c74f98e436000" category="paragraph">从*存储&gt;管理*菜单查看、添加和管理您的系统。</block>
+  <block id="735f4e13421d56ac8c83fdc3365fad9c" category="cell">BlueXP勒索软件防护</block>
+  <block id="5f7dcc012fb17e5ef25c0e9b228b1a8e" category="paragraph">NetApp Ransomware Resilience。</block>
+  <block id="daef547b38d58d888634bb4fe08a23e0" category="paragraph">勒索软件恢复能力可帮助您保护数据并从勒索软件攻击中快速恢复。</block>
+  <block id="b66bedd32eaff49a6390c88238f395f5" category="cell">BlueXP经济效率</block>
+  <block id="32e6b958eebb891547bf5b4b37d42a7f" category="paragraph">生命周期规划。</block>
+  <block id="e91bdd645f7798803bc207638d6d3c27" category="paragraph">生命周期规划可帮助您识别未使用和未充分利用的资源来优化存储成本。</block>
+  <block id="c9bd396dd578097c35b3241940da1230" category="paragraph">从*存储&gt;生命周期规划*菜单访问生命周期规划。</block>
+  <block id="7b432de78427e2c7ffdddf3f0a09ce52" category="cell">BlueXP digital wallet</block>
+  <block id="ed953e52298021637dc37dfec02d9323" category="paragraph">从*管理&gt;Licenses and subscriptions*菜单访问您的许可证和订阅。</block>
+  <block id="033ce09819d553e6a77430de2f0cc899" category="section-title">控制台代理</block>
+  <block id="d2d1eb94e91e72bdca67bd206b054558" category="inline-image-macro">代理图标</block>
+  <block id="7773425689d5ab5b9a1be7e31c52c4a7" category="paragraph">从*管理&gt;代理*菜单访问和管理您的控制台代理。NetApp已更改了为“*系统*”页面（以前称为“Canvas”）选择控制台代理的方式。NetApp已将连接器菜单名称替换为图标<block ref="93f7aa9936b9725d0b2b0bfbfa2fc281" category="inline-image-macro-rx" type="image"></block>，允许您选择要查看系统的控制台代理。</block>
+  <block id="43155746ba0b5973d604a490f600c989" category="inline-image-macro">显示选择控制台代理的图标的屏幕截图。</block>
+  <block id="d3a37486dd13699585fc59edd97919c4" category="paragraph"><block ref="d3a37486dd13699585fc59edd97919c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb03cbb803285b4d26cf9d785c0ae5e9" category="paragraph">您还可以从*管理&gt;代理*菜单管理您的代理。</block>
+  <block id="cfde44a1d64ad07d145912a2754ce1b8" category="section-title">控制台代理 4.0.0</block>
+  <block id="cf7d8a05b87bc06aab139657051d5069" category="paragraph">此版本的控制台代理包括安全改进、错误修复和以下新功能。</block>
+  <block id="e95d0df05962f4456b8b569c54b396c6" category="paragraph">4.0.0 版本适用于标准模式和限制模式。</block>
+  <block id="5412276bd0dd11677309c5862e9a5a84" category="section-title">整合并减少所需的网络端点</block>
+  <block id="d0994d4e248da3f28077f3de0aa07b31" category="paragraph">NetApp减少了控制台和控制台代理所需的网络端点，增强了安全性并简化了部署。重要的是，4.0.0 版本之前的所有部署都将继续得到全面支持。虽然以前的端点仍然可供现有代理使用，但NetApp强烈建议在确认代理升级成功后将防火墙规则更新到当前端点。</block>
+  <block id="4691a33bfa50c006ca907ff0f1c2ff22" category="inline-link-macro">了解如何更新终端节点列表</block>
+  <block id="cca12c7916c4a96b099460567ed56f7b" category="list-text"><block ref="8aad0fd6d4c3bc8fa0ee8715b00de090" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8880ac717c8ca7c5aacda1dbf0aa76b4" category="inline-link-macro">了解有关所需端点的更多信息。</block>
+  <block id="a65e1c365f170de138a296cb93571b83" category="list-text"><block ref="a65e1c365f170de138a296cb93571b83" category="inline-link-macro-rx"></block></block>
+  <block id="dcd681e02807cfe12b61283485a64b57" category="section-title">支持 VCenter 部署控制台代理</block>
+  <block id="9b0a2c601e03439be1fe2b9ef880e127" category="inline-link-macro">了解如何在 VMware 环境中部署控制台代理。</block>
+  <block id="cffe1fd68203e313454b85ae5856ae08" category="paragraph">您可以使用 OVA 文件在 VMware 环境中部署控制台代理。OVA 文件包含一个预配置的 VM 映像，其中包含控制台代理软件和用于连接到NetApp Console的设置。可直接从NetApp Console下载文件或部署 URL。<block ref="33dab07da8bdaaae6d651edc484f67e5" category="inline-link-macro-rx"></block></block>
+  <block id="8bff9036a0e031e7dda95305069dfec1" category="paragraph">VMware 的控制台代理 OVA 提供了预配置的 VM 映像以便快速部署。</block>
+  <block id="6b82c37590e99efd0ada7e5129dd156b" category="section-title">失败代理部署的验证报告</block>
+  <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">当您从NetApp Console部署控制台代理时，您现在可以选择验证代理配置。如果控制台无法部署代理，它会提供可下载的报告来帮助您排除故障。</block>
+  <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">改进了控制台代理的故障排除</block>
+  <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">了解如何排除控制台代理故障。</block>
+  <block id="12ad8fdc380a2754e74763c6ec3dd093" category="paragraph">控制台代理已改进错误消息，可帮助您更好地了解问题。<block ref="af6db24ea837f8b9ee9738ec7c58a997" category="inline-link-macro-rx"></block></block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp Console</block>
+  <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">NetApp Console管理包括以下新功能：</block>
+  <block id="bbd516543defb57b86168970a68bacbc" category="section-title">主页仪表板</block>
+  <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">了解有关主页的更多信息。</block>
+  <block id="0b4ba78ffe7e5b816acd3f4779bf2e31" category="paragraph">NetApp控制台的主页仪表板提供存储基础设施的实时可见性，包括健康状况、容量、许可证状态和数据服务等指标。<block ref="a392b25af35cf84f37ebb9f5e7e08c09" category="inline-link-macro-rx"></block></block>
+  <block id="47105d63797f271c2b78d5946c933492" category="section-title">NetApp助手</block>
+  <block id="a8861fedd62c54a1b00e477632a5b154" category="inline-link-macro">了解NetApp助手。</block>
+  <block id="2c6715c3785597c583154106efeea2e1" category="paragraph">具有组织管理员角色的新用户可以使用NetApp助手配置控制台，包括添加代理、链接NetApp支持帐户以及添加存储系统。<block ref="cf52c6bc60547e258cd0df64f6aa886e" category="inline-link-macro-rx"></block></block>
+  <block id="a8cf5dcf71de928606099ae1c8d8f013" category="section-title">服务帐户身份验证</block>
+  <block id="7aa924231e684379b7afcb9eeb9ad17c" category="inline-link-macro">了解如何添加服务帐户。</block>
+  <block id="b129ee41c5f872c46bf7e4db36dc2b80" category="paragraph">NetApp Console支持使用系统生成的客户端 ID 和密钥或客户管理的 JWT 进行服务帐户身份验证，从而允许组织选择最适合其安全要求和集成工作流程的方法。私钥 JWT 客户端身份验证使用非对称加密，比传统的客户端 ID 和秘密方法提供更强的安全性。私钥 JWT 客户端身份验证使用非对称加密，在客户环境中保证私钥的安全，降低凭证被盗风险，并提高自动化堆栈和客户端应用程序的安全性。<block ref="7e8dcf3bb388bc5e251dcf07db89a3cb" category="inline-link-macro-rx"></block></block>
+  <block id="11ebae3aeeebe33c4ece3bbbe3f90b11" category="section-title">会话超时</block>
+  <block id="356b82733b779c0c497e4fc62a110dd6" category="paragraph">系统会在 24 小时后或用户关闭网络浏览器时注销用户。</block>
+  <block id="c7e6ddd86fe4d39f3918f17751cc4ad3" category="section-title">支持组织之间的伙伴关系</block>
+  <block id="a9ab376a5bad52d7ee221e700506cc9e" category="inline-link-macro">学习如何管理合作关系</block>
+  <block id="2411f4620b5f32a3acd14ea2fad0ed3e" category="paragraph">您可以在NetApp Console中创建合作伙伴关系，让合作伙伴跨组织边界安全地管理NetApp资源，从而使协作更轻松、安全性更强。<block ref="b8d27297b19f2fe0bb424605051fc774" category="inline-link-macro-rx"></block> 。</block>
+  <block id="92f0509fbe9c844ac680a8239b748a5a" category="section-title">超级管理员和超级查看者角色</block>
+  <block id="78dc241469129405c4f4b99066b0c5c3" category="inline-link-macro">了解有关访问角色的更多信息。</block>
+  <block id="70a83abfefc3ecf863e8c3f17d519877" category="paragraph">添加了*超级管理员*和*超级查看者*角色。*超级管理员*授予对控制台功能、存储和数据服务的完全管理访问权限。*超级查看器*为审计员和利益相关者提供只读可见性。这些角色对于高级成员较少、访问权限较广的小型团队很有用。为了提高安全性和可审计性，鼓励组织谨慎使用*超级管理员*访问权限，并尽可能分配细粒度的角色。<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="112ab4deb7f2f69c7af42547046b472f" category="section-title">勒索软件抵御能力的额外作用</block>
+  <block id="79c16752c4b3871128ff6761df92be41" category="paragraph">添加了*Ransomware Resilience 用户行为管理员*角色和*Ransomware Resilience 用户行为查看器*角色。这些角色分别允许用户配置和查看用户行为和分析数据。<block ref="f4af18406bc0e89aecbeeb674238cfbe" category="inline-link-macro-rx"></block></block>
+  <block id="9c1c5b1b2bca352ed0ccb3521d870e14" category="section-title">删除了支持聊天</block>
+  <block id="6a6050b7d9c0524d1d41dffdc70d6613" category="paragraph">NetApp已从NetApp Console中删除了支持聊天功能。使用“管理”&gt;“支持”页面来创建和管理支持案例。</block>
+  <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">2025年8月11日</block>
+  <block id="b21ef378da4454971a6488eacb2b5c87" category="section-title">连接器 3.9.55</block>
+  <block id="7c5236578de836eb6dde25bc3e995d02" category="paragraph">BlueXP Connector 的此版本包括安全性改进和错误修复。</block>
+  <block id="95d98fc23d5487afb84beeeea8decb64" category="paragraph">3.9.55 版本适用于标准模式和限制模式。</block>
+  <block id="6c88af8a9c03b6578eb8087b3113c649" category="section-title">日语支持</block>
+  <block id="a73649d115bb7a94bbfab3b7d4f15ddf" category="paragraph">BlueXP UI 现已提供日语版本。如果您的浏览器语言是日语， BlueXP会以日语显示。要访问日语文档，请使用文档网站上的语言菜单。</block>
+  <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">运营弹性功能</block>
+  <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">操作弹性功能已从BlueXP中删除。如果遇到问题，请联系NetApp支持。</block>
+  <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP身份和访问管理 (IAM)</block>
+  <block id="65bb19480004be81c6ef8d7f7ef40e2f" category="paragraph">BlueXP中的身份和访问管理现在提供以下功能。</block>
+  <block id="db971a19c27a52f19f1811c52c55dc2d" category="section-title">运营支持的新访问角色</block>
+  <block id="9a69bf13bbd4a86f23945e6b153f3913" category="paragraph">BlueXP现在支持运营支持分析师角色。此角色授予用户监控存储警报、查看BlueXP审计时间线以及输入和跟踪NetApp支持案例的权限。</block>
+  <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">了解有关使用访问角色的更多信息。</block>
+  <block id="fa37736e47ccc44e2228f573f9d2a303" category="paragraph"><block ref="fa37736e47ccc44e2228f573f9d2a303" category="inline-link-macro-rx"></block></block>
+  <block id="328e39c031d3f6a77403904d6dda2377" category="section-title">2025年7月31日</block>
+  <block id="8ec07d17b9626eed73b7d8c3ecb0e32f" category="section-title">私人模式发布（3.9.54）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支持站点</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">新的私人模式版本现已可从<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="e57098a6bb00611fdfd163e39e3448e8" category="paragraph">3.9.54 版本包括以下BlueXP组件和服务的更新。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">组件或服务</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本中包含的版本</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上次私人模式发布以来的变化</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">连接器</block>
+  <block id="9cc4b579fbb9d233102b44ff5119e060" category="cell">3.9.54, 3.9.53</block>
+  <block id="4e7c2b7c3f7b00a4db742817336d985b" category="inline-link">BlueXP页面中的新功能</block>
+  <block id="fb973b0a3719c8d26b960aed72e4fe3f" category="cell">前往<block ref="f2bb5a2291ad18ff55b18a4b4553234a" category="inline-link-rx"></block>并参考版本 3.9.54 和 3.9.53 所包含的更改。</block>
+  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">备份和恢复</block>
+  <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">2025年7月28日</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP backup and recovery页面中的新功能</block>
+  <block id="bdf328dcc25654b345bbfab998204210" category="cell">前往<block ref="6357afa5f4df051bc1bb94ee8e3de4c5" category="inline-link-rx"></block>并参考 2025 年 7 月版本中包含的更改。</block>
+  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分类</block>
+  <block id="9285fd96738351d44da30f801dea109b" category="cell">2025 年 7 月 14 日（版本 1.45）</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP classification页面中的新功能</block>
+  <block id="3f21878baefde2ddae755caf4163a20e" category="cell">前往<block ref="1f6c2a2bb628adfdf4a77389c4b1bb41" category="inline-link-rx"></block>。</block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">有关私人模式的更多详细信息，包括如何升级，请参阅以下内容：</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">了解私人模式</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">了解如何在私人模式下开始使用BlueXP</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">了解如何在使用私有模式时升级连接器</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="e2d159efa7a8b8226e5914e1a2875270" category="section-title">BlueXP alerts现已升级ONTAP警报</block>
+  <block id="5928017639f3567a373281effc14e646" category="paragraph">BlueXP alerts已重命名为ONTAP警报。</block>
+  <block id="0876dff5408aa260368cca439a8ae55f" category="paragraph">您可以通过选择“NetApp Console”左侧导航栏中的“*存储*”&gt;“*警报*”来访问它。</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console发行说明</block>
+  <block id="07a0717927710f1dcb5683cb20238dcb" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
+  <block id="f66c63cf0ff76c19209f85ca687a2fb4" category="section-title">2024年10月7日</block>
+  <block id="f4b2cfc6ddef927318d045f16b38d151" category="section-title">BlueXP alerts列表页面</block>
+  <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">您可以快速识别容量低或性能低的ONTAP集群、评估可用性程度并识别安全风险。您可以查看与容量、性能、保护、可用性、安全性和配置相关的警报。</block>
+  <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">警报详情</block>
+  <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">您可以深入了解警报详细信息并找到建议。</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">查看链接到ONTAP System Manager 的集群详细信息</block>
+  <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">通过BlueXP alerts，您可以查看与ONTAP存储环境相关的警报并深入了解与ONTAP系统管理器相关的详细信息。</block>
+  <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">了解BlueXP alerts</block>
+  <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block> 。</block>
+  <block id="387c71fcb2fb7fdf9038db9d12137530" category="inline-link-macro">NetApp Console发行说明。</block>
+  <block id="50299f698a54426aba27448f16803e14" category="paragraph">有关更改的详细信息，请参阅<block ref="e3255f3ec57d44ee455071e58df2778b" category="inline-link-macro-rx"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="section-title">复制关系选项卡的增强功能</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">我们在复制关系表中添加了几个新列，以便在“复制关系”选项卡中为您提供有关复制关系的更多信息。该表现在包含以下列：</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror 策略</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">源文件系统</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">目标文件系统</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">关系状态</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">上次转乘时间</block>
+  <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">2025年7月14日</block>
+  <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">支持在两个 FSx for ONTAP文件系统之间复制数据</block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">现在可以从BlueXP控制台中的画布在两个 FSx for ONTAP文件系统之间进行数据复制。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">复制数据</block>
+  <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
+  <block id="a1250c4ad86e23ad680ae47343ed64ad" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。== 2023年3月5日</block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能够从BlueXP添加新存储桶</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">了解如何添加新的 Amazon S3 存储桶</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">您已经能够在BlueXP Canvas 上查看 Amazon S3 存储桶很长一段时间了。现在您可以直接从BlueXP添加新的存储桶并更改现有存储桶的属性。<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> 。</block>
+  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。</block>
+  <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetApp Console提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">有关更改的详细信息，请参阅<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>。</block>
+  <block id="58770c745f8af8b420df40e44a144c15" category="section-title">2023年6月5日</block>
+  <block id="f9037e3eb23130835367334e3aa5a34b" category="section-title">能够从BlueXP添加新的存储帐户</block>
+  <block id="7e4c7c60d975edb27a163364c9868139" category="inline-link-macro">了解如何添加新的 Azure Blob 存储帐户</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">您已经能够在BlueXP Canvas 上查看 Azure Blob 存储很长一段时间了。现在您可以直接从BlueXP添加新的存储帐户并更改现有存储帐户的属性。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
+  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">有关更改的详细信息，请参阅<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
+  <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">2025年1月13日</block>
+  <block id="944c1cc3564ebb8c58254a0340102350" category="section-title">BlueXP现在支持网络功能</block>
+  <block id="79d2f91b3755917d79acfd5be561d67b" category="paragraph">从BlueXP配置Azure NetApp Files中的卷时，您现在可以指示网络功能。这与本机Azure NetApp Files中提供的功能一致。</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024年6月12日</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">需要新的许可</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">现在需要以下权限才能从BlueXP管理Azure NetApp Files卷：</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/子网/读取</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">读取虚拟网络子网需要此权限。</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">如果您当前正在从BlueXP管理Azure NetApp Files，则需要将此权限添加到与您之前创建的 Microsoft Entra 应用程序关联的自定义角色。</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">了解如何设置 Microsoft Entra 应用程序并查看自定义角色权限</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block> 。</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024年4月22日</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支持卷模板</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您无法再从模板创建卷。此操作与BlueXP修复服务相关，但该服务不再可用。</block>
+  <block id="b3f4950f8261377915f43d28700ec58c" category="paragraph">此NetApp Backup and Recovery版本包括以下更新。</block>
+  <block id="83b5525699223779088aa2e2c9ca5b1a" category="section-title">BlueXP backup and recovery现已更名NetApp Backup and Recovery</block>
+  <block id="6a119fc880b70d0e27bca4b7243a7a55" category="paragraph">BlueXP backup and recovery已重命名为NetApp Backup and Recovery。</block>
+  <block id="3a1e37eecca95e81d9e509646022ffda" category="paragraph">有关更改的详细信息，请参阅<block ref="019a5c722618673de9fa5ca0cf2abddb" category="inline-link-macro-rx"></block></block>
+  <block id="86df852f08da7feceb910d31327e83d7" category="section-title">Hyper-V 工作负载支持作为私人预览版</block>
+  <block id="9fb98f9a29d9d72ef6008750be44e084" category="paragraph">此版本的NetApp Backup and Recovery引入了对发现和管理 Hyper-V 工作负载的支持：</block>
+  <block id="bd0905239cb012ebf878ac40c3981660" category="list-text">在独立实例以及故障转移群集实例 (FCI) 上备份和恢复虚拟机</block>
+  <block id="cb861f226468f5c5741c826734953432" category="list-text">保护存储在 SMB3 共享上的虚拟机</block>
+  <block id="165a3a57ae6cbe2ce8d382109a648112" category="list-text">虚拟机级别的批量保护</block>
+  <block id="6ae4f2cef4c8268fb48e1bf1ad1145fc" category="list-text">虚拟机和崩溃一致性备份</block>
+  <block id="1e2c3f75c2996070badf4cdcfa9188be" category="list-text">从主存储、辅助存储和对象存储恢复虚拟机</block>
+  <block id="318dd7c3ae3e9302e9fc1054a535b274" category="list-text">搜索和恢复虚拟机备份</block>
+  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保护 Hyper-V 工作负载概述</block>
+  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
+  <block id="ade0d83a8d5df6524dcf5bc339bf6236" category="section-title">KVM 工作负载支持作为私人预览</block>
+  <block id="c42adba211239f644f4ee6954d8a909e" category="paragraph">此版本的NetApp Backup and Recovery引入了对发现和管理 KVM 工作负载的支持：</block>
+  <block id="99803398691d47a569fe2e0eeaf8a74c" category="list-text">备份和恢复存储在 NFS 共享上的 qcow2 VM 映像</block>
+  <block id="81e3905959a6e11107e52c1db1aa927a" category="list-text">备份存储池</block>
+  <block id="be660bd29054ec196c26b5d7ab12eca9" category="list-text">使用保护组进行批量虚拟机和存储池保护</block>
+  <block id="d6e3a9bbd154922a83873ce4e8ee4f0d" category="list-text">VM 一致和崩溃一致的 VM 备份</block>
+  <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">从主存储、辅助存储和对象存储中搜索并恢复虚拟机备份</block>
+  <block id="01edc88c05b373b3f7ebaedf025e6c66" category="list-text">备份和恢复基于 KVM 的虚拟机和虚拟机数据的指导流程</block>
+  <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
+  <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有关保护 KVM 工作负载的详细信息，请参阅<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
+  <block id="c95af44ddc098359d1a302a271aa883b" category="section-title">Kubernetes 预览增强功能</block>
+  <block id="a9db09b7be48f8631739b57e73f48cd3" category="paragraph">Kubernetes 工作负载的预览版引入了以下增强功能：</block>
+  <block id="7f6a04aadde1854e173d7668132da89b" category="list-text">3-2-1 扇出备份架构支持</block>
+  <block id="b3b9066f003af6e4047de0ee6690e863" category="list-text">支持ONTAP S3 作为备份目标</block>
+  <block id="e35ded7c45cf2f4d4c707e6aeb803b42" category="list-text">新的 Kubernetes 仪表板，更易于管理</block>
+  <block id="578d6e20754edfe961ecf1fc836dde24" category="list-text">增强的基于角色的访问控制 (RBAC) 配置包括对以下角色的支持：</block>
+  <block id="63f384d43c70cef2a442eed93538b096" category="list-text">备份和恢复超级管理员</block>
+  <block id="69fc5d74b4cae1d8411c6e1ef7fef337" category="list-text">备份和恢复备份管理员</block>
+  <block id="e7ccdca9cb72dcc628612957211d3e80" category="list-text">备份和恢复恢复管理员</block>
+  <block id="2865d4b5e918de90349087089aeb52d0" category="list-text">备份和恢复查看器</block>
+  <block id="96b3cdda555459aef6cfc365956ed0b8" category="list-text">支持 SUSE Rancher Kubernetes 发行版</block>
+  <block id="ba6bb9bc1bfb2e864cfaaa2229f7e2d8" category="list-text">多存储桶支持：现在，您可以跨不同的云提供商，通过每个系统多个存储桶来保护系统内的卷</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block> 。</block>
+  <block id="80aadfb002c0fe2115f71c7aeb012ab4" category="section-title">VMware 预览增强功能</block>
+  <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作负载预览版引入了以下增强功能：</block>
+  <block id="52c7fc54a0416d5bc7625cf3e154f5ee" category="list-text">支持从对象存储恢复</block>
+  <block id="729609f8890f70080c4290c1a64f6901" category="list-text">NetApp Console仪表板现在显示 VMware 工作负载状态信息</block>
+  <block id="e0aea66343c11d9c167af3537c61eac6" category="list-text">演示模式支持：无需添加 VMware vCenter Server 环境即可探索 VMware 工作负载的功能</block>
+  <block id="0b781a1bfcfc82e8ce2c41a12166f555" category="list-text">基于角色的访问控制 (RBAC) 支持</block>
+  <block id="48286fbde233324a7f7880389e103924" category="list-text">工作事件的电子邮件警报和通知支持</block>
+  <block id="7c0ae68b454f9ff601ed1bdd5dcc3c30" category="list-text">支持备份和恢复到基于 NVMe 的存储</block>
+  <block id="41bfa1316b52f6772c1921990bc34f69" category="list-text">编辑保护组</block>
+  <block id="dfa4b5c6b997823449e673db12ef526d" category="list-text">编辑保护策略</block>
+  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
+  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
+  <block id="5454583dc62ad7e77c5ba8c488ba6d58" category="section-title">Oracle 数据库工作负载支持作为私人预览</block>
+  <block id="e43c46b8feaf8eb93753d791ff5f0c4f" category="paragraph">此版本的NetApp Backup and Recovery引入了对发现和管理 Oracle 数据库工作负载的支持：</block>
+  <block id="ef788408f77a6fc39041c0a817c65602" category="list-text">发现独立的 Oracle 数据库</block>
+  <block id="30b7966bb7dc1aa9438906ea08ff7f3a" category="list-text">仅针对数据或数据和日志备份创建保护策略</block>
+  <block id="7c04ebe00ea4e3919d3a0db1523941c4" category="list-text">使用 3-2-1 备份方案保护 Oracle 数据库</block>
+  <block id="2b94050a52114db1558a04e2b09f87c6" category="list-text">配置备份保留</block>
+  <block id="6b5a8199a9a85c919be0b93e58f873db" category="list-text">挂载和卸载 ARCHIVELOG 备份</block>
+  <block id="290536edae9da601f8170c5b55f24416" category="list-text">虚拟化数据库</block>
+  <block id="fa13bdfd9eed88794d8035a9e287804f" category="list-text">搜索和恢复数据库备份</block>
+  <block id="50f97ccd9c70c1fad84f646a4f0a7844" category="list-text">Oracle 仪表板支持</block>
+  <block id="51d8503c0e8b0708c3068080f066d721" category="inline-link">保护 Oracle 工作负载概述</block>
+  <block id="834f349029c5bc6715f25a9eac82f171" category="paragraph">有关保护 Oracle 数据库工作负载的详细信息，请参阅<block ref="aa11c9ead0c1847dba5fa900ff49219a" category="inline-link-rx"></block>。</block>
+  <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
+  <block id="f7919ff057187672b74306b219aadaa0" category="section-title">支持在预览版中保护 VMware 工作负载</block>
+  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">此版本增加了对保护 VMware 工作负载的预览支持。将 VMware VM 和数据存储区从本地ONTAP系统备份到 Amazon Web Services 和StorageGRID。</block>
+  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">有关保护 VMware 工作负载的文档以技术预览的形式提供。对于此预览版产品， NetApp保留在正式发布之前修改产品详细信息、内容和时间表的权利。</block>
+  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">了解有关使用NetApp Backup and Recovery保护 VMware 工作负载的更多信息</block>
+  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block> 。</block>
+  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">AWS、Azure 和 GCP 的高性能索引现已正式发布</block>
+  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">2025 年 2 月，我们宣布推出针对 AWS、Azure 和 GCP 的高性能索引 (Indexed Catalog v2) 预览版。此功能现已普遍可用（GA）。2025 年 6 月，我们默认向所有新客户提供该服务。通过此版本，所有客户都可以获得支持。高性能索引提高了受对象存储保护的工作负载的备份和恢复操作的性能。</block>
+  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">默认启用：</block>
+  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">如果您是新客户，则默认启用高性能索引。</block>
+  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">如果您是现有客户，您可以转到 UI 的“恢复”部分来启用重新索引。</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
+  <block id="34d9ae368d6cbba40bdf79d1f39e1e89" category="section-title">通用可用性 (GA) 中支持 Microsoft SQL Server 工作负载</block>
+  <block id="1534c8a3f402a9506d8a2c322843be33" category="paragraph">Microsoft SQL Server 工作负载支持现已在NetApp Backup and Recovery中正式推出 (GA)。在ONTAP、 Cloud Volumes ONTAP和Amazon FSx for NetApp ONTAP存储上使用 MSSQL 环境的组织现在可以利用这项新的备份和恢复服务来保护他们的数据。</block>
+  <block id="7c4ac41d9ce169718af7b2351c645fee" category="paragraph">与之前的预览版本相比，此版本对 Microsoft SQL Server 工作负载支持进行了以下增强：</block>
+  <block id="bd9b8df5b0fceebd251cc779b03be6d1" category="list-text">* SnapMirror主动同步*：此版本现在支持SnapMirror主动同步（也称为SnapMirror业务连续性 [SM-BC]），即使整个站点发生故障，它也能使业务服务继续运行，支持应用程序使用辅助副本透明地进行故障转移。NetApp Backup and Recovery现在支持在SnapMirror主动同步和 Metrocluster 配置中保护 Microsoft SQL Server 数据库。该信息显示在“保护详细信息”页面的“存储和关系状态”部分中。关系信息显示在策略页面更新后的*辅助设置*部分。</block>
+  <block id="b1d2c2774c4d9793c46ef609a13172fd" category="inline-link">使用策略保护您的工作负载</block>
+  <block id="711b69e58f62590ca0de7699a7676712" category="paragraph">参考<block ref="c7bafc1ba0118e2b068edd873743b965" category="inline-link-rx"></block>。</block>
+  <block id="4e5bd320085cb5547546d4395b10e4de" category="inline-image-macro">Microsoft SQL Server 工作负载的保护详细信息页面</block>
+  <block id="bd23896d5be654cd74ec23ce58ada0ea" category="paragraph"><block ref="bd23896d5be654cd74ec23ce58ada0ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="805bbdd364c648372b69605a6ef120af" category="list-text">*多存储桶支持*：您现在可以保护工作环境中的卷，每个工作环境最多可跨不同的云提供商使用 6 个存储桶。</block>
+  <block id="9b3839f7dca86ec8c8d0dff3066b4f0b" category="list-text">SQL Server 工作负载的*许可和免费试用更新*：您现在可以使用现有的NetApp Backup and Recovery许可模型来保护 SQL Server 工作负载。SQL Server 工作负载没有单独的许可要求。</block>
+  <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">设置NetApp Backup and Recovery 的许可</block>
+  <block id="4e368513b7ebb68d8593dcee06fef4b6" category="paragraph">有关详细信息，请参阅<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>。</block>
+  <block id="36586a1356d9a222252ef42596ce2fb2" category="list-text">*自定义快照名称*：您现在可以在管理 Microsoft SQL Server 工作负载备份的策略中使用自己的快照名称。在策略页面的*高级设置*部分输入此信息。</block>
+  <block id="0c0f9d354cdf6cd082a320c127a78ea4" category="inline-image-macro">NetApp Backup and Recovery策略的SnapMirror和快照格式设置屏幕截图</block>
+  <block id="0f93c185ff1dea4a4e3c9471a96d8546" category="paragraph"><block ref="0f93c185ff1dea4a4e3c9471a96d8546" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b97c16ab5864b241e5900d7cd01c42c2" category="list-text">*辅助卷前缀和后缀*：您可以在策略页面的*高级设置*部分输入自定义前缀和后缀。</block>
+  <block id="7f9858481b62d28afaa3e2ca5af23bd2" category="list-text">*身份和访问*：您现在可以控制用户对功能的访问。</block>
+  <block id="c055fc9337a8b1ecf06de87b2294213b" category="inline-link">登录NetApp Backup and Recovery</block>
+  <block id="4132da4055fd87ede59e271f4bdb6837" category="inline-link">NetApp Backup and Recovery功能访问</block>
+  <block id="aefa856e57bb5ff80b4e180f360cdaa2" category="paragraph">参考<block ref="4b9ae09a4a0f724986dd6b54b288ee79" category="inline-link-rx"></block>和<block ref="11bb4b3a1661fc5a156246c118d724d8" category="inline-link-rx"></block>。</block>
+  <block id="827015a207d3e0b7327c58d340f787a7" category="list-text">*从对象存储恢复到备用主机*：即使主存储已关闭，您现在可以从对象存储恢复到备用主机。</block>
+  <block id="2e26a760bb33d17f4e33afe630be5b52" category="list-text">*日志备份数据*：数据库保护详细信息页面现在显示日志备份。您可以看到备份类型列，显示备份是完整备份还是日志备份。</block>
+  <block id="2bfb72338c51e52cf0223e776c0cfa1c" category="list-text">*增强型仪表板*：仪表板现在显示存储和克隆节省。</block>
+  <block id="d4cda55d3e2f6f3f489e76167ad1cfb9" category="inline-image-macro">NetApp Backup and Recovery仪表板</block>
+  <block id="521e9e813b5cfcac396333e0adae8d58" category="paragraph"><block ref="521e9e813b5cfcac396333e0adae8d58" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3a6ba86ba805f11e462a231b680cd28" category="section-title">ONTAP卷工作负载增强功能</block>
+  <block id="665af67f3db1f042d0a953751ea6c74b" category="list-text">* ONTAP卷的多文件夹恢复*：到目前为止，您可以通过浏览和恢复功能一次恢复一个文件夹或多个文件。NetApp Backup and Recovery现在提供使用浏览和恢复功能一次选择多个文件夹的功能。</block>
+  <block id="355500af087063d88c41bf46074004fe" category="list-text">*查看和管理已删除卷的备份*： NetApp Backup and Recovery仪表板现在提供显示和管理从ONTAP中删除的卷的选项。通过此功能，您可以查看和删除ONTAP中不再存在的卷的备份。</block>
+  <block id="49b495f4c80550ba37a3fad8caaef041" category="list-text">*强制删除备份*：在某些极端情况下，您可能希望NetApp Backup and Recovery不再访问备份。例如，如果服务不再有权访问备份存储桶或备份受到 DataLock 保护但您不再需要它们，则可能会发生这种情况。以前，您无法自行删除这些内容，而需要致电NetApp支持。在此版本中，您可以使用选项强制删除备份（在卷和工作环境级别）。</block>
+  <block id="e7f33fd3a093230a1ab040696f740815" category="admonition">请谨慎使用此选项，并且仅在极端清理需要时使用。即使这些备份未被从对象存储中删除， NetApp Backup and Recovery也将无法再访问它们。您需要前往云提供商并手动删除备份。</block>
+  <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">保护ONTAP工作负载</block>
+  <block id="153da5b9285f55abd473720df63ece72" category="paragraph">参考<block ref="9533efc3a935fa4adf8c1dad65e6530d" category="inline-link-rx"></block>。</block>
+  <block id="5d8fc779baf0d068c296ee5013b2224f" category="section-title">Kubernetes 工作负载支持预览版</block>
+  <block id="3544c31b5491dc7ecb73e28d6e25a1e8" category="paragraph">此版本的NetApp Backup and Recovery引入了对发现和管理 Kubernetes 工作负载的支持：</block>
+  <block id="200a1ca96330b8c7561607ba3e8efa76" category="list-text">发现由NetApp ONTAP支持的 Red Hat OpenShift 和开源 Kubernetes 集群，无需共享 kubeconfig 文件。</block>
+  <block id="bc97cde5f3a6fe336563401fb4b522a7" category="list-text">使用统一的控制平面发现、管理和保护跨多个 Kubernetes 集群的应用程序。</block>
+  <block id="8671fb87efe354c05f9373edb6889d96" category="list-text">将 Kubernetes 应用程序的备份和恢复数据移动操作卸载到NetApp ONTAP。</block>
+  <block id="be6ced50bfb2300cc42f3b12987b1359" category="list-text">协调本地和基于对象存储的应用程序备份。</block>
+  <block id="780f81400ecdaedf5afa343aa9bd9abf" category="list-text">将整个应用程序和单个资源备份并恢复到任何 Kubernetes 集群。</block>
+  <block id="a914111953cd6ee9c63146474d7745de" category="list-text">使用在 Kubernetes 上运行的容器和虚拟机。</block>
+  <block id="87418d35e5df78aab70f2540a73bdaf6" category="list-text">使用执行挂钩和模板创建应用程序一致的备份。</block>
+  <block id="c65f3468fbd84ca6a3ed5c4f86c93ec8" category="section-title">增强型ONTAP卷仪表板</block>
+  <block id="4fd717f9bf23502f14b97a4e0dd209e6" category="paragraph">2025 年 4 月，我们推出了增强型ONTAP卷仪表板的预览版，它速度更快、效率更高。</block>
+  <block id="24c045ea49f5ec7c22662da2305601e6" category="paragraph">该仪表板旨在帮助处理大量工作负载的企业客户。即使对于拥有 20,000 卷的客户，新的仪表板也只需不到 10 秒即可加载。</block>
+  <block id="ccb1e3c46732fa6a863335c0d3359b2f" category="paragraph">在预览成功并获得预览客户的良好反馈后，我们现在将其作为所有客户的默认体验。为极快的仪表板做好准备。</block>
+  <block id="af8b4f65e7fa2a1d85a8cfe4869c4fcb" category="inline-link-macro">在仪表板中查看保护健康状况</block>
+  <block id="fe7fc4b6e0aab1d852676cdf2925008a" category="paragraph">有关详细信息，请参阅<block ref="a67104d9d510f7caac4c2e88e851be6e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="a9914dd2bff753372c826876918372e9" category="section-title">Microsoft SQL Server 工作负载支持作为公共技术预览</block>
+  <block id="5df254900f443d0785dc8625b28c0cee" category="paragraph">此版本的NetApp Backup and Recovery提供了更新的用户界面，使您能够使用NetApp Backup and Recovery中熟悉的 3-2-1 保护策略来管理 Microsoft SQL Server 工作负载。使用此新版本，您可以将这些工作负载备份到主存储，将其复制到辅助存储，然后将其备份到云对象存储。</block>
+  <block id="b8307a4d76527581a7b59e0e8b710824" category="inline-link">预览注册表单</block>
+  <block id="240b59983b641b146915b794a0fa4966" category="paragraph">您可以通过完成此步骤来注册预览<block ref="b33811e9e55ab63ce9fecada8cb8558a" category="inline-link-rx"></block>。</block>
+  <block id="6e23fbb0baad6a7a72bd41e60b71f566" category="admonition">本文档旨在介绍如何保护 Microsoft SQL Server 工作负载，目前仅提供技术预览版。NetAppNetApp在正式发布之前修改此预览版产品详细信息、内容和时间表的权利。</block>
+  <block id="fc6d12951f9c00632b6ab417ce6114ca" category="paragraph">此版本的NetApp Backup and Recovery包括以下更新：</block>
+  <block id="5317ac4a506d3eee7c5d152f23cc5745" category="list-text">*3-2-1 备份功能*：此版本集成了SnapCenter功能，使您能够通过NetApp Backup and Recovery用户界面使用 3-2-1 数据保护策略来管理和保护您的SnapCenter资源。</block>
+  <block id="1f64b8ebe2726adf19ba096724227008" category="list-text">*从SnapCenter导入*：您可以将SnapCenter备份数据和策略导入NetApp Backup and Recovery。</block>
+  <block id="27fd3fe1fde83a5778ca2bdff7d35a26" category="list-text">*重新设计的用户界面*为管理备份和恢复任务提供了更直观的体验。</block>
+  <block id="100ec5381ceb57f1ebd54920cf4c4530" category="list-text">*备份目标*：您可以在 Amazon Web Services (AWS)、Microsoft Azure Blob Storage、 StorageGRID和ONTAP S3 环境中添加存储桶，以用作 Microsoft SQL Server 工作负载的备份目标。</block>
+  <block id="84e5809e87da621940984a7b53dd397d" category="list-text">*工作负载支持*：此版本使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。  （未来版本将添加对其他工作负载的支持。）</block>
+  <block id="8cac2f9e6361ec291505b029028e1e57" category="list-text">*灵活的恢复选项*：此版本使您能够在发生损坏或意外数据丢失的情况下将数据库恢复到原始位置和备用位置。</block>
+  <block id="5cc6c945afadd3db450213b2e4987ce2" category="list-text">*即时生产副本*：在几分钟内（而不是几小时或几天）生成用于开发、测试或分析的节省空间的生产副本。</block>
+  <block id="01df7075c09ba1702ebb21e73980f60d" category="list-text">此版本包括创建详细报告的功能。</block>
+  <block id="98098f483a253beb7553c18cb8256903" category="inline-link-macro">保护 Microsoft SQL Server 工作负载概述</block>
+  <block id="4a424da5b576a6607f5d253de9a1e2a8" category="paragraph">有关保护 Microsoft SQL Server 工作负载的详细信息，请参阅<block ref="fb4f00b780062c5b9ae2a61a65c916f5" category="inline-link-macro-rx"></block>。</block>
+  <block id="791d05d0e9072626d0316ef0a7cf21bc" category="section-title">2025年6月9日</block>
+  <block id="2c5854d2e2f5eea8fdb60c2eab7c9f48" category="section-title">索引目录支持更新</block>
+  <block id="53aeb816923ef5b0712bab3d06115f47" category="paragraph">2025 年 2 月，我们推出了更新的索引功能（索引目录 v2），您可以在“搜索和还原”数据恢复方法中使用该功能。以前的版本显著提高了本地环境中的数据索引性能。在此版本中，索引目录现在可用于 Amazon Web Services、Microsoft Azure 和 Google Cloud Platform (GCP) 环境。</block>
+  <block id="109a536d105313ba22a3a245fbe42d66" category="paragraph">如果您是新客户，则所有新环境均默认启用 Indexed Catalog v2。如果您是现有客户，您可以重新索引您的环境以利用 Indexed Catalog v2。</block>
+  <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">如何启用索引？</block>
+  <block id="ed568c90c2ab6e924749399e3a2572f7" category="paragraph">在使用搜索和还原方法还原数据之前，您需要在计划还原卷或文件的每个源工作环境上启用“索引”。执行搜索和恢复时，选择“启用索引”选项。</block>
+  <block id="53b903d5c7d704138f78087fb044d909" category="paragraph">索引目录可以跟踪每个卷和备份文件，使您的搜索快速而高效。</block>
+  <block id="4818e0e89efe2955c1288f2df1d064bb" category="inline-link">启用搜索和还原索引</block>
+  <block id="79ea1095de565828a2dc2eef2353ebe9" category="paragraph">有关更多信息，请参阅<block ref="d416747d352a3037531882a260528401" category="inline-link-rx"></block> 。</block>
+  <block id="a5e1a06a60e331b5d516136e96719929" category="section-title">Azure 专用链接终结点和服务终结点</block>
+  <block id="bb3ee9c26b818e7abdcd5644dcb73dad" category="paragraph">通常， NetApp Backup and Recovery会与云提供商建立一个私有端点来处理保护任务。此版本引入了一个可选设置，可让您启用或禁用NetApp Backup and Recovery自动创建私有端点。如果您想要更好地控制私有端点创建过程，这可能对您有用。</block>
+  <block id="2211c8a4939111428200ceec5f271f42" category="paragraph">您可以在启用保护或开始恢复过程时启用或禁用此选项。</block>
+  <block id="e642532444d0db4591ce8b9d729f92b3" category="paragraph">如果禁用此设置，则必须手动创建私有端点以使NetApp Backup and Recovery正常运行。如果没有适当的连接，您可能无法成功执行备份和恢复任务。</block>
+  <block id="fad4c67d1d97874133e7a367fe5038fd" category="section-title">ONTAP S3 上支持SnapMirror到云重新同步</block>
+  <block id="8e0a943cdbcd7f9c7f29128489119715" category="paragraph">以前的版本引入了对SnapMirror到 Cloud Resync（SM-C Resync）的支持。该功能简化了NetApp环境中卷迁移期间的数据保护。此版本增加了对ONTAP S3 上的 SM-C Resync 以及其他与 S3 兼容的提供商（如 Wasabi 和 MinIO）的支持。</block>
+  <block id="fa551b5810fe894fcd21bf7c8ffc98d1" category="section-title">为StorageGRID带来您自己的存储桶</block>
+  <block id="4b2511d38450982bde4f504e80a44028" category="paragraph">当您在对象存储中为工作环境创建备份文件时，默认情况下， NetApp Backup and Recovery会为您配置的对象存储帐户中的备份文件创建容器（存储桶或存储帐户）。以前，您可以覆盖此功能并为 Amazon S3、Azure Blob Storage 和 Google Cloud Storage 指定您自己的容器。通过此版本，您现在可以携带自己的StorageGRID对象存储容器。</block>
+  <block id="e6e5a011626c6db86099687e0a358c1f" category="inline-link">创建您自己的对象存储容器</block>
+  <block id="51c4ba7436895c5fa861c805e1caee68" category="paragraph">看<block ref="63f7d9c65b21d9a782eb05b351422f54" category="inline-link-rx"></block>。</block>
+  <block id="ffc4cf2b04c0381567893ed4b4045ccf" category="section-title">1.47 版</block>
+  <block id="6f36bf9a9811b172de79706eb4020697" category="paragraph-title">BlueXP classification现为NetApp Data Classification</block>
+  <block id="5aac44f6ff056f1c6c2f526f52fa4c03" category="paragraph">BlueXP classification已重命名为NetApp Data Classification。除了重命名之外，用户界面也得到了增强。</block>
+  <block id="946f70163294fc4ea89cf3a8a4f7979b" category="paragraph-title">增强调查体验</block>
+  <block id="576845aedce0c5b1e2da0722b6d5b908" category="paragraph">使用新的可搜索过滤器、每个值的结果计数、总结关键发现的实时见解以及具有可自定义列和滑出详细信息窗格的刷新结果表，更快地查找和理解您的数据。</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">调查数据</block>
+  <block id="50ccc3c910d687d185cba54457548270" category="paragraph">有关更多信息，请参阅<block ref="93a993564ec95ed7a219162140437cd9" category="inline-link-macro-rx"></block> 。</block>
+  <block id="893b2443c1eb73a025f5c3a5bafda52a" category="paragraph-title">新的治理与合规仪表板</block>
+  <block id="3520b3d47203763a73081f6d97f46d23" category="inline-link-macro">审查有关您的数据的治理信息</block>
+  <block id="885746277f8f91a4f015c86ee1723838" category="inline-link-macro">查看有关您的数据的合规性信息</block>
+  <block id="b079dfcfb953333a976ef2f897a33fe7" category="paragraph">通过直观的小部件、更清晰的视觉效果和改进的加载性能更快地获得关键见解。有关详细信息，请参阅<block ref="e763feb2558444e18702b24a8d7b126c" category="inline-link-macro-rx"></block>和<block ref="635393ff0ea5792fd291ac9f76f0ede9" category="inline-link-macro-rx"></block>。</block>
+  <block id="505912d307cab52606f6debfb848dd6b" category="paragraph-title">已保存查询的策略（预览）</block>
+  <block id="640ed4c4729a4d5d09e9b663e79d7d98" category="paragraph">数据分类现在使您能够通过条件操作实现治理自动化。您可以创建保留规则，设置自动删除和定期电子邮件通知，所有这些都可以通过更新的已保存查询页面进行管理。</block>
+  <block id="663b8460da445a8bdcdacd5586794a5a" category="inline-link-macro">创建策略</block>
+  <block id="8ce840152bdbc7f0d0ab73586b35794e" category="paragraph">有关更多信息，请参阅<block ref="8475d31dfff4871bdba543b2c91cd563" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d57567637ab51796d55a7b44fb6ebc11" category="paragraph-title">操作（预览）</block>
+  <block id="680190e7731697b57d44b7ccb192ec16" category="paragraph">从调查页面直接控制 - 单独或批量删除、移动、复制或标记文件，以实现高效的数据管理和补救。</block>
+  <block id="89d69ff3dca93dc4c1c160728186e722" category="paragraph-title">支持Google Cloud NetApp Volumes</block>
+  <block id="028f3210e3fb8059c59cfc831af1660c" category="paragraph">数据分类现在支持在Google Cloud NetApp Volumes上进行扫描。从NetApp Console轻松添加Google Cloud NetApp Volumes，实现无缝数据扫描和分类。</block>
+  <block id="7a4e65e1bd3f1685ea059c893a13cb58" category="section-title">1.46 版</block>
+  <block id="98f52421b10c8b076970cd9d4bc2932c" category="paragraph">此数据分类版本包括错误修复和以下更新：</block>
+  <block id="2c3661dfa2b24a2bf7320699cd536d69" category="paragraph-title">审计页面中增强的扫描事件洞察</block>
+  <block id="56693a88c5f83646349fbcd49bc5c045" category="paragraph">审计页面现在支持对BlueXP classification的扫描事件的增强洞察。审计页面现在显示系统扫描的开始时间、系统状态以及任何问题。共享和系统的状态仅适用于映射扫描。</block>
+  <block id="00b752fcc4ff0f02c4a53ddfe7ca85f1" category="inline-link-macro">监控NetApp Console操作</block>
+  <block id="2602ef05ceb5e5b51fe554db44e59c2c" category="paragraph">有关审计页面的更多信息，请参阅<block ref="33e0fa7818f83bbe32f6e9c2e830952c" category="inline-link-macro-rx"></block>。</block>
+  <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">支持 RHEL 9.6</block>
+  <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">此版本增加了对 Red Hat Enterprise Linux v9.6 的支持，用于手动本地安装BlueXP classification，包括暗站部署。</block>
+  <block id="3461c6d70dff5780cf443e0892f0b5af" category="paragraph">以下操作系统需要使用 Podman 容器引擎，并且需要BlueXP classification版本 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4 和 9.5。</block>
+  <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="section-title">1.45 版</block>
+  <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">此BlueXP classification版本包括优化资源利用率的代码更改以及：</block>
+  <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">改进了添加文件共享进行扫描的工作流程</block>
+  <block id="7363f98210e80281886d9b88b644899c" category="paragraph">将文件共享添加到文件共享组的工作流程已经简化。该流程现在还根据身份验证类型（Kerberos 或 NTLM）区分 CIFS 协议支持。</block>
+  <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-link-macro">扫描文件共享</block>
+  <block id="9b403464e6af8d2ec9948d73766ff20b" category="paragraph">有关更多信息，请参阅<block ref="127ec44212ed37ce8b3bcb004aea4f22" category="inline-link-macro-rx"></block> 。</block>
+  <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">增强文件所有者信息</block>
+  <block id="4c59149345d32f10d4c1edb221d77028" category="paragraph">您现在可以在“调查”选项卡中查看有关捕获的文件的文件所有者的更多信息。在“调查”选项卡中查看文件的元数据时，找到文件所有者，然后选择“查看详细信息”以查看用户名、电子邮件和 SAM 帐户名称。您还可以查看该用户拥有的其他物品。此功能仅适用于具有 Active Directory 的工作环境。</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">调查组织中存储的数据</block>
+  <block id="726bb63ef50725c7e3c4766906388acd" category="paragraph">有关更多信息，请参阅<block ref="26029df2267a3a60cd67c1340e62ae48" category="inline-link-macro-rx"></block> 。</block>
+  <block id="0e42c2b565849349fc544a0196ef1b6a" category="section-title">2025年6月10日</block>
+  <block id="1c4322a2b157ac1326426ebdbd680c74" category="section-title">1.44 版</block>
+  <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">此次BlueXP classification发布包括：</block>
+  <block id="c7ea7ba68a180dd7fffb65d260820bdf" category="paragraph-title">改进了治理仪表板的更新时间</block>
+  <block id="4a225b50559fc3e5c91e7a224bca4f82" category="paragraph">治理仪表板各个组件的更新时间已得到改善。下表显示了每个组件的更新频率。</block>
+  <block id="2cb05e4bb7830be982f0922fed86b4cd" category="cell">组件</block>
+  <block id="b5c592ebd16824471b1dac54611da0f9" category="cell">更新时间</block>
+  <block id="aa414adba4c4fe0e85f670431eeaa7a2" category="cell">数据时代</block>
+  <block id="e1f57d0c474bedaae9c88fad138dcfd0" category="cell">24 小时</block>
+  <block id="af1b98adf7f686b84cd0b443e022b7a0" category="cell">类别</block>
+  <block id="b70528883a2d1dce278c3b16e0f8c608" category="cell">数据概览</block>
+  <block id="4adcc26418f545df76ab44c53fc55702" category="cell">5分钟</block>
+  <block id="6db4df856c2ad3b66b59b98767190ee4" category="cell">重复文件</block>
+  <block id="6619a70f8ab8877e4131643fb8ded723" category="cell">2 小时</block>
+  <block id="f12b42eece54a56ffab836a42eb37488" category="cell">文件类型</block>
+  <block id="8c8fee331e9f3e5231bff4fd3c702b79" category="cell">非业务数据</block>
+  <block id="ce7a0235b268c4eaa207fb036462b6a0" category="cell">开放权限</block>
+  <block id="e804ac99d8e193e9d3e3437979ce7bdf" category="cell">保存的搜索</block>
+  <block id="8b15c77295fd06496b4e5497d3038948" category="cell">敏感数据和广泛权限</block>
+  <block id="3b082340d0ec4e5cb8705d8e8dbd7b20" category="cell">数据大小</block>
+  <block id="3c321d8be960cf9c4e3de3feeb79454d" category="cell">陈旧数据</block>
+  <block id="66f1eb6a68ea177f7b25f4befa2afcb5" category="cell">按敏感度级别划分的顶级数据存储库</block>
+  <block id="b97835ec7267635dbdb6a030bb594b9b" category="inline-link-macro">查看有关组织中存储的数据的治理详细信息</block>
+  <block id="190630723d230843de3c85b32a478df5" category="paragraph">您可以查看上次更新的时间，并按敏感度级别手动更新重复文件、非业务数据、已保存的搜索、陈旧数据和顶级数据存储库组件。有关治理仪表板的更多信息，请参阅<block ref="e54252fa31ad44dc404e5787faf06263" category="inline-link-macro-rx"></block>。</block>
+  <block id="98b92205e576b5e6498a01750fffbf6b" category="paragraph-title">性能和安全性改进</block>
+  <block id="890d5712449921f1a6ffa08636045ac2" category="paragraph">已做出改进以提高BlueXP分类的性能、内存消耗和安全性。</block>
+  <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="paragraph-title">错误修复</block>
+  <block id="cb000a9ed4aba8f6a1db1f518019d44e" category="paragraph">Redis 已升级，以提高BlueXP classification的可靠性。  BlueXP classification现在使用 Elasticsearch 来提高扫描期间文件计数报告的准确性。</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
+  <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">1.43 版</block>
+  <block id="bb4c36ac9f10bc64e16bd125cb997dcd" category="paragraph">此数据分类版本包括：</block>
+  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">优先进行分类扫描</block>
+  <block id="4aff63c206df7556bccc48f3a5f50de4" category="paragraph">数据分类除了支持仅映射扫描之外，还支持对映射和分类扫描进行优先排序的功能，使您可以选择首先完成哪些扫描。在扫描开始期间和开始之前，支持对地图和分类扫描进行优先排序。如果您选择在扫描过程中确定扫描的优先级，则映射扫描和分类扫描都会被优先处理。</block>
+  <block id="ce7ca903497eb6081e95129584ddf094" category="inline-link-macro">优先扫描</block>
+  <block id="f5d1ea19c8b9424efdf2f986ffd4074f" category="paragraph">有关更多信息，请参阅<block ref="b9518738dcb31100f52b6bb549f809dc" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">支持加拿大个人身份信息 (PII) 数据类别</block>
+  <block id="e01a3dc881c55884c6048183c704e40b" category="paragraph">数据分类扫描识别加拿大 PII 数据类别。这些类别包括加拿大所有省份和地区的银行信息、护照号码、社会保险号码、驾驶执照号码和健康卡号码。</block>
+  <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-link-macro">个人数据类别</block>
+  <block id="75d2298c4d2e2b8d379d579c681b0581" category="paragraph">有关更多信息，请参阅<block ref="39444789f4adf1075cd6ff8f0426a2b4" category="inline-link-macro-rx"></block> 。</block>
+  <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">自定义分类（预览）</block>
+  <block id="3a5909ab4d10a09f1edd87c832553506" category="paragraph">数据分类支持地图和分类扫描的自定义分类。通过自定义分类，您可以定制数据分类扫描，以使用正则表达式捕获特定于您的组织的数据。此功能目前处于预览状态。</block>
+  <block id="68fcca37a232a8993c6b392c92803de3" category="inline-link-macro">添加自定义分类</block>
+  <block id="a31a7b73e0f6489cdde14ea7754e29d2" category="paragraph">有关更多信息，请参阅<block ref="496eb865a6bb9e6228b16bf86701d2c1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">已保存的搜索标签</block>
+  <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-link-macro">**已保存的搜索**</block>
+  <block id="7d05e5a22d1961e95b7be92d35164378" category="paragraph">**政策** 选项卡已重命名<block ref="8d1bca00b0b16766f87fd78ec3ac185e" category="inline-link-macro-rx"></block>。功能没有改变。</block>
+  <block id="2e2e722b53fe801ed6bcd1713f8325ac" category="paragraph-title">将扫描事件发送到审核页面</block>
+  <block id="0d01ca23121427aff206ecc678cb7af3" category="inline-link-macro">NetApp Console 审计页面</block>
+  <block id="0fddd3e20389e20ca1c63de5412406ae" category="paragraph">数据分类支持发送分类事件（扫描启动时和扫描结束时）到<block ref="3dcf10816a01bda1b4320932f26d59f3" category="inline-link-macro-rx"></block>。</block>
+  <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">安全更新</block>
+  <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Keras 包已更新，缓解了漏洞（BDSA-2025-0107 和 BDSA-2025-1984）。</block>
+  <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Docker 容器配置已更新。容器不再有权访问主机的网络接口来制作原始网络数据包。通过减少不必要的访问，此更新可减轻潜在的安全风险。</block>
+  <block id="4a02475d909bd7464565a63664e4dc8b" category="paragraph-title">性能增强</block>
+  <block id="38942def5d8bae857c7eab12e7216c36" category="paragraph">已经实施了代码增强，以减少 RAM 使用率并提高数据分类的整体性能。</block>
+  <block id="223594359ca2e5c0c959aa756dea2d50" category="paragraph">导致StorageGRID扫描失败、调查页面过滤选项无法加载以及无法下载大容量评估的数据发现评估的错误已得到修复。</block>
+  <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025年4月14日</block>
+  <block id="33fc2a8f6921fec02571495993aa2c6c" category="section-title">1.42 版</block>
+  <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">工作环境批量扫描</block>
+  <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP classification支持工作环境的批量操作。您可以选择启用映射扫描、启用映射和分类扫描、禁用扫描或在工作环境中跨卷创建自定义配置。如果您对单个卷进行选择，它将覆盖批量选择。要执行批量操作，请导航到**配置**页面并进行选择。</block>
+  <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">本地下载调查报告</block>
+  <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP classification支持将数据调查报告下载到本地以便在浏览器中查看。如果选择本地选项，数据调查仅以 CSV 格式提供，并且仅显示前 10,000 行数据。</block>
+  <block id="6b41c846432704bbeebdc71cd92e0ac2" category="inline-link-macro">使用BlueXP classification调查组织中存储的数据</block>
+  <block id="e5ec12d2090a6862ed376344a123c006" category="paragraph">有关更多信息，请参阅<block ref="fceb47647e62ca77cd0675b07a84c97b" category="inline-link-macro-rx"></block> 。</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">1.41 版</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此BlueXP classification版本包括一般改进和错误修复。它还包括：</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">扫描状态</block>
+  <block id="6a5c0bfd72f9b6c51f4f17f0d32a0bf5" category="paragraph">BlueXP classification跟踪卷上的初始映射和分类扫描的实时进度。单独的进度条跟踪映射和分类扫描，显示扫描文件总数的百分比。您还可以将鼠标悬停在进度条上来查看已扫描的文件数和文件总数。跟踪扫描状态可以更深入地了解扫描进度，使您能够更好地规划扫描并了解资源分配。</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">要查看扫描状态，请导航到BlueXP classification中的**配置**，然后选择**工作环境配置**。每卷的进度均按行显示。</block>
+  <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025年2月19日</block>
+  <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">1.40 版</block>
+  <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此BlueXP classification版本包括以下更新。</block>
+  <block id="dc4b47101650865122105745fe8d0a2c" category="paragraph-title">支持 RHEL 9.5</block>
+  <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">此版本除了支持以前支持的版本外，还提供对 Red Hat Enterprise Linux v9.5 的支持。这适用于BlueXP classification的任何手动本地安装，包括暗站部署。</block>
+  <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">优先进行仅映射扫描</block>
+  <block id="bc19fc1fb9d36ac2eec32fb81f6e5cca" category="paragraph">当进行仅映射扫描时，您可以优先考虑最重要的扫描。当您拥有多个工作环境并希望确保首先完成高优先级扫描时，此功能会有所帮助。</block>
+  <block id="cb79cf2c786ed3992ebf9c4489793af5" category="paragraph">默认情况下，扫描按照启动的顺序排队。通过设置扫描优先级，您可以将扫描移至队列的最前面。可以对多个扫描进行优先排序。优先级按先进先出的顺序指定，这意味着您优先考虑的第一个扫描将移至队列的最前面；您优先考虑的第二个扫描将成为队列中的第二个扫描，依此类推。</block>
+  <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">优先权是一次性授予的。映射数据的自动重新扫描按照默认顺序进行。</block>
+  <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">仅映射扫描</block>
+  <block id="ed16e45a63496894d4f69f3ad9257c0a" category="paragraph">优先级仅限于<block ref="9f49d69d8a2b2a5c3ff36b98378f6446" category="inline-link-macro-rx"></block>；它不适用于地图和分类扫描。</block>
+  <block id="382361d81e14da89918a76b71860bcab" category="paragraph">有关更多信息，请参阅<block ref="2f2c0cf6c40ec606389bccf6943b3b53" category="inline-link-macro-rx"></block> 。</block>
+  <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">重试所有扫描</block>
+  <block id="fc758db0d443b9a8e3de231c43de89d5" category="paragraph">BlueXP classification支持批量重试所有失败扫描的功能。</block>
+  <block id="ce19c0b7b750b810547f423b2290cfd8" category="paragraph">您可以使用**全部重试**功能以批量操作的方式重新尝试扫描。如果分类扫描由于网络中断等临时问题而失败，您可以使用一个按钮同时重试所有扫描，而不必单独重试。可以根据需要重试扫描多次。</block>
+  <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">要重试所有扫描：</block>
+  <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">从BlueXP classification菜单中，选择 *配置*。</block>
+  <block id="8e66898002589c26f968e6fd94a57988" category="list-text">要重试所有失败的扫描，请选择*重试所有扫描*。</block>
+  <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">提高分类模型的准确性</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">预定义类别</block>
+  <block id="3c83d9ffa8db579e805de307f057c519" category="paragraph">机器学习模型的准确率<block ref="4258f204d4b8f149538aa226ed3589d3" category="inline-link-macro-rx"></block>提高了11%。</block>
+  <block id="009d2060a609114df262eff04e83f241" category="section-title">2025年1月22日</block>
+  <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">1.39 版</block>
+  <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">此BlueXP classification版本更新了数据调查报告的导出流程。此导出更新对于对您的数据执行额外分析、对数据创建额外可视化或与他人共享数据调查结果很有用。</block>
+  <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">以前，数据调查报告导出限制为 10,000 行。在此版本中，限制已被取消，以便您可以导出所有数据。此更改使您能够从数据调查报告中导出更多数据，从而为您的数据分析提供更大的灵活性。</block>
+  <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">您可以选择工作环境、卷、目标文件夹以及 JSON 或 CSV 格式。导出的文件名包含时间戳，以帮助您识别数据的导出时间。</block>
+  <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">支持的工作环境包括：</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">适用于ONTAP的 FSx</block>
+  <block id="253b40ae359ba25b56231803430c4873" category="list-text">ONTAP</block>
+  <block id="a512cd9b163bcb1be6bf96aa95fdfe74" category="list-text">共享组</block>
+  <block id="d3fdc77553ad7d05684cea9b7806dac8" category="paragraph">从数据调查报告中导出数据有以下限制：</block>
+  <block id="d33a90467b78849917ec44b3e694a192" category="list-text">每种类型（文件、目录和表）最多可下载 5 亿条记录</block>
+  <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">预计导出一百万条记录大约需要 35 分钟。</block>
+  <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">调查组织中存储的数据</block>
+  <block id="d310870b76fd0108508e2cefec1ac4a4" category="paragraph">有关数据调查和报告的详细信息，请参阅<block ref="100af2ad54892a67967d5c4b6c0a5d22" category="inline-link-rx"></block>。</block>
+  <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024年12月16日</block>
+  <block id="5ae300808387123005a76abbd5a99f46" category="section-title">1.38 版</block>
+  <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">此BlueXP classification版本包括一般改进和错误修复。</block>
+  <block id="9b1b4baddf39eab23180764b39d6be96" category="paragraph">有关更改的详细信息，请参阅<block ref="38ad9b7940db9af3f58b46078cacc605" category="inline-link-rx"></block>。</block>
+  <block id="0de27445b78be9ada0e38746bd2c7572" category="section-title">简化 AWS 中的Cloud Volumes ONTAP部署</block>
+  <block id="bc9124fb3616fb45396bce21e05afe6a" category="paragraph">现在，您可以使用快速部署方法在 AWS 中部署Cloud Volumes ONTAP，适用于单节点和高可用性 (HA) 配置。与高级方法相比，此简化流程减少了步骤数，在单个页面上自动设置默认值，并最大限度地减少了导航，使部署更快、更容易。</block>
+  <block id="be6e964d6cf7f9094cd37614b45cc30d" category="inline-link">使用快速部署在 AWS 中部署Cloud Volumes ONTAP</block>
+  <block id="a4ef38fe8e86058aa5e29448b78ed10a" category="paragraph">有关更多信息，请参阅<block ref="d2530c67b5959523bc3493cd24da13cb" category="inline-link-rx"></block> 。</block>
+  <block id="ba3c0cba3a3d15ce8426fc737476a59c" category="section-title">2025年9月4日</block>
+  <block id="186b3997de3027cf87a351ba0a1f9bf4" category="section-title">Cloud Volumes ONTAP 9.17.1 RC</block>
+  <block id="2a0942c706fe1023b055df5cfc6720d2" category="paragraph">您现在可以使用BlueXP在 Azure 和 Google Cloud 中部署和管理Cloud Volumes ONTAP 9.17.1 的候选版本 1。但此版本尚不支持在AWS中部署和升级。</block>
+  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">了解有关此版本Cloud Volumes ONTAP的更多信息</block>
+  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block> 。</block>
+  <block id="9def883103b7b964dcbb0993e3f8a065" category="section-title">优化许可证的可用性终止</block>
+  <block id="667b631b672b77239becd955ba1e71e7" category="paragraph">从 2025 年 8 月 11 日开始， Cloud Volumes ONTAP Optimized 许可证将被弃用，并且将不再可在 Azure 和 Google Cloud 市场中以即用即付 (PAYGO) 订阅的方式购买或续订。如果您拥有现有的包含优化许可证的年度合同，则可以继续使用该许可证，直到合同结束。当您的优化许可证到期时，您可以选择BlueXP中的Cloud Volumes ONTAP Essentials 或 Professional 许可证。</block>
+  <block id="09027718866a8a3a2edb0bb0eb53c926" category="paragraph">但是，可以通过 API 添加或更新优化许可证。</block>
+  <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Cloud Volumes ONTAP许可</block>
+  <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">有关许可包的信息，请参阅<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block>。</block>
+  <block id="ed1f600d01a229b43b3196dd2f2e48ca" category="inline-link">管理基于容量的许可</block>
+  <block id="1d4a9a37e700957e9d79664f032cf5ec" category="paragraph">有关切换到不同充电方式的信息，请参阅<block ref="eeeecd1116eaf4db26e064552c04366d" category="inline-link-rx"></block>。</block>
+  <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">复制和同步</block>
+  <block id="80c6ec7a181e7260841769dbc15f1b0b" category="section-title">BlueXP copy and sync现已更名NetApp Copy and Sync</block>
+  <block id="978ab06bd4634b113d212f8311cddadc" category="paragraph">BlueXP copy and sync已重命名为NetApp Copy and Sync。</block>
+  <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025年2月2日</block>
+  <block id="83f73c94bb5f748ce272fa98b9d62582" category="section-title">新的操作系统支持数据代理</block>
+  <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">数据代理现在支持运行 Red Hat Enterprise 9.4、Ubuntu 23.04 和 Ubuntu 24.04 的主机。</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">查看 Linux 主机要求</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block> 。</block>
+  <block id="b6eaf938209a57174cf0c8478fbb177d" category="section-title">2024年10月27日</block>
+  <block id="30f0449964e6b2ac20bc975e920c6185" category="paragraph">我们更新了NetApp Copy and Sync和数据代理以修复一些错误。新的数据代理版本是 1.0.56。</block>
+  <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">有关更改的详细信息，请参阅<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block>。</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">支持授权开关</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支持授权开关</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您现在可以查看有关有权获得支持的Brocade光纤通道 SAN 交换机的信息。这包括有关交换机型号、序列号和支持状态的详细信息。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport数据的阈值</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小部件中的“最近停止发送 (RSS)”限制已从 48 小时（2 天）延长至 216 小时（9 天），之后系统才会被标记为 RSS。这样做是为了适应仅发送每周AutoSupport数据的StorageGRID等平台。</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目录中已弃用的 API 部分</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 目录中提供了一个新的弃用 API 部分。它列出了计划弃用的 API，以及弃用时间表和替代 API。</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量预测 V2 和支持结束 API 模块弃用</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量预测 V2 和支持终止 API 模块计划弃用。要访问已弃用的 API 或了解弃用时间表和替代 API，请导航至 *API 服务 -&gt; 浏览 -&gt; 已弃用的 API*。</block>
+  <block id="be5dc5f5e2d7e93e1002f9bc9daa9179" category="section-title">2025年7月9日</block>
+  <block id="e0feed907f4bf22cc0b1ffa18048f926" category="list-text">升级顾问计划中包含多格式下载选项，以简化ONTAP升级计划并解决潜在的阻碍或警告。您现在可以下载 Excel、PDF 和 JSON 格式的升级顾问计划。</block>
+  <block id="e78e85c2863b9ed09c47dacdcfda2a1d" category="list-text">在升级顾问计划的 Excel 格式中，进行了以下增强：</block>
+  <block id="24a524d6161aca2fe5398b80dd9fa10c" category="list-text">您可以查看在集群上执行的预检查，并使用“通过”、“失败”或“跳过”等指示标记结果。这可确保集群处于最佳状态以完成ONTAP升级。</block>
+  <block id="081533dbbdd673ebb2632d92a90a4a77" category="list-text">您可以查看适用于集群的推荐最新固件更新，以及ONTAP目标版本附带的版本。</block>
+  <block id="6276222a738837860023343f423eb60c" category="list-text">已包含一个新选项卡，提供 SAN 集群的互操作性检查。它提供了所选目标ONTAP版本支持的主机操作系统版本的视图。</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">可以删除订阅</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消订阅，现在可以从数字钱包中删除订阅。</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">查看 Marketplace 订阅的已消耗容量</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">查看 PAYGO 订阅时，您现在可以查看订阅的已消耗容量。</block>
+  <block id="c523b074da0b63e607578686184d5981" category="section-title">2025年2月10日</block>
+  <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP digital wallet经过重新设计，易于使用，现在提供额外的订阅和许可证管理。</block>
+  <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">新的概览仪表板</block>
+  <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">数字钱包主页具有更新的NetApp许可证和 Marketplace 订阅仪表板，可以深入了解特定服务、许可证类型和所需的操作。</block>
+  <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">配置凭证订阅</block>
+  <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">BlueXP digital wallet现在允许您配置对提供商凭证的订阅。通常，您在首次订阅 Marketplace 订阅或年度合同时执行此操作。以前，只能在“凭据”页面上更改订阅的凭据。</block>
+  <block id="175fca0ca5f306258c490378dc2367db" category="section-title">将订阅与组织关联</block>
+  <block id="a5f7678a307b711643d239d80564147c" category="paragraph">您现在可以直接从数字钱包更新与订阅关联的组织。</block>
+  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">管理 Cloud Volume ONTAP许可证</block>
+  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">您现在可以通过主页或“直接许可证”选项卡管理Cloud Volumes ONTAP许可证。使用“市场订阅”选项卡查看您的订阅信息。</block>
+  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024年3月5日</block>
+  <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP disaster recovery</block>
+  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP digital wallet现在使您能够管理BlueXP disaster recovery的许可证。您可以添加许可证、更新许可证以及查看有关许可容量的详细信息。</block>
+  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">了解如何管理BlueXP数据服务的许可证</block>
+  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023年7月30日</block>
+  <block id="bdffab7d1fc5c739af6bcacd7556d32b" category="section-title">BlueXP disaster recovery现已更名为NetApp Disaster Recovery</block>
+  <block id="b8479b63a059f61189d191d9d8206a0e" category="paragraph">BlueXP disaster recovery已重命名为NetApp Disaster Recovery。</block>
+  <block id="74ec2cbf7ad010d86af9ea5f2d47ee39" category="section-title">其他更新</block>
+  <block id="77ce624f79cabd64ddedccf3196e9b1a" category="inline-link-macro">使用 Amazon Elastic VMware Service 和Amazon FSx for NetApp ONTAP实现NetApp Disaster Recovery</block>
+  <block id="e6b27502ab6a46e1039ef9e004cb65ff" category="list-text">Amazon Elastic VMware Service (EVS) 与Amazon FSx for NetApp ONTAP的支持已公开预览。随着此版本的发布，它现已普遍可用。有关详细信息，请参阅<block ref="d77dcab16ff9979356836b689cffd0ee" category="inline-link-macro-rx"></block>。</block>
+  <block id="1842d5453eb18b28e3fe6f5c7acc9eaa" category="list-text">存储发现改进，包括减少本地部署的发现时间</block>
+  <block id="58077d66ee3ca42d6d7732854dac2714" category="list-text">身份和访问管理 (IAM) 支持，包括基于角色的访问控制 (RBAC) 和增强的用户权限</block>
+  <block id="ef31873b640af7e0e4300d5282baffe4" category="list-text">对 Azure VMware 解决方案和Cloud Volumes ONTAP 的私人预览支持。有了此支持，您现在可以使用Cloud Volumes ONTAP存储配置从本地到 Azure VMware 解决方案的灾难恢复保护。</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
+  <block id="4a32789f771ba902fef02cd0f2a544e6" category="paragraph">版本 4.2.5P2</block>
+  <block id="48cd462677138869d77d61db9c16b889" category="section-title">NetApp Disaster Recovery更新</block>
+  <block id="36088b35355e766d544b98140baa439a" category="list-text">改进了 VMFS 支持，以处理来自多个存储虚拟机的相同 LUN。</block>
+  <block id="5958ae417b9ca044a24e8a3629b195bb" category="list-text">改进了测试拆卸清理以处理已被卸载或删除的数据存储。</block>
+  <block id="1a2957b0c8fb36225440df520076e072" category="list-text">改进了子网映射，以便现在可以验证输入的网关是否包含在提供的网络中。</block>
+  <block id="7f5267deccdc08e8591ec8b4dccfcc03" category="list-text">解决了虚拟机名称包含“.com”时可能导致复制计划失败的问题。</block>
+  <block id="8af129ac3a817923db5feb647660eb7c" category="list-text">在创建复制计划的过程中，删除了阻止目标卷与源卷相同的限制。</block>
+  <block id="4de413f6189881cc6b259fb6e68df02c" category="list-text">在 Azure 市场中添加了对NetApp智能服务的即用即付 (PAYGO) 订阅支持，并在免费试用对话框中添加了 Azure 市场的链接。</block>
+  <block id="2987548294e292332cf7adcf36589fc5" category="inline-link">NetApp Disaster Recovery许可</block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">设置NetApp Disaster Recovery许可</block>
+  <block id="66987db2f4ddc01df2f2608d224490a6" category="paragraph">有关详细信息，请参阅<block ref="daf049a4e68b2c2a66995f2733e6d093" category="inline-link-rx"></block>和<block ref="502b84db50f651e0d1e6368db24aec66" category="inline-link-rx"></block>。</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">版本 4.2.5</block>
+  <block id="ae9748c0cf32bbe0d62a0514c121d1f2" category="section-title">NetApp Disaster Recovery中的用户角色</block>
+  <block id="acd3b1030b26202122f9ff922116dd46" category="paragraph">NetApp Disaster Recovery现在采用角色来管理每个用户对特定功能和操作的访问权限。</block>
+  <block id="5d0c7e3e79227c0f48e31b0f10e5a07d" category="paragraph">该服务使用特定于NetApp Disaster Recovery的以下角色。</block>
+  <block id="8089d5956a754913831086e4a192fba0" category="list-text">*灾难恢复管理员*：在NetApp Disaster Recovery中执行任何操作。</block>
+  <block id="1da73a6d977d71d257524dfc760b311f" category="list-text">*灾难恢复故障转移管理员*：在NetApp Disaster Recovery中执行故障转移和迁移操作。</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*灾难恢复应用程序管理员*：创建和修改复制计划并启动测试故障转移。</block>
+  <block id="919421d556cf702a4e06810fc276b335" category="list-text">*灾难恢复查看器*：查看NetApp Disaster Recovery中的信息，但不能执行任何操作。</block>
+  <block id="eeacd7a9a09a00a4f78e8e20c24b39e4" category="paragraph">如果您单击NetApp Disaster Recovery服务并首次对其进行配置，则必须具有 *SnapCenterAdmin* 权限或具有 *Organization Admin* 角色。</block>
+  <block id="228f454cf16a61507e28cfb734b215ab" category="inline-link">NetApp Disaster Recovery中的用户角色和权限</block>
+  <block id="044ee78e955ad31e7cec671d271aff49" category="paragraph">有关详细信息，请参阅<block ref="064655cf5aa70bddc10e05f71e3f59a1" category="inline-link-rx"></block> 。</block>
+  <block id="9e51129a710cb333676e7ff392c0610c" category="inline-link">了解所有服务的访问角色</block>
+  <block id="d0f140b1f3426612fda3714d998f3232" category="paragraph"><block ref="ea112d812fe0cc251b9a8c88105fdf11" category="inline-link-rx"></block> 。</block>
+  <block id="1e9f4844ea9e9792cbb09aa643cdd0b9" category="section-title">NetApp Disaster Recovery中的其他更新</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">增强网络发现</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">可扩展性改进：</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">过滤所需的元数据而不是所有细节</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">发现改进，以更快地检索和更新虚拟机资源</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">数据检索和数据更新的内存优化和性能优化</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">vCenter SDK 客户端创建和池管理改进</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">下次计划或手动发现时的陈旧数据管理：</block>
+  <block id="2b077b3d88dcc4adb54c2a11c5463fae" category="list-text">当在 vCenter 中删除虚拟机时， NetApp Disaster Recovery现在会自动将其从复制计划中删除。</block>
+  <block id="7fb8e5a4929cd35fd131ad1f5533d144" category="list-text">当 vCenter 中删除数据存储区或网络时， NetApp Disaster Recovery现在会将其从复制计划和资源组中删除。</block>
+  <block id="1b838198508b4c30761cfb90615db038" category="list-text">当在 vCenter 中删除集群、主机或数据中心时， NetApp Disaster Recovery现在会将其从复制计划和资源组中删除。</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Swagger 文档</block>
+  <block id="cec5123afb166f0c68f7ddc85e5b41e4" category="list-text">您现在可以在浏览器的隐身模式下访问 Swagger 文档。您可以从NetApp Disaster Recovery中的“设置”选项 &gt;“API 文档”中访问它，也可以在浏览器的隐身模式下直接通过以下 URL 访问它：<block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> 。</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">在某些情况下，故障回复操作完成后，iGroup 会被遗留下来。如果 iGroup 已过时，则此更新会将其删除。</block>
+  <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">如果在复制计划中使用了 NFS FQDN， NetApp Disaster Recovery现在会将其解析为 IP 地址。如果灾难恢复站点中无法解析 FQDN，则此更新很有用。</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 对齐改进</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功发现后，记录捕获 vCenter 大小详细信息的日志改进</block>
+  <block id="60cb699c3ab20c62c28cbc8ba6498f15" category="section-title">2025年10月6日</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="section-title">需要BlueXP访问角色</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link">了解BlueXP访问角色。</block>
+  <block id="0366ff255ad441b45d52df443a7b3b55" category="paragraph">现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的 E 系列：组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 <block ref="0b85dd2db07f757bcca365b0bb453a52" category="inline-link-rx"></block></block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">支持 E 系列</block>
+  <block id="8060a341461a61edc489285d4c464062" category="paragraph">您现在可以直接从BlueXP发现您的 E 系列系统。发现 E 系列系统可为您提供混合多云数据的完整视图。</block>
+  <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">生命周期规划</block>
+  <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="section-title">BlueXP economic efficiency现在是生命周期规划</block>
+  <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">BlueXP economic efficiency已更名为生命周期规划。</block>
+  <block id="275ca5cf7a9fa5329d7c6111bb4a8f94" category="paragraph">您可以通过选择“NetApp Console”左侧导航栏中的“存储”&gt;“生命周期规划”来访问它。</block>
+  <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024年5月15日</block>
+  <block id="ba568c6eda754bba155b9d0f187ee2cd" category="section-title">已禁用的功能</block>
+  <block id="ec6210d470db7cd7b6f5408f088e1c02" category="paragraph">一些BlueXP economic efficiency功能已被暂时禁用：</block>
+  <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">技术更新</block>
+  <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">添加容量</block>
+  <block id="bd43fc9501d9e9ddb964eda155be38b8" category="section-title">2024年3月14日</block>
+  <block id="6d060bbb2a63ad6b1466ad80fcfc6275" category="section-title">技术更新选项</block>
+  <block id="482d38b14cf714d9ed46be513831c81e" category="paragraph">如果您已有现有资产并想确定某项技术是否需要更新，则可以使用BlueXP经济效率技术更新选项。您可以查看当前工作负载的简短评估并获得建议，或者如果您在过去 90 天内将AutoSupport日志发送给NetApp ，该服务现在可以提供工作负载模拟，以查看工作负载在新硬件上的表现。</block>
+  <block id="10fa032662780ff6f01bd6647d92c626" category="paragraph">您还可以添加工作负载并从模拟中排除现有工作负载。</block>
+  <block id="7aea075f0d949c2526cea755a2dee13f" category="paragraph">以前，您只能对您的资产进行评估并确定是否建议进行技术更新。</block>
+  <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">该功能现在是左侧导航中技术更新选项的一部分。</block>
+  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link">评估技术更新</block>
+  <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">详细了解<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block>。</block>
+  <block id="ba695b3cf8b635f89946173735838948" category="section-title">边缘缓存</block>
+  <block id="7659a4df75917e662ad56e3eeb883afe" category="paragraph">边缘缓存服务于 2024 年 8 月 7 日被删除。</block>
+  <block id="e9a4d0eabbdfce5c177732ed63963a62" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。== 2025年7月21日</block>
+  <block id="71d0ee5d411b8f72f571401cdab213ac" category="section-title">BlueXP支持Google Cloud NetApp Volumes</block>
+  <block id="775e62d1bed90f08196ce9665fe3b625" category="paragraph">您现在可以直接从BlueXP管理Google Cloud NetApp Volumes ：</block>
+  <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">添加工作环境。</block>
+  <block id="062a6e04f65117f2c5ad969cc8e0116c" category="list-text">查看卷。</block>
+  <block id="e093c974eb3629147ecf532045c7e226" category="list-text">删除工作环境。</block>
+  <block id="42940073696c6deef8332d7bdf67ab44" category="paragraph">有关更改的详细信息，请参阅<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block>。== 2023年7月10日</block>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">能够从BlueXP添加新存储桶并管理现有存储桶</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">了解如何添加新的 Google Cloud Storage 存储桶</block>
+  <block id="00079c5af8b652f708d4b2d3c217dce6" category="paragraph">您可以在BlueXP Canvas 上查看 Google Cloud Storage 存储桶一段时间。现在您可以直接从BlueXP添加新的存储桶并更改现有存储桶的属性。<block ref="493cc79f245c411ab616a87cbaf9a9f5" category="inline-link-rx"></block> 。</block>
+  <block id="2ef72cc8a56fc5999e258b450b9fca24" category="paragraph">有关更改的详细信息，请参阅<block ref="06d876b9fcdfcba8772d93beac1ca38b" category="inline-link-macro-rx"></block>。</block>
+  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
+  <block id="e83b5a250e0912f549b3d3758e90e680" category="section-title">增加警报监控</block>
+  <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">BlueXP中的Keystone仪表板现在包括一个“监控”选项卡，用于管理您订阅中的警报和监控器。此新选项卡使您能够：</block>
+  <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">查看和解决活动警报，包括系统生成的和用户定义的容量使用情况和订阅到期警报。</block>
+  <block id="64d4cc394badd0b54b5b74f5080233c6" category="list-text">创建警报监视器来跟踪容量使用情况和订阅到期事件。</block>
+  <block id="fad96b4b3d3badf81c42f03f5e3e79f9" category="inline-link-macro">查看和管理警报和监视器</block>
+  <block id="cdd57c5e351290faba63a64f9aeaaa00" category="paragraph">要了解更多信息，请参阅<block ref="54a7920301641a95eb19ac46b9860916" category="inline-link-macro-rx"></block>。</block>
+  <block id="bcf269fdba28fb16246a22e167483e0c" category="section-title">简化的性能服务级别查看</block>
+  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">查看您的Keystone订阅的详细信息</block>
+  <block id="d5361f65bad1a0cefb26442a03e3f1a3" category="paragraph">您可以在“*订阅*”选项卡中查看性能服务级别信息，现在该信息已从单独的选项卡移至可扩展视图。单击“到期日期”列旁边的向下箭头可查看每个订阅的到期日期。要了解更多信息，请参阅<block ref="c9175061cd37da451a004ee428397f08" category="inline-link-macro-rx"></block>。</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025年8月28日</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="section-title">使用新列增强逻辑使用情况跟踪</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">添加了新列“总占用空间”，以增强对FabricPool卷的Keystone消耗跟踪：</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXP中的Keystone仪表板 *：您可以在 *Assets* 选项卡中的 *Volumes in clusters* 选项卡中看到 *Total footprint* 列。</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">*Digital Advisor*：您可以在 *卷和对象* 选项卡中的 *卷详细信息* 选项卡中看到 *总足迹* 列。</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">此列显示使用FabricPool分层的卷的总逻辑占用空间，包括性能层和冷层的数据，因此您可以准确计算Keystone消耗。</block>
+  <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
+  <block id="4ac75c7e9ef3301446bb1108a0761fd8" category="paragraph">2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支持被取消。</block>
+  <block id="ac7b3cf10ea08c788a374e0291742517" category="section-title">迁移报告</block>
+  <block id="080f313851ea933f8837533bd9d2015d" category="paragraph">迁移报告服务已于 2024 年 8 月 7 日移除。</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">有关更改的详细信息，请参阅<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>。</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">了解访问角色。</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">现在，您需要以下访问角色之一来查看、发现或管理本地ONTAP集群：组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024年11月26日</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">支持具有私有模式的ASA r2 系统</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">现在，您可以在私人模式下使用BlueXP时发现NetApp ASA r2 系统。从BlueXP 3.9.46 私有模式版本开始提供此支持。</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">了解有关ASA r2 系统的更多信息</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">了解BlueXP部署模式</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">运营弹性</block>
+  <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">运营弹性功能已于 2025 年 8 月 22 日被移除。</block>
+  <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="section-title">BlueXP ransomware protection现已升级NetApp Ransomware Resilience</block>
+  <block id="8c033e68f21af84a645a65cdb34e6632" category="paragraph">BlueXP ransomware protection服务已更名为NetApp Ransomware Resilience。</block>
+  <block id="6b815504dd4844974d9ebfb52e0fe4d6" category="section-title">数据泄露检测</block>
+  <block id="50558bac19c965c1d55609370fca3199" category="paragraph">勒索软件恢复力包括一种新的检测机制，只需几个步骤即可激活，以检测异常用户读取作为数据泄露的早期指标。勒索软件弹性通过创建历史基线来收集和分析用户读取事件，该基线是根据过去数据得出的预期正常行为的概况。当新用户活动明显偏离既定规范（例如意外的阅读激增与可疑的阅读模式相结合）时，就会生成警报。勒索软件恢复力包括一个用于检测可疑读取模式的 AI 模型。</block>
+  <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">与存储层的 ARP 加密检测不同，勒索软件弹性 SaaS 服务通过收集 FPolicy 事件来检测用户行为异常。</block>
+  <block id="3d2aadf85980b84588fa5209f5a19682" category="inline-link-macro">勒索软件恢复用户行为管理员和勒索软件恢复用户行为查看器</block>
+  <block id="44c4a9a3d8fb9c475fdab3218cabf517" category="admonition">您必须使用新的<block ref="150c4a59c5fb1f39f9eda4670f9c992c" category="inline-link-macro-rx"></block>角色来访问可疑用户行为检测设置。</block>
+  <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">启用可疑用户活动检测</block>
+  <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">查看异常用户行为</block>
+  <block id="75ae81fb1b2b27cbdbd5ba2b48014fe5" category="paragraph">有关详细信息，请参阅<block ref="4fc0d3ac39798f24cded583e594e4abe" category="inline-link-macro-rx"></block>和<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block>。</block>
+  <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">其他可疑用户活动检测</block>
+  <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">除了数据泄露检测之外，勒索软件恢复能力还根据观察到的可疑用户活动检测以下警报类型：</block>
+  <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**数据破坏 - 潜在攻击** - 当文件删除的数量超过历史标准时，会创建具有潜在攻击严重程度的警报。</block>
+  <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**可疑用户行为 - 潜在攻击** - 当观察到类似于勒索软件攻击的读取、重命名和删除操作时，会创建严重程度为潜在攻击的警报</block>
+  <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**可疑用户行为 - 警告** - 当文件活动（读取、删除、重命名等）的总数超过历史标准时，将创建严重程度为警告的警报</block>
+  <block id="f3bb9521072178132b6de817bd448616" category="section-title">用于数据泄露检测的新用户角色</block>
+  <block id="7584e1f8b83860064449cf13924e3d4a" category="paragraph">为了管理可疑用户活动警报，Ransomware Resilience 为控制台组织管理员引入了两个新角色，以授予对可疑用户活动检测的访问权限：Ransomware Resilience 用户行为管理员和 Ransomware Resilience 用户行为查看器。</block>
+  <block id="2d5c784e8595b475f03f62e102d55828" category="paragraph">您必须是用户行为管理员才能配置可疑用户行为设置。勒索软件恢复管理员角色不支持配置可疑用户行为设置。</block>
+  <block id="fa780a65e0e091d94507a69bc6b589c6" category="inline-link-macro">NetApp Ransomware Resilience基于角色的访问</block>
+  <block id="eab6dcf0426537b3bdfc0895e79881d8" category="paragraph">有关更多信息，请参阅<block ref="cd66090adbbec1fbcb8578d25dadb581" category="inline-link-macro-rx"></block> 。</block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">该版本包括一般增强功能和改进功能。</block>
+  <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025年7月15日</block>
+  <block id="90b6690e6ff7c4f6c224ce1794630ced" category="section-title">SAN 工作负载支持</block>
+  <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">此版本包括对BlueXP ransomware protection中的 SAN 工作负载的支持。现在，除了 NFS 和 CIFS 工作负载之外，您还可以保护 SAN 工作负载。</block>
+  <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP ransomware protection先决条件</block>
+  <block id="8b61f628ff6c584959e081dfc4edebb6" category="paragraph">有关详细信息，请参阅<block ref="c4baa86796975d4c7e6a1153b246f3d1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="e155741c288e2488f325db0165488b59" category="section-title">改进的工作负载保护</block>
+  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">此版本改进了具有其他NetApp工具（如SnapCenter或BlueXP backup and recovery）的快照和备份策略的工作负载的配置过程。在以前的版本中， BlueXP ransomware protection发现了来自其他工具的策略，只允许您更改检测策略。在此版本中，您现在可以用BlueXP ransomware protection策略替换快照和备份策略，或者继续使用其他工具中的策略。</block>
+  <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">保护工作负载</block>
+  <block id="cf51b26fb14f613d642588e747a6409b" category="paragraph">有关详细信息，请参阅<block ref="fe8b859db0e9e0c241fb61d50beda51d" category="inline-link-macro-rx"></block>。</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">电子邮件通知</block>
+  <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">如果BlueXP ransomware protection检测到可能的攻击， BlueXP通知中会出现通知，并且会向您配置的电子邮件地址发送电子邮件。</block>
+  <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">电子邮件包含有关严重性、受影响的工作负载的信息，以及BlueXP ransomware protection*警报* 选项卡中的警报链接。</block>
+  <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">如果您在BlueXP ransomware protection中配置了安全和事件管理 (SIEM) 系统，该服务会向您的 SIEM 系统发送警报详细信息。</block>
+  <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link-macro">处理检测到的勒索软件警报</block>
+  <block id="a47ac27491bd173f33b1da537aafa64f" category="paragraph">有关详细信息，请参阅<block ref="5f880b35b82b0cf35578f40dde855e69" category="inline-link-macro-rx"></block>。</block>
+  <block id="282baca6aef56652f503adce6afa9f07" category="section-title">修复</block>
+  <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">补救服务已于 2024 年 4 月 22 日删除。</block>
+  <block id="747ef7cb70bddb84c8ef27217b868e12" category="section-title">BlueXP replication现已更名为NetApp Replication</block>
+  <block id="57ff97c571d4da9035b6687a3eb97fea" category="paragraph">BlueXP replication已重命名为NetApp Replication。</block>
+  <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSx for ONTAP到Cloud Volumes ONTAP</block>
+  <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">您现在可以将数据从Amazon FSx for ONTAP文件系统复制到Cloud Volumes ONTAP。</block>
+  <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">了解如何设置数据复制</block>
+  <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block> 。</block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
+  <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSx for ONTAP作为数据源</block>
+  <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您现在可以将数据从Amazon FSx for ONTAP文件系统复制到以下目标：</block>
+  <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">本地ONTAP集群</block>
+  <block id="c0c4e254eb7382750d30e5d2119f551b" category="section-title">2021年9月2日</block>
+  <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">支持Amazon FSx for ONTAP</block>
+  <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">您现在可以将数据从Cloud Volumes ONTAP系统或本地ONTAP集群复制到Amazon FSx for ONTAP文件系统。</block>
+  <block id="cd3f28b2e598d8cf73182a1f91e56bd2" category="section-title">BlueXP software updates现在是软件更新</block>
+  <block id="c427d923073409f1bf94d8ce5a7ec6e8" category="paragraph">BlueXP software updates已重命名为软件更新。</block>
+  <block id="6054363caf6b8dcd4fa522e9440e82cd" category="paragraph">您可以通过选择“NetApp Console”左侧导航栏中的“*健康*”&gt;“*软件更新*”来访问它。</block>
+  <block id="0ba1431a5e1efd67eb75f1a5872b7907" category="paragraph">现在，您需要以下访问角色之一来安装软件更新：*组织管理员*、*文件夹或项目管理员*、*存储管理员*、*存储查看器*或*存储健康专家*。具有存储查看器角色的用户具有与软件更新相关的各种权限，但不能安装软件更新。<block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025年4月2日</block>
+  <block id="f50a226c5a51111405309ae78236d95d" category="section-title">降低风险</block>
+  <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">在BlueXP software updates的摘要部分，您现在可以查看操作系统更新可以缓解的风险总数。这使得用户能够评估其安装基础的安全性和稳定性改进。</block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">需要BlueXP访问角色</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">现在，您需要以下访问角色之一来查看、发现或管理BlueXP中的StorageGRID ：*组织管理员*、*文件夹或项目管理员*、*存储管理员*或*存储健康专家*。<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024年8月7日</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="section-title">新的高级视图</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">从StorageGRID 11.8 开始，您可以使用熟悉的 Grid Manager 界面从BlueXP管理您的StorageGRID系统。</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">了解如何使用高级视图管理StorageGRID</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block> 。</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">能够审查和批准StorageGRID管理接口证书</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">现在，您可以在从BlueXP发现StorageGRID系统时审查和批准StorageGRID管理接口证书。您还可以审查并批准已发现网格上的最新StorageGRID管理接口证书。</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">了解如何在系统发现期间审查和批准服务器证书。</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">对StorageGRID的支持</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您现在可以直接从BlueXP发现您的StorageGRID系统。发现StorageGRID可为您提供混合多云数据的完整视图。</block>
+  <block id="82fbcd5d3aebaf503250e86ca86f08c0" category="section-title">BlueXP tiering现已更名NetApp Cloud Tiering</block>
+  <block id="407a90a9a0a27ef435e56fa89edb4d13" category="paragraph">BlueXP tiering已重命名为NetApp Cloud Tiering。</block>
+  <block id="ba3d080bd22adb4c0f40fdd9d87f54f9" category="section-title">2023年8月9日</block>
+  <block id="101e8e97885c05702335faecd0fb3f50" category="section-title">使用自定义前缀作为存储桶名称</block>
+  <block id="eabccaf5903f0333d3eed3476908d4d8" category="paragraph">如果您使用多个连接器来管理环境中的所有存储系统，则您想要实施分层的某些集群可能位于不同的连接器中。如果您不确定哪个连接器正在管理某个集群，您可以使用 Cloud Tiering 在所有连接器中进行搜索。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> 。</block>
+  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">2023年7月4日</block>
+  <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">调整带宽以传输非活动数据</block>
+  <block id="dc1b912cd0c37ddd4298efd6e3a72009" category="paragraph">当您激活 Cloud Tiering 时， ONTAP可以使用无限量的网络带宽将集群中卷中的非活动数据传输到对象存储。如果您注意到分层流量影响了正常的用户工作负载，您可以限制传输期间可使用的带宽量。<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block> 。</block>
+  <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">通知中心显示的分层事件</block>
+  <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">当集群分层的冷数据少于 20%（包括未分层任何数据的集群）时，分层事件“将集群 &lt;name&gt; 中的其他数据分层到对象存储以提高存储效率”现在会作为通知出现。</block>
+  <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">Cloud Tiering 总拥有成本和节省计算器</block>
+  <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">此通知是一项“建议”，旨在帮助您提高系统效率并节省存储成本。它提供了一个链接<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block>帮助您计算成本节省。</block>
+  <block id="9b5a1e6c05cb5a9a8a4d5f1e2605ce55" category="section-title">BlueXP volume caching现在是卷缓存</block>
+  <block id="f8e8412fccd7f025d572fec3a13f08fe" category="paragraph">BlueXP volume caching已重命名为卷缓存。</block>
+  <block id="1404848cfe6595d928cbdff8fae23869" category="paragraph">您可以通过选择“*Mobility*”&gt;“*Volume caching*”从NetApp Console左侧导航栏访问它。</block>
+  <block id="a6aef5e3bbd8b059764f33a4044e30d6" category="section-title">2023年6月4日</block>
+  <block id="5f63db6bf0512dc0612ee852c1faf373" category="section-title">BlueXP volume caching</block>
+  <block id="b83ba84e8b66440b0a36bc88ba58ce87" category="paragraph">BlueXP volume caching是ONTAP 9 软件的一项功能，它是一种远程缓存功能，可简化文件分发，通过将资源靠近用户和计算资源的位置来减少 WAN 延迟，并降低 WAN 带宽成本。卷缓存在远程位置提供持久的、可写的卷。您可以使用BlueXP volume caching来加快数据访问速度或卸载访问量大的卷的流量。缓存卷非常适合读取密集型工作负载，尤其是客户端需要重复访问相同数据的情况。</block>
+  <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">借助BlueXP volume caching，您可以获得云的缓存功能，特别是针对Amazon FSx for NetApp ONTAP、 Cloud Volumes ONTAP和本地工作环境。</block>
+  <block id="2012f97762e54c6c0012de439f8eb421" category="inline-link-macro">了解有关卷缓存的更多信息</block>
+  <block id="32e43821995e99fb72cdac5dd21f43b4" category="paragraph"><block ref="d441c17803a6d3d32848ba89d4709eae" category="inline-link-macro-rx"></block> 。</block>
+  <block id="2bbead322f2dd5c4a40fbd66537e304f" category="section-title">BlueXP workload factory现为NetApp Workload Factory</block>
+  <block id="9c80606adc6065bc48c6d99fbb8c3f1d" category="paragraph">BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp Workload Factory。</block>
+  <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me 与 MCP 集成</block>
+  <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory 的 AI 助手 Ask Me 与模型上下文协议 (MCP) 集成。使用 MCP，Ask Me 可以安全地与外部环境交互并查询 API 工具，以提供适合您特定存储环境的响应。</block>
+  <block id="7fe837fc0a93acdad81da1d440ee3fd2" category="section-title">2025年10月5日</block>
+  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="section-title">存储的新通知</block>
+  <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">NetApp Workload Factory通知服务包括针对存储架构问题的通知。</block>
+  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory通知</block>
+  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
+  <block id="fd46c6801c12745a0b45c3f9e025fb2e" category="paragraph">BlueXP workload factory通知服务包括存储自动容量管理通知。</block>
+  <block id="28a2c493e9a663d617e582302e1bcf28" category="inline-link-macro">BlueXP workload factory的通知</block>
+  <block id="a4bdb4b5125441fbfaec27ac4bb48be0" category="paragraph"><block ref="a4bdb4b5125441fbfaec27ac4bb48be0" category="inline-link-macro-rx"></block></block>
+  <block id="605c54a5f35aa6fcc6b2e6907209ffc8" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">什么是新的</block>
+  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服务发布说明</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
+</blocks>

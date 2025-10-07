@@ -1,13 +1,13 @@
 ---
 indexpage:
-  title: NetApp控制台发行说明
-  summary: 这些发行说明介绍了NetApp Console 及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
+  title: NetApp Console发行说明
+  summary: 这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
   keywords: release notes, enhancements, bluexp, what's new
-  lead: 这些发行说明介绍了NetApp Console 及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
+  lead: 这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
   tiles:
   - title: 什么是新的
     links:
-    - title: NetApp控制台中的最新更改
+    - title: NetApp Console中的最新更改
       url: whats-new.html
   - title: 按服务发布说明
     links:
@@ -15,9 +15,9 @@ indexpage:
       url: release-notes-index.html
   - title: 博客和社区
     links:
-    - title: NetApp控制台
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp数据服务
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp 社区
       url: https://community.netapp.com/
