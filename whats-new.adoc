@@ -180,7 +180,7 @@ VMware 的控制台代理 OVA 提供了预配置的 VM 映像以便快速部署�
 
 ==== 改进了控制台代理的故障排除
 
-控制台代理已改进错误消息，可帮助您更好地了解问题。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-connector.html["了解如何排除控制台代理故障。"]
+控制台代理已改进错误消息，可帮助您更好地了解问题。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["了解如何排除控制台代理故障。"]
 
 
 
@@ -294,10 +294,10 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 | 连接器 | 3.9.54, 3.9.53 | 前往 https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP页面中的新功能"^]并参考版本 3.9.54 和 3.9.53 所包含的更改。 
 
 
-| 备份和恢复 | 2025年7月28日 | 前往 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP backup and recovery页面中的新功能"^]并参考 2025 年 7 月版本中包含的更改。 
+| 备份和恢复 | 2025年7月28日 | 前往 https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["BlueXP backup and recovery页面中的新功能"^]并参考 2025 年 7 月版本中包含的更改。 
 
 
-| 分类 | 2025 年 7 月 14 日（版本 1.45） | 前往 https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP classification页面中的新功能"^]。 
+| 分类 | 2025 年 7 月 14 日（版本 1.45） | 前往 https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["BlueXP classification页面中的新功能"^]。 
 |===
 有关私人模式的更多详细信息，包括如何升级，请参阅以下内容：
 
@@ -1732,17 +1732,48 @@ NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级�
 
 ==== BlueXP ransomware protection现已升级NetApp勒索软件恢复能力
 
-BlueXP勒索软件复制已重命名为NetApp Ransomware Resilience。
+BlueXP ransomware protection服务已更名为NetApp Ransomware Resilience。
 
 
 
 ==== BlueXP现在是NetApp控制台
 
-BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。
-
 NetApp控制台提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
 
-有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+==== 数据泄露检测
+
+勒索软件恢复力包括一种新的检测机制，只需几个步骤即可激活，以检测异常用户读取作为数据泄露的早期指标。勒索软件弹性通过创建历史基线来收集和分析用户读取事件，该基线是根据过去数据得出的预期正常行为的概况。当新用户活动明显偏离既定规范（例如意外的阅读激增与可疑的阅读模式相结合）时，就会生成警报。勒索软件恢复力包括一个用于检测可疑读取模式的 AI 模型。
+
+与存储层的 ARP 加密检测不同，勒索软件弹性 SaaS 服务通过收集 FPolicy 事件来检测用户行为异常。
+
+有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.htm["启用可疑用户活动检测"]和link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["查看异常用户行为"]。
+
+
+
+===== 其他可疑用户活动检测
+
+除了数据泄露检测之外，勒索软件恢复能力还根据观察到的可疑用户活动检测以下警报类型：
+
+* **数据破坏 - 潜在攻击** - 当文件删除的数量超过历史标准时，会创建具有潜在攻击严重程度的警报。
+* **可疑用户行为 - 潜在攻击** - 当观察到类似于勒索软件攻击的读取、重命名和删除操作时，会创建严重程度为潜在攻击的警报
+* **可疑用户行为 - 警告** - 当文件活动（读取、删除、重命名等）的总数超过历史标准时，将创建严重程度为警告的警报
+
+
+
+
+===== 数据泄露检测的新用户角色
+
+为了管理可疑用户活动警报，Ransomware Resilience 引入了两个新角色，以提供对敏感数据（例如用户的文件活动）的细粒度访问。有关更多信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["NetApp Ransomware Resilience基于角色的访问"] 。
+
+
+
+=== 2025年8月12日
+
+该版本包括一般增强功能和改进功能。
 
 
 
@@ -1754,7 +1785,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 此版本包括对BlueXP ransomware protection中的 SAN 工作负载的支持。现在，除了 NFS 和 CIFS 工作负载之外，您还可以保护 SAN 工作负载。
 
-有关详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXP ransomware protection先决条件"] 。
+有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-prerequisites.html["BlueXP ransomware protection先决条件"] 。
 
 
 
@@ -1762,7 +1793,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 此版本改进了具有其他NetApp工具（如SnapCenter或BlueXP backup and recovery）的快照和备份策略的工作负载的配置过程。在以前的版本中， BlueXP ransomware protection发现了来自其他工具的策略，只允许您更改检测策略。在此版本中，您现在可以用BlueXP ransomware protection策略替换快照和备份策略，或者继续使用其他工具中的策略。
 
-有关详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["保护工作负载"]。
+有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["保护工作负载"]。
 
 
 
@@ -1774,7 +1805,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 如果您在BlueXP ransomware protection中配置了安全和事件管理 (SIEM) 系统，该服务会向您的 SIEM 系统发送警报详细信息。
 
-有关详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["处理检测到的勒索软件警报"]。
+有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["处理检测到的勒索软件警报"]。
 
 
 
@@ -1796,7 +1827,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 现在，除了 NFS 工作负载之外，您还可以在 CIFS（SMB）工作负载上运行准备情况演练。
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["进行勒索软件攻击准备演习"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["进行勒索软件攻击准备演习"]。
 
 
 
@@ -1806,7 +1837,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 您可以在BlueXP ransomware protection中对文件共享工作负载部署BlueXP classification。在*隐私暴露*栏中，选择*识别暴露*选项。如果您已启用分类服务，此操作将识别曝光。否则，在此版本中，对话框会显示部署BlueXP classification的选项。选择*部署*转到BlueXP classification服务登录页面，您可以在其中部署该服务。W
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-cloud-compliance.html["在云中部署BlueXP classification"^]并在BlueXP ransomware protection内使用该服务，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用BlueXP classification扫描个人身份信息"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["在云中部署BlueXP classification"^]并在BlueXP ransomware protection内使用该服务，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["使用BlueXP classification扫描个人身份信息"]。
 
 
 
@@ -1822,7 +1853,7 @@ NetApp控制台提供企业级跨本地和云环境的存储和数据服务的�
 
 您可以在初始发现期间查看不受支持的工作环境，也可以在其中下载结果。您还可以从“设置”页面中的“*工作负载发现*”选项查看发现的结果。
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["发现BlueXP ransomware protection中的工作负载"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html["发现BlueXP ransomware protection中的工作负载"]。
 
 
 
@@ -1847,9 +1878,9 @@ TIP: 无法在BlueXP中设置在 FSx for ONTAP上运行的工作负载的备份�
 * 警报事件展示了新的 FSx for ONTAP工作环境。
 
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["了解BlueXP ransomware protection和工作环境"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["了解BlueXP ransomware protection和工作环境"]。
 
-有关受支持选项的信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP ransomware protection的局限性"]。
+有关受支持选项的信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["BlueXP ransomware protection的局限性"]。
 
 
 
@@ -1857,7 +1888,7 @@ TIP: 无法在BlueXP中设置在 FSx for ONTAP上运行的工作负载的备份�
 
 您现在需要以下访问角色之一来查看、发现或管理BlueXP ransomware protection：组织管理员、文件夹或项目管理员、勒索软件保护管理员或勒索软件保护查看器。
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解所有服务的BlueXP访问角色"^] 。
+https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解所有服务的BlueXP访问角色"^] 。
 
 
 
@@ -1869,7 +1900,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 通过此版本，您可以查看勒索软件攻击准备演习报告。准备演练使您能够模拟对新创建的示例工作负载的勒索软件攻击。然后，调查模拟攻击并恢复样本工作负载。此功能可帮助您通过测试警报通知、响应和恢复过程来了解在发生实际勒索软件攻击时您是否已做好准备。
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["进行勒索软件攻击准备演习"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["进行勒索软件攻击准备演习"]。
 
 
 
@@ -1881,7 +1912,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 * 勒索软件保护查看器
 
 
-有关权限的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["BlueXP ransomware protection基于角色的功能访问"]。
+有关权限的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["BlueXP ransomware protection基于角色的功能访问"]。
 
 
 
@@ -1889,7 +1920,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 此版本对支付流程进行了多项改进。
 
-有关详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["设置许可和付款选项"]。
+有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html["设置许可和付款选项"]。
 
 
 

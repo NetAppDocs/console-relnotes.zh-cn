@@ -472,7 +472,6 @@
   <block id="1f07edf6ae5cccdb5dacb637fe693758" category="paragraph">当您从NetApp控制台部署控制台代理时，您现在可以选择验证代理配置。如果控制台无法部署代理，它会提供可下载的报告来帮助您排除故障。</block>
   <block id="4303212e6f242fe0a301876fa89b9f0b" category="section-title">改进了控制台代理的故障排除</block>
   <block id="b9b61d414c60733fb8a9d314eec6960a" category="inline-link-macro">了解如何排除控制台代理故障。</block>
-  <block id="79ab7cf55c7d04c02a94981a9a1b7b29" category="paragraph">控制台代理已改进错误消息，可帮助您更好地了解问题。<block ref="32afeb8eb0f9a2e606975b6efca2856e" category="inline-link-macro-rx"></block></block>
   <block id="8fa7eaeb8daf07d8832ec17187b7b40c" category="paragraph">NetApp控制台管理包括以下新功能：</block>
   <block id="bbd516543defb57b86168970a68bacbc" category="section-title">主页仪表板</block>
   <block id="7b8cf2fedf3cca7ede322904788b0cae" category="inline-link-macro">了解有关主页的更多信息。</block>
@@ -524,11 +523,9 @@
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">备份和恢复</block>
   <block id="67c66b3b8df7b2dee0354dd9f9fcec17" category="cell">2025年7月28日</block>
   <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP backup and recovery页面中的新功能</block>
-  <block id="72d49cd6d8e65ef0285be68616ea0f51" category="cell">前往<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block>并参考 2025 年 7 月版本中包含的更改。</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分类</block>
   <block id="9285fd96738351d44da30f801dea109b" category="cell">2025 年 7 月 14 日（版本 1.45）</block>
   <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP classification页面中的新功能</block>
-  <block id="b3b08e322117d7e66cdd302866bc6d85" category="cell">前往<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block>。</block>
   <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">有关私人模式的更多详细信息，包括如何升级，请参阅以下内容：</block>
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">了解私人模式</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
@@ -909,22 +906,18 @@
   <block id="062a6e04f65117f2c5ad969cc8e0116c" category="list-text">查看卷。</block>
   <block id="e093c974eb3629147ecf532045c7e226" category="list-text">删除工作环境。</block>
   <block id="c6fdca864c59429ff2c0a1e35c775ae4" category="section-title">BlueXP ransomware protection现已升级NetApp勒索软件恢复能力</block>
-  <block id="b1243a3724853addea33e0cf141fe5df" category="paragraph">BlueXP勒索软件复制已重命名为NetApp Ransomware Resilience。</block>
   <block id="36981b3e282313667db719384f6f7a69" category="section-title">2025年7月15日</block>
   <block id="90b6690e6ff7c4f6c224ce1794630ced" category="section-title">SAN 工作负载支持</block>
   <block id="bbc67024ab73d889ccf53c2243f12ec0" category="paragraph">此版本包括对BlueXP ransomware protection中的 SAN 工作负载的支持。现在，除了 NFS 和 CIFS 工作负载之外，您还可以保护 SAN 工作负载。</block>
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP ransomware protection先决条件</block>
-  <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">有关详细信息，请参阅<block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block> 。</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">改进的工作负载保护</block>
   <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">此版本改进了具有其他NetApp工具（如SnapCenter或BlueXP backup and recovery）的快照和备份策略的工作负载的配置过程。在以前的版本中， BlueXP ransomware protection发现了来自其他工具的策略，只允许您更改检测策略。在此版本中，您现在可以用BlueXP ransomware protection策略替换快照和备份策略，或者继续使用其他工具中的策略。</block>
   <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link-macro">保护工作负载</block>
-  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">有关详细信息，请参阅<block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block>。</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">电子邮件通知</block>
   <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">如果BlueXP ransomware protection检测到可能的攻击， BlueXP通知中会出现通知，并且会向您配置的电子邮件地址发送电子邮件。</block>
   <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">电子邮件包含有关严重性、受影响的工作负载的信息，以及BlueXP ransomware protection*警报* 选项卡中的警报链接。</block>
   <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">如果您在BlueXP ransomware protection中配置了安全和事件管理 (SIEM) 系统，该服务会向您的 SIEM 系统发送警报详细信息。</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link-macro">处理检测到的勒索软件警报</block>
-  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">有关详细信息，请参阅<block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block>。</block>
   <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025年6月9日</block>
   <block id="07008bfe30be6fadcf287348a234142c" category="section-title">登陆页面更新</block>
   <block id="1f054df4aa4b46ec1a714386afb99b06" category="paragraph">此版本包括对BlueXP ransomware protection登陆页面的更新，使开始免费试用和发现变得更加容易。</block>
@@ -933,20 +926,17 @@
   <block id="5e0279378617bd12ec67145646285fab" category="paragraph">在此版本中，您可以使用BlueXP ransomware protection仪表板上的新按钮在测试工作负载上运行勒索软件准备演练，从而更轻松地模拟勒索软件攻击、调查其影响并有效地恢复工作负载，所有这些都在受控环境中完成。</block>
   <block id="a539ada725302fb5ecd1f180a2aed531" category="paragraph">现在，除了 NFS 工作负载之外，您还可以在 CIFS（SMB）工作负载上运行准备情况演练。</block>
   <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">进行勒索软件攻击准备演习</block>
-  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">有关详细信息，请参阅<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block>。</block>
   <block id="8a09aacd3cf1c88c3c2a4d746cad44f5" category="section-title">启用BlueXP classification更新</block>
   <block id="ba91dfda650db88e3bc3dd36c32fa577" category="paragraph">在BlueXP ransomware protection服务中使用BlueXP classification之前，您需要启用BlueXP classification来扫描您的数据。对数据进行分类有助于您找到个人身份信息 (PII)，这可能会增加安全风险。</block>
   <block id="960c237c5456a08952ee4a0c6bc67ab9" category="paragraph">您可以在BlueXP ransomware protection中对文件共享工作负载部署BlueXP classification。在*隐私暴露*栏中，选择*识别暴露*选项。如果您已启用分类服务，此操作将识别曝光。否则，在此版本中，对话框会显示部署BlueXP classification的选项。选择*部署*转到BlueXP classification服务登录页面，您可以在其中部署该服务。W</block>
   <block id="55d5a81a565b7cb4265c8c73ecd4aa37" category="inline-link">在云中部署BlueXP classification</block>
   <block id="6b0e91bb98e8a9394dda94307f3217d0" category="inline-link">使用BlueXP classification扫描个人身份信息</block>
-  <block id="1ebb3fd0e37e111d097f72f481a8495f" category="paragraph">有关详细信息，请参阅<block ref="3daa2f037f0ac9e3dc92dfaca32cdfd8" category="inline-link-rx"></block>并在BlueXP ransomware protection内使用该服务，请参阅<block ref="92298fee5b4e50be64de76505f153d1a" category="inline-link-rx"></block>。</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025年5月13日</block>
   <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">BlueXP ransomware protection中不支持的工作环境报告</block>
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">在发现工作流程期间，当您将鼠标悬停在“支持”或“不支持的工作负载”上时， BlueXP ransomware protection会报告更多详细信息。这将帮助您了解为什么您的某些工作负载未被BlueXP ransomware protection服务发现。</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">服务不支持工作环境的原因有很多，例如，工作环境中的ONTAP版本可能低于所需的版本。当您将鼠标悬停在未受支持的工作环境上时，工具提示会显示原因。</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">您可以在初始发现期间查看不受支持的工作环境，也可以在其中下载结果。您还可以从“设置”页面中的“*工作负载发现*”选项查看发现的结果。</block>
   <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">发现BlueXP ransomware protection中的工作负载</block>
-  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">有关详细信息，请参阅<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>。</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025年4月29日</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">支持Amazon FSx for NetApp ONTAP</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">此版本支持Amazon FSx for NetApp ONTAP 。此功能可帮助您使用BlueXP ransomware protection来保护 FSx for ONTAP工作负载。</block>
@@ -957,12 +947,9 @@
   <block id="2e09d92e8822f80e9aac61fdb75fa3c8" category="admonition">无法在BlueXP中设置在 FSx for ONTAP上运行的工作负载的备份策略。Amazon FSx for NetApp ONTAP中设置的任何现有备份策略均保持不变。</block>
   <block id="97c627f1fcd3a299ac19157a8f566694" category="list-text">警报事件展示了新的 FSx for ONTAP工作环境。</block>
   <block id="1d40c591d842224b16a448bc26a6bfab" category="inline-link">了解BlueXP ransomware protection和工作环境</block>
-  <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">有关详细信息，请参阅<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block>。</block>
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP ransomware protection的局限性</block>
-  <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">有关受支持选项的信息，请参阅<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>。</block>
   <block id="4dd9f1961ea018706909f1155d36c91a" category="paragraph">您现在需要以下访问角色之一来查看、发现或管理BlueXP ransomware protection：组织管理员、文件夹或项目管理员、勒索软件保护管理员或勒索软件保护查看器。</block>
   <block id="34397c830c77af93d96e3ed470658d45" category="inline-link">了解所有服务的BlueXP访问角色</block>
-  <block id="0d46f65a7717513cadcb109363fb6c6d" category="paragraph"><block ref="06a5d1f4c488b014d10a11f3fe7273ba" category="inline-link-rx"></block> 。</block>
   <block id="4fe331eaa4881ca37fd2ff947e6b8bec" category="section-title">准备演习报告</block>
   <block id="e78c37e0abce1f032a2a34eda9e02a54" category="paragraph">通过此版本，您可以查看勒索软件攻击准备演习报告。准备演练使您能够模拟对新创建的示例工作负载的勒索软件攻击。然后，调查模拟攻击并恢复样本工作负载。此功能可帮助您通过测试警报通知、响应和恢复过程来了解在发生实际勒索软件攻击时您是否已做好准备。</block>
   <block id="cc61bd0d76dc349aa4d70e26ca03704d" category="section-title">新的基于角色的访问控制角色和权限</block>
@@ -970,11 +957,9 @@
   <block id="a95fe9e5a7b678fa4abc81ea69f1e257" category="list-text">勒索软件保护管理员</block>
   <block id="6a05decc7d63f19c1d5812a3c728ce8a" category="list-text">勒索软件保护查看器</block>
   <block id="51871ed75f741b0dab90d2d1612f6499" category="inline-link">BlueXP ransomware protection基于角色的功能访问</block>
-  <block id="b42fe8f702412cfa14541d3fab58efa6" category="paragraph">有关权限的详细信息，请参阅<block ref="01046b99aab91b10679a0fac299864df" category="inline-link-rx"></block>。</block>
   <block id="25ccc48b022e2433d5b379cc51530139" category="section-title">付款改进</block>
   <block id="a3d54846581a4bb8314f87602a4ba2c0" category="paragraph">此版本对支付流程进行了多项改进。</block>
   <block id="7ffb0c59c068d14b0ee6581cde479463" category="inline-link">设置许可和付款选项</block>
-  <block id="52a7f2b6af87f28195cf6badbad6c667" category="paragraph">有关详细信息，请参阅<block ref="a8b1ada7f83ee5659f868a512032628f" category="inline-link-rx"></block>。</block>
   <block id="747ef7cb70bddb84c8ef27217b868e12" category="section-title">BlueXP replication现已更名为NetApp复制</block>
   <block id="57ff97c571d4da9035b6687a3eb97fea" category="paragraph">BlueXP replication已重命名为NetApp Replication。</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSx for ONTAP到Cloud Volumes ONTAP</block>
@@ -1106,4 +1091,34 @@
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功发现后，记录捕获 vCenter 大小详细信息的日志改进</block>
   <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">从主存储、辅助存储和对象存储中搜索并恢复虚拟机备份</block>
   <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">您已经能够在BlueXP Canvas 上查看 Azure Blob 存储很长一段时间了。现在您可以直接从BlueXP添加新的存储帐户并更改现有存储帐户的属性。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
+  <block id="12ad8fdc380a2754e74763c6ec3dd093" category="paragraph">控制台代理已改进错误消息，可帮助您更好地了解问题。<block ref="af6db24ea837f8b9ee9738ec7c58a997" category="inline-link-macro-rx"></block></block>
+  <block id="bdf328dcc25654b345bbfab998204210" category="cell">前往<block ref="6357afa5f4df051bc1bb94ee8e3de4c5" category="inline-link-rx"></block>并参考 2025 年 7 月版本中包含的更改。</block>
+  <block id="3f21878baefde2ddae755caf4163a20e" category="cell">前往<block ref="1f6c2a2bb628adfdf4a77389c4b1bb41" category="inline-link-rx"></block>。</block>
+  <block id="8c033e68f21af84a645a65cdb34e6632" category="paragraph">BlueXP ransomware protection服务已更名为NetApp Ransomware Resilience。</block>
+  <block id="6b815504dd4844974d9ebfb52e0fe4d6" category="section-title">数据泄露检测</block>
+  <block id="50558bac19c965c1d55609370fca3199" category="paragraph">勒索软件恢复力包括一种新的检测机制，只需几个步骤即可激活，以检测异常用户读取作为数据泄露的早期指标。勒索软件弹性通过创建历史基线来收集和分析用户读取事件，该基线是根据过去数据得出的预期正常行为的概况。当新用户活动明显偏离既定规范（例如意外的阅读激增与可疑的阅读模式相结合）时，就会生成警报。勒索软件恢复力包括一个用于检测可疑读取模式的 AI 模型。</block>
+  <block id="287f419ab9030dae6e341b7917dea7b9" category="paragraph">与存储层的 ARP 加密检测不同，勒索软件弹性 SaaS 服务通过收集 FPolicy 事件来检测用户行为异常。</block>
+  <block id="666c1c8dca9ff6ef210c57f04d6e84e8" category="inline-link-macro">启用可疑用户活动检测</block>
+  <block id="8d2203d70c1b051af0b7ad506cc40474" category="inline-link-macro">查看异常用户行为</block>
+  <block id="b270269f4d3564626c9860f0f29f2992" category="paragraph">有关详细信息，请参阅<block ref="58d7e66449e28231f244d38ab02cc3e1" category="inline-link-macro-rx"></block>和<block ref="f451eade5eddedc7b8e2af13d9e54fd3" category="inline-link-macro-rx"></block>。</block>
+  <block id="289ddf7ba01fbf8f514dbc2d06a7bf67" category="section-title">其他可疑用户活动检测</block>
+  <block id="c59946b2a21d389710dcd9b9ad5f618d" category="paragraph">除了数据泄露检测之外，勒索软件恢复能力还根据观察到的可疑用户活动检测以下警报类型：</block>
+  <block id="9f149be55d2ace2f4ef86d2125660c4c" category="list-text">**数据破坏 - 潜在攻击** - 当文件删除的数量超过历史标准时，会创建具有潜在攻击严重程度的警报。</block>
+  <block id="b3917e47f33bfc92b2d66abb2a71397c" category="list-text">**可疑用户行为 - 潜在攻击** - 当观察到类似于勒索软件攻击的读取、重命名和删除操作时，会创建严重程度为潜在攻击的警报</block>
+  <block id="a3e76fe95cb3298fc3fb711993e170f1" category="list-text">**可疑用户行为 - 警告** - 当文件活动（读取、删除、重命名等）的总数超过历史标准时，将创建严重程度为警告的警报</block>
+  <block id="b0ba200b30bf16fc357a806132791b75" category="section-title">数据泄露检测的新用户角色</block>
+  <block id="fa780a65e0e091d94507a69bc6b589c6" category="inline-link-macro">NetApp Ransomware Resilience基于角色的访问</block>
+  <block id="badd5c45c49e20368873307ff9e6ffc0" category="paragraph">为了管理可疑用户活动警报，Ransomware Resilience 引入了两个新角色，以提供对敏感数据（例如用户的文件活动）的细粒度访问。有关更多信息，请参阅<block ref="acee2fdb33125bc970e8c80226d5f58c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">该版本包括一般增强功能和改进功能。</block>
+  <block id="8b61f628ff6c584959e081dfc4edebb6" category="paragraph">有关详细信息，请参阅<block ref="c4baa86796975d4c7e6a1153b246f3d1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="cf51b26fb14f613d642588e747a6409b" category="paragraph">有关详细信息，请参阅<block ref="fe8b859db0e9e0c241fb61d50beda51d" category="inline-link-macro-rx"></block>。</block>
+  <block id="a47ac27491bd173f33b1da537aafa64f" category="paragraph">有关详细信息，请参阅<block ref="5f880b35b82b0cf35578f40dde855e69" category="inline-link-macro-rx"></block>。</block>
+  <block id="ffbd6ced4cfd19806457928826e77f9d" category="paragraph">有关详细信息，请参阅<block ref="680a07f1320ce65c31e5161379886639" category="inline-link-rx"></block>。</block>
+  <block id="7e42707703b4d067b548f10acbf4df99" category="paragraph">有关详细信息，请参阅<block ref="c12ecfc72dc196e054946f32c2360b19" category="inline-link-rx"></block>并在BlueXP ransomware protection内使用该服务，请参阅<block ref="546f381a7c557bb1741d0a7b3184b38d" category="inline-link-rx"></block>。</block>
+  <block id="ce9a399316c0383caf8dae43d9de270f" category="paragraph">有关详细信息，请参阅<block ref="c6fe8309407496782517b1f78c419c07" category="inline-link-rx"></block>。</block>
+  <block id="8c15a7a1b990daf1c67965c3409291a0" category="paragraph">有关详细信息，请参阅<block ref="850bf291deb03a29bea4824c43e8b433" category="inline-link-rx"></block>。</block>
+  <block id="74969aaacd3e898ffb289ab18b5802e2" category="paragraph">有关受支持选项的信息，请参阅<block ref="c05ac23ab96ba518082f01b1b08e8e95" category="inline-link-rx"></block>。</block>
+  <block id="e730cca4cd272ec01ca9b83307bce0ea" category="paragraph"><block ref="56ddaed99a22a4135c2249926212e08e" category="inline-link-rx"></block> 。</block>
+  <block id="fa5fdf6437c8f041e577f03d2886feb7" category="paragraph">有关权限的详细信息，请参阅<block ref="bae933e2ecf3f9d4c80618fdd19f0a12" category="inline-link-rx"></block>。</block>
+  <block id="90f9ae6ca21dd13979085a7ce12c30fb" category="paragraph">有关详细信息，请参阅<block ref="0e61d2375267610913b69353158784eb" category="inline-link-rx"></block>。</block>
 </blocks>
