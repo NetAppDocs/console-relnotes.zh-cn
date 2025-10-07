@@ -25,7 +25,7 @@ summary: 查看NetApp控制台管理和存储功能以及NetApp数据服务的�
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["自动化中心"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["数字顾问"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["经济效益"^]
-* https://docs.netapp.com/us-en/console-license-subscriptions/index.html["许可证和订阅"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["许可证和订阅"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["软件更新"^]
 
 
@@ -58,7 +58,7 @@ summary: 查看NetApp控制台管理和存储功能以及NetApp数据服务的�
 == 数据服务
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["备份和恢复"^]
-* https://docs.netapp.com/us-en/data-services-classification/whats-new.html["数据分类"^]
+* https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["数据分类"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["复制和同步"^]
 * https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-whats-new.html["灾难恢复"^]
 * https://docs.netapp.com/us-en/data-services-ransomware-resilience/whats-new.html["勒索软件抵御能力"^]
