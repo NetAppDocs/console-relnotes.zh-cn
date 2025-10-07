@@ -1105,4 +1105,5 @@
   <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">如果在复制计划中使用了 NFS FQDN， NetApp Disaster Recovery 现在会将其解析为 IP 地址。如果灾难恢复站点中无法解析 FQDN，则此更新很有用。</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 对齐改进</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功发现后，记录捕获 vCenter 大小详细信息的日志改进</block>
+  <block id="33b87914ae72ad3c394fc1f941a94c8c" category="list-text">从主存储、辅助存储和对象存储中搜索并恢复虚拟机备份</block>
 </blocks>
