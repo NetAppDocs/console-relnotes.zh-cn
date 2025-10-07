@@ -340,7 +340,6 @@
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">了解如何管理BlueXP数据服务的许可证</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023 年 7 月 30 日</block>
-  <block id="1f44f33aeb1b63e7094b0cbb0522d33b" category="paragraph">&lt;stdin&gt; 中未解析的指令 - 包括:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="6b0a74cb89aaf10fdf1c70bfd9bd78e2" category="section-title">生命周期规划</block>
   <block id="97ab9dfb96ee1d5aedf3102c6777b5c7" category="section-title">BlueXP economic efficiency现在是生命周期规划</block>
   <block id="0f073941848193a160ce5e5bf8f7d006" category="paragraph">BlueXP economic efficiency已更名为生命周期规划。</block>
@@ -1056,4 +1055,54 @@
   <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">当集群分层的冷数据少于 20%（包括未分层任何数据的集群）时，分层事件“将集群 &lt;name&gt; 中的其他数据分层到对象存储以提高存储效率”现在会作为通知出现。</block>
   <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">Cloud Tiering 总拥有成本和节省计算器</block>
   <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">此通知是一项“建议”，旨在帮助您提高系统效率并节省存储成本。它提供了一个链接<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block>帮助您计算成本节省。</block>
+  <block id="bdffab7d1fc5c739af6bcacd7556d32b" category="section-title">BlueXP disaster recovery现已更名为NetApp灾难恢复</block>
+  <block id="b8479b63a059f61189d191d9d8206a0e" category="paragraph">BlueXP disaster recovery已重命名为NetApp灾难恢复。</block>
+  <block id="74ec2cbf7ad010d86af9ea5f2d47ee39" category="section-title">其他更新</block>
+  <block id="77ce624f79cabd64ddedccf3196e9b1a" category="inline-link-macro">使用 Amazon Elastic VMware Service 和Amazon FSx for NetApp ONTAP实现NetApp灾难恢复</block>
+  <block id="e6b27502ab6a46e1039ef9e004cb65ff" category="list-text">Amazon Elastic VMware Service (EVS) 与Amazon FSx for NetApp ONTAP的支持已公开预览。随着此版本的发布，它现已普遍可用。有关详细信息，请参阅<block ref="d77dcab16ff9979356836b689cffd0ee" category="inline-link-macro-rx"></block>。</block>
+  <block id="1842d5453eb18b28e3fe6f5c7acc9eaa" category="list-text">存储发现改进，包括减少本地部署的发现时间</block>
+  <block id="58077d66ee3ca42d6d7732854dac2714" category="list-text">身份和访问管理 (IAM) 支持，包括基于角色的访问控制 (RBAC) 和增强的用户权限</block>
+  <block id="ef31873b640af7e0e4300d5282baffe4" category="list-text">对 Azure VMware 解决方案和Cloud Volumes ONTAP 的私人预览支持。有了此支持，您现在可以使用Cloud Volumes ONTAP存储配置从本地到 Azure VMware 解决方案的灾难恢复保护。</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
+  <block id="4a32789f771ba902fef02cd0f2a544e6" category="paragraph">版本 4.2.5P2</block>
+  <block id="48cd462677138869d77d61db9c16b889" category="section-title">NetApp灾难恢复更新</block>
+  <block id="36088b35355e766d544b98140baa439a" category="list-text">改进了 VMFS 支持，以处理来自多个存储虚拟机的相同 LUN。</block>
+  <block id="5958ae417b9ca044a24e8a3629b195bb" category="list-text">改进了测试拆卸清理以处理已被卸载或删除的数据存储。</block>
+  <block id="1a2957b0c8fb36225440df520076e072" category="list-text">改进了子网映射，以便现在可以验证输入的网关是否包含在提供的网络中。</block>
+  <block id="7f5267deccdc08e8591ec8b4dccfcc03" category="list-text">解决了虚拟机名称包含“.com”时可能导致复制计划失败的问题。</block>
+  <block id="8af129ac3a817923db5feb647660eb7c" category="list-text">在创建复制计划的过程中，删除了阻止目标卷与源卷相同的限制。</block>
+  <block id="4de413f6189881cc6b259fb6e68df02c" category="list-text">在 Azure 市场中添加了对NetApp智能服务的即用即付 (PAYGO) 订阅支持，并在免费试用对话框中添加了 Azure 市场的链接。</block>
+  <block id="2987548294e292332cf7adcf36589fc5" category="inline-link">NetApp灾难恢复许可</block>
+  <block id="ee93b1d439ecea7d556ad659d00a499f" category="inline-link">设置NetApp灾难恢复许可</block>
+  <block id="66987db2f4ddc01df2f2608d224490a6" category="paragraph">有关详细信息，请参阅<block ref="daf049a4e68b2c2a66995f2733e6d093" category="inline-link-rx"></block>和<block ref="502b84db50f651e0d1e6368db24aec66" category="inline-link-rx"></block>。</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">版本 4.2.5</block>
+  <block id="ae9748c0cf32bbe0d62a0514c121d1f2" category="section-title">NetApp灾难恢复中的用户角色</block>
+  <block id="acd3b1030b26202122f9ff922116dd46" category="paragraph">NetApp灾难恢复现在采用角色来管理每个用户对特定功能和操作的访问权限。</block>
+  <block id="5d0c7e3e79227c0f48e31b0f10e5a07d" category="paragraph">该服务使用特定于NetApp灾难恢复的以下角色。</block>
+  <block id="8089d5956a754913831086e4a192fba0" category="list-text">*灾难恢复管理员*：在NetApp灾难恢复中执行任何操作。</block>
+  <block id="1da73a6d977d71d257524dfc760b311f" category="list-text">*灾难恢复故障转移管理员*：在NetApp灾难恢复中执行故障转移和迁移操作。</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*灾难恢复应用程序管理员*：创建和修改复制计划并启动测试故障转移。</block>
+  <block id="919421d556cf702a4e06810fc276b335" category="list-text">*灾难恢复查看器*：查看NetApp灾难恢复中的信息，但不能执行任何操作。</block>
+  <block id="eeacd7a9a09a00a4f78e8e20c24b39e4" category="paragraph">如果您单击NetApp灾难恢复服务并首次对其进行配置，则必须具有 *SnapCenterAdmin* 权限或具有 *Organization Admin* 角色。</block>
+  <block id="228f454cf16a61507e28cfb734b215ab" category="inline-link">NetApp灾难恢复中的用户角色和权限</block>
+  <block id="044ee78e955ad31e7cec671d271aff49" category="paragraph">有关详细信息，请参阅<block ref="064655cf5aa70bddc10e05f71e3f59a1" category="inline-link-rx"></block> 。</block>
+  <block id="9e51129a710cb333676e7ff392c0610c" category="inline-link">了解所有服务的访问角色</block>
+  <block id="d0f140b1f3426612fda3714d998f3232" category="paragraph"><block ref="ea112d812fe0cc251b9a8c88105fdf11" category="inline-link-rx"></block> 。</block>
+  <block id="1e9f4844ea9e9792cbb09aa643cdd0b9" category="section-title">NetApp灾难恢复中的其他更新</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">增强网络发现</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">可扩展性改进：</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">过滤所需的元数据而不是所有细节</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">发现改进，以更快地检索和更新虚拟机资源</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">数据检索和数据更新的内存优化和性能优化</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">vCenter SDK 客户端创建和池管理改进</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">下次计划或手动发现时的陈旧数据管理：</block>
+  <block id="2b077b3d88dcc4adb54c2a11c5463fae" category="list-text">当在 vCenter 中删除虚拟机时， NetApp Disaster Recovery 现在会自动将其从复制计划中删除。</block>
+  <block id="7fb8e5a4929cd35fd131ad1f5533d144" category="list-text">当 vCenter 中删除数据存储区或网络时， NetApp Disaster Recovery 现在会将其从复制计划和资源组中删除。</block>
+  <block id="1b838198508b4c30761cfb90615db038" category="list-text">当在 vCenter 中删除集群、主机或数据中心时， NetApp Disaster Recovery 现在会将其从复制计划和资源组中删除。</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Swagger 文档</block>
+  <block id="cec5123afb166f0c68f7ddc85e5b41e4" category="list-text">您现在可以在浏览器的隐身模式下访问 Swagger 文档。您可以从NetApp灾难恢复中的“设置”选项 &gt;“API 文档”中访问它，也可以在浏览器的隐身模式下直接通过以下 URL 访问它：<block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> 。</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">在某些情况下，故障回复操作完成后，iGroup 会被遗留下来。如果 iGroup 已过时，则此更新会将其删除。</block>
+  <block id="5b6034f39325a10d9f5315c86847a208" category="list-text">如果在复制计划中使用了 NFS FQDN， NetApp Disaster Recovery 现在会将其解析为 IP 地址。如果灾难恢复站点中无法解析 FQDN，则此更新很有用。</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 对齐改进</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功发现后，记录捕获 vCenter 大小详细信息的日志改进</block>
 </blocks>
