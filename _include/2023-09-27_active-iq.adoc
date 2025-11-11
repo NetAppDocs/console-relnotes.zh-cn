@@ -1,7 +1,0 @@
-= 
-:allow-uri-read: 
-
-
-* 您可以使用link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^]关联。
-* 升级方案经过优化，去除了多余的升级步骤，简化了退出方案。集群中所有节点的通用步骤已合并，可在升级计划中的常规信息部分中找到。link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["了解如何生成和查看升级计划"] 。
-

@@ -22,7 +22,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["设置和管理"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["警报"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["自动化中心"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["自动化目录"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["数字顾问"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["经济效益"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
