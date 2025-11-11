@@ -32,47 +32,6 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
-=== 2025年10月6日
-
-
-
-==== BlueXP现在是NetApp Console
-
-NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
-
-有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明。"^]
-
-
-
-=== 2025年8月3日
-
-
-
-==== 复制关系选项卡的增强功能
-
-我们在复制关系表中添加了几个新列，以便在“复制关系”选项卡中为您提供有关复制关系的更多信息。该表现在包含以下列：
-
-* SnapMirror 策略
-* 源文件系统
-* 目标文件系统
-* 关系状态
-* 上次转乘时间
-
-
-
-
-=== 2025年7月14日
-
-
-
-==== 支持在两个 FSx for ONTAP文件系统之间复制数据
-
-现在可以从BlueXP控制台中的画布在两个 FSx for ONTAP文件系统之间进行数据复制。
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["复制数据"]
-
-
-
 == Amazon S3 存储
 
 
@@ -222,24 +181,6 @@ Cloud Volumes ONTAP使用情况报告现已有几项改进：
 
 
 == Google Cloud Storage
-
-
-
-=== 2025年10月6日
-
-
-
-==== BlueXP现在是NetApp Console
-
-NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
-
-有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。== 2023年7月10日
-
-
-
-==== 能够从BlueXP添加新存储桶并管理现有存储桶
-
-您可以在BlueXP Canvas 上查看 Google Cloud Storage 存储桶一段时间。现在您可以直接从BlueXP添加新的存储桶并更改现有存储桶的属性。 https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["了解如何添加新的 Google Cloud Storage 存储桶"] 。
 
 
 
