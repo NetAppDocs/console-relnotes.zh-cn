@@ -430,7 +430,6 @@
   <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Cloud Volumes ONTAP支持的客户端协议：NVMe-TCP</block>
   <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">更多信息请参见<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block>。</block>
   <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">支持本地ONTAP系统与 FSx for ONTAP文件系统之间的复制</block>
-  <block id="6b3e3878a5fe9ddfda803127234f4a18" category="paragraph">NetApp Console中的 FSx for ONTAP文件系统支持在本地ONTAP系统和 FSx for ONTAP文件系统之间进行数据复制。</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已弃用服务</block>
@@ -444,4 +443,5 @@
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">E系列：级别偏移：+1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="0428e48e7f58929099e52febd0558232" category="section-title">2025年8月25日</block>
+  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系统页面上，可以在本地ONTAP系统和 FSx for ONTAP文件系统之间进行数据复制。</block>
 </blocks>
