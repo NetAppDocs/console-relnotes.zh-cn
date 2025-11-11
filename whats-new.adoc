@@ -49,3 +49,964 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 === 修复
 
 补救服务已于 2024 年 4 月 22 日删除。
+
+
+
+== 2025年11月11日
+
+
+
+=== Amazon FSX for ONTAP
+
+
+
+==== 支持本地ONTAP系统与 FSx for ONTAP文件系统之间的复制
+
+NetApp Console中的 FSx for ONTAP文件系统支持在本地ONTAP系统和 FSx for ONTAP文件系统之间进行数据复制。
+
+link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["复制数据"]
+
+
+
+== 2025年11月10日
+
+
+
+=== 控制台设置和管理
+
+
+
+==== 控制台代理 4.1.0
+
+此版本的控制台代理包含安全改进、错误修复以及以下功能：
+
+4.1.0 版本适用于标准模式和限制模式。
+
+.重命名代理状态指示器
+将控制台代理的状态指示器从 *Active* 和 *Inactive* 重命名为 *Connected* 和 *Disconnected*，以使其用途更加明确。
+
+.支持 Red Hat Enterprise Linux (RHEL) 9.6 和 Podman 5.4.0
+控制台代理现在支持 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本时， NetApp支持 podman-compose 1.5.0。
+
+
+
+==== NetApp Console管理
+
+本次发布包含以下内容：
+
+.NetApp Console通知的新电子邮件地址
+发送NetApp Console通知的电子邮件地址已从 *service@console.bluexp.netapp.com* 更改为 *service@console.netapp.com*。NetApp建议更新所有电子邮件规则，允许 *service@console.netapp.com* 发送邮件，以确保您继续收到NetApp Console电子邮件通知。
+
+
+
+=== 数据分类
+
+
+
+==== 1.48 版
+
+本次数据分类版本更新包括错误修复、安全改进和性能提升。
+
+.增强扫描进度清晰度
+扫描配置现在包含对扫描完成情况的更深入洞察。以前，进度条只在扫描进行时显示。现在，扫描完成后进度条仍然可见，以确认扫描已成功完成。您还可以查看已映射和已扫描的文件数量。
+
+有关扫描设置的更多信息，请参阅 link:task-managing-repo-scanning.html#view-the-scan-status-for-your-repositories["更改存储库的NetApp Data Classification扫描设置"^]。
+
+
+
+=== 灾难恢复
+
+
+
+==== 级联故障转移支持
+
+现在您可以在ONTAP中配置级联关系，并使用该复制关系的任何分支进行灾难恢复。
+
+
+
+==== 注册期间降低 VMware 硬件支持级别
+
+灾难恢复功能现在支持在注册过程中将 VMware 硬件降级到早期版本的 vSphere。当源 ESX 主机运行的版本比灾难恢复站点的版本更新时，这非常有用。
+
+有关详细信息，请参阅 xref:drplan-create.html#map-resources-virtual-machines-section[在NetApp Disaster Recovery中创建复制计划]。
+
+
+
+==== 优雅关机
+
+灾难恢复现在会优雅地关闭虚拟机，而不是直接断电。如果某个虚拟机关机时间超过十分钟，灾难恢复功能会将其关闭。
+
+
+
+==== 备份前脚本支持
+
+现在您可以将自定义脚本注入到故障转移工作流程中，以便在创建备份之前运行。备份前脚本允许您在复制快照之前控制虚拟机的状态，并为虚拟机的转换做好准备。例如，您可以注入一个脚本来卸载 NFS 挂载点，然后在故障转移后使用另一个脚本重新挂载该挂载点。
+
+有关详细信息，请参阅 xref:drplan-create.html#map-resources-virtual-machines-section[在NetApp Disaster Recovery中创建复制计划]。
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== 增强的 NVMe-TCP 支持
+
+以前，在 NVMe-TCP 上部署Cloud Volumes ONTAP实例时，您必须在部署之前手动获取和应用 NVMe 许可证。通过此次更新， Cloud Volumes ONTAP现在会在部署期间自动安装所需的 NVMe 许可证，从而简化设置过程。
+
+对于缺少许可证的现有 NVMe-TCP 部署， Cloud Volumes ONTAP会自动应用许可证。您必须重启系统才能使许可证生效。
+
+更多信息请参见 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-client-protocols.html#nvme-tcp["Cloud Volumes ONTAP支持的客户端协议：NVMe-TCP"^]。
+
+
+
+=== Keystone
+
+NetApp Console中Keystone仪表板的新增强功能：
+
+
+
+==== 填写您的保险覆盖范围通知框
+
+“监控”页面上的“警报监控”选项卡包含一个“完善您的覆盖范围”通知框，当存在覆盖范围缺口时，该通知框就会出现。此框列出了缺少容量或到期监控器的订阅，以及没有订阅的监控器。您可以通过向现有监视器添加订阅、创建新监视器或删除未使用的监视器来弥补差距。欲了解更多信息，请参阅 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["管理警报监控器的覆盖范围缺口"]。
+
+
+
+== 2025年10月17日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Azure 中的Cloud Volumes ONTAP现已仅限于最新支持版本
+
+现在，通过NetApp Console在 Azure 中部署和升级Cloud Volumes ONTAP仅限于最新支持的版本。这确保了与 Microsoft 支持的最新一代硬件的兼容性，并提供最新的功能和安全增强功能。控制台将提示您升级到支持的版本。
+
+有关更多详细信息，请参阅：
+
+* 部署： https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-versions.html#azure["Cloud Volumes ONTAP部署支持的ONTAP版本"^]
+* 升级： https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-updating-ontap-cloud.html#supported-upgrade-paths["Azure 支持的升级路径"^]
+
+
+
+
+== 2025年10月13日
+
+
+
+=== Keystone
+
+NetApp Console中Keystone仪表板的新增强功能：
+
+
+
+==== 资产选项卡中的 QoS 策略覆盖列
+
+*Assets* 选项卡中的 *Volumes in clusters* 选项卡现在包含一个 *QoS policy override* 列，指示是否绕过备份和镜像卷的 QoS 规则，显示 *true*（忽略规则）、*false*（强制执行规则）或 *N/A*（对于镜像卷）。
+
+
+NOTE: 对于Keystone v3 订阅，此列显示 *N/A*，因为 QoS 策略不适用于 v3 产品。
+
+
+
+==== 增强了概览页面中的警报可见性
+
+*概览*页面现在包括两个新的警报部分，名为*按严重程度排列的未解决警报*和*最早未解决的Keystone警报*。欲了解更多信息，请参阅 link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["NetApp Console中的Keystone仪表板"]。
+
+
+
+== 2025年10月6日
+
+
+
+=== 警报
+
+
+
+==== BlueXP alerts现已升级ONTAP警报
+
+BlueXP alerts已重命名为ONTAP警报。
+
+您可以通过选择“NetApp Console”左侧导航栏中的“*存储*”>“*警报*”来访问它。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Licenses and subscriptions
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 生命周期规划
+
+
+
+==== BlueXP economic efficiency现在是生命周期规划
+
+BlueXP economic efficiency已更名为生命周期规划。
+
+您可以通过选择“NetApp Console”左侧导航栏中的“存储”>“生命周期规划”来访问它。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 控制台设置和管理
+
+
+
+=== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程以及高度安全且合规的简化管理。
+
+
+
+==== 导航菜单和页面
+
+NetApp将大多数菜单选项移至左侧导航窗格，并重新组织菜单以便在NetApp Console中更轻松地导航。
+
+
+
+===== 画布被系统页面取代
+
+NetApp将 Canvas 重命名为 *Systems* 页面。从“*存储 > 管理*”菜单导航到“*系统*”页面。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage-mgmt.png["系统页面的屏幕截图。"]
+
+
+
+===== 扩展存储菜单
+
+*存储*菜单包括*警报*，用于查看ONTAP系统警报和*生命周期规划*（以前称为*经济效率*），用于识别未使用或未充分利用的资源。
+
+NetApp已将Keystone移至 *存储* 菜单，您可以在其中管理您的NetApp Keystone订阅并查看您的使用情况。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage-menu.png["存储菜单的屏幕截图。"]
+
+
+
+===== 管理菜单
+
+使用集中式*管理*菜单来管理NetApp Console、支持案例、许可证和订阅（以前称为数字钱包）。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-menu.png["管理菜单的屏幕截图。"]
+
+
+
+===== 健康菜单
+
+高效的*健康*菜单包括*软件更新*（您可以在其中管理ONTAP软件更新）、*可持续性*（您可以在其中监控对环境的影响）和*Digital Advisor*（您可以在其中获得主动建议以优化您的存储环境）。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-health-menu.png["健康菜单的屏幕截图。"]
+
+
+
+===== 治理菜单
+
+*治理*菜单包括*数据分类*，您可以在其中管理数据分类和合规性，以及*自动化中心*，您可以在其中创建和管理自动化工作流程。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-governance-menu.png["治理菜单的屏幕截图。"]
+
+
+
+==== 元素、数据服务和功能的命名更加直观
+
+NetApp重命名了几个元素、数据服务和功能以明确其用途。主要变化包括：
+
+[cols="10,24"]
+|===
+| *曾用名* | * NetApp Console名称* 
+
+
+| 连接器  a| 
+控制台代理。
+
+从*管理>代理*菜单查看、添加和管理您的代理。
+
+
+
+| 时间线页面  a| 
+审计页面
+
+从*管理>审计*菜单查看审计控制台活动。
+
+
+
+| 工作环境  a| 
+系统
+
+从*存储>管理*菜单查看、添加和管理您的系统。
+
+
+
+| BlueXP勒索软件防护  a| 
+NetApp Ransomware Resilience。
+
+勒索软件恢复能力可帮助您保护数据并从勒索软件攻击中快速恢复。
+
+
+
+| BlueXP经济效率  a| 
+生命周期规划。
+
+生命周期规划可帮助您识别未使用和未充分利用的资源来优化存储成本。
+
+从*存储>生命周期规划*菜单访问生命周期规划。
+
+
+
+| BlueXP digital wallet  a| 
+Licenses and subscriptions
+
+从*管理>Licenses and subscriptions*菜单访问您的许可证和订阅。
+
+|===
+
+
+==== 控制台代理
+
+从*管理>代理*菜单访问和管理您的控制台代理。NetApp已更改了为“*系统*”页面（以前称为“Canvas”）选择控制台代理的方式。NetApp已将连接器菜单名称替换为图标。 image:icon-agent.png["代理图标"]允许您选择要查看系统的控制台代理。
+
+image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-agent-icon-menu.png["显示选择控制台代理的图标的屏幕截图。"]
+
+您还可以从*管理>代理*菜单管理您的代理。
+
+
+
+=== 控制台代理 4.0.0
+
+此版本的控制台代理包括安全改进、错误修复和以下新功能。
+
+4.0.0 版本适用于标准模式和限制模式。
+
+
+
+==== 整合并减少所需的网络端点
+
+NetApp减少了控制台和控制台代理所需的网络端点，增强了安全性并简化了部署。重要的是，4.0.0 版本之前的所有部署都将继续得到全面支持。虽然以前的端点仍然可供现有代理使用，但NetApp强烈建议在确认代理升级成功后将防火墙规则更新到当前端点。
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console-previous.html#update-endpoint-list["了解如何更新端点列表并查看对比信息"]。
+* link:https://docs.netapp.com/us-en/console-setup-admin/reference-networking-saas-console.html["了解有关所需端点的更多信息。"]
+
+
+
+
+==== 支持 VCenter 部署控制台代理
+
+您可以使用 OVA 文件在 VMware 环境中部署控制台代理。OVA 文件包含一个预配置的 VM 映像，其中包含控制台代理软件和用于连接到NetApp Console的设置。用户可以直接从NetApp Console下载文件或进行 URL 部署。 link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["了解如何在 VMware 环境中部署控制台代理。"]
+
+VMware 的控制台代理 OVA 提供了预配置的 VM 映像以便快速部署。
+
+
+
+==== 失败代理部署的验证报告
+
+当您从NetApp Console部署控制台代理时，您现在可以选择验证代理配置。如果控制台无法部署代理，它会提供可下载的报告来帮助您排除故障。
+
+
+
+==== 改进了控制台代理的故障排除
+
+控制台代理程序改进了错误消息，可帮助您更好地了解问题。 link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["了解如何排除控制台代理故障。"]
+
+
+
+=== NetApp Console
+
+NetApp Console管理包括以下新功能：
+
+
+
+==== 主页仪表板
+
+NetApp控制台的主页仪表板提供对存储基础架构的实时可见性，包括运行状况、容量、许可证状态和数据服务的指标。 link:https://docs.netapp.com/us-en/console-setup-admin/task-dashboard.html["了解有关主页的更多信息。"]
+
+
+
+==== NetApp助手
+
+具有组织管理员角色的新用户可以使用NetApp助手来配置控制台，包括添加代理、链接NetApp支持帐户和添加存储系统。 link:https://docs.netapp.com/us-en/console-setup-admin/task-console-assistant.html["了解NetApp助手。"]
+
+
+
+==== 服务帐户身份验证
+
+NetApp Console支持使用系统生成的客户端 ID 和密钥或客户管理的 JWT 进行服务帐户身份验证，从而允许组织选择最适合其安全要求和集成工作流程的方法。私钥 JWT 客户端身份验证使用非对称加密，比传统的客户端 ID 和秘密方法提供更强的安全性。私钥 JWT 客户端身份验证采用非对称加密技术，确保私钥在客户环境中的安全，降低凭证被盗风险，并提高自动化堆栈和客户端应用程序的安全性。 link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["了解如何添加服务帐户。"]
+
+
+
+==== 会话超时
+
+系统会在 24 小时后或用户关闭网络浏览器时注销用户。
+
+
+
+==== 支持组织之间的伙伴关系
+
+您可以在NetApp Console中创建合作伙伴关系，让合作伙伴跨组织边界安全地管理NetApp资源，从而使协作更轻松、安全性更强。link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["学习如何管理合作关系"]。
+
+
+
+==== 超级管理员和超级查看者角色
+
+添加了*超级管理员*和*超级查看者*角色。*超级管理员*授予对控制台功能、存储和数据服务的完全管理访问权限。*超级查看器*为审计员和利益相关者提供只读可见性。这些角色对于高级成员较少、访问权限较广的小型团队很有用。为了提高安全性和可审计性，建议组织谨慎使用“超级管理员”权限，并尽可能分配细粒度的角色。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解有关访问角色的更多信息。"]
+
+
+
+==== 勒索软件抵御能力的额外作用
+
+添加了*Ransomware Resilience 用户行为管理员*角色和*Ransomware Resilience 用户行为查看器*角色。这些角色分别允许用户配置和查看用户行为和分析数据。 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["了解有关访问角色的更多信息。"]
+
+
+
+==== 删除了支持聊天
+
+NetApp已从NetApp Console中删除了支持聊天功能。使用“管理”>“支持”页面来创建和管理支持案例。
+
+
+
+=== 软件更新
+
+
+
+==== BlueXP software updates现在是软件更新
+
+BlueXP software updates已重命名为软件更新。
+
+您可以通过选择“NetApp Console”左侧导航栏中的“*健康*”>“*软件更新*”来访问它。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 卷缓存
+
+
+
+==== BlueXP volume caching现在是卷缓存
+
+BlueXP volume caching已重命名为卷缓存。
+
+您可以通过选择“*Mobility*”>“*Volume caching*”从NetApp Console左侧导航栏访问它。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 备份和恢复
+
+
+
+==== BlueXP backup and recovery现已更名NetApp Backup and Recovery
+
+BlueXP backup and recovery已重命名为NetApp Backup and Recovery。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程以及高度安全且合规的简化管理。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明。"]
+
+
+
+==== Hyper-V 工作负载支持作为私人预览版
+
+此版本的NetApp Backup and Recovery引入了对发现和管理 Hyper-V 工作负载的支持：
+
+* 在独立实例以及故障转移群集实例 (FCI) 上备份和恢复虚拟机
+* 保护存储在 SMB3 共享上的虚拟机
+* 虚拟机级别的批量保护
+* 虚拟机和崩溃一致性备份
+* 从主存储、辅助存储和对象存储恢复虚拟机
+* 搜索和恢复虚拟机备份
+
+
+有关保护 Hyper-V 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["保护 Hyper-V 工作负载概述"]。
+
+
+
+==== KVM 工作负载支持作为私人预览
+
+此版本的NetApp Backup and Recovery引入了对发现和管理 KVM 工作负载的支持：
+
+* 备份和恢复存储在 NFS 共享上的 qcow2 VM 映像
+* 备份存储池
+* 使用保护组进行批量虚拟机和存储池保护
+* VM 一致和崩溃一致的 VM 备份
+* 从主存储、辅助存储和对象存储中搜索并恢复虚拟机备份
+* 备份和恢复基于 KVM 的虚拟机和虚拟机数据的指导流程
+
+
+有关保护 KVM 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保护 KVM 工作负载概述"]。
+
+
+
+==== Kubernetes 预览增强功能
+
+Kubernetes 工作负载的预览版引入了以下增强功能：
+
+* 3-2-1 扇出备份架构支持
+* 支持ONTAP S3 作为备份目标
+* 新的 Kubernetes 仪表板，更易于管理
+* 增强的基于角色的访问控制 (RBAC) 配置包括对以下角色的支持：
++
+** 备份和恢复超级管理员
+** 备份和恢复备份管理员
+** 备份和恢复恢复管理员
+** 备份和恢复查看器
+
+
+* 支持 SUSE Rancher Kubernetes 发行版
+* 多存储桶支持：现在，您可以跨不同的云提供商，通过每个系统多个存储桶来保护系统内的卷
+
+
+有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保护 Kubernetes 工作负载概述"]。
+
+
+
+==== VMware 预览增强功能
+
+VMware 工作负载预览版引入了以下增强功能：
+
+* 支持从对象存储恢复
+* NetApp Console仪表板现在显示 VMware 工作负载状态信息
+* 基于角色的访问控制 (RBAC) 支持
+* 工作事件的电子邮件警报和通知支持
+* 支持备份和恢复到基于 NVMe 的存储
+* 编辑保护组
+* 编辑保护策略
+
+
+有关保护 VMware 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保护 VMware 工作负载概述"]。
+
+
+
+==== Oracle 数据库工作负载支持作为私人预览
+
+此版本的NetApp Backup and Recovery引入了对发现和管理 Oracle 数据库工作负载的支持：
+
+* 发现独立的 Oracle 数据库
+* 仅针对数据或数据和日志备份创建保护策略
+* 使用 3-2-1 备份方案保护 Oracle 数据库
+* 配置备份保留
+* 挂载和卸载 ARCHIVELOG 备份
+* 虚拟化数据库
+* 搜索和恢复数据库备份
+* Oracle 仪表板支持
+
+
+有关保护 Oracle 数据库工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保护 Oracle 工作负载概述"]。
+
+
+
+==== ONTAP卷工作负载增强功能
+
+此版本的ONTAP卷工作负载引入了以下增强功能：
+
+从ONTAP 9.17.1 及更新版本开始，DataLock 现已受 Google Cloud Platform 支持。这补充了 Amazon AWS、Microsoft Azure 和NetApp StorageGRID现有的 DataLock 支持。
+
+
+
+=== 数据分类
+
+
+
+==== 1.47 版
+
+.BlueXP classification现为NetApp Data Classification
+BlueXP classification已重命名为NetApp Data Classification。除了重命名之外，用户界面也得到了增强。
+
+.BlueXP现在是NetApp Console
+BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。
+
+NetApp Console提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明"]。
+
+.增强调查体验
+使用新的可搜索过滤器、每个值的结果计数、总结关键发现的实时见解以及具有可自定义列和滑出详细信息窗格的刷新结果表，更快地查找和理解您的数据。
+
+有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["调查数据"]。
+
+.新的治理与合规仪表板
+通过直观的小部件、更清晰的视觉效果和改进的加载性能更快地获得关键见解。有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-data-classification//task-controlling-governance-data.html["审查有关您的数据的治理信息"]和link:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-private-data.html["查看有关您的数据的合规性信息"]。
+
+.已保存查询的策略（预览）
+数据分类现在使您能够通过条件操作实现治理自动化。您可以创建保留规则，设置自动删除和定期电子邮件通知，所有这些都可以通过更新的已保存查询页面进行管理。
+
+有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["创建策略"]。
+
+.操作（预览）
+从调查页面直接控制 - 单独或批量删除、移动、复制或标记文件，以实现高效的数据管理和补救。
+
+有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["调查数据"]。
+
+.支持Google Cloud NetApp Volumes
+数据分类现在支持在Google Cloud NetApp Volumes上进行扫描。从NetApp Console轻松添加Google Cloud NetApp Volumes，实现无缝数据扫描和分类。有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-data-classification/task-scan-google-cloud.html["扫描Google Cloud NetApp Volumes"^]。
+
+云分层：级别偏移：+1
+
+
+
+=== BlueXP tiering现已更名NetApp Cloud Tiering
+
+BlueXP tiering已重命名为NetApp Cloud Tiering。
+
+
+
+=== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 复制和同步
+
+
+
+==== BlueXP copy and sync现已更名NetApp Copy and Sync
+
+BlueXP copy and sync已重命名为NetApp Copy and Sync。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 灾难恢复
+
+
+
+==== BlueXP disaster recovery现已更名为NetApp Disaster Recovery
+
+BlueXP disaster recovery已重命名为NetApp Disaster Recovery。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+==== 其他更新
+
+* Amazon Elastic VMware Service (EVS) 与Amazon FSx for NetApp ONTAP的支持已公开预览。随着此版本的发布，它现已普遍可用。有关详细信息，请参阅link:../reference/evs-deploy-guide-introduction.html["使用 Amazon Elastic VMware Service 和Amazon FSx for NetApp ONTAP实现NetApp Disaster Recovery"]。
+* 存储发现改进，包括减少本地部署的发现时间
+* 身份和访问管理 (IAM) 支持，包括基于角色的访问控制 (RBAC) 和增强的用户权限
+* 对 Azure VMware 解决方案和Cloud Volumes ONTAP 的私人预览支持。有了此支持，您现在可以使用Cloud Volumes ONTAP存储配置从本地到 Azure VMware 解决方案的灾难恢复保护。
+
+
+
+
+=== 勒索软件抵御能力
+
+
+
+==== BlueXP ransomware protection现已升级NetApp Ransomware Resilience
+
+BlueXP ransomware protection服务已更名为NetApp Ransomware Resilience。
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+==== 数据泄露检测
+
+勒索软件恢复力包括一种新的检测机制，只需几个步骤即可激活，以检测异常用户读取作为数据泄露的早期指标。勒索软件弹性通过创建历史基线来收集和分析用户读取事件，该基线是根据过去数据得出的预期正常行为的概况。当新用户活动明显偏离既定规范（例如意外的阅读激增与可疑的阅读模式相结合）时，就会生成警报。勒索软件恢复力包括一个用于检测可疑读取模式的 AI 模型。
+
+与存储层的 ARP 加密检测不同，勒索软件弹性 SaaS 服务通过收集 FPolicy 事件来检测用户行为异常。
+
+
+IMPORTANT: 你必须使用新的 link:#new-user-roles-for-data-breach-detection["勒索软件恢复用户行为管理员和勒索软件恢复用户行为查看器"] 拥有访问可疑用户行为检测设置的角色。
+
+有关详细信息，请参阅link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["启用可疑用户活动检测"]和link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["查看异常用户行为"]。
+
+
+
+===== 其他可疑用户活动检测
+
+除了数据泄露检测之外，勒索软件恢复能力还根据观察到的可疑用户活动检测以下警报类型：
+
+* **数据破坏 - 潜在攻击** - 当文件删除的数量超过历史标准时，会创建具有潜在攻击严重程度的警报。
+* **可疑用户行为 - 潜在攻击** - 当观察到类似于勒索软件攻击的读取、重命名和删除操作时，会创建严重程度为潜在攻击的警报
+* **可疑用户行为 - 警告** - 当文件活动（读取、删除、重命名等）的总数超过历史标准时，将创建严重程度为警告的警报
+
+
+
+
+===== 用于数据泄露检测的新用户角色
+
+为了管理可疑用户活动警报，Ransomware Resilience 为控制台组织管理员引入了两个新角色，以授予对可疑用户活动检测的访问权限：Ransomware Resilience 用户行为管理员和 Ransomware Resilience 用户行为查看器。
+
+您必须是用户行为管理员才能配置可疑用户行为设置。勒索软件恢复管理员角色不支持配置可疑用户行为设置。
+
+有关详细信息，请参阅 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["NetApp Ransomware Resilience基于角色的访问"^]。
+
+复制：级别偏移：+1
+
+
+
+=== BlueXP replication现已更名为NetApp Replication
+
+BlueXP replication已重命名为NetApp Replication。
+
+
+
+=== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Azure NetApp Files
+
+
+
+==== BlueXP现在是NetApp Console
+
+BlueXP已重新命名并重新设计，以更好地反映其在管理数据基础设施中的作用。
+
+NetApp Console提供企业级跨本地和云环境的存储和数据服务的集中管理，提供实时洞察、更快的工作流程和简化的管理。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"^]。
+
+
+
+==== 简化 AWS 中的Cloud Volumes ONTAP部署
+
+现在，您可以使用快速部署方法在 AWS 中部署Cloud Volumes ONTAP，适用于单节点和高可用性 (HA) 配置。与高级方法相比，此简化流程减少了步骤数，在单个页面上自动设置默认值，并最大限度地减少了导航，使部署更快、更容易。
+
+更多信息，请参阅 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-quick-deploy-aws.html["使用快速部署在 AWS 中部署Cloud Volumes ONTAP"^]。
+
+E系列：级别偏移：+1
+
+
+
+=== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Amazon FSX for ONTAP
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明。"^]
+
+
+
+=== Google Cloud NetApp Volumes
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Google Cloud Storage
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 本地ONTAP集群
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关具体变更内容，请参阅…… link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== StorageGRID
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关具体变更内容，请参阅…… link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== 数字顾问
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关具体变更内容，请参阅…… https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+
+
+
+=== Keystone
+
+
+
+==== BlueXP现在是NetApp Console
+
+NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"^]。
+
+
+
+== 2025年9月22日
+
+
+
+=== Keystone
+
+
+
+==== 增加警报监控
+
+BlueXP中的Keystone仪表板现在包括一个“监控”选项卡，用于管理您订阅中的警报和监控器。此新选项卡使您能够：
+
+* 查看和解决活动警报，包括系统生成的和用户定义的容量使用情况和订阅到期警报。
+* 创建警报监视器来跟踪容量使用情况和订阅到期事件。
+
+
+欲了解更多信息，请参阅 link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["查看和管理警报和监视器"]。
+
+
+
+==== 简化的性能服务级别查看
+
+您可以在“*订阅*”选项卡中查看性能服务级别信息，现在该信息已从单独的选项卡移至可扩展视图。单击“到期日期”列旁边的向下箭头可查看每个订阅的到期日期。欲了解更多信息，请参阅 link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看您的Keystone订阅的详细信息"]。
+
+
+
+== 2025年8月25日
+
+
+
+=== 备份和恢复
+
+
+
+==== 支持在预览版中保护 VMware 工作负载
+
+此版本增加了对保护 VMware 工作负载的预览支持。将 VMware VM 和数据存储区从本地ONTAP系统备份到 Amazon Web Services 和StorageGRID。
+
+
+NOTE: 有关保护 VMware 工作负载的文档以技术预览的形式提供。对于此预览版产品， NetApp保留在正式发布之前修改产品详细信息、内容和时间表的权利。
+
+link:br-use-vmware-protect-overview.html["了解有关使用NetApp Backup and Recovery保护 VMware 工作负载的更多信息"]。
+
+
+
+==== AWS、Azure 和 GCP 的高性能索引现已正式发布
+
+2025 年 2 月，我们宣布推出针对 AWS、Azure 和 GCP 的高性能索引 (Indexed Catalog v2) 预览版。此功能现已普遍可用（GA）。2025 年 6 月，我们默认向所有新客户提供该服务。通过此版本，所有客户都可以获得支持。高性能索引提高了受对象存储保护的工作负载的备份和恢复操作的性能。
+
+默认启用：
+
+* 如果您是新客户，则默认启用高性能索引。
+* 如果您是现有客户，您可以转到 UI 的“恢复”部分来启用重新索引。
+
+
+
+
+=== Keystone
+
+
+
+==== 使用新列增强逻辑使用情况跟踪
+
+添加了新列“总占用空间”，以增强对FabricPool卷的Keystone消耗跟踪：
+
+* * BlueXP中的Keystone仪表板 *：您可以在 *Assets* 选项卡中的 *Volumes in clusters* 选项卡中看到 *Total footprint* 列。
+* *Digital Advisor*：您可以在 *卷和对象* 选项卡中的 *卷详细信息* 选项卡中看到 *总足迹* 列。
+
+
+此列显示使用FabricPool分层的卷的总逻辑占用空间，包括性能层和冷层的数据，因此您可以准确计算Keystone消耗。
