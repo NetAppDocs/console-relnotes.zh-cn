@@ -2,7 +2,7 @@
 indexpage:
   title: NetApp Console发行说明
   summary: 这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
-  keywords: release notes, enhancements, bluexp, what's new
+  keywords: release notes, enhancements, bluexp, what's new, netapp console, console
   lead: 这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供每个单独服务的完整发行说明的链接。
   tiles:
   - title: 什么是新的
