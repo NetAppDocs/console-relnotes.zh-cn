@@ -72,6 +72,18 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 
 
 
+=== Licenses and subscriptions
+
+
+
+==== 管理账单偏好设置
+
+现在可以直接在NetApp Console中配置和管理*计费首选项*。这项增强功能使管理员能够定义和查看如何对NetApp直接许可证、云市场订阅和Keystone协议中的容量使用情况、续订和成本进行计费。
+
+更多信息，请参阅。link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["账单偏好文档"]
+
+
+
 === 控制台设置和管理
 
 
@@ -143,6 +155,12 @@ link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-
 现在您可以将自定义脚本注入到故障转移工作流程中，以便在创建备份之前运行。备份前脚本允许您在复制快照之前控制虚拟机的状态，并为虚拟机的转换做好准备。例如，您可以注入一个脚本来卸载 NFS 挂载点，然后在故障转移后使用另一个脚本重新挂载该挂载点。
 
 有关详细信息，请参阅 xref:drplan-create.html#map-resources-virtual-machines-section[在NetApp Disaster Recovery中创建复制计划]。
+
+
+
+=== 勒索软件抵御能力
+
+该版本包括一般增强功能和改进功能。
 
 
 
