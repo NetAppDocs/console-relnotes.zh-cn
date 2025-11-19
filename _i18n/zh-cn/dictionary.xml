@@ -415,7 +415,6 @@
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">注册期间降低 VMware 硬件支持级别</block>
   <block id="f83d7a6597b186db7483e2f478aeb8fa" category="paragraph">灾难恢复功能现在支持在注册过程中将 VMware 硬件降级到早期版本的 vSphere。当源 ESX 主机运行的版本比灾难恢复站点的版本更新时，这非常有用。</block>
   <block id="d15994bcf2411bb66762cdf4c58704b3" category="inline-xref-macro">在NetApp Disaster Recovery中创建复制计划</block>
-  <block id="a412b7de9758b999e39beb6a86f38803" category="paragraph">有关详细信息，请参阅 <block ref="3b88d2273f8f2a777f18a77cece1dbb2" category="inline-xref-macro-rx"></block>。</block>
   <block id="bcf697aa5ef7fc37fba63ce6d2bf0e43" category="section-title">优雅关机</block>
   <block id="9437b903cdafc2fdfce3c66af80b97f0" category="paragraph">灾难恢复现在会优雅地关闭虚拟机，而不是直接断电。如果某个虚拟机关机时间超过十分钟，灾难恢复功能会将其关闭。</block>
   <block id="9b9e3165f7ecae3e2e3b2c795e562976" category="section-title">备份前脚本支持</block>
@@ -454,4 +453,5 @@
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">查看操作系统要求</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">手动安装控制台代理时，该代理现在支持 RHEL 9.6 和 Podman 5.4.0。此外，在使用 RHEL 9 及更高版本时， NetApp支持 podman-compose 1.5.0。<block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>。</block>
+  <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">有关详细信息，请参阅 <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>。</block>
 </blocks>
