@@ -52,6 +52,22 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+== 2025年12月1日
+
+
+
+=== 灾难恢复
+
+
+
+==== 支持使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine。
+
+NetApp Disaster Recovery现在支持使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 进行迁移、故障转移、故障恢复和测试操作。这种集成实现了本地环境和 Google Cloud 之间的无缝灾难恢复工作流程。
+
+请务必仔细阅读。link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["前提条件"]和link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.adoc["限制"]适用于谷歌云。
+
+
+
 == 2025年11月27日
 
 
@@ -794,7 +810,7 @@ BlueXP disaster recovery已重命名为NetApp Disaster Recovery。
 
 NetApp Console建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp Data Services，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
 
-有关更改的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console发行说明"]。
+有关具体变更内容，请参阅…… link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console发行说明"]。
 
 
 
