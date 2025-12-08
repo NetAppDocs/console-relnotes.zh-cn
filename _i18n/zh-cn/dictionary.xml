@@ -451,4 +451,13 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">限制</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">2025年12月1日</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">请务必仔细阅读。<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block>和<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block>适用于谷歌云。</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">1.49 版</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次数据分类版本更新包含错误修复和以下更新：</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">在健康监测仪表板中监控指标和性能</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">数据分类现在提供了一个健康监控仪表板，可以实时监控您的资源，并提供有关内存使用情况、磁盘使用情况、磁盘利用率等方面的见解。借助健康监控仪表板提供的信息，您可以查看部署的基础架构，并获得优化存储和性能的见解。</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">监控数据分类的运行状况</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">有关详细信息，请参阅 <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>。</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">提升了装载性能</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">数据分类中所有页面的加载性能均已得到提升，从而创造了更高效的用户体验。</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
 </blocks>
