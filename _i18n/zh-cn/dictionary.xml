@@ -460,4 +460,9 @@
   <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">提升了装载性能</block>
   <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">数据分类中所有页面的加载性能均已得到提升，从而创造了更高效的用户体验。</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
+  <block id="063090df0880212c0ba8eec878096a21" category="doc">VMware 工作负载预览增强功能</block>
+  <block id="24936fb650df7af8295e75a3667becef" category="list-text">现在您可以将备份和快照恢复到备用位置。如果您想要管理不同 VMware vCenter 部署、VMware ESXi 主机或 VMware 数据存储上的虚拟机版本，这将非常有用。</block>
+  <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">现在您可以从主位置或辅助位置恢复特定的 VMware 虚拟磁盘（VMDK 映像），从而实现对恢复 VM 数据的更精细控制。</block>
+  <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">了解更多关于使用NetApp Backup and Recovery恢复 VMware 工作负载的信息</block>
+  <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
 </blocks>
