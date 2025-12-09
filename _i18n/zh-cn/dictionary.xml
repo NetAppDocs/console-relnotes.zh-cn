@@ -477,13 +477,13 @@
   <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">默认情况下，灾难恢复会在故障转移时保留虚拟机清单层次结构（文件夹结构）。如果恢复目标中没有所需的文件夹，灾难恢复功能会创建该文件夹。</block>
   <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">现在您可以通过指定新的父 VM 文件夹或取消选中“保留原始文件夹层次结构”选项来覆盖此设置。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
-  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">有关详细信息，请参阅 <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>。</block>
   <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">简化控制台代理更新</block>
   <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">灾难恢复现在支持在工作环境中使用多个控制台代理的简化流程。要在控制台代理之间切换，您必须编辑 vCenter 配置，重新发现凭据，并刷新复制计划以使用新的控制台代理。</block>
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切换控制台代理</block>
-  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">有关详细信息，请参阅 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">勒索软件恢复功能现在允许您编辑用户行为警报的状态。您可以手动关闭和解决警报。</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">管理勒索软件恢复能力中的警报</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">有关详细信息，请参阅 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
+  <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">有关详细信息，请参阅 <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>。</block>
+  <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">有关详细信息，请参阅 <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>。</block>
 </blocks>
