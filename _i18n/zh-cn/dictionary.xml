@@ -467,4 +467,24 @@
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">更名为“累积突发容量”标签</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">标签“*累计突发容量*”更名为“*累计突发容量*”。</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">扩展程序阻止功能已在工作负载级别启用。</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">启用扩展阻止功能后，现在是在工作负载级别而不是存储虚拟机级别启用该功能。</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">编辑用户行为警报状态</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">勒索软件恢复功能现在允许您编辑用户行为警报的状态。您可以手动关闭和解决警报。现在您还可以将警报标记为“审核中”。</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">管理警报</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">有关详细信息，请参阅 <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>。</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">支持多个控制台代理</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">勒索软件恢复功能现在支持使用多个控制台代理来管理同一系统。</block>
+  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">创建控制台代理</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">有关控制台代理的更多信息，请参阅<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="b706122b5735a672dec906da7d14b15c" category="doc">文件夹层级结构保留</block>
+  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">默认情况下，灾难恢复会在故障转移时保留虚拟机清单层次结构（文件夹结构）。如果恢复目标中没有所需的文件夹，灾难恢复功能会创建该文件夹。</block>
+  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">现在您可以通过指定新的父 VM 文件夹或取消选中“保留原始文件夹层次结构”选项来覆盖此设置。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
+  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">有关详细信息，请参阅 <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>。</block>
+  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">简化控制台代理更新</block>
+  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">灾难恢复现在支持在工作环境中使用多个控制台代理的简化流程。要在控制台代理之间切换，您必须编辑 vCenter 配置，重新发现凭据，并刷新复制计划以使用新的控制台代理。</block>
+  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切换控制台代理</block>
+  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">有关详细信息，请参阅 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
 </blocks>
