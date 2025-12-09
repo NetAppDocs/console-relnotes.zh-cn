@@ -119,7 +119,6 @@
   <block id="d6ed17e8c2c2f9cf01a28c13cefcce71" category="doc">自动化目录</block>
   <block id="4de4864129b65c6c45ee2b81509978d3" category="doc">控制台设置和管理</block>
   <block id="082a2f81a104214877c2e8d8e3c568c0" category="doc">卷缓存</block>
-  <block id="a15e83f7a8ba3a867bcba3be7736978e" category="doc">数据分类</block>
   <block id="4a17f9505c41e2b9d2fdf8e21809e428" category="paragraph">E 系列</block>
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX for ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
@@ -470,7 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">扩展程序阻止功能已在工作负载级别启用。</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">启用扩展阻止功能后，现在是在工作负载级别而不是存储虚拟机级别启用该功能。</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">编辑用户行为警报状态</block>
-  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">勒索软件恢复功能现在允许您编辑用户行为警报的状态。您可以手动关闭和解决警报。现在您还可以将警报标记为“审核中”。</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">管理警报</block>
   <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">有关详细信息，请参阅 <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>。</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">支持多个控制台代理</block>
@@ -487,4 +485,5 @@
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">切换控制台代理</block>
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">有关详细信息，请参阅 <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>。</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">2025年12月9日</block>
+  <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">勒索软件恢复功能现在允许您编辑用户行为警报的状态。您可以手动关闭和解决警报。</block>
 </blocks>
