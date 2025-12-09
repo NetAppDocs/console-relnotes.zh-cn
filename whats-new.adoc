@@ -90,6 +90,18 @@ link:br-use-vmware-restore.html["了解更多关于使用NetApp Backup and Recov
 
 
 
+=== Keystone
+
+NetApp Console中Keystone仪表板的新增强功能：
+
+
+
+==== 更名为“累积突发容量”标签
+
+标签“*累计突发容量*”更名为“*累计突发容量*”。
+
+
+
 == 2025年12月1日
 
 

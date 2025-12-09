@@ -465,4 +465,6 @@
   <block id="99ee61e75520f174d08caa35e0ad294d" category="list-text">现在您可以从主位置或辅助位置恢复特定的 VMware 虚拟磁盘（VMDK 映像），从而实现对恢复 VM 数据的更精细控制。</block>
   <block id="814957340a966bc73ff87feca2905da9" category="inline-link-macro">了解更多关于使用NetApp Backup and Recovery恢复 VMware 工作负载的信息</block>
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>。</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">更名为“累积突发容量”标签</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">标签“*累计突发容量*”更名为“*累计突发容量*”。</block>
 </blocks>
