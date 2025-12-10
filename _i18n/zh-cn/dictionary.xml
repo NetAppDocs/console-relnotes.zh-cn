@@ -488,4 +488,20 @@
   <block id="6dc955af209317a9d714156228721ed4" category="paragraph"><block ref="dd7466c8c4dbfb4163f16106a1d7f80c" category="inline-link-macro-rx"></block>。</block>
   <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">了解更多关于使用NetApp Backup and Recovery恢复 VMware 虚拟磁盘的信息</block>
   <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>。</block>
+  <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP的首选计费方式</block>
+  <block id="626a12ed9517ef0e6c0a2613974c12ed" category="paragraph">现在您可以选择您喜欢的计费方式来计算您的使用量和超额费用。自 2025 年 6 月 25 日起，BYOL 许可将不再提供， NetApp在NetApp Console的“许可和订阅”部分中提供了首选的收费方式。您可以选择使用年度市场订阅进行计费和超额费用结算，或者使用现有的许可（自带许可）模式。这样，您可以灵活选择最适合您组织财务战略和使用模式的充电方式。</block>
+  <block id="4c5b742acce759a08023728b244eccc6" category="inline-link">账单和超额费用</block>
+  <block id="ff7ec6876f38e21f4dcfd0621fca9672" category="paragraph">更多信息请参阅<block ref="f6335a1e309ef0a8646001c6937b8852" category="inline-link-rx"></block>。</block>
+  <block id="d32b213fea432905e2b711d0a46055b7" category="doc">提升 Azure 中 Premium SSD v2 磁盘性能的能力</block>
+  <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">现在，您可以通过修改 IOPS 和吞吐量参数来提高 Azure 中 Premium SSD v2 托管磁盘的性能。利用此功能，您可以根据工作负载需求优化系统的存储性能。</block>
+  <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">在 Azure 中管理Cloud Volumes ONTAP的 Premium SSD v2 磁盘性能</block>
+  <block id="3c82d0e014001e766d893c187798e716" category="paragraph"><block ref="15057e5abc429ba1e00c3e98b4d7cd18" category="inline-link-rx"></block>。</block>
+  <block id="b6dcfe88cad643a44fa48a9db752d75f" category="section-title">Essentials 许可证超额收费简化</block>
+  <block id="6390802a077a2b3bba05ed8efad40476" category="paragraph">对于Cloud Volumes ONTAP市场年度合同/私有报价，Essentials 许可证的超额使用计算现在与自带许可证 (BYOL) 套餐保持一致。此前，超出部分按基本套餐的每小时市场价格计费。现在，如果您的市场年度合同包含多个 Essentials 套餐， NetApp Console会将 Essentials 套餐的超额费用计入您订阅中价格更高的 Essentials 套餐的可用容量。这简化了 Essentials 套餐的超额费用计算，并确保从 BYOL 许可模式平稳过渡到订阅模式。</block>
+  <block id="bf18ec316bd23e84a5bc7f6dfac16e84" category="inline-link">Essentials许可证超额费用如何收取</block>
+  <block id="6aeac3ae6d2c3b06189e7344aee5b1ba" category="paragraph"><block ref="6aeac3ae6d2c3b06189e7344aee5b1ba" category="inline-link-rx"></block></block>
+  <block id="f9af9ade73262337fa8408b3b263a181" category="section-title">支持 Azure Edsv6 尺寸系列</block>
+  <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">从Cloud Volumes ONTAP 9.17.1 开始，您可以通过NetApp Console为新的Cloud Volumes ONTAP实例部署 Azure Edsv6 系列虚拟机。Cloud Volumes ONTAP 9.17.1 及更高版本将仅支持新部署的第二代虚拟机。这些第二代机器与最新技术兼容，例如统一可扩展固件接口 (UEFI)、Azure Boost 系统和 NVMe。它们非常适合内存密集型系统和需要快速本地存储的应用，例如数据库服务器和分析引擎。</block>
+  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
+  <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
 </blocks>
