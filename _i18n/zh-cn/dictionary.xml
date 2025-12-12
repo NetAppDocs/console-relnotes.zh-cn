@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">现在，您可以从存储管理页面更轻松地查看和管理有关ONTAP本地系统（以及 FSx for ONTAP）的详细信息。</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">“Discoverable systems”页面将摘要信息与可用系统的选项卡显示分开，从而更容易查看有关可发现系统的全面信息。</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025年12月10日</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">从NetApp Console查看ONTAP系统时的可用性增强（仅限标准模式）</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">NetApp Console中的“系统”页面在管理卷和集群时提高了清晰度和易用性。这些更新使用户体验与较新版本的ONTAP系统管理器更加一致，并简化了导航。</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">ONTAP 9.5 及更高版本包含集群容量（仅限控制台标准模式）</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">*系统 &gt; 概述* 页面会显示集群大小以及运行ONTAP 9.5 及更高版本的集群的ONTAP版本。</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">对于受限模式下的NetApp Console或ONTAP版本 9.5 及更低版本，已配置卷的信息保持不变。</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您拥有超过 20 个本地ONTAP集群，则“系统”页面上的“卷”选项卡默认显示为网格视图。</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">当您在NetApp Console中管理超过 20 个本地ONTAP集群时，“卷”选项卡默认显示网格视图，以便于导航。卡片视图已禁用。</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此更改仅适用于标准模式，并且适用于ONTAP版本 9.6 及更高版本。</block>
 </blocks>
