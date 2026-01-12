@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">VMware 工作负载预览版引入了以下增强功能：</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">资产选项卡中的 QoS 策略覆盖列</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone仪表板的新增强功能：</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">*Assets* 选项卡中的 *Volumes in clusters* 选项卡现在包含一个 *QoS policy override* 列，指示是否绕过备份和镜像卷的 QoS 规则，显示 *true*（忽略规则）、*false*（强制执行规则）或 *N/A*（对于镜像卷）。</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">对于Keystone v3 订阅，此列显示 *N/A*，因为 QoS 策略不适用于 v3 产品。</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">增强了概览页面中的警报可见性</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">NetApp Console中的Keystone仪表板</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">*概览*页面现在包括两个新的警报部分，名为*按严重程度排列的未解决警报*和*最早未解决的Keystone警报*。欲了解更多信息，请参阅 <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>。</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Azure 中的Cloud Volumes ONTAP现已仅限于最新支持版本</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">现在，通过NetApp Console在 Azure 中部署和升级Cloud Volumes ONTAP仅限于最新支持的版本。这确保了与 Microsoft 支持的最新一代硬件的兼容性，并提供最新的功能和安全增强功能。控制台将提示您升级到支持的版本。</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">有关更多详细信息，请参阅：</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">2025年11月11日</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">2025年10月17日</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">在NetApp Console系统页面上，可以在本地ONTAP系统和 FSx for ONTAP文件系统之间进行数据复制。</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">管理账单偏好设置</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">现在可以直接在NetApp Console中配置和管理*计费首选项*。这项增强功能使管理员能够定义和查看如何对NetApp直接许可证、云市场订阅和Keystone协议中的容量使用情况、续订和成本进行计费。</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此更改仅适用于标准模式，并且适用于ONTAP版本 9.6 及更高版本。</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">有关详细信息，请参阅 <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>。</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">有关详细信息，请参阅 <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>。</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">支持本地环境中的多个控制台代理</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">如果您在本地使用灾难恢复，现在可以为每个 vCenter 实例部署控制台代理，从而提高恢复能力。</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">例如，如果您有两个站点（站点 A 和 B），则站点 A 可以将控制台代理 A 连接到 vCenter 1、 ONTAP部署 1 和ONTAP部署 2。站点 B 可以将控制台代理 B 连接到 vCenter 2 和ONTAP部署 3 和 4。</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">创建控制台代理</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">有关灾难恢复中的控制台代理的信息，请参阅 <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>。</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">使用基于数据存储的保护机制，在故障转移后为复制计划添加虚拟机</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">当故障转移被触发时，任何使用基于数据存储的保护的复制计划都会包含已添加到数据存储中的虚拟机，前提是这些虚拟机已被发现。故障转移完成前，您必须提供新增虚拟机的映射详细信息。</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">故障转移应用程序</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">有关详细信息，请参阅 <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>。</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">新邮件通知</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">灾难恢复功能现在会针对以下事件发送电子邮件通知：</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">接近容量使用极限</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">报告生成完成</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">工作失败</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">许可证到期或违规</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swagger 改进</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">现在您可以从灾难恢复中访问 Swagger 文档。在灾难恢复中，选择**设置**，然后选择**API 文档**以链接到 Swagger，或者在浏览器的隐身/隐私模式下访问此 URL： <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>。</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">改进的用户界面</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">灾难恢复功能现在提供更完善的警告和错误解决方法。此版本修复了导致已取消的作业无法在用户界面中显示的错误。已取消的职位现在可以查看了。当同一个目标网络映射到多个不同的源网络时，还会发出新的警告。</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">保留复制计划中默认添加的 VM 文件夹结构</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">创建复制时，新的默认设置是保留 VM 文件夹结构。如果恢复目标没有原始文件夹层次结构，灾难恢复程序会创建它。您可以取消选择此选项以忽略原始文件夹层次结构。</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">有关详细信息，请参阅 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026年1月12日</block>
 </blocks>
