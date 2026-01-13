@@ -225,9 +225,6 @@
   <block id="01f07264521662850e2d8465c322c978" category="inline-link-macro">了解更多关于使用NetApp Backup and Recovery恢复 VMware 虚拟磁盘的信息</block>
   <block id="61b4efc27d21705d0d4d56786ccc1f78" category="paragraph"><block ref="78a5fc4b6640a61792f9693d7c0f443b" category="inline-link-macro-rx"></block>。</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP的首选计费方式</block>
-  <block id="626a12ed9517ef0e6c0a2613974c12ed" category="paragraph">现在您可以选择您喜欢的计费方式来计算您的使用量和超额费用。自 2025 年 6 月 25 日起，BYOL 许可将不再提供， NetApp在NetApp Console的“许可和订阅”部分中提供了首选的收费方式。您可以选择使用年度市场订阅进行计费和超额费用结算，或者使用现有的许可（自带许可）模式。这样，您可以灵活选择最适合您组织财务战略和使用模式的充电方式。</block>
-  <block id="4c5b742acce759a08023728b244eccc6" category="inline-link">账单和超额费用</block>
-  <block id="ff7ec6876f38e21f4dcfd0621fca9672" category="paragraph">更多信息请参阅<block ref="f6335a1e309ef0a8646001c6937b8852" category="inline-link-rx"></block>。</block>
   <block id="d32b213fea432905e2b711d0a46055b7" category="doc">提升 Azure 中 Premium SSD v2 磁盘性能的能力</block>
   <block id="a5af0d9c3442b63737366fdab958ae5e" category="paragraph">现在，您可以通过修改 IOPS 和吞吐量参数来提高 Azure 中 Premium SSD v2 托管磁盘的性能。利用此功能，您可以根据工作负载需求优化系统的存储性能。</block>
   <block id="77a633073c35402d0ca7d710756aa8bd" category="inline-link">在 Azure 中管理Cloud Volumes ONTAP的 Premium SSD v2 磁盘性能</block>
@@ -300,4 +297,7 @@
   <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">创建复制时，新的默认设置是保留 VM 文件夹结构。如果恢复目标没有原始文件夹层次结构，灾难恢复程序会创建它。您可以取消选择此选项以忽略原始文件夹层次结构。</block>
   <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">有关详细信息，请参阅 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
   <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026年1月12日</block>
+  <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">现在您可以选择一种首选的计费方式来计算您的Cloud Volumes ONTAP使用量和超额费用。自 2025 年 6 月 25 日起，自带许可证 (BYOL) 许可模式将不再提供， NetApp已在NetApp Console的“许可和订阅”部分添加了首选的计费方式。您可以选择使用年度市场订阅进行计费和超额费用结算，或者选择现有的 BYOL 模式作为首选方案。这样，您可以灵活选择最适合您组织财务战略和使用模式的充电方式。</block>
+  <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">计费偏好和超额费用</block>
+  <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
 </blocks>
