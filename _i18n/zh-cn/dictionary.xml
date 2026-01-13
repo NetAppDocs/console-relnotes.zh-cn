@@ -323,4 +323,7 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">当你的组织处于只读模式时，了解如何提升你的角色。</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
+  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">针对Cloud Volumes ONTAP 的其他 Google Cloud 权限</block>
+  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">为了支持 Google Cloud 中的Cloud Volumes ONTAP管理，控制台代理现在需要额外的权限。已向控制台代理使用的服务帐户添加以下权限：compute.forwardingRules.update</block>
+  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
 </blocks>
