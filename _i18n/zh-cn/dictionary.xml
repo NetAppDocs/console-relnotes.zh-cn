@@ -137,7 +137,6 @@
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">增强扫描进度清晰度</block>
   <block id="206c07a2ed5644be711186a00b2c6ae2" category="paragraph">扫描配置现在包含对扫描完成情况的更深入洞察。以前，进度条只在扫描进行时显示。现在，扫描完成后进度条仍然可见，以确认扫描已成功完成。您还可以查看已映射和已扫描的文件数量。</block>
   <block id="de10ad3938875667137fa1bd63542e62" category="inline-link-macro">更改存储库的NetApp Data Classification扫描设置</block>
-  <block id="dc9fb8f25cdf758c060f4782f41b0b0f" category="paragraph">有关扫描设置的更多信息，请参阅 <block ref="19cf1405cd38e956788f418f2be34a68" category="inline-link-macro-rx"></block>。</block>
   <block id="5b5de768a01e088dbab56f46d97b5a38" category="doc">级联故障转移支持</block>
   <block id="8115dd8449bd907d08f3347f6d04324a" category="paragraph">现在您可以在ONTAP中配置级联关系，并使用该复制关系的任何分支进行灾难恢复。</block>
   <block id="eb2fa9dcb8eaa46c82c070f8bbe8418a" category="section-title">注册期间降低 VMware 硬件支持级别</block>
@@ -323,7 +322,19 @@
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">当你的组织处于只读模式时，了解如何提升你的角色。</block>
   <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
-  <block id="772b95b1a689cd9ca0f7d8935114e25c" category="paragraph-title">针对Cloud Volumes ONTAP 的其他 Google Cloud 权限</block>
-  <block id="335ea2f40a7e49b48a24b0867a975d2b" category="paragraph">为了支持 Google Cloud 中的Cloud Volumes ONTAP管理，控制台代理现在需要额外的权限。已向控制台代理使用的服务帐户添加以下权限：compute.forwardingRules.update</block>
-  <block id="b4c9682d1423fe286221a4951d5900b8" category="paragraph"><block ref="b4c9682d1423fe286221a4951d5900b8" category="inline-link-macro-rx"></block></block>
+  <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">有关扫描设置的更多信息，请参阅 <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>。</block>
+  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">1.50 版</block>
+  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自定义分类改进</block>
+  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">数据分类功能现在支持创建自定义数据类别。您可以上传文件来微调数据分类所使用的 AI 模型，以便将类别标记应用于数据。所有自定义分类的界面都得到了改进。</block>
+  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">创建自定义分类</block>
+  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">有关详细信息，请参阅 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
+  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">自定义过期数据定义</block>
+  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">数据分类功能现在允许您自定义过期数据的定义，以满足您组织的需求。此前，过时数据被定义为三年前最后一次修改的数据。现在，可以根据上次访问时间或上次修改时间来识别过时的数据；时间段可以从 6 个月前到 10 年前不等。</block>
+  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">自定义过期数据定义</block>
+  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">有关详细信息，请参阅 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
+  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">性能提升</block>
+  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">数据分类、数据映射报告和调查页面上的筛选器等所有页面的加载时间都已缩短。</block>
+  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">调查报告预计完成时间</block>
+  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下载调查报告时，“数据分类”现在会显示下载完成的预计时间。</block>
+  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
 </blocks>
