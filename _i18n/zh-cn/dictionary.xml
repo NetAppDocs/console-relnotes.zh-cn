@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下载调查报告时，“数据分类”现在会显示下载完成的预计时间。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">勒索软件恢复功能现在支持将快照复制到辅助ONTAP站点。您可以创建包含复制功能的勒索软件防护策略，也可以使用预定义的策略。</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Console中联合组的角色访问控制</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console支持将角色分配给联合组（例如 Active Directory 组），从而允许管理员根据组织身份提供程序 (IdP) 中的组成员身份自动执行用户入职和离职。此功能可减少管理开销，并通过在组成员身份更改时立即更新控制台访问权限来确保安全、一致的访问。</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何为您的组织提供对联合组的访问权限。</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
