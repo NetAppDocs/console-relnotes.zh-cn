@@ -312,7 +312,6 @@
   <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">了解如何为控制台组织启用只读模式。</block>
   <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
   <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">当你的组织处于只读模式时，了解如何提升你的角色。</block>
-  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
   <block id="9f4066a8aad2a422e68c5b69dd9472f8" category="paragraph">有关扫描设置的更多信息，请参阅 <block ref="26da27bca2c7e859f7f769768b8a4285" category="inline-link-macro-rx"></block>。</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">1.50 版</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自定义分类改进</block>
@@ -333,4 +332,5 @@
   <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console支持将角色分配给联合组（例如 Active Directory 组），从而允许管理员根据组织身份提供程序 (IdP) 中的组成员身份自动执行用户入职和离职。此功能可减少管理开销，并通过在组成员身份更改时立即更新控制台访问权限来确保安全、一致的访问。</block>
   <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何为您的组织提供对联合组的访问权限。</block>
   <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
+  <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
 </blocks>
