@@ -303,8 +303,6 @@
   <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">控制台代理 4.3.0</block>
   <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 版本同时支持标准模式和受限模式。</block>
   <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">能够验证控制台代理的网络连接</block>
-  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">现在可以直接从NetApp Console验证已连接的控制台代理的网络连接。此功能有助于验证连接性并排查控制台代理的问题。</block>
-  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
   <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Console处于受限模式时支持联合身份验证</block>
   <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">现在您可以为处于受限模式的NetApp Console组织启用联合身份验证。这样，用户就可以使用其公司凭证登录控制台，同时保持受限模式的安全优势。</block>
   <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">只读模式</block>
@@ -364,4 +362,7 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">现在，您可以将 Hyper-V VM 备份和快照还原到备用位置。使用此功能可以管理不同 Hyper-V 主机上的 VM 版本。</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery 现在支持由 System Center Virtual Machine Manager (SCVMM) 调配并托管在 CIFS 共享上的 Hyper-V 虚拟机。</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">KVM 工作负载预览现在保护由 Apache CloudStack 管理的 KVM 主机和虚拟机。</block>
+  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">现在，您可以直接从 NetApp Console 验证已连接的 Console 代理的网络连接。此功能有助于验证连接并排除 Console 代理的问题。这是除了从 Console 代理维护控制台命令行界面 (CLI) 运行网络诊断的现有能力之外。</block>
+  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">了解如何从 NetApp Console 运行配置。</block>
+  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
 </blocks>
