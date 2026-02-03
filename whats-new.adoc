@@ -52,6 +52,40 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+== 2026 年 2 月 02 日
+
+
+
+=== Keystone
+
+NetApp Console中Keystone仪表板的新增强功能：
+
+
+
+==== 每日应计突发数据的交互式过滤
+
+*消费趋势*选项卡中的*累计突发天数*表现在支持交互式过滤。选择应计突发计费图表中的任意条形图，仅查看该计费周期内的天数。要了解更多信息，请参阅 link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["查看每日应计突发数据使用情况"]。
+
+
+
+==== 增强了应计突发图中的日期范围显示
+
+*消费趋势* 选项卡中的应计突发计费图现在显示每个计费周期的完整日期范围，例如 2025 年 10 月 1 日至 2025 年 10 月 31 日，而不仅仅是月份和年份。
+
+
+
+==== 可扩展的订阅详细信息视图
+
+*Subscriptions* 选项卡包含一个选项，可以同时展开所有订阅和查看每个订阅的性能服务级别信息。要了解更多信息，请参阅 link:./integrations/subscriptions-tab.html["查看有关 Keystone 订阅的详细信息"]。
+
+
+
+==== 新用法类型列
+
+*Subscriptions* 选项卡包括一个 *Usage type* 列，显示订阅是根据预配、物理还是逻辑使用情况收费。要了解更多信息，请参阅 link:./integrations/subscriptions-tab.html["查看有关 Keystone 订阅的详细信息"]。
+
+
+
 == 2026年1月19日
 
 
@@ -66,7 +100,7 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 *支持多个存储桶*：（私有预览）从ONTAP 9.17.1 及更高版本开始，您现在可以保护系统中的卷，每个系统最多可跨不同的云提供商使用 6 个存储桶。
 
-link:prev-ontap-backup-manage.html["了解更多关于使用NetApp Backup and Recovery备份ONTAP卷数据的信息"]。
+link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["了解更多关于使用NetApp Backup and Recovery备份ONTAP卷数据的信息"]。
 
 
 
@@ -115,18 +149,6 @@ KVM 工作负载预览现在保护由 Apache CloudStack 管理的 KVM 主机和�
 勒索软件恢复能力报告现在会在**摘要**报告中捕获有关受支持和不受支持的卷的信息。利用这些信息来诊断系统中的卷为何可能不符合勒索软件防护条件。
 
 有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["下载勒索软件恢复力报告"^]。
-
-
-
-=== Keystone
-
-NetApp Console中Keystone控制面板的更新：
-
-
-
-==== 订阅修改功能不可用
-
-目前无法修改Keystone订阅的承诺容量。此功能将在未来的版本中重新推出。
 
 
 
