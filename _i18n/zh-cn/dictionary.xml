@@ -373,4 +373,11 @@
   <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新用法类型列</block>
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*Subscriptions* 选项卡包括一个 *Usage type* 列，显示订阅是根据预配、物理还是逻辑使用情况收费。要了解更多信息，请参阅 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
   <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">用于全面安全监督的新安全报告</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor 现在包括一个安全报告，可提供整个存储环境的 ONTAP 安全风险的统一视图。此报告可更快地检测群集、SVM 和卷之间的错误配置、合规性差距和安全问题，帮助您维护安全的存储基础架构。</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">增强对混合补丁级别的 Upgrade Advisor 支持</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor 现在为节点在同一 ONTAP 主要版本中运行不同修补程序级别的集群生成升级报告。此增强功能可确保客户可以无缝进行升级，只要集群不跨主要版本混合，从而为升级规划提供更大的灵活性。</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">对终止受限支持的 ONTAP 版本的扩展支持</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成升级计划，宽限期为 9 个月。此功能通过在过渡期间提供明确的指导，帮助客户及时采取行动并避免升级中断。</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
 </blocks>
