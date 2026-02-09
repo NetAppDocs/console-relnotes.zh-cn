@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Google Cloud Infrastructure Manager 所需的权限</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">2026 年 2 月 09 日</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">直接从 NetApp Console 画布使用 Amazon FSxN for ONTAP 激活数据分类</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">现在，您可以直接从 NetApp Console 画布为 ONTAP 系统启用 Amazon FSxN，从而更快地启动 FSxN 系统的数据分类。</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">扫描 Amazon FSxN for ONTAP 卷</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">有关将数据分类与 Amazon FSxN for ONTAP 结合使用的更多信息，请参见 <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>。</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">提高调查目录的导出限制</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">现在，从调查控制面板导出有关目录的调查报告时，您可以包含 10,000 行。此前限制为 5,000 行，此次增加支持对数据治理和合规性的大规模调查。</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">调查数据</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">有关详细信息，请参见 <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>。</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">提高了复制和移动的限制</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">现在，在复制或移动文件时，您可以移动最大为 250 MB 的文件，这比之前的 50 MB 限制有所增加。</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">改进了低分辨率屏幕的显示效果</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification 提高了低分辨率屏幕的显示性能，增强了用户体验。</block>
 </blocks>
