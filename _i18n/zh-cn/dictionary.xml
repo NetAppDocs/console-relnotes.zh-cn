@@ -393,4 +393,11 @@
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">Microsoft Hyper-V 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">一般可用性 (GA) 中支持的 KVM 工作负载</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">KVM 工作负载支持现已在 NetApp Backup and Recovery 中正式提供（GA）。</block>
+  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Console 代理 4.4.0</block>
+  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">4.4.0 版本同时支持标准模式和受限模式。</block>
+  <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
+  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">支持基于角色的访问 NetApp Backup and Recovery 工作负载（Oracle 和 Microsoft SQL Server）</block>
+  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">您可以将 Backup and Recovery 工作负载（Oracle 和 Microsoft SQL Server）与项目相关联。分配给项目后，为项目分配 Backup and Recovery 角色的用户可以处理工作负载。目前，基于角色的访问不支持其他工作负载。</block>
+  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">详细了解如何为 Backup and Recovery 工作负载设置基于角色的访问权限。</block>
+  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
 </blocks>
