@@ -363,4 +363,32 @@
   <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">现在，在复制或移动文件时，您可以移动最大为 250 MB 的文件，这比之前的 50 MB 限制有所增加。</block>
   <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">改进了低分辨率屏幕的显示效果</block>
   <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification 提高了低分辨率屏幕的显示性能，增强了用户体验。</block>
+  <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作负载增强功能</block>
+  <block id="de8616724d177017abdd720d7365feff" category="paragraph">此版本的 Kubernetes 工作负载引入了以下增强功能：</block>
+  <block id="e83849cb5376223ea17f24fcaf9756e4" category="list-text">*CR 工作流程支持*：现在，您可以使用 CR 以及 Backup and Recovery Web UI 执行常见的保护任务。</block>
+  <block id="e572a091207dcc253fde964cd9d716cb" category="list-text">*集群迁移*：现在，您可以将使用 Trident Protect 保护的现有 Kubernetes 集群添加到 Backup and Recovery。</block>
+  <block id="9674b909ef82dfe8331f77d84e878c04" category="list-text">*警报框架支持*：您现在可以接收某些 Kubernetes 工作负载事件的电子邮件和 UI 警报。</block>
+  <block id="ea6aa972206a8b460e06b79e84a9211b" category="list-text">*还原选项卡集成*：您现在可以从"还原"菜单访问 Kubernetes 工作负载还原操作。</block>
+  <block id="bf72fb868ac644263293cb0c5ccc59c1" category="list-text">*支持 3-2-1 扇出备份架构*：现在，在保护 Kubernetes 工作负载时，您可以在保护策略中使用 3-2-1 扇出架构。</block>
+  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
+  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作负载增强</block>
+  <block id="b663bfd2f714b44e458d15bb1e6002bc" category="paragraph">此版本的 Oracle Database 工作负载引入了以下增强功能：</block>
+  <block id="c1cb9a739430571a50b81bf3a48a1ab8" category="list-text">*非 root 用户支持*：非 root 用户现在可以执行备份、还原和克隆操作，从而提高安全性和合规性。</block>
+  <block id="2b8a690a9b9248405fb6bba05b997f16" category="list-text">*克隆支持*：现在使用 ASM 库 v2 在主 NAS、辅助 NAS、SAN 和 ASM 环境中支持克隆功能，从而实现协调的保护工作流程。</block>
+  <block id="8ff8833aaf25d3ffbe1942bc11221a77" category="list-text">*克隆拆分支持*：您现在可以从父卷拆分可写快照（克隆），从而释放存储空间并启用独立操作。</block>
+  <block id="de315feba3cc97f871a801444cebe8a8" category="list-text">*对象存储的备份和还原*：基于对象的 S3 兼容存储目标现在支持本机备份和还原功能。</block>
+  <block id="ffb4de355aa6d4aa7e8805128e9c2860" category="list-text">*Clone Lifecycle Management (CLM)*：主存储支持克隆刷新操作。</block>
+  <block id="bb34df9f9d35ad561edcc8780a11b63c" category="list-text">*Clone to alternate host*：您现在可以从主存储和二级存储将数据库克隆到不同的主机（用于测试或分析）。</block>
+  <block id="ec76c85c764d367b1028b426d5aaa897" category="list-text">*ONTAP 一致性组支持*：现在支持 ONTAP 一致性组，确保跨多个卷的应用程序一致性快照。</block>
+  <block id="07bac542633034a121251f74bf3c7880" category="list-text">Backup and Recovery 现在支持以下适用于 Oracle Database 工作负载的保护策略体系结构：</block>
+  <block id="8f8f2fbe982fd62b69f6aa2faf0d46da" category="list-text">3-2-1 扇出</block>
+  <block id="55cf8812c6c22803ddfa5fd41279187d" category="list-text">磁盘到磁盘</block>
+  <block id="0f6d38819f95da81f8bc80258fee7071" category="list-text">磁盘到对象存储</block>
+  <block id="e3b858c29172bddae0dbb7e461b2f7df" category="list-text">级联</block>
+  <block id="a3ea5994e4599e8634011a1c5ba8a9ed" category="list-text">本地 snapshot</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保护 Oracle Database 工作负载概述</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
+  <block id="cc5d8c9d6668803b438b03567e08b611" category="section-title">其他增强功能</block>
+  <block id="6ec61dc6a9b7787975d159ba164424f9" category="paragraph">Hyper-V 工作负载、KVM 工作负载和 VMware 工作负载现已在 NetApp Backup and Recovery 中正式可用 (GA)。</block>
 </blocks>
