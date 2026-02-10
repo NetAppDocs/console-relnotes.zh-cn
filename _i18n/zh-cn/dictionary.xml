@@ -400,4 +400,8 @@
   <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">您可以将 Backup and Recovery 工作负载（Oracle 和 Microsoft SQL Server）与项目相关联。分配给项目后，为项目分配 Backup and Recovery 角色的用户可以处理工作负载。目前，基于角色的访问不支持其他工作负载。</block>
   <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">详细了解如何为 Backup and Recovery 工作负载设置基于角色的访问权限。</block>
   <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
+  <block id="e050f36de18bf9eec79dfa74451d3df0" category="doc">支持在 Cloud Volumes ONTAP 和 FSx for ONTAP 之间复制数据</block>
+  <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">现在可以从 NetApp Console 在 Cloud Volumes ONTAP 系统和 FSx for ONTAP 文件系统之间进行数据复制。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">复制数据</block>
+  <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
 </blocks>
