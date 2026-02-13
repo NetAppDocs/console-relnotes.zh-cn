@@ -404,4 +404,12 @@
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
   <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">1.51 版</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">一般可用性 (GA) 中支持的 VMware 工作负载</block>
+  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">在 Azure 中支持 Ebdsv5 和 E104ids_v5 虚拟机</block>
+  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">从 Cloud Volumes ONTAP 9.18.1 开始，您可以部署 Ebdsv5 和 E104ids_v5 虚拟机，用于单节点和高可用性 (HA) 部署和升级。</block>
+  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 虚拟机 Eb 系列中的 Ebdsv5 VM 针对更高的远程存储性能进行了优化。您可以将这些 VM 用于内存密集型和 I/O 密集型企业工作负载，例如关系数据库、内存分析和其他要求苛刻的关键业务应用程序。</block>
+  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5 是一个隔离的 VM 实例，可帮助您更好地处理计划的维护窗口。与 E80ids_v4 相比，它提供了更高的磁盘吞吐量和 IOPS，以及更好的整体网络性能。</block>
+  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
+  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 文档：Edsv5 尺寸系列</block>
+  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
+  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026 年 2 月 12 日</block>
 </blocks>
