@@ -121,10 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已弃用服务</block>
-  <block id="f3bb71c095338a2af8e23c9ae07072bf" category="doc">使用 AWS Lambda 链接时，系统管理器可用。</block>
-  <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">了解如何使用链接进行高级ONTAP操作</block>
-  <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">ONTAP系统管理器界面可以与 AWS Lambda 链接一起使用，以执行高级ONTAP操作。这提供了一种替代使用系统管理器控制台代理的方案，可以直接从控制台管理ONTAP的 FSx 文件系统。 <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
-  <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">2025年11月17日</block>
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">用于跟踪保障缺口订阅的 ID</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">在“监控 &gt; 警报监控”上的“完成您的保障”通知框中，每个订阅现在都会在订阅编号旁边显示其跟踪 ID。</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
@@ -412,4 +408,18 @@
   <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 文档：Edsv5 尺寸系列</block>
   <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
   <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026 年 2 月 12 日</block>
+  <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机</block>
+  <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">借助 9.18.1，NetApp 将新的 Cloud Volumes ONTAP 部署从 N2 虚拟机过渡到下一代 Google Cloud C3 系列虚拟机，以获得更快、更具可扩展性的体验。现在，您可以在 Google Cloud 中部署 Cloud Volumes ONTAP 9.18.1 及更高版本时利用 C3 系列虚拟机。C3 系列机器通过使用 Google Virtual NIC (gVNIC) 和 Hyperdisk Balanced 磁盘，确保密集型工作负载的动态性能，从而提供更高的性能和更高的容量限制。</block>
+  <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">目前，Cloud Volumes ONTAP 仅在单节点部署中支持 C3 系列。</block>
+  <block id="506a0b7b76d0386b3d56de15882686c0" category="paragraph">如果您的 Cloud Volumes ONTAP 系统运行 9.18.1 或更高版本，则用于轻松部署单节点的预配置包将自动使用 C3 虚拟机，同时使您能够根据工作负载需求自定义 IOPS 和吞吐量参数。同样，在创建聚合时，您可以添加 Hyperdisk Balanced 磁盘，以在 Google Cloud 中实现更好的性能和可扩展性。此外，您可以为默认 Flash Cache 支持选择 C3 系列计算机的 LSSD 变体。</block>
+  <block id="4e97495efaaec030c995f03b84344009" category="paragraph">将卷添加到聚合时，无法更改 C3 VM 的磁盘类型，因为 C3 仅支持 Hyperdisk Balanced 磁盘。同样，将具有 N2 VM 类型的系统复制到 C3 VM 时，磁盘类型默认设置为 Hyperdisk Balanced。</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud 中 Cloud Volumes ONTAP 支持的配置</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google 文档：C3 机器系列</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="1a7265e4a0716c5c59fbf92d4b2b8f8b" category="section-title">Azure 中 Cloud Volumes ONTAP 的 VNet 安全性</block>
+  <block id="a128f7270c0bfb9c5f5d16ec39f0d354" category="paragraph">Azure 单个和多个可用区域中的 Cloud Volumes ONTAP 9.18.1 及更高版本部署支持 Azure Virtual Network (VNet) 加密，作为其分层安全策略的一部分来保护传输中的数据。Cloud Volumes ONTAP 利用 Azure 的本机数据报传输层安全性 (DTLS) 协议来保护 ONTAP 节点、管理接口和其他 Azure 服务之间的通信，防止拦截和未经授权的访问。这种网络级加密是对 ONTAP 内置存储和静态数据保护的补充，可为您的数据提供端到端的安全性。</block>
+  <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">用于 Azure VNet 加密的网络</block>
+  <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
+  <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026 年 2 月 17 日</block>
 </blocks>
