@@ -301,7 +301,6 @@
   <block id="4b39db76689788868bda30b97106ca4a" category="section-title">KVM工作负载预览增强功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有关保护 KVM 工作负载的详细信息，请参阅<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
-  <block id="748b96a793ccf0ab113112372db17649" category="paragraph">勒索软件恢复功能现在支持将快照复制到辅助ONTAP站点。通过使用复制策略的保护组，您可以为每个工作负载复制到相同的目标位置或不同的目标位置。您可以创建包含复制功能的勒索软件防护策略，也可以使用预定义的策略。</block>
   <block id="389e0c39aeda061370262a9fa330d865" category="doc">不支持的卷</block>
   <block id="7aedbf1b65f2bcaf699a2f7f37ba458b" category="paragraph">勒索软件恢复能力报告现在会在**摘要**报告中捕获有关受支持和不受支持的卷的信息。利用这些信息来诊断系统中的卷为何可能不符合勒索软件防护条件。</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">下载勒索软件恢复力报告</block>
@@ -422,4 +421,26 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">用于 Azure VNet 加密的网络</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026 年 2 月 17 日</block>
+  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">Ransomware Resilience 现在支持将快照复制添加到辅助 ONTAP 站点。使用复制策略的保护组，您可以为每个工作负载复制到相同的目标或不同的目标。您可以创建包括复制的勒索软件保护策略或使用预定义策略。</block>
+  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 支持</block>
+  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持仅包括快照检测和保护策略。对 Azure NetApp Files 的支持当前处于预览状态。</block>
+  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
+  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
+  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">从用户行为警报中排除用户</block>
+  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">Ransomware Resilience 现在允许您从用户行为警报中排除特定用户。排除受信任的用户可以防止误报和不必要的警报。</block>
+  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">从警报中排除用户</block>
+  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">有关详细信息，请参见 <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>。</block>
+  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">用户行为活动的保护组支持</block>
+  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">Ransomware Resilience 保护组现在支持可疑用户行为检测的检测策略。当您将勒索软件保护策略应用于保护组时，它会跨工作负载应用策略，从而简化对网络安全态势的管理。</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">创建保护组</block>
+  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">有关详细信息，请参见 <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>。</block>
+  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">支持 Storage VM 迁移</block>
+  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。</block>
+  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">创建复制关系</block>
+  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">切换 Storage VM 及其复制卷</block>
+  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">要使用此功能，<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
+  <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console 代理 4.4.1</block>
+  <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">从 NetApp Console 访问 NetApp Data Infrastructure Insights</block>
+  <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">您可以从 NetApp Console 中访问 NetApp Data Infrastructure Insights 的免费试用版。转到 *Governance* &gt; *Data Infrastructure Insights* 进行注册，以探索有关数据环境的见解和分析。</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
 </blocks>

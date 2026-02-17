@@ -56,6 +56,33 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+=== 控制台设置和管理
+
+
+
+==== Console 代理 4.4.1
+
+4.4.0 版本同时支持标准模式和受限模式。
+
+此版本的 Console 代理包括安全性改进和错误修复。
+
+
+
+==== NetApp Console管理
+
+本次发布包含以下内容：
+
+
+
+==== NetApp Console管理
+
+本次发布包含以下内容：
+
+.从 NetApp Console 访问 NetApp Data Infrastructure Insights
+您可以从 NetApp Console 中访问 NetApp Data Infrastructure Insights 的免费试用版。转到 *Governance* > *Data Infrastructure Insights* 进行注册，以探索有关数据环境的见解和分析。
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -82,6 +109,50 @@ https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["G
 Azure 单个和多个可用区域中的 Cloud Volumes ONTAP 9.18.1 及更高版本部署支持 Azure Virtual Network (VNet) 加密，作为其分层安全策略的一部分来保护传输中的数据。Cloud Volumes ONTAP 利用 Azure 的本机数据报传输层安全性 (DTLS) 协议来保护 ONTAP 节点、管理接口和其他 Azure 服务之间的通信，防止拦截和未经授权的访问。这种网络级加密是对 ONTAP 内置存储和静态数据保护的补充，可为您的数据提供端到端的安全性。
 
 https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["用于 Azure VNet 加密的网络"^]
+
+
+
+== 2026 年 2 月 16 日
+
+
+
+=== 勒索软件抵御能力
+
+
+
+==== Azure NetApp Files 支持
+
+Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持仅包括快照检测和保护策略。对 Azure NetApp Files 的支持当前处于预览状态。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["了解勒索软件恢复能力"^]。
+
+
+
+==== 从用户行为警报中排除用户
+
+Ransomware Resilience 现在允许您从用户行为警报中排除特定用户。排除受信任的用户可以防止误报和不必要的警报。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["从警报中排除用户"^]。
+
+
+
+==== 用户行为活动的保护组支持
+
+Ransomware Resilience 保护组现在支持可疑用户行为检测的检测策略。当您将勒索软件保护策略应用于保护组时，它会跨工作负载应用策略，从而简化对网络安全态势的管理。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["创建保护组"^]。
+
+
+
+=== Amazon FSX for ONTAP
+
+
+
+==== 支持 Storage VM 迁移
+
+NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。
+
+要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。
 
 
 
@@ -513,7 +584,7 @@ link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["
 
 ==== 将快照复制到ONTAP
 
-勒索软件恢复功能现在支持将快照复制到辅助ONTAP站点。通过使用复制策略的保护组，您可以为每个工作负载复制到相同的目标位置或不同的目标位置。您可以创建包含复制功能的勒索软件防护策略，也可以使用预定义的策略。
+Ransomware Resilience 现在支持将快照复制添加到辅助 ONTAP 站点。使用复制策略的保护组，您可以为每个工作负载复制到相同的目标或不同的目标。您可以创建包括复制的勒索软件保护策略或使用预定义策略。
 
 有关详细信息，请参阅 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["在勒索软件恢复中保护工作负载"^]。
 
