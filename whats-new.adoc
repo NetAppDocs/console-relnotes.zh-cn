@@ -56,6 +56,33 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+=== 控制台设置和管理
+
+
+
+==== Console 代理 4.4.1
+
+4.4.0 版本同时支持标准模式和受限模式。
+
+此版本的 Console 代理包括安全性改进和错误修复。
+
+
+
+==== NetApp Console管理
+
+本次发布包含以下内容：
+
+
+
+==== NetApp Console管理
+
+本次发布包含以下内容：
+
+.从 NetApp Console 访问 NetApp Data Infrastructure Insights
+您可以从 NetApp Console 中访问 NetApp Data Infrastructure Insights 的免费试用版。转到 *Governance* > *Data Infrastructure Insights* 进行注册，以探索有关数据环境的见解和分析。
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -86,6 +113,22 @@ https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-
 
 
 == 2026 年 2 月 16 日
+
+
+
+=== 灾难恢复
+
+
+
+==== 改进的用户界面
+
+已刷新 Disaster Recovery UI，以根据反馈提高性能和用户体验。
+
+
+
+==== API Swagger 文档
+
+灾难恢复 API Swagger 文档现在可以在常规浏览器中访问；不再需要隐身模式。要访问 API 文档，请浏览到灾难恢复仪表板，选择右上角的上下文菜单 image:../media/use/icon-vertical-dots.png["操作图标"] 然后选择 **API Documentation** 以打开 Swagger 文档。您也可以 link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["将 URL 加入书签"^]。
 
 
 
@@ -125,7 +168,7 @@ Ransomware Resilience 保护组现在支持可疑用户行为检测的检测策�
 
 NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。
 
-要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。
+要使用此功能，link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。
 
 
 

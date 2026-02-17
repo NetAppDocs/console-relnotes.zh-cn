@@ -438,7 +438,6 @@
   <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。</block>
   <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">创建复制关系</block>
   <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">切换 Storage VM 及其复制卷</block>
-  <block id="e6dbc21f7dea944e6aaaaa4c0d56159d" category="paragraph">要使用此功能，<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="4fbf2906eb98c7c630a3491ffc2b8863" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
   <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console 代理 4.4.1</block>
   <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">从 NetApp Console 访问 NetApp Data Infrastructure Insights</block>
   <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">您可以从 NetApp Console 中访问 NetApp Data Infrastructure Insights 的免费试用版。转到 *Governance* &gt; *Data Infrastructure Insights* 进行注册，以探索有关数据环境的见解和分析。</block>
@@ -449,4 +448,5 @@
   <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">操作图标</block>
   <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">将 URL 加入书签</block>
   <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">灾难恢复 API Swagger 文档现在可以在常规浏览器中访问；不再需要隐身模式。要访问 API 文档，请浏览到灾难恢复仪表板，选择右上角的上下文菜单 <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block> 然后选择 **API Documentation** 以打开 Swagger 文档。您也可以 <block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>。</block>
+  <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">要使用此功能，<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
 </blocks>
