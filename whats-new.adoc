@@ -52,6 +52,26 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+== 2026 年 2 月 19 日
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Azure 支持的新区域
+
+现在，您可以在 Azure 的以下区域中的单个和多个可用性区域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。这包括对单节点和高可用性 (HA) 部署的支持。
+
+* 日本西部 (japanwest)
+* 印度尼西亚中部 (indonesiacentral)
+
+
+要查看所有区域的列表，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全局区域地图"^]。
+
+
+
 == 2026 年 2 月 17 日
 
 
