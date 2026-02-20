@@ -192,6 +192,18 @@ NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许�
 
 
 
+=== Keystone
+
+NetApp Console中Keystone仪表板的新增强功能：
+
+
+
+==== Data Infrastructure Insights 附加项消耗显示
+
+Data Infrastructure Insights (DII) 附加组件消耗现在显示在*当前消耗*和*消耗趋势*选项卡中。要了解更多信息，请参阅 link:./concepts/data-infra-insights.html#view-dii-consumption["查看 DII 消耗量"]。
+
+
+
 == 2026 年 2 月 12 日
 
 
