@@ -121,10 +121,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">已弃用服务</block>
-  <block id="f5263927d94a42a805785f1aed06a069" category="doc">Google Cloud Platform 凭证变更</block>
-  <block id="790bec3007566d403b50931f866ace35" category="paragraph">随着客户设置和授权的Google Cloud NetApp Volumes系统越来越多，凭证的管理方式也发生了变化。</block>
-  <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">NetApp Volumes 系统凭据现在存储在 Google 云后端，例如 Cloud Key Management 服务或类似服务，创建新系统时会使用服务帐户模拟凭据。</block>
-  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">2025年11月27日</block>
   <block id="cab2138409405e17442c0b2913348b5c" category="doc">支持使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine。</block>
   <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery现在支持使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 进行迁移、故障转移、故障恢复和测试操作。这种集成实现了本地环境和 Google Cloud 之间的无缝灾难恢复工作流程。</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">前提条件</block>
@@ -457,8 +453,9 @@
   <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消耗量</block>
   <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights (DII) 附加组件消耗现在显示在*当前消耗*和*消耗趋势*选项卡中。要了解更多信息，请参阅 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般可用性 (GA) 中支持的 KVM 工作负载</block>
-  <block id="e58f3c7a76cad4e6c2c7f515b3171f76" category="section-title">Kubernetes 在一般可用性 (GA) 中受支持</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可用（GA）。本次发布的 Kubernetes 工作负载还引入了以下增强功能：</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*报告支持*：您现在可以为受 NetApp Backup and Recovery 保护的 Kubernetes 集群和应用程序生成保护活动报告。</block>
   <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
+  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">KVM 工作负载支持现已在 NetApp Backup and Recovery 中正式提供（GA）。</block>
+  <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">一般可用性 (GA) 中支持的 Kubernetes 工作负载</block>
 </blocks>

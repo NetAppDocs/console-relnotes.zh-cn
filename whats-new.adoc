@@ -62,13 +62,13 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 ==== 一般可用性 (GA) 中支持的 KVM 工作负载
 
-Microsoft Hyper-V 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。
+KVM 工作负载支持现已在 NetApp Backup and Recovery 中正式提供（GA）。
 
 有关保护 KVM 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保护 KVM 工作负载概述"]。
 
 
 
-==== Kubernetes 在一般可用性 (GA) 中受支持
+==== 一般可用性 (GA) 中支持的 Kubernetes 工作负载
 
 Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可用（GA）。本次发布的 Kubernetes 工作负载还引入了以下增强功能：
 
@@ -908,19 +908,3 @@ NetApp Console中Keystone仪表板的新增强功能：
 NetApp Disaster Recovery现在支持使用Google Cloud NetApp Volumes的 Google Cloud VMware Engine 进行迁移、故障转移、故障恢复和测试操作。这种集成实现了本地环境和 Google Cloud 之间的无缝灾难恢复工作流程。
 
 请务必仔细阅读。link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["前提条件"]和link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["限制"]适用于谷歌云。
-
-
-
-== 2025年11月27日
-
-
-
-=== Google Cloud NetApp Volumes
-
-
-
-==== Google Cloud Platform 凭证变更
-
-随着客户设置和授权的Google Cloud NetApp Volumes系统越来越多，凭证的管理方式也发生了变化。
-
-NetApp Volumes 系统凭据现在存储在 Google 云后端，例如 Cloud Key Management 服务或类似服务，创建新系统时会使用服务帐户模拟凭据。
