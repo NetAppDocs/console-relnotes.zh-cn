@@ -326,10 +326,7 @@
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
   <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本现在支持<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) 而不是<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 用于 Google Cloud 中的新部署。Google 将在不久的将来弃用 Deployment Manager 作为基础架构服务，转而使用更高级的 Infrastructure Manager。</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">为 Google Cloud Infrastructure Manager 配置现有的 Cloud Volumes ONTAP 部署</block>
-  <block id="aa51ff66cac4f14d899d7f563f8f476a" category="paragraph">现在，自动部署 Cloud Volumes ONTAP 以使用 Infrastructure Manager 或通过运行转换工具将 Deployment Manager 中的现有部署切换到 Infrastructure Manager。转换是一次性过程，之后您的系统将自动开始使用 Infrastructure Manager。有关运行转换工具的说明，请参阅<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>。</block>
   <block id="492eb9196f4c5211832a66df9ce6230b" category="paragraph">使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系统使用 Google Cloud Storage 存储桶在第一次部署的区域中存储数据和记录，以存储部署记录，这些记录可重复用于后续部署。您可能需要为这些存储桶支付额外费用，但不要编辑或删除存储桶或其内容：</block>
-  <block id="c63b3118890326f42e936277c83db3b6" category="list-text"><block ref="9d4c46381bcc7ebe4bf02a7fd0ac5b6f" prefix="" category="inline-code"></block>: 用于存储 Cloud Volumes ONTAP Terraform 文件</block>
-  <block id="aaa460fe2e0e39c5d509b26ad876baf8" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>: 用于存储 Google Cloud Terraform 工件</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相关链接</block>
   <block id="73c696c58c9e62731e855a0bf47853e1" category="inline-link">在 Google Cloud 中开始使用 Cloud Volumes ONTAP</block>
   <block id="f80ae1b8de03cd56e51dbe8e44bf284f" category="list-text"><block ref="f80ae1b8de03cd56e51dbe8e44bf284f" category="inline-link-rx"></block></block>
@@ -458,4 +455,47 @@
   <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">KVM 工作负载支持现已在 NetApp Backup and Recovery 中正式提供（GA）。</block>
   <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">一般可用性 (GA) 中支持的 Kubernetes 工作负载</block>
+  <block id="d370e8740a6b64fd386955e0e780b888" category="paragraph">从 2026 年 2 月 9 日开始，Cloud Volumes ONTAP 使用 Infrastructure Manager 进行新的和现有的部署。下表为您解释了一些工作流程：</block>
+  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">场景</block>
+  <block id="004bf6c9a40003140292e97330236c53" category="cell">操作</block>
+  <block id="7227af91d597be9f306654b7f9570871" category="cell">代理的新 API</block>
+  <block id="060f2406e35d76018851fe48ca94d582" category="cell">代理的新权限</block>
+  <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">适用于 Cloud Volumes ONTAP 的全新 Google Cloud API</block>
+  <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">文档资源</block>
+  <block id="ffcce4c7137f38bc7e8f7abd968a2416" category="cell">现有代理和现有 Cloud Volumes ONTAP 部署</block>
+  <block id="8ca4609018726707802acec01ea088c8" category="cell">将新的 API 和权限添加到现有代理并转换现有 Cloud Volumes ONTAP 系统。</block>
+  <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">云基础架构管理器 API</block>
+  <block id="a4c710688b0bce1852460a0da5685192" category="list-text">Cloud Quotas API</block>
+  <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">Console 发行版列出的所有权限：</block>
+  <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">2025 年 12 月 8 日</block>
+  <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
+  <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
+  <block id="d0afacc44f5837356184459eb1b8fb68" category="cell">\https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1</block>
+  <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
+  <block id="32524c76b6297a63bd4c44a66fb638cb" category="cell">现有代理和新的 Cloud Volumes ONTAP 部署</block>
+  <block id="cd116d29376c1e626e005f853f310ae1" category="cell">向现有代理添加新的 API 和权限，并部署新的 Cloud Volumes ONTAP 系统。</block>
+  <block id="599a622e9d52b5b54a2b589d25b12d7f" category="cell">新部署的所有步骤</block>
+  <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">新代理和新部署</block>
+  <block id="252390de9c128281e1354046c39015db" category="cell">创建新代理并部署新的 Cloud Volumes ONTAP 系统。</block>
+  <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">从 Google Cloud 创建 Console 代理</block>
+  <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
+  <block id="dfa41bd12b34b1bd351e47cb755d553f" category="paragraph">现在，部署 Cloud Volumes ONTAP 以自动使用 Infrastructure Manager，或者通过运行转换工具将 Deployment Manager 中的现有部署切换到 Infrastructure Manager。转换是一次性过程，之后您的系统将开始使用 Infrastructure Manager。有关运行转换工具的说明，请参阅<block ref="5621b7ac255bff00b9e8610ec0606935" category="inline-link-rx"></block>。</block>
+  <block id="0841cdab6957a4878161d52555ce3f69" category="list-text"><block ref="459888dc95116b3e1800e611d3502102" prefix="" category="inline-code"></block>：适用于 ONTAP 版本和用于新 Cloud Volumes ONTAP 部署的 SVM Terraform 模板。在其中，<block ref="141f3ccee25f2d3a39df4d9471e4bb21" prefix=" " category="inline-code"></block> 存储桶包含 Cloud Volumes ONTAP Terraform 文件。</block>
+  <block id="a11251d028e85bf55e217f7b75894bca" category="list-text"><block ref="6ec9e5b046607d57923aee80f990225d" prefix="" category="inline-code"></block>：用于存储 Google Cloud Terraform 工件。</block>
+  <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">支持用于私有模式部署的 Google Infrastructure Manager</block>
+  <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本现在支持<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) 而不是<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 用于 Google Cloud 中的新私有模式部署。Google 将在不久的将来弃用 Deployment Manager 作为基础架构服务，转而使用更高级的 Infrastructure Manager。</block>
+  <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">从 2026 年 2 月 25 日开始，Cloud Volumes ONTAP 使用 Infrastructure Manager 进行新的和现有的专用模式部署。下表介绍了您的基本工作流程：</block>
+  <block id="d8848c7dd607d8a63767f8dcc10bcfc7" category="cell">私有模式下的现有代理和现有部署</block>
+  <block id="be72cda1fd0978b223bf1c72cd3470fe" category="cell">通过从 NetApp 支持站点下载安装程序，然后在主机上手动安装代理，升级到最新版本的 NetApp Console 代理，以便它可以使用 Infrastructure Manager API。然后，将现有的 Cloud Volumes ONTAP 系统转换为使用 Infrastructure Manager。</block>
+  <block id="1b4969e94a4b9494c07d1a3d15d990de" category="list-text">Cloud Build API</block>
+  <block id="b366c1901726ed94faabaca293b342ab" category="list-text">cloudbuild.workerpools.get</block>
+  <block id="a1594604ead4ac9e883fb7f2565b2dff" category="list-text">\https://cloudbuild.googleapis.com/v1</block>
+  <block id="255359407033996c52ff32fb9e9dedfd" category="list-text">\https://www.googleapis.com/upload/storage/v1</block>
+  <block id="f2be3a212e6f5bb332096881441fa881" category="list-text">\https://config.googleapis.com/v1</block>
+  <block id="887fafea4cfb163759637ed2efcec691" category="cell">创建新代理，并在专用模式下部署新的 Cloud Volumes ONTAP 系统。</block>
+  <block id="2977507bb7188d1e96246a14057a3902" category="inline-link">私人模式部署的快速入门</block>
+  <block id="2d0e6ad25589f8f4affb38c55f4f325f" category="list-text"><block ref="2d0e6ad25589f8f4affb38c55f4f325f" category="inline-link-rx"></block></block>
+  <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">适用于专用模式部署的 Infrastructure Manager 配置</block>
+  <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">在专用模式部署中，您需要对 Cloud Volumes ONTAP 进行一些配置更改才能开始使用 Infrastructure Manager。请参阅<block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>。</block>
+  <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">2026 年 2 月 26 日</block>
 </blocks>
