@@ -56,6 +56,41 @@ summary: 了解NetApp Console的功能和数据服务的最新变化。
 
 
 
+=== 控制台设置和管理
+
+
+
+==== 私有模式版本 (4.4.0)
+
+现在可以从 https://mysupport.netapp.com/site/downloads["NetApp 支持站点"^]下载新的私有模式版本
+
+
+
+===== BlueXP 私密模式现在为 NetApp Console 私密模式
+
+NetApp Console 4.4.0 是 NetApp Console 在私有模式下的首个版本。
+
+该 NetApp Console 建立在增强和重组的 BlueXP 基础之上，提供跨本地和云环境的企业级 NetApp 存储和 NetApp Data Services 的集中管理，提供实时洞察、更快的工作流程以及高度安全且合规的简化管理。
+
+了解有关新 NetApp Console 的更多信息，请参阅 https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2025-10-06.html["NetApp Console 页面中的新增功能"^]。
+
+4.4.0 版本包括对以下 NetApp Console 组件和服务的更新。
+
+[cols="3*"]
+|===
+| 组件或服务 | 此版本中包含的版本 | 自上一个私有模式发布以来的更改 
+
+
+| Console 代理 | 4.4.0 | 转到  https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-02-09.html["NetApp Console 页面中的新增功能"^] 并参见版本 4.4.0 包含的更改。 
+
+
+| 备份和恢复 | 5.0.2 (2026 年 2 月 9 日) | 转到  https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["NetApp Backup and Recovery 页面中的新增功能"^]。 
+
+
+| 分类 | 1.5.1 (2026 年 2 月 9 日) | 转到  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classification 页面中的新增功能"^]。 
+|===
+
+
 === Cloud Volumes ONTAP
 
 
@@ -163,7 +198,7 @@ Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可�
 
 ==== Console 代理 4.4.1
 
-4.4.0 版本同时支持标准模式和受限模式。
+4.4.1 版本同时支持标准模式和受限模式。
 
 此版本的 Console 代理包括安全性改进和错误修复。
 
