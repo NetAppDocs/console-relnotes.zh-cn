@@ -509,7 +509,6 @@
   <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 页面中的新增功能</block>
   <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell">转到 <block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block> 并参见版本 4.4.0 包含的更改。</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">备份和恢复</block>
-  <block id="380c830a3c13f16e4d36530d1de2be47" category="cell">5.0.2 (2026 年 2 月 9 日)</block>
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 页面中的新增功能</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">转到 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">分类</block>
@@ -520,4 +519,5 @@
   <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">FSx for ONTAP 文件系统支持 NetApp Console 代理状态</block>
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console 现在显示工作负载中 FSx for ONTAP 文件系统的 Console 代理状态。状态指示代理是否正在运行并能够与 FSx for ONTAP 文件系统通信。这些信息可以帮助您解决连接问题。</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
+  <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2026 年 3 月 2 日)</block>
 </blocks>
