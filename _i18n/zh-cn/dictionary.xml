@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console 现在显示工作负载中 FSx for ONTAP 文件系统的 Console 代理状态。状态指示代理是否正在运行并能够与 FSx for ONTAP 文件系统通信。这些信息可以帮助您解决连接问题。</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2026 年 3 月 2 日)</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">集群中的卷选项卡中的新列</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">查看与 Keystone 订阅关联的资产</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">查看 Keystone 订阅中的资产</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">在 *Assets* 中的 *Volumes in clusters* 选项卡中添加了三个新列：*Hot data*、*Cold tier (%)* 和 *Hot tier (%)*。要了解更多信息，请参阅 <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> 和 <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>。</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">消费趋势中的已开票、未开票和临时突发用量</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">查看累积突发流量</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*消费趋势*选项卡中的应计突发计费图现在显示已开票、未开票和临时突发使用情况。要了解更多信息，请参阅 <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>。</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">监控视图的增强功能</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* 视图包含以下更新：</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Alerts 选项卡*：*Alert* 列重命名为 *Alert type &amp; condition*。您现在还可以使用 *Status* 列旁边的省略号图标来编辑 alert、添加备注或查看 alert 详细信息。</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors 选项卡*：*Condition* 列重命名为 *Monitor type &amp; condition*。</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">查看和管理 Keystone 订阅的警报</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看和创建 Keystone 订阅的警报监控</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">要了解更多信息，请参阅 <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> 和 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
 </blocks>
