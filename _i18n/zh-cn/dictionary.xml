@@ -125,38 +125,8 @@
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">有关详细信息，请参阅 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
   <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP的首选计费方式</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
-  <block id="026970f0ac157044199489d6744c2491" category="doc">控制台代理 4.2.0</block>
-  <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">4.2.0 版本同时支持标准模式和受限模式。</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支持 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">云部署管理器</block>
-  <block id="e7858dcbf9687c88e071775eb4ee07ea" category="paragraph">NetApp现在使用 Google Cloud Infrastructure Manager (IM) 而不是 Google Cloud Deployment Manager 来部署代理和管理 Google Cloud 中的代理。做出此项更改是因为谷歌将弃用此功能。 <block ref="9574f21b6b64ac1c3366333a9bb489f6" category="inline-link-macro-rx"></block>。</block>
-  <block id="817a59a137d2f36b17e19b14b0e90545" category="inline-link-macro">查看权限变更日志。</block>
-  <block id="05345eddc0e94be562e27e8d53b608ae" category="list-text">任何 4.2.0 及更高版本的新代理都使用基础架构管理器，您应该更新用于部署的用户帐户和服务帐户权限。 <block ref="ca3a237b8d0ef6729093b3abe4bab2f0" category="inline-link-macro-rx"></block></block>
-  <block id="cc598dc1e413aff136dd2366a85faf46" category="list-text">部署代理时，系统还会创建一个 Google Cloud 存储桶来存储部署文件。</block>
-  <block id="d9dfb1e70d9002b82990e5020a243087" category="list-title">改进了控制台代理的配置检查</block>
-  <block id="1c113e32e8394b861faad1f61a9626cb" category="inline-link-macro">了解更多关于控制台代理所需端点的信息。</block>
-  <block id="675d71adc8a1b2329a23e817b7275840" category="list-text">控制台代理现在在执行配置检查时会检查已弃用的端点。如果您尚未更新到 4.0.0 或更高版本的新端点列表，则只要系统能够访问之前的端点列表，安装就会成功。 <block ref="4fa9d5f65f1179ca8dedab794aee5677" category="inline-link-macro-rx"></block></block>
-  <block id="5cf1eebafa9e566db5b16d2f75b10866" category="inline-link-macro">了解如何对控制台代理运行配置检查。</block>
-  <block id="532e2205eae250e20138ac0d4fb7670a" category="list-text">从控制台或代理维护控制台对已安装的控制台代理运行配置检查，以验证连接性并排除故障。 <block ref="2d14832e5c27ace253e7c4b1295d1814" category="inline-link-macro-rx"></block></block>
-  <block id="f1a69f998a4fd4d34f139b76d2b1cf5d" category="paragraph-title">直接从NetApp Console下载代理软件</block>
-  <block id="ffb09157eddacde0f2ddbb27b8b5a58d" category="inline-link-macro">了解如何直接从NetApp Console下载控制台代理软件。</block>
-  <block id="0d8ee60431ecde7e8c0ca3d789c24bae" category="paragraph">当您需要手动安装代理时，除了NetApp支持网站之外，您还可以直接从NetApp Console访问代理软件。 <block ref="3ce006bd909dc885369b2f86674a08a3" category="inline-link-macro-rx"></block></block>
-  <block id="f33a1c02aef9134dd317909d568855ae" category="paragraph-title">能够设置凭证过期通知。</block>
-  <block id="eb85d454a2ba07f1bf0f8e315ae0b696" category="paragraph">设置服务帐户和联合身份验证凭据过期的通知。选择七天或三十天。控制台会向具有相应角色的用户显示通知和电子邮件。组织管理员会收到服务帐户通知。组织管理员、联盟管理员和联盟查看者会收到联盟通知。</block>
-  <block id="c76ecba1e00b52577de6653acbf29014" category="paragraph-title">启用联合身份验证后，本地登录将不可用。</block>
-  <block id="e713ec00d2b4c1f46099d8669c70bc4a" category="paragraph">为控制台组织启用联合身份验证后，用户将无法使用本地登录，而是会被引导至联合身份验证登录。</block>
-  <block id="37922d4b00cf704156c5276d88caa05c" category="paragraph-title">提升存储管理页面的易用性</block>
-  <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">现在，您可以从存储管理页面更轻松地查看和管理有关ONTAP本地系统（以及 FSx for ONTAP）的详细信息。</block>
-  <block id="c513928c0b95afec773bd29d135d4632" category="list-text">“Discoverable systems”页面将摘要信息与可用系统的选项卡显示分开，从而更容易查看有关可发现系统的全面信息。</block>
-  <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">2025年12月10日</block>
-  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">从NetApp Console查看ONTAP系统时的可用性增强（仅限标准模式）</block>
-  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">NetApp Console中的“系统”页面在管理卷和集群时提高了清晰度和易用性。这些更新使用户体验与较新版本的ONTAP系统管理器更加一致，并简化了导航。</block>
-  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">ONTAP 9.5 及更高版本包含集群容量（仅限控制台标准模式）</block>
-  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">*系统 &gt; 概述* 页面会显示集群大小以及运行ONTAP 9.5 及更高版本的集群的ONTAP版本。</block>
-  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">对于受限模式下的NetApp Console或ONTAP版本 9.5 及更低版本，已配置卷的信息保持不变。</block>
-  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">如果您拥有超过 20 个本地ONTAP集群，则“系统”页面上的“卷”选项卡默认显示为网格视图。</block>
-  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">当您在NetApp Console中管理超过 20 个本地ONTAP集群时，“卷”选项卡默认显示网格视图，以便于导航。卡片视图已禁用。</block>
-  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">此更改仅适用于标准模式，并且适用于ONTAP版本 9.6 及更高版本。</block>
   <block id="6da53899225555a506524070f96e33df" category="doc">支持本地环境中的多个控制台代理</block>
   <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">如果您在本地使用灾难恢复，现在可以为每个 vCenter 实例部署控制台代理，从而提高恢复能力。</block>
   <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">例如，如果您有两个站点（站点 A 和 B），则站点 A 可以将控制台代理 A 连接到 vCenter 1、 ONTAP部署 1 和ONTAP部署 2。站点 B 可以将控制台代理 B 连接到 vCenter 2 和ONTAP部署 3 和 4。</block>
@@ -361,7 +331,6 @@
   <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 支持</block>
   <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持仅包括快照检测和保护策略。对 Azure NetApp Files 的支持当前处于预览状态。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
-  <block id="5e0e68da0b873ce6ac5da97de07de426" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">从用户行为警报中排除用户</block>
   <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">Ransomware Resilience 现在允许您从用户行为警报中排除特定用户。排除受信任的用户可以防止误报和不必要的警报。</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">从警报中排除用户</block>
@@ -543,4 +512,20 @@
   <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">Console 管理</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">详细了解如何将 Keystone 角色分配给合作伙伴用户。</block>
   <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">您可以将 Keystone 角色分配给合作伙伴用户，以允许这些用户管理合作伙伴组织中的 Keystone 资源。<block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
+  <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
+  <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">从用户行为警报中批量排除用户</block>
+  <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">除了现有的基于 UI 和 CSV 的选项之外，Ransomware Resilience 现在还支持上传要从用户行为活动警报中排除的用户的 JSON 列表。</block>
+  <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">有关详细信息，请参见 <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>。</block>
+  <block id="5d8e3a83bb9b2062983b23dd93a1a59a" category="section-title">用户行为活动增强</block>
+  <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience 通过添加电子邮件警报并在受支持的 SIEM 事件数据（AWS Security Hub、Microsoft Sentinel 和 Splunk Cloud）中包含用户行为事件，提高了对用户行为的洞察力。这些增强功能可为您的安全和合规性监控提供更准确的见解。</block>
+  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">将 NetApp Ransomware Resilience 连接到 SIEM</block>
+  <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">有关详细信息，请参见 <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>。</block>
+  <block id="3204a863a3a1a57abe7546af70eb77cf" category="doc">能够管理 Cloud Volumes ONTAP 的 Console 代理设置</block>
+  <block id="a51be83082fba5b4dcf135a536ea8b1d" category="paragraph">现在，即使失去连接或代理设置不正确，也可以在 NetApp Console 代理上管理 Cloud Volumes ONTAP 的代理设置。以前，如果 Console 代理在 20 分钟内无法连接到 Cloud Volumes ONTAP，它将使用默认设置覆盖您的手动代理设置。这导致通信失败，包括 AutoSupport 消息问题。若要保留现有系统的代理设置，请运行以下 API 调用：</block>
+  <block id="2ed7e2686c6c63422cc2a66168ff6a41" category="paragraph"><block ref="f4868aca388daf10284f58112e13f2bd" prefix="" category="inline-code"></block></block>
+  <block id="2bfe294417f6af6fb18d7ac186551586" category="paragraph">在请求正文中包含以下参数：</block>
+  <block id="7e6627b4e37aede8d2d720694c07915e" category="paragraph">默认模式为标准模式，这意味着如果 Console 代理在 20 分钟内无法连接到 Cloud Volumes ONTAP，它将使用默认设置覆盖您的代理设置。</block>
+  <block id="7bfa46b18158f588f3fb87cc98bc501b" category="inline-link">配置可修改的 NetApp Console 参数</block>
+  <block id="0383a3079d971b2242c6d61352ea3ab4" category="paragraph"><block ref="0383a3079d971b2242c6d61352ea3ab4" category="inline-link-rx"></block></block>
+  <block id="34df2c4da19b4e31f0349125e9cabfc7" category="section-title">2026 年 3 月 10 日</block>
 </blocks>
