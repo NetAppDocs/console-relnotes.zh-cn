@@ -543,4 +543,12 @@
   <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">数据分类已添加 Red Hat Enterprise Linux v9.7，用于手动本地安装，包括暗站点部署。</block>
   <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">以下操作系统需要使用 Podman 容器引擎，并且需要 Data Classification 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6 和 9.7。</block>
   <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">有关详细信息，请参见<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">发现 Oracle Database 工作负载</block>
+  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*群集主机支持*：您现在可以发现和保护使用 Oracle Automatic Storage Management (ASM) 并使用 VMDK 在 VMFS 文件系统上部署的 Oracle Real Application Clusters (RAC) 数据库。有关详细信息，请参阅<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>。</block>
+  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">配置 Oracle 数据库</block>
+  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMAN 目录支持*：您现在可以将 Backup and Recovery 配置为在 RMAN 恢复目录中存储保护元数据，从而在目标控制文件丢失时提供冗余和长期保留。有关详细信息，请参阅<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>。</block>
+  <block id="1336b537734375879229275580e44691" category="inline-link">保护 Oracle 数据库工作负载概述</block>
+  <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>。</block>
+  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026 年 3 月 31 日</block>
 </blocks>
