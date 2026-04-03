@@ -564,5 +564,5 @@
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">2026 年 3 月 30 日</block>
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps 的 SOAR 攻略</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience 现在为 <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。该攻略可简化威胁响应管理，自动化任务测试和基本勒索软件响应工作，包括创建快照和使卷脱机。</block>
+  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience 现在为 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。该攻略可以更轻松地管理威胁响应，自动化任务和测试，并支持基本的勒索软件响应工作，包括创建快照和使卷脱机。</block>
 </blocks>
