@@ -114,65 +114,15 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">本地ONTAP集群</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone仪表板的新增强功能：</block>
-  <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">此版本的控制台代理包含安全改进、错误修复以及以下功能：</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次发布包含以下内容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次数据分类版本更新包含错误修复和以下更新：</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
-  <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">管理勒索软件恢复能力中的警报</block>
-  <block id="869c8807275d576171cb34b892652da6" category="paragraph">有关详细信息，请参阅 <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>。</block>
-  <block id="0b7a28160bc4a7ca924f1baa6abb1a57" category="doc">Cloud Volumes ONTAP的首选计费方式</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支持 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">云部署管理器</block>
-  <block id="6da53899225555a506524070f96e33df" category="doc">支持本地环境中的多个控制台代理</block>
-  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">如果您在本地使用灾难恢复，现在可以为每个 vCenter 实例部署控制台代理，从而提高恢复能力。</block>
-  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">例如，如果您有两个站点（站点 A 和 B），则站点 A 可以将控制台代理 A 连接到 vCenter 1、 ONTAP部署 1 和ONTAP部署 2。站点 B 可以将控制台代理 B 连接到 vCenter 2 和ONTAP部署 3 和 4。</block>
-  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">创建控制台代理</block>
-  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">有关灾难恢复中的控制台代理的信息，请参阅 <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>。</block>
-  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">使用基于数据存储的保护机制，在故障转移后为复制计划添加虚拟机</block>
-  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">当故障转移被触发时，任何使用基于数据存储的保护的复制计划都会包含已添加到数据存储中的虚拟机，前提是这些虚拟机已被发现。故障转移完成前，您必须提供新增虚拟机的映射详细信息。</block>
-  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">故障转移应用程序</block>
-  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">有关详细信息，请参阅 <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>。</block>
-  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">新邮件通知</block>
-  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">灾难恢复功能现在会针对以下事件发送电子邮件通知：</block>
-  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">接近容量使用极限</block>
-  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">报告生成完成</block>
-  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">工作失败</block>
-  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">许可证到期或违规</block>
-  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Swagger 改进</block>
-  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
-  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">现在您可以从灾难恢复中访问 Swagger 文档。在灾难恢复中，选择**设置**，然后选择**API 文档**以链接到 Swagger，或者在浏览器的隐身/隐私模式下访问此 URL： <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>。</block>
-  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">改进的用户界面</block>
-  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">灾难恢复功能现在提供更完善的警告和错误解决方法。此版本修复了导致已取消的作业无法在用户界面中显示的错误。已取消的职位现在可以查看了。当同一个目标网络映射到多个不同的源网络时，还会发出新的警告。</block>
-  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">保留复制计划中默认添加的 VM 文件夹结构</block>
-  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">创建复制时，新的默认设置是保留 VM 文件夹结构。如果恢复目标没有原始文件夹层次结构，灾难恢复程序会创建它。您可以取消选择此选项以忽略原始文件夹层次结构。</block>
-  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">有关详细信息，请参阅 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
-  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">2026年1月12日</block>
-  <block id="13e1e540c5d0fb4cabfadd886c98b1ee" category="paragraph">现在您可以选择一种首选的计费方式来计算您的Cloud Volumes ONTAP使用量和超额费用。自 2025 年 6 月 25 日起，自带许可证 (BYOL) 许可模式将不再提供， NetApp已在NetApp Console的“许可和订阅”部分添加了首选的计费方式。您可以选择使用年度市场订阅进行计费和超额费用结算，或者选择现有的 BYOL 模式作为首选方案。这样，您可以灵活选择最适合您组织财务战略和使用模式的充电方式。</block>
-  <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">计费偏好和超额费用</block>
-  <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>。</block>
-  <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">将快照复制到ONTAP</block>
-  <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">在勒索软件恢复中保护工作负载</block>
-  <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">有关详细信息，请参阅 <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>。</block>
-  <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">将工作负载排除在勒索软件恢复能力之外</block>
-  <block id="36d62eb8fbffb07f574185bd90036cd1" category="paragraph">勒索软件恢复功能现在支持将系统中的特定工作负载从保护范围和勒索软件恢复仪表板中排除。发现工作负载后，您可以将其排除在外；如果想要添加勒索软件防护，则可以重新将其包含在内。排除在外的工作负载无需付费。</block>
-  <block id="427dab7765b34a516acce2d3545db33d" category="inline-link-macro">排除工作负载</block>
-  <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">有关详细信息，请参阅 <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>。</block>
-  <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">标记提醒，如正在审核中</block>
-  <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">勒索软件恢复功能现在允许您将警报标记为“审核中”。使用“审核中”标签可以提高团队在对活跃的勒索软件威胁进行分类和管理时的清晰度。</block>
-  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">控制台代理 4.3.0</block>
-  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">4.3.0 版本同时支持标准模式和受限模式。</block>
-  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">能够验证控制台代理的网络连接</block>
-  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">NetApp Console处于受限模式时支持联合身份验证</block>
-  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">现在您可以为处于受限模式的NetApp Console组织启用联合身份验证。这样，用户就可以使用其公司凭证登录控制台，同时保持受限模式的安全优势。</block>
-  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">只读模式</block>
-  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">您可以将NetApp Console组织设置为只读模式。在只读模式下，用户可以查看资源和设置，但不能进行任何更改。组织管理员或超级管理员可以启用组织的只读模式。启用只读模式后，具有管理角色的用户必须手动提升权限才能根据需要进行更改。</block>
-  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">了解如何为控制台组织启用只读模式。</block>
-  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
-  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">当你的组织处于只读模式时，了解如何提升你的角色。</block>
   <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">1.50 版</block>
   <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自定义分类改进</block>
   <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">数据分类功能现在支持创建自定义数据类别。您可以上传文件来微调数据分类所使用的 AI 模型，以便将类别标记应用于数据。所有自定义分类的界面都得到了改进。</block>
@@ -187,11 +137,6 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">调查报告预计完成时间</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下载调查报告时，“数据分类”现在会显示下载完成的预计时间。</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
-  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">NetApp Console中联合组的角色访问控制</block>
-  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">NetApp Console支持将角色分配给联合组（例如 Active Directory 组），从而允许管理员根据组织身份提供程序 (IdP) 中的组成员身份自动执行用户入职和离职。此功能可减少管理开销，并通过在组成员身份更改时立即更新控制台访问权限来确保安全、一致的访问。</block>
-  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">了解如何为您的组织提供对联合组的访问权限。</block>
-  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
-  <block id="1f48aa3b8a17cda9bff69e07d29acd50" category="paragraph"><block ref="1f48aa3b8a17cda9bff69e07d29acd50" category="inline-link-macro-rx"></block></block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP卷工作负载增强</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP卷工作负载引入了以下增强功能：</block>
@@ -218,9 +163,6 @@
   <block id="f411222cfe4404b6e0b3d9790460b804" category="list-text">现在，您可以将 Hyper-V VM 备份和快照还原到备用位置。使用此功能可以管理不同 Hyper-V 主机上的 VM 版本。</block>
   <block id="83de53928b74eea738d883969ca231fa" category="list-text">NetApp Backup and Recovery 现在支持由 System Center Virtual Machine Manager (SCVMM) 调配并托管在 CIFS 共享上的 Hyper-V 虚拟机。</block>
   <block id="fe3a06f4a23ebd296fcaecd751b29ac6" category="paragraph">KVM 工作负载预览现在保护由 Apache CloudStack 管理的 KVM 主机和虚拟机。</block>
-  <block id="3a78a8ea0b02debae5e6b16cc1929cb5" category="paragraph">现在，您可以直接从 NetApp Console 验证已连接的 Console 代理的网络连接。此功能有助于验证连接并排除 Console 代理的问题。这是除了从 Console 代理维护控制台命令行界面 (CLI) 运行网络诊断的现有能力之外。</block>
-  <block id="16e0d5a8229f3c0136c12aa9def60bb1" category="inline-link-macro">了解如何从 NetApp Console 运行配置。</block>
-  <block id="3cb937c3382e580784aa7486c365ec19" category="paragraph"><block ref="3cb937c3382e580784aa7486c365ec19" category="inline-link-macro-rx"></block></block>
   <block id="37c785778d2185acbba38fa4b6624392" category="paragraph"><block ref="b49343ccc7da9738bd595bd89e3d39db" category="inline-link-macro-rx"></block>。</block>
   <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">每日应计突发数据的交互式过滤</block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">查看每日应计突发数据使用情况</block>
@@ -327,7 +269,6 @@
   <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">用于 Azure VNet 加密的网络</block>
   <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
   <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026 年 2 月 17 日</block>
-  <block id="691a3e8e2059e924160a8104310f552d" category="paragraph">Ransomware Resilience 现在支持将快照复制添加到辅助 ONTAP 站点。使用复制策略的保护组，您可以为每个工作负载复制到相同的目标或不同的目标。您可以创建包括复制的勒索软件保护策略或使用预定义策略。</block>
   <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 支持</block>
   <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持仅包括快照检测和保护策略。对 Azure NetApp Files 的支持当前处于预览状态。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
@@ -505,12 +446,9 @@
   <block id="dd340069cb16665edf781618805f1165" category="doc">Console 代理 4.5.0</block>
   <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 版本同时支持标准模式和受限模式。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
-  <block id="b8ea9a14287592fd39444f5f11f22b28" category="paragraph-title">支持对所需端口的配置检查</block>
   <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">详细了解如何在 Console 代理上运行配置检查。</block>
-  <block id="8fab8f63a86cd4593eb84501e6b42574" category="paragraph">您可以使用配置检查来验证 Console 代理所需的端口是否已打开。您可以从 Console 或 Agent 维护控制台执行配置检查。<block ref="b6bcdf4dfaf7604bd81efc4009e39859" category="inline-link-macro-rx"></block></block>
   <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">Console 管理</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">详细了解如何将 Keystone 角色分配给合作伙伴用户。</block>
-  <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">您可以将 Keystone 角色分配给合作伙伴用户，以允许这些用户管理合作伙伴组织中的 Keystone 资源。<block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">从用户行为警报中批量排除用户</block>
   <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">除了现有的基于 UI 和 CSV 的选项之外，Ransomware Resilience 现在还支持上传要从用户行为活动警报中排除的用户的 JSON 列表。</block>
@@ -548,8 +486,6 @@
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*群集主机支持*：您现在可以发现和保护使用 Oracle Automatic Storage Management (ASM) 并使用 VMDK 在 VMFS 文件系统上部署的 Oracle Real Application Clusters (RAC) 数据库。有关详细信息，请参阅<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>。</block>
   <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">配置 Oracle 数据库</block>
   <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*RMAN 目录支持*：您现在可以将 Backup and Recovery 配置为在 RMAN 恢复目录中存储保护元数据，从而在目标控制文件丢失时提供冗余和长期保留。有关详细信息，请参阅<block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>。</block>
-  <block id="1336b537734375879229275580e44691" category="inline-link">保护 Oracle 数据库工作负载概述</block>
-  <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>。</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">2026 年 3 月 31 日</block>
   <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">历史消费图表上突发容量以上</block>
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">查看 Keystone 订阅的消费趋势</block>
@@ -565,4 +501,54 @@
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps 的 SOAR 攻略</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience 现在为 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。该攻略可以更轻松地管理威胁响应，自动化任务和测试，并支持基本的勒索软件响应工作，包括创建快照和使卷脱机。</block>
+  <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">支持所需端口的配置检查</block>
+  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">您可以使用配置检查来验证 Console 代理所需的端口是否已打开。您可以从 Console 或 Agent 维护控制台执行配置检查。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
+  <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">您可以将 Keystone 角色分配给合作伙伴用户，以允许这些用户管理合作伙伴组织中的 Keystone 资源。<block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
+  <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console 代理 4.6.0</block>
+  <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 版本同时支持标准模式和受限模式。</block>
+  <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">支持所需磁盘空间的配置检查</block>
+  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">详细了解如何在 Console 代理上运行配置检查</block>
+  <block id="01ec5c0199a20329cd9739a87994ba1d" category="paragraph">您可以使用配置检查验证 Console 代理所需的磁盘空间是否可用。您可以从 Console 或 Agent 维护控制台执行配置检查。<block ref="2f1b890fa743352ff9f5cd648c952940" category="inline-link-macro-rx"></block></block>
+  <block id="6f8cdd1e2991c2d2f9a4580b6f79bf52" category="paragraph-title">使用 ISO 升级已部署 vCenter 的控制台代理</block>
+  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">了解如何升级 vCenter 部署的 Console 代理</block>
+  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">如果您在 vCenter 中使用 OVA 部署了 Console 代理，现在可以通过将 ISO 装载到虚拟机并从虚拟机维护控制台运行升级将其升级到新版本。<block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
+  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
+  <block id="a83b3bb31eda1beff171bab61e67aa23" category="paragraph">*支持 NetApp MetroCluster 主动/主动配置*：NetApp Backup and Recovery for Volumes 工作负载现在支持 MetroCluster 主动-主动配置。</block>
+  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
+  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
+  <block id="19455401d550e37f86235df1de2da367" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下保护策略增强功能：</block>
+  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*编辑保护策略*：如果需要更改，现在可以编辑 Kubernetes 工作负载保护策略</block>
+  <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*磁盘到磁盘支持*：您现在可以使用磁盘到磁盘备份架构配置 Kubernetes 保护策略。</block>
+  <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform 存储桶支持*：您现在可以配置 Kubernetes 保护策略以备份到 Google Cloud Platform 存储桶。</block>
+  <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">在 NetApp Backup and Recovery 中创建和管理保护策略</block>
+  <block id="a51dec4d18c2ec4a0870f9ac159087be" category="paragraph">有关保护策略的详细信息，请参阅<block ref="f4766eb2cdd623ee9325b7be7c1e14e2" category="inline-link-rx"></block>。</block>
+  <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
+  <block id="6f9c0bad860671276c7314dda8468d6b" category="list-text">*改进的作业处理*：NetApp Backup and Recovery 现在可以更有效地同时处理多个作业。</block>
+  <block id="f02d5e72af9add59ab18089e0f4cc895" category="list-text">*SAN 支持（预览）*：Backup and Recovery 现在支持保护存储在 SAN 存储上的 Hyper-V VM。</block>
+  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保护 Hyper-V 工作负载概述</block>
+  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
+  <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVM 工作负载增强</block>
+  <block id="9e61640a2e25b290407c7bce4b5f72fb" category="paragraph">在此版本中，KVM 工作负载引入了以下增强功能：</block>
+  <block id="02055854e5f8d7c0a2161503c5645d5a" category="inline-link">使用 NetApp Backup and Recovery 还原 KVM 虚拟机</block>
+  <block id="2695e041e7821912ad62ed125ae887a9" category="list-text">*还原到备用位置（预览）*：您现在可以将 KVM VM 还原到备用目标。有关详细信息，请参阅<block ref="c82574f572233aef5ee5178c16dc1758" category="inline-link-rx"></block>。</block>
+  <block id="318e7f91a44ca688085735c8092e7c69" category="inline-link">创建和管理保护组</block>
+  <block id="b4ad3ee842f554f84ff60d2d0f7228a6" category="list-text">*基于标记的保护*：VMware 工作负载的备份和恢复现在支持对存储在 NFS 和 VMFS 卷上的虚拟机的基于标记的保护，使您能够从 vCenter 标记而不是从单个虚拟机或数据存储构建保护组。当您在 vCenter 中标记虚拟机和数据存储时，备份和恢复会自动发现并将其包含在未来的备份中，而无需任何手动组维护。有关详细信息，请参阅<block ref="863c691e599eacbfae8d86e5506c4592" category="inline-link-rx"></block>。</block>
+  <block id="d782b6346ca61c6cf09a6d3470f1e8a1" category="inline-link">还原 VMware 工作负载</block>
+  <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*还原到备用存储系统*：即使原始（主）存储系统完全不可用，您现在也可以将虚拟机还原到备用存储系统。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
+  <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">还原文件和文件夹</block>
+  <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*将文件还原到 Linux VM*：您现在可以将 VM 文件和文件夹还原到 Linux VM。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
+  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*还原文件和文件夹时支持代理虚拟机* - 您现在可以将文件和文件夹还原到源 vCenter 上托管的其他虚拟机。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
+  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*递归文件和文件夹搜索* - 您现在可以在整个 VMDK 中搜索特定文件或文件夹。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
+  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">1.53 版</block>
+  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">此版本的 Data Classification 包括错误修复、安全改进和性能增强。</block>
+  <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine (GCVE) 支持现已全面推出 (GA)</block>
+  <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">GCVE 的 NetApp Disaster Recovery 支持现已全面推出（GA）。借助 GA 支持，Disaster Recovery for GCVE 现在支持：</block>
+  <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*平台管理的快照：* 通过 ONTAP 或 Google Cloud Platform (GCP) 无缝管理备份和保留策略。</block>
+  <block id="045d30a52ce459f46c504234d025f4c3" category="list-text">*每个复制计划有多个数据存储区：*通过将多个数据存储区整合到单个复制策略中，简化 Disaster Recovery 计划。</block>
+  <block id="c4eadd4786334639a92ab9b1508f337f" category="list-text">*对不可用的源站点强制故障转移：*如果源站点不可用，则切换到灾难恢复站点。</block>
+  <block id="a7772ec1948f1cd5c6087ddb93603474" category="list-text">*按需延迟 SnapMirror 重新同步和还原复制：* 使用"跳过保护"选项延迟 SnapMirror 重新同步，以避免在高峰操作期间对生产工作负载产生影响，然后使用重新保护选项按需还原复制</block>
+  <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery 支持的配置</block>
+  <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">有关 GCVE 支持的详细信息，请参见 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>。</block>
+  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
 </blocks>
