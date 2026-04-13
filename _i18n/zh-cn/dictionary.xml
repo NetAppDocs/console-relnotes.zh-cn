@@ -551,7 +551,20 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery 支持的配置</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">有关 GCVE 支持的详细信息，请参见 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">在 &lt;stdin&gt; 中的未解析指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">未解析指令在 &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">云分层 :leveloffset: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 中的未解析指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 中未解析的指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">清理还原</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience 现在支持 clean restores，这是一种新的恢复选项，可帮助您快速轻松地从勒索软件攻击中恢复。Clean restores 提供指导性工作流程，可识别最佳还原点以启动和运行您的工作负载，同时最大限度地减少停机时间。Clean restore 中的工作流程还提供对数据的文件级见解，确保您可以还原无恶意软件的工作负载，从而防止再次感染并最大限度地减少数据丢失。</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">创建隔离的恢复环境</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用干净还原恢复工作负载</block>
+  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">要了解支持的配置以及如何配置系统以进行干净还原，请参见 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。要了解如何使用干净还原进行恢复，请参见 <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>。</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk Enterprise 的 SIEM 支持</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience 现在为 Splunk Enterprise 提供安全信息事件管理 (SIEM) 支持，使您能够集中日志和事件数据，并简化威胁分析和检测。</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">将勒索软件弹性连接到 SIEM</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">有关详细信息，请参见<block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">用户行为活动增强</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">对数据泄露事件的洞察现在可以在事件发生后保留 13 个月，从而可以根据您的报告需求进行更长时间的记录保存。</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">了解用户活动检测</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">有关详细信息，请参见<block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>。</block>
 </blocks>
