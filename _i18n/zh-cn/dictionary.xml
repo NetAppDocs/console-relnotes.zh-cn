@@ -551,4 +551,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery 支持的配置</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">有关 GCVE 支持的详细信息，请参见 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">在 &lt;stdin&gt; 中的未解析指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">云分层 :leveloffset: +1</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 中的未解析指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
 </blocks>
