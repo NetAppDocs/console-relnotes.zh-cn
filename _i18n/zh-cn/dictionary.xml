@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支持 Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">云部署管理器</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">1.50 版</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">自定义分类改进</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">数据分类功能现在支持创建自定义数据类别。您可以上传文件来微调数据分类所使用的 AI 模型，以便将类别标记应用于数据。所有自定义分类的界面都得到了改进。</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">创建自定义分类</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">有关详细信息，请参阅 <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>。</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">自定义过期数据定义</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">数据分类功能现在允许您自定义过期数据的定义，以满足您组织的需求。此前，过时数据被定义为三年前最后一次修改的数据。现在，可以根据上次访问时间或上次修改时间来识别过时的数据；时间段可以从 6 个月前到 10 年前不等。</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">自定义过期数据定义</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">有关详细信息，请参阅 <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>。</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">性能提升</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">数据分类、数据映射报告和调查页面上的筛选器等所有页面的加载时间都已缩短。</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">调查报告预计完成时间</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">下载调查报告时，“数据分类”现在会显示下载完成的预计时间。</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">2026年1月14日</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">ONTAP卷工作负载增强</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">此版本的ONTAP卷工作负载引入了以下增强功能：</block>
@@ -567,4 +553,13 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">了解用户活动检测</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">有关详细信息，请参见 <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>。</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">要了解支持的配置以及如何配置系统以进行干净还原，请参见 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。要了解如何使用干净还原进行恢复，请参见 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">借助 Google Cloud C3 VM 改进了 Cloud Volumes ONTAP 支持</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP 现在增强了对 Google Cloud C3 系列虚拟机的支持，实现了以下附加功能：</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">在 Cloud Volumes ONTAP 部署中，您可以在 C3 系列中的不同变体之间切换实例类型。</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">更改实例类型时，如果选择 c3-standard-44 或 c3-standard-88 及其 LSSD 变体作为目标 VM，则会自动应用 Google 网络服务出口网络层 Tier-1。如果切换到任何其他 C3 变体，则出口网络层设置为 Standard。</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">将出口网络层更改为 Tier-1 会产生额外费用。相应地规划部署和升级。</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">如果您选择 C3 的本地 SSD (LSSD) 变体，默认情况下会启用 Flash Cache。无法在 Cloud Volumes ONTAP 部署中的 C3 LSSD 变体之间切换，即使目标变体支持 Flash Cache。</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">现在，您可以在 C3 虚拟机上向新的和现有的聚合添加卷。</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">通过 NetApp Console 或使用<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API 添加卷时，可以更改 IOPS 和吞吐量设置。</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
 </blocks>
