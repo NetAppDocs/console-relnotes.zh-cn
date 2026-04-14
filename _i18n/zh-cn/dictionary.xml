@@ -524,8 +524,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*还原到备用存储系统*：即使原始（主）存储系统完全不可用，您现在也可以将虚拟机还原到备用存储系统。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">还原文件和文件夹</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*将文件还原到 Linux VM*：您现在可以将 VM 文件和文件夹还原到 Linux VM。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
-  <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*还原文件和文件夹时支持代理虚拟机* - 您现在可以将文件和文件夹还原到源 vCenter 上托管的其他虚拟机。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
-  <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*递归文件和文件夹搜索* - 您现在可以在整个 VMDK 中搜索特定文件或文件夹。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">1.53 版</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">此版本的 Data Classification 包括错误修复、安全改进和性能增强。</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine (GCVE) 支持现已全面推出 (GA)</block>
@@ -562,4 +560,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">现在，您可以在 C3 虚拟机上向新的和现有的聚合添加卷。</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">通过 NetApp Console 或使用<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API 添加卷时，可以更改 IOPS 和吞吐量设置。</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
+  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*还原文件和文件夹时支持代理 VM* - 当您不希望将虚拟磁盘附加到原始 VM 时，现在可以使用代理 VM 从虚拟磁盘还原文件和文件夹。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
+  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*递归文件和文件夹搜索* - 您现在可以搜索整个虚拟磁盘以查找特定文件或文件夹。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
 </blocks>
