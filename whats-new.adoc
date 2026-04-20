@@ -148,11 +148,13 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 
 此版本的 Data Classification 包括错误修复、安全改进和性能增强。
 
-云分层 :leveloffset: +1
+
+
+=== 云层
 
 
 
-=== 不再提供 NetApp Cloud Tiering
+==== 不再提供 NetApp Cloud Tiering
 
 自 2026 年 4 月 26 日起，NetApp Cloud Tiering 不再可供购买或续订许可证。
 
