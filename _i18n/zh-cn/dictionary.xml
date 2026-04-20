@@ -511,9 +511,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery 支持的配置</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">有关 GCVE 支持的详细信息，请参见 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>。</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">未解析指令在 &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">云分层 :leveloffset: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">_whatsnew/2026-04-13_data-services-cloud-tiering.adoc 中未解析的指令 - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">清理还原</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience 现在支持 clean restores，这是一种新的恢复选项，可帮助您快速轻松地从勒索软件攻击中恢复。Clean restores 提供指导性工作流程，可识别最佳还原点以启动和运行您的工作负载，同时最大限度地减少停机时间。Clean restore 中的工作流程还提供对数据的文件级见解，确保您可以还原无恶意软件的工作负载，从而防止再次感染并最大限度地减少数据丢失。</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">创建隔离的恢复环境</block>
@@ -541,4 +539,13 @@
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 支持*：VMware 工作负载现在支持保护由 NetApp ASA r2 SAN 专用环境托管的 VMFS 数据存储上的 VM。</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026 年 4 月 20 日</block>
+  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">不再提供 NetApp Cloud Tiering</block>
+  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">自 2026 年 4 月 26 日起，NetApp Cloud Tiering 不再可供购买或续订许可证。</block>
+  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">现有客户可以继续使用并获得 NetApp Cloud Tiering 支持，直至其订阅或许可合同到期。订阅到期后，客户将无法再访问 NetApp Cloud Tiering 功能或支持。</block>
+  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">在 ONTAP 集群上安装 FabricPool 许可证</block>
+  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetApp 建议客户与其 NetApp 代表合作，将其现有分层许可证转换为 ONTAP FabricPool 许可证，该许可证提供 ONTAP 中数据分层的功能。有关如何在 ONTAP 中使用 FabricPool 设置数据分层的更多信息，请参见 <block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering 停止提供通知</block>
+  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
+  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 停止可用性常见问题解答</block>
+  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
 </blocks>
