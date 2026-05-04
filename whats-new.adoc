@@ -1086,37 +1086,3 @@ Upgrade Advisor 现在为节点在同一 ONTAP 主要版本中运行不同修补
 ==== 对终止受限支持的 ONTAP 版本的扩展支持
 
 Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成升级计划，宽限期为 9 个月。此功能通过在过渡期间提供明确的指导，帮助客户及时采取行动并避免升级中断。
-
-
-
-== 2026 年 2 月 02 日
-
-
-
-=== Keystone
-
-NetApp Console中Keystone仪表板的新增强功能：
-
-
-
-==== 每日应计突发数据的交互式过滤
-
-*消费趋势*选项卡中的*累计突发天数*表现在支持交互式过滤。选择应计突发计费图表中的任意条形图，仅查看该计费周期内的天数。要了解更多信息，请参阅 link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["查看每日应计突发数据使用情况"]。
-
-
-
-==== 增强了应计突发图中的日期范围显示
-
-*消费趋势* 选项卡中的应计突发计费图现在显示每个计费周期的完整日期范围，例如 2025 年 10 月 1 日至 2025 年 10 月 31 日，而不仅仅是月份和年份。
-
-
-
-==== 可扩展的订阅详细信息视图
-
-*Subscriptions* 选项卡包含一个选项，可以同时展开所有订阅和查看每个订阅的性能服务级别信息。要了解更多信息，请参阅 link:./integrations/subscriptions-tab.html["查看有关 Keystone 订阅的详细信息"]。
-
-
-
-==== 新用法类型列
-
-*Subscriptions* 选项卡包括一个 *Usage type* 列，显示订阅是根据预配、物理还是逻辑使用情况收费。要了解更多信息，请参阅 link:./integrations/subscriptions-tab.html["查看有关 Keystone 订阅的详细信息"]。
