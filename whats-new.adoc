@@ -30,6 +30,22 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+== 2026 年 5 月 4 日
+
+
+
+=== 数据分类
+
+
+
+==== 使用 OVA 部署 Data Classification
+
+NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["使用 OVA 部署 Data Classification"^]。
+
+
+
 == 2026 年 4 月 27 日
 
 
@@ -165,7 +181,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
-==== 1.53 版
+==== 常规改进
 
 此版本的 Data Classification 包括错误修复、安全改进和性能增强。
 
@@ -451,29 +467,40 @@ https://docs.netapp.com/us-en/console-automation/cvo/put-occm-config.html["配�
 
 
 
-==== 1.52 版
+==== 资源验证
 
-.资源验证
 为了确保可靠性，Data Classification 现在可以在扫描、报告生成和操作中验证可用的内存和磁盘资源。当内存使用率超过 95% 或磁盘空间低于 6 GB 时，Data Classification 会自动暂停操作。一旦资源充足，操作就会恢复。
 
 要监视系统资源，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["监控 Data Classification 的运行状况"^]。
 
-.提高了复制和移动的限制
+
+
+==== 提高了复制和移动的限制
+
 CIFS 目标现在支持复制和移动功能。两个操作的每个文件大小限制已从之前的 50 MB 限制增加到 1 GB。这两个操作的操作限制已增加到 1 TB 或 500 万个文件。
 
 有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["复制、移动和删除数据"^]。
 
-.Active Directory 集成配置权限
+
+
+==== Active Directory 集成配置权限
+
 Data Classification 中对 Active Directory (AD) 集成设置的更改现在仅限于管理员。查看者不再能够修改 AD 设置。
 
 有关 Classification viewer 角色的详细信息，请参见 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["数据服务角色"^]。
 
-.支持 RHEL 9.7
+
+
+==== 支持 RHEL 9.7
+
 数据分类已添加 Red Hat Enterprise Linux v9.7，用于手动本地安装，包括暗站点部署。
 
 以下操作系统需要使用 Podman 容器引擎，并且需要 Data Classification 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6 和 9.7。
 
-.透明代理支持
+
+
+==== 透明代理支持
+
 Data Classification 现在支持透明代理配置，可在代理或受限网络环境中实现更顺畅的部署。
 
 有关在受限环境中部署的详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-compliance-dark-site.html["在没有互联网访问权限的 Linux 主机上安装 NetApp Data Classification"^]。
@@ -960,26 +987,32 @@ VMware 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (G
 
 
 
-==== 1.51 版
+==== 直接从 NetApp Console 画布使用 Amazon FSxN for ONTAP 激活数据分类
 
-本次数据分类版本更新包含错误修复和以下更新：
-
-.直接从 NetApp Console 画布使用 Amazon FSxN for ONTAP 激活数据分类
 现在，您可以直接从 NetApp Console 画布为 ONTAP 系统启用 Amazon FSxN，从而更快地启动 FSxN 系统的数据分类。
 
 有关将数据分类与 Amazon FSxN for ONTAP 结合使用的更多信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-fsx.html["扫描 Amazon FSxN for ONTAP 卷"^]。
 
-.提高调查目录的导出限制
+
+
+==== 提高调查目录的导出限制
+
 现在，从调查控制面板导出有关目录的调查报告时，您可以包含 10,000 行。此前限制为 5,000 行，此次增加支持对数据治理和合规性的大规模调查。
 
 有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["调查数据"^]。
 
-.提高复制和移动的限制
+
+
+==== 提高复制和移动的限制
+
 现在，在复制或移动文件时，您可以移动最大为 250 MB 的文件，这比之前的 50 MB 限制有所增加。
 
 有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["复制、移动和删除数据"^]。
 
-.改进了低分辨率屏幕的显示效果
+
+
+==== 改进了低分辨率屏幕的显示效果
+
 Data Classification 提高了低分辨率屏幕的显示性能，增强了用户体验。
 
 

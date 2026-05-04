@@ -118,7 +118,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次发布包含以下内容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
-  <block id="640602402999fbf572de482a35f449bc" category="paragraph">本次数据分类版本更新包含错误修复和以下更新：</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">支持 Google Cloud Infrastructure Manager</block>
@@ -127,17 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有关保护 KVM 工作负载的详细信息，请参阅<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">VMware 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。</block>
-  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">每日应计突发数据的交互式过滤</block>
-  <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">查看每日应计突发数据使用情况</block>
-  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">*消费趋势*选项卡中的*累计突发天数*表现在支持交互式过滤。选择应计突发计费图表中的任意条形图，仅查看该计费周期内的天数。要了解更多信息，请参阅 <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>。</block>
-  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">增强了应计突发图中的日期范围显示</block>
-  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*消费趋势* 选项卡中的应计突发计费图现在显示每个计费周期的完整日期范围，例如 2025 年 10 月 1 日至 2025 年 10 月 31 日，而不仅仅是月份和年份。</block>
-  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">可扩展的订阅详细信息视图</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">查看有关 Keystone 订阅的详细信息</block>
-  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*Subscriptions* 选项卡包含一个选项，可以同时展开所有订阅和查看每个订阅的性能服务级别信息。要了解更多信息，请参阅 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
-  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新用法类型列</block>
-  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*Subscriptions* 选项卡包括一个 *Usage type* 列，显示订阅是根据预配、物理还是逻辑使用情况收费。要了解更多信息，请参阅 <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>。</block>
-  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
   <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">用于全面安全监督的新安全报告</block>
   <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor 现在包括一个安全报告，可提供整个存储环境的 ONTAP 安全风险的统一视图。此报告可更快地检测群集、SVM 和卷之间的错误配置、合规性差距和安全问题，帮助您维护安全的存储基础架构。</block>
   <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">增强对混合补丁级别的 Upgrade Advisor 支持</block>
@@ -208,7 +196,6 @@
   <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">现在可以从 NetApp Console 在 Cloud Volumes ONTAP 系统和 FSx for ONTAP 文件系统之间进行数据复制。</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">复制数据</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">1.51 版</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">一般可用性 (GA) 中支持的 VMware 工作负载</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">在 Azure 中支持 Ebdsv5 和 E104ids_v5 虚拟机</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">从 Cloud Volumes ONTAP 9.18.1 开始，您可以部署 Ebdsv5 和 E104ids_v5 虚拟机，用于单节点和高可用性 (HA) 部署和升级。</block>
@@ -391,7 +378,6 @@
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">改进的网络发现</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery 现在包括改进的网络发现，以支持更广泛的网络配置。</block>
   <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">提高复制和移动的限制</block>
-  <block id="5db4431afc8c4647c29360449ee80225" category="doc">1.52 版</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">资源验证</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">为了确保可靠性，Data Classification 现在可以在扫描、报告生成和操作中验证可用的内存和磁盘资源。当内存使用率超过 95% 或磁盘空间低于 6 GB 时，Data Classification 会自动暂停操作。一旦资源充足，操作就会恢复。</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">监控 Data Classification 的运行状况</block>
@@ -499,7 +485,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*还原到备用存储系统*：即使原始（主）存储系统完全不可用，您现在也可以将虚拟机还原到备用存储系统。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">还原文件和文件夹</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*将文件还原到 Linux VM*：您现在可以将 VM 文件和文件夹还原到 Linux VM。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
-  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">1.53 版</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">此版本的 Data Classification 包括错误修复、安全改进和性能增强。</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine (GCVE) 支持现已全面推出 (GA)</block>
   <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">GCVE 的 NetApp Disaster Recovery 支持现已全面推出（GA）。借助 GA 支持，Disaster Recovery for GCVE 现在支持：</block>
@@ -552,4 +537,9 @@
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。如需了解更多信息，请参阅 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*编辑保护策略*：如果需要更改 Kubernetes 工作负载保护策略，您现在可以对其进行编辑。</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
+  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
+  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
+  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有关详细信息，请参见 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
+  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026 年 5 月 4 日</block>
 </blocks>
