@@ -126,13 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有关保护 KVM 工作负载的详细信息，请参阅<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">VMware 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。</block>
-  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">用于全面安全监督的新安全报告</block>
-  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor 现在包括一个安全报告，可提供整个存储环境的 ONTAP 安全风险的统一视图。此报告可更快地检测群集、SVM 和卷之间的错误配置、合规性差距和安全问题，帮助您维护安全的存储基础架构。</block>
-  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">增强对混合补丁级别的 Upgrade Advisor 支持</block>
-  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor 现在为节点在同一 ONTAP 主要版本中运行不同修补程序级别的集群生成升级报告。此增强功能可确保客户可以无缝进行升级，只要集群不跨主要版本混合，从而为升级规划提供更大的灵活性。</block>
-  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">对终止受限支持的 ONTAP 版本的扩展支持</block>
-  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor 现在支持为已达到有限支持结束的 ONTAP 版本生成升级计划，宽限期为 9 个月。此功能通过在过渡期间提供明确的指导，帮助客户及时采取行动并避免升级中断。</block>
-  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">2026 年 2 月 04 日</block>
   <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
   <block id="055d81bf5e86c650f524ba8578595b0e" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本现在支持<block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) 而不是<block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) 用于 Google Cloud 中的新部署。Google 将在不久的将来弃用 Deployment Manager 作为基础架构服务，转而使用更高级的 Infrastructure Manager。</block>
   <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">为 Google Cloud Infrastructure Manager 配置现有的 Cloud Volumes ONTAP 部署</block>
@@ -542,4 +535,10 @@
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有关详细信息，请参见 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
   <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026 年 5 月 4 日</block>
+  <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
+  <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*对保护 VM 的本机支持*：您现在可以创建基于 VM 的应用程序，使您能够以保护任何其他应用程序的方式保护虚拟机。</block>
+  <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*资源转换*：您现在可以使用资源转换和资源转换模板在还原过程中添加、删除和修改资源属性。</block>
+  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*从 Backup and Recovery 升级 Trident Protect*：您现在可以直接从 Backup and Recovery 升级 Kubernetes 集群的 Trident Protect。</block>
+  <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*查看受保护的资源*：您现在可以查看应用程序的每个恢复点中包含的资源，并下载详细的 JSON 报告。这使您可以全面了解您的恢复点，并简化审计合规性。</block>
+  <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026 年 5 月 05 日</block>
 </blocks>
