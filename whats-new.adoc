@@ -30,6 +30,29 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+== 2026 年 5 月 12 日
+
+
+
+=== 灾难恢复
+
+
+
+==== 基于 Kubernetes 的工作负载支持（预览）
+
+NetApp Disaster Recovery 现在包括对基于 Kubernetes 的工作负载的支持。借助 Kubernetes 支持，您可以保护在 Kubernetes 集群上运行的应用程序，包括 OpenShift 虚拟化环境。Disaster Recovery 支持 link:https://docs.netapp.com/us-en/trident/trident-protect/trident-protect-requirements.html["Trident Protect 目前支持的任何 Kubernetes 版本"^]，确保容器化应用程序的无缝集成和强大的灾难恢复功能。
+
+基于 Kubernetes 的工作负载支持的主要功能：
+
+* **广泛的兼容性**：Disaster Recovery 支持与 Trident Protect 兼容的所有 Kubernetes 版本，包括 Red Hat OpenShift Virtualization。
+* **以应用程序为中心的保护**：您现在可以在应用程序级别保护 Kubernetes 工作负载，确保在故障转移事件期间恢复关键服务。
+* **简化编排**：Disaster Recovery 提供直观的工作流程，以自动化 Kubernetes 工作负载的备份和复制，利用与 VMware 环境相同的高效 SnapMirror 技术。
+
+
+对基于 Kubernetes 的工作负载的支持目前正处于预览阶段。要开始保护基于 Kubernetes 的工作负载，请参见 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/task-kubernetes-requirements.html["NetApp Disaster Recovery 的 Kubernetes 要求"^]。
+
+
+
 == 2026 年 5 月 05 日
 
 
@@ -918,200 +941,3 @@ E104ids_v5 是一个隔离的 VM 实例，可帮助您更好地处理计划的�
 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure 中Cloud Volumes ONTAP支持的配置"^]
 
 https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/edsv5-series?tabs=sizebasic["Azure 文档：Edsv5 尺寸系列"^]
-
-
-
-== 2026 年 2 月 09 日
-
-
-
-=== 控制台设置和管理
-
-
-
-==== Console 代理 4.4.0
-
-4.4.0 版本同时支持标准模式和受限模式。
-
-此版本的 Console 代理包括安全性改进和错误修复。
-
-
-
-==== NetApp Console管理
-
-本次发布包含以下内容：
-
-.支持基于角色的访问 NetApp Backup and Recovery 工作负载（Oracle 和 Microsoft SQL Server）
-您可以将 Backup and Recovery 工作负载（Oracle 和 Microsoft SQL Server）与项目相关联。分配给项目后，为项目分配 Backup and Recovery 角色的用户可以处理工作负载。目前，基于角色的访问不支持其他工作负载。
-
-link:https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["详细了解如何为 Backup and Recovery 工作负载设置基于角色的访问权限。"^]
-
-
-
-=== 备份和恢复
-
-
-
-==== 一般可用性 (GA) 中支持的 Microsoft Hyper-V 工作负载
-
-Microsoft Hyper-V 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。
-
-
-
-==== 一般可用性 (GA) 中支持的 VMware 工作负载
-
-VMware 工作负载支持现已在 NetApp Backup and Recovery 中正式提供 (GA)。
-
-
-
-==== Kubernetes 工作负载增强功能
-
-此版本的 Kubernetes 工作负载引入了以下增强功能：
-
-* *CR 工作流程支持*：现在，您可以使用 CR 以及 Backup and Recovery Web UI 执行常见的保护任务。
-* *集群迁移*：现在，您可以将使用 Trident Protect 保护的现有 Kubernetes 集群添加到 Backup and Recovery。
-* *警报框架支持*：您现在可以接收某些 Kubernetes 工作负载事件的电子邮件和 UI 警报。
-* *还原选项卡集成*：您现在可以从"还原"菜单访问 Kubernetes 工作负载还原操作。
-* *支持 3-2-1 扇出备份架构*：现在，在保护 Kubernetes 工作负载时，您可以在保护策略中使用 3-2-1 扇出架构。
-
-
-要了解有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保护 Kubernetes 工作负载概述"]。
-
-
-
-==== Oracle Database 工作负载增强
-
-此版本的 Oracle Database 工作负载引入了以下增强功能：
-
-* *非 root 用户支持*：非 root 用户现在可以执行备份、还原和克隆操作，从而提高安全性和合规性。
-* *克隆支持*：现在使用 ASM 库 v2 在主 NAS、辅助 NAS、SAN 和 ASM 环境中支持克隆功能，从而实现协调的保护工作流程。
-* *克隆拆分支持*：您现在可以从父卷拆分可写快照（克隆），从而释放存储空间并启用独立操作。
-* *对象存储的备份和还原*：基于对象的 S3 兼容存储目标现在支持本机备份和还原功能。
-* *Clone Lifecycle Management (CLM)*：主存储支持克隆刷新操作。
-* *Clone to alternate host*：您现在可以从主存储和二级存储将数据库克隆到不同的主机（用于测试或分析）。
-* *ONTAP 一致性组支持*：现在支持 ONTAP 一致性组，确保跨多个卷的应用程序一致性快照。
-* Backup and Recovery 现在支持以下适用于 Oracle Database 工作负载的保护策略体系结构：
-+
-** 3-2-1 扇出
-** 磁盘到磁盘
-** 磁盘到对象存储
-** 级联
-** 本地 snapshot
-
-
-
-
-要了解有关保护 Oracle Database 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保护 Oracle Database 工作负载概述"]。
-
-
-
-=== 数据分类
-
-
-
-==== 直接从 NetApp Console 画布使用 Amazon FSxN for ONTAP 激活数据分类
-
-现在，您可以直接从 NetApp Console 画布为 ONTAP 系统启用 Amazon FSxN，从而更快地启动 FSxN 系统的数据分类。
-
-有关将数据分类与 Amazon FSxN for ONTAP 结合使用的更多信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-fsx.html["扫描 Amazon FSxN for ONTAP 卷"^]。
-
-
-
-==== 提高调查目录的导出限制
-
-现在，从调查控制面板导出有关目录的调查报告时，您可以包含 10,000 行。此前限制为 5,000 行，此次增加支持对数据治理和合规性的大规模调查。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["调查数据"^]。
-
-
-
-==== 提高复制和移动的限制
-
-现在，在复制或移动文件时，您可以移动最大为 250 MB 的文件，这比之前的 50 MB 限制有所增加。
-
-有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["复制、移动和删除数据"^]。
-
-
-
-==== 改进了低分辨率屏幕的显示效果
-
-Data Classification 提高了低分辨率屏幕的显示性能，增强了用户体验。
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== 支持 Google Cloud Infrastructure Manager
-
-Cloud Volumes ONTAP 9.16.1 及更高版本现在支持 https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^] (IM) 而不是 https://docs.cloud.google.com/deployment-manager/docs/deprecations["云部署管理器"^] (DM) 用于 Google Cloud 中的新部署。Google 将在不久的将来弃用 Deployment Manager 作为基础架构服务，转而使用更高级的 Infrastructure Manager。
-
-从 2026 年 2 月 9 日开始，Cloud Volumes ONTAP 使用 Infrastructure Manager 进行新的和现有的部署。下表为您解释了一些工作流程：
-
-[cols="1,4,1,1,1,1"]
-|===
-| 场景 | 操作 | 代理的新 API | 代理的新权限 | 适用于 Cloud Volumes ONTAP 的全新 Google Cloud API | 文档资源 
-
-
-| 现有代理和现有 Cloud Volumes ONTAP 部署 | 将新的 API 和权限添加到现有代理并转换现有 Cloud Volumes ONTAP 系统。  a| 
-* 云基础架构管理器 API
-* Cloud Quotas API
-
- a| 
-Console 发行版列出的所有权限：
-
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025 年 12 月 8 日"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026 年 2 月 09 日"^]
-
-| \https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1  a| 
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["为 Google Cloud Infrastructure Manager 配置现有的 Cloud Volumes ONTAP 部署"^]
-
-
-
-| 现有代理和新的 Cloud Volumes ONTAP 部署 | 向现有代理添加新的 API 和权限，并部署新的 Cloud Volumes ONTAP 系统。  a| 
-* 云基础架构管理器 API
-* Cloud Quotas API
-
- a| 
-Console 发行版列出的所有权限：
-
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["2025 年 12 月 8 日"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["2026 年 2 月 09 日"^]
-
-| 新部署的所有步骤  a| 
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["在 Google Cloud 中开始使用 Cloud Volumes ONTAP"^]
-
-
-
-| 新代理和新部署 | 创建新代理并部署新的 Cloud Volumes ONTAP 系统。 |  |  |   a| 
-* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["从 Google Cloud 创建 Console 代理"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["在 Google Cloud 中开始使用 Cloud Volumes ONTAP"^]
-
-
-|===
-现在，部署 Cloud Volumes ONTAP 以自动使用 Infrastructure Manager，或者通过运行转换工具将 Deployment Manager 中的现有部署切换到 Infrastructure Manager。转换是一次性过程，之后您的系统将开始使用 Infrastructure Manager。有关运行转换工具的说明，请参阅 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["为 Google Cloud Infrastructure Manager 配置现有的 Cloud Volumes ONTAP 部署"^]。
-
-使用 Infrastructure Manager 的 Cloud Volumes ONTAP 系统使用 Google Cloud Storage 存储桶在第一次部署的区域中存储数据和记录，以存储部署记录，这些记录可重复用于后续部署。您可能需要为这些存储桶支付额外费用，但不要编辑或删除存储桶或其内容：
-
-* `gs://netapp-cvo-infrastructure-manager-<project id>`：适用于 ONTAP 版本和用于新 Cloud Volumes ONTAP 部署的 SVM Terraform 模板。在其中， `dm-to-im-convert` 存储桶包含 Cloud Volumes ONTAP Terraform 文件。
-* `<gcp project number>-<region>-blueprint-config`：用于存储 Google Cloud Terraform 工件。
-
-
-.相关链接
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["在 Google Cloud 中开始使用 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 发行说明"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Google Cloud Infrastructure Manager 所需的权限"^]
-
-
-
-
-=== Amazon FSX for ONTAP
-
-
-
-==== 支持在 Cloud Volumes ONTAP 和 FSx for ONTAP 之间复制数据
-
-现在可以从 NetApp Console 在 Cloud Volumes ONTAP 系统和 FSx for ONTAP 文件系统之间进行数据复制。
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["复制数据"]
