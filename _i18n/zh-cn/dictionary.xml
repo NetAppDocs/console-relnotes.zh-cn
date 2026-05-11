@@ -326,7 +326,6 @@
   <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 版本同时支持标准模式和受限模式。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
   <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">详细了解如何在 Console 代理上运行配置检查。</block>
-  <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">Console 管理</block>
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">详细了解如何将 Keystone 角色分配给合作伙伴用户。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">从用户行为警报中批量排除用户</block>
@@ -487,6 +486,13 @@
   <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**以应用程序为中心的保护**：您现在可以在应用程序级别保护 Kubernetes 工作负载，确保在故障转移事件期间恢复关键服务。</block>
   <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**简化编排**：Disaster Recovery 提供直观的工作流程，以自动化 Kubernetes 工作负载的备份和复制，利用与 VMware 环境相同的高效 SnapMirror 技术。</block>
   <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 要求</block>
-  <block id="84b0e3d023f875f2669a5f0d72922238" category="paragraph">对基于 Kubernetes 的工作负载的支持目前正处于预览阶段。要开始保护基于 Kubernetes 的工作负载，请参见 <block ref="343bf0d5acc46def5b744dcb13640f63" category="inline-link-macro-rx"></block>。</block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
+  <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 代理 4.7.0</block>
+  <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 版本同时支持标准模式和受限模式。</block>
+  <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">此版本包含以下新功能。</block>
+  <block id="2359613eeef582462b02e31edd2c83e1" category="paragraph-title">验证您的 Console 组织</block>
+  <block id="43dc49af1a8157f71040baeb30324e66" category="inline-link-macro">了解如何验证您的 Console 组织</block>
+  <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">默认情况下，Digital Advisor 显示与贵公司关联的所有 NetApp 帐户，而不仅仅是您的 Console 组织。要将 Digital Advisor 中显示的内容限制为特定帐户，请验证要用于 Console 组织的业务帐户。<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
+  <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">对基于 Kubernetes 的工作负载的支持目前正处于预览阶段。要开始保护基于 Kubernetes 的工作负载，请参见 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>。</block>
+  <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026 年 5 月 11 日</block>
 </blocks>
