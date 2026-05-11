@@ -495,4 +495,26 @@
   <block id="d1bdb7b91f1071f7a7fbbe9cc229a6cd" category="paragraph">默认情况下，Digital Advisor 显示与贵公司关联的所有 NetApp 帐户，而不仅仅是您的 Console 组织。要将 Digital Advisor 中显示的内容限制为特定帐户，请验证要用于 Console 组织的业务帐户。<block ref="804fccc7ef3790a6c6eaa859500c3cdb" category="inline-link-macro-rx"></block></block>
   <block id="e5d56575e494e873c5ded63467d12e44" category="paragraph">对基于 Kubernetes 的工作负载的支持目前正处于预览阶段。要开始保护基于 Kubernetes 的工作负载，请参见 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>。</block>
   <block id="9b70df306d1f1719fd9d70e02911394c" category="section-title">2026 年 5 月 11 日</block>
+  <block id="2177f4b8385663763a55092409fcf96d" category="list-text">*保护 SAN 存储上的 VM*：您现在可以保护 SAN 对象存储上的 VM。</block>
+  <block id="b4f11c5e52133c7c24d1d06bed289da5" category="list-text">*还原到备用位置增强功能*：现在，您可以从 SAN 存储上的 VM 的主要位置和次要位置还原到备用位置。</block>
+  <block id="c79dba5399648f390585db72c4aefa97" category="list-text">*将文件和文件夹还原到来宾虚拟机*：现在，您可以将文件和文件夹从主存储上的快照还原到来宾 Windows 虚拟机。只有 CIFS 虚拟机才支持此功能。</block>
+  <block id="b1eace1ceffef99bf891142b0bcdbbe8" category="paragraph">在此版本中，KVM 工作负载引入了以下增强功能：</block>
+  <block id="1c663519b8e9745bde2b09d483acf65f" category="paragraph">*还原到备用位置*：您现在可以将 KVM VM 还原到备用目标（此功能现已正式发布）。</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="25b535a4c68470b09e1b9748b7ec9c31" category="list-text">*Oracle AI Database 26ai 支持*：Backup and Recovery 现在支持 Oracle AI Database 26ai。</block>
+  <block id="366ff97a6ee8b3b75ea30b7561cfe3ca" category="list-text">*备份验证支持*：您现在可以配置备份策略以自动验证 Oracle 数据库备份的完整性。</block>
+  <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*保护组的跨数据存储支持*：现在，您可以在保护其虚拟磁盘跨越多个数据存储的虚拟机时选择保护组的行为。</block>
+  <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*克隆支持*：现在可以从主存储和二级存储创建虚拟机快照的克隆。</block>
+  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">清理还原增强功能</block>
+  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">Clean restore 现在支持恢复到备用集群和超过 7 天的分析。</block>
+  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>.</block>
+  <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 支持</block>
+  <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience 现在支持 Google SecOps 的安全信息和事件管理 (SIEM)，使您能够将数据自动发送到 Google SecOps 以简化威胁分析和检测。</block>
+  <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">有关配置信息，请参见 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
+  <block id="6ed9912d7c1784fccae7864acc430aeb" category="section-title">Azure NetApp Files 支持现已全面推出</block>
+  <block id="71c5d2f3f39fa5ddeeec1b7e5cd06c5e" category="paragraph">Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持包括仅使用快照的检测和保护策略。对 Azure NetApp Files 的支持现已全面推出 (GA)。</block>
+  <block id="23261131430f46ec6fb27110ac7f00fc" category="section-title">SOAR 对屏蔽用户的支持</block>
+  <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience 现在支持使用 Google SecOps 和 Splunk SOAR playbooks 阻止个人用户。借助此功能，当 Ransomware Resilience 检测到数据泄露或大规模删除数据等可疑用户活动时，您可以自动阻止用户。</block>
+  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
+  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
 </blocks>
