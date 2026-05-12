@@ -505,8 +505,6 @@
   <block id="fe5aa0dbf25e183784fa7cd2b595be46" category="list-text">*保护组的跨数据存储支持*：现在，您可以在保护其虚拟磁盘跨越多个数据存储的虚拟机时选择保护组的行为。</block>
   <block id="ab186862b28de3aad826b26d80e3eb96" category="list-text">*克隆支持*：现在可以从主存储和二级存储创建虚拟机快照的克隆。</block>
   <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">清理还原增强功能</block>
-  <block id="5214cc2b554214c44574918df0ce4dd1" category="paragraph">Clean restore 现在支持恢复到备用集群和超过 7 天的分析。</block>
-  <block id="b3b5d3c0c3eb03018f8b168331bf449f" category="paragraph"><block ref="b1b57aeec3a947615fddf0610c8788f4" category="inline-link-macro-rx"></block>.</block>
   <block id="eddd63bd47a99db9ac6b332f06d65b76" category="section-title">Google SecOps SIEM 支持</block>
   <block id="4977d1cdc293f17b4b971e00b9010c9d" category="paragraph">Ransomware Resilience 现在支持 Google SecOps 的安全信息和事件管理 (SIEM)，使您能够将数据自动发送到 Google SecOps 以简化威胁分析和检测。</block>
   <block id="5ef49dc0416f3c817660ec88587d3752" category="paragraph">有关配置信息，请参见 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
@@ -548,4 +546,6 @@
   <block id="4271feea4f5dd0d69f423f75fc48dbde" category="inline-link">更改容量许可证的收费方式</block>
   <block id="9e2298e44558506acec619a75ec64821" category="list-text"><block ref="9e2298e44558506acec619a75ec64821" category="inline-link-rx"></block></block>
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
+  <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">清理还原现在支持恢复到备用位置，使您能够将卷还原到由同一 Console 代理管理的不同系统、存储 VM 和聚合。此外，清理还原已取消了搜索可行快照进行恢复的七天限制。清理还原现在会继续查看可用快照以寻找可行的恢复点，无论距离勒索软件事件有多远。</block>
+  <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
 </blocks>
