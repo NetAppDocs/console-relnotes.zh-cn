@@ -486,7 +486,6 @@
   <block id="3dbc5485bf1aa588640ee699337e0892" category="list-text">**以应用程序为中心的保护**：您现在可以在应用程序级别保护 Kubernetes 工作负载，确保在故障转移事件期间恢复关键服务。</block>
   <block id="6124980497de7eeb616c27d599b53c84" category="list-text">**简化编排**：Disaster Recovery 提供直观的工作流程，以自动化 Kubernetes 工作负载的备份和复制，利用与 VMware 环境相同的高效 SnapMirror 技术。</block>
   <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 要求</block>
-  <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
   <block id="e337542e72a609caf56b5e5fdf59c9ff" category="doc">Console 代理 4.7.0</block>
   <block id="99c4637fed7022fa029be07f2fddc9af" category="paragraph">4.7.0 版本同时支持标准模式和受限模式。</block>
   <block id="c36716f3e716cc1af0c491f3d55d650b" category="paragraph">此版本包含以下新功能。</block>
@@ -517,4 +516,9 @@
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience 现在支持使用 Google SecOps 和 Splunk SOAR playbooks 阻止个人用户。借助此功能，当 Ransomware Resilience 检测到数据泄露或大规模删除数据等可疑用户活动时，您可以自动阻止用户。</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
+  <block id="6edeb5e7f8d6c86621cc7603e861b9ba" category="doc">使用 FSx for ONTAP 管理现有关系的复制</block>
+  <block id="12ad030c730fdc0c585b94ec9fbfc39b" category="paragraph">FSx for ONTAP 文件系统作为源或目标的复制关系管理现已在 NetApp Workload Factory 中。</block>
+  <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">管理数据复制</block>
+  <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">复制 :leveloffset: +1</block>
 </blocks>

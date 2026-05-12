@@ -402,6 +402,16 @@ Ransomware Resilience 现在为 Splunk Enterprise 提供安全信息事件管理
 
 有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["了解用户活动检测"^]。
 
+复制 :leveloffset: +1
+
+
+
+=== 使用 FSx for ONTAP 管理现有关系的复制
+
+FSx for ONTAP 文件系统作为源或目标的复制关系管理现已在 NetApp Workload Factory 中。
+
+link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["管理数据复制"]
+
 
 
 === Cloud Volumes ONTAP
