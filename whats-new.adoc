@@ -158,6 +158,26 @@ NOTE: 当您使用多种订阅类型或在房源之间迁移时，不会出现�
 
 
 
+=== 数据分类
+
+
+
+==== 改进的 Configuration 页面
+
+Data Classification 更新并改进了配置页面，从而实现了改进的可用性体验，以管理设置、系统、启用扫描和监控系统健康状况。除了能够按类型、错误状态和扫描状态筛选系统之外，新配置页面还以更易于使用的格式提供现有功能。新页面还提供了已连接系统的摘要以及活动和已配置扫描的概述。
+
+查看 link:https://youtu.be/_8YJ3KyZ7nI["视频演练"^]。有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-overview.html["使用 Data Classification 扫描数据源"^]。
+
+
+
+==== 使用 OVA 部署 Data Classification
+
+NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["使用 OVA 部署 Data Classification"^]。
+
+
+
 === 灾难恢复
 
 
@@ -232,22 +252,6 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 要了解有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保护 Kubernetes 工作负载概述"]。
-
-
-
-== 2026 年 5 月 4 日
-
-
-
-=== 数据分类
-
-
-
-==== 使用 OVA 部署 Data Classification
-
-NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["使用 OVA 部署 Data Classification"^]。
 
 
 

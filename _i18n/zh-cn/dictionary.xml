@@ -119,7 +119,6 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
-  <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Azure 中Cloud Volumes ONTAP支持的配置</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">云部署管理器</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作负载增强功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
@@ -140,14 +139,6 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保护 Oracle Database 工作负载概述</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
-  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">在 Azure 中支持 Ebdsv5 和 E104ids_v5 虚拟机</block>
-  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">从 Cloud Volumes ONTAP 9.18.1 开始，您可以部署 Ebdsv5 和 E104ids_v5 虚拟机，用于单节点和高可用性 (HA) 部署和升级。</block>
-  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">Azure 虚拟机 Eb 系列中的 Ebdsv5 VM 针对更高的远程存储性能进行了优化。您可以将这些 VM 用于内存密集型和 I/O 密集型企业工作负载，例如关系数据库、内存分析和其他要求苛刻的关键业务应用程序。</block>
-  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5 是一个隔离的 VM 实例，可帮助您更好地处理计划的维护窗口。与 E80ids_v4 相比，它提供了更高的磁盘吞吐量和 IOPS，以及更好的整体网络性能。</block>
-  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
-  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Azure 文档：Edsv5 尺寸系列</block>
-  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
-  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">2026 年 2 月 12 日</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机</block>
   <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">借助 9.18.1，NetApp 将新的 Cloud Volumes ONTAP 部署从 N2 虚拟机过渡到下一代 Google Cloud C3 系列虚拟机，以获得更快、更具可扩展性的体验。现在，您可以在 Google Cloud 中部署 Cloud Volumes ONTAP 9.18.1 及更高版本时利用 C3 系列虚拟机。C3 系列机器通过使用 Google Virtual NIC (gVNIC) 和 Hyperdisk Balanced 磁盘，确保密集型工作负载的动态性能，从而提供更高的性能和更高的容量限制。</block>
   <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">目前，Cloud Volumes ONTAP 仅在单节点部署中支持 C3 系列。</block>
@@ -471,7 +462,6 @@
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有关详细信息，请参见 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
-  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">2026 年 5 月 4 日</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*对保护 VM 的本机支持*：您现在可以创建基于 VM 的应用程序，使您能够以保护任何其他应用程序的方式保护虚拟机。</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*资源转换*：您现在可以使用资源转换和资源转换模板在还原过程中添加、删除和修改资源属性。</block>
@@ -548,4 +538,9 @@
   <block id="55a36fface9a3342eae20532f4dd2f82" category="section-title">2026 年 5 月 12 日</block>
   <block id="5d9344af71b6822a1b2231cd47017aef" category="paragraph">清理还原现在支持恢复到备用位置，使您能够将卷还原到由同一 Console 代理管理的不同系统、存储 VM 和聚合。此外，清理还原已取消了搜索可行快照进行恢复的七天限制。清理还原现在会继续查看可用快照以寻找可行的恢复点，无论距离勒索软件事件有多远。</block>
   <block id="66599dda2c9083455404f2c8f0bd486b" category="paragraph"><block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="a60267b93ffdd2ed17059222732309c4" category="doc">改进的 Configuration 页面</block>
+  <block id="4afd879e7ec84c60016c97e64b4fce9d" category="paragraph">Data Classification 更新并改进了配置页面，从而实现了改进的可用性体验，以管理设置、系统、启用扫描和监控系统健康状况。除了能够按类型、错误状态和扫描状态筛选系统之外，新配置页面还以更易于使用的格式提供现有功能。新页面还提供了已连接系统的摘要以及活动和已配置扫描的概述。</block>
+  <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">视频演练</block>
+  <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">使用 Data Classification 扫描数据源</block>
+  <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">查看 <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>。有关详细信息，请参见 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>。</block>
 </blocks>
