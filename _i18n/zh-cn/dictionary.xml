@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">视频演练</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">使用 Data Classification 扫描数据源</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">查看 <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>。有关详细信息，请参见 <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>。</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">合规管理员 IAM 角色</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">数据分类现在支持合规性管理员角色来管理数据分类中的权限。合规性管理员角色无权访问资源，包括控制台代理和工作区。具有合规性管理员角色的用户必须与至少一个其他角色相关联。</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">安装 Data Classification 时，您应具有 Console 平台管理员角色或 Compliance 管理员角色。</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">如果您是现有用户，访问权限应继续正常。例如，具有文件夹或项目管理员角色的平台角色具有现有访问权限。</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 角色</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">有关详细信息，请参见 <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>。</block>
 </blocks>
