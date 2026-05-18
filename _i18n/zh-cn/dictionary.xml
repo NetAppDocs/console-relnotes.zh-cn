@@ -115,7 +115,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">NetApp Console中Keystone仪表板的新增强功能：</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
-  <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">本次发布包含以下内容：</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
@@ -140,45 +139,10 @@
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
   <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机</block>
-  <block id="1a00162d4bdf4a56a4d4efde8a5c2f13" category="paragraph">借助 9.18.1，NetApp 将新的 Cloud Volumes ONTAP 部署从 N2 虚拟机过渡到下一代 Google Cloud C3 系列虚拟机，以获得更快、更具可扩展性的体验。现在，您可以在 Google Cloud 中部署 Cloud Volumes ONTAP 9.18.1 及更高版本时利用 C3 系列虚拟机。C3 系列机器通过使用 Google Virtual NIC (gVNIC) 和 Hyperdisk Balanced 磁盘，确保密集型工作负载的动态性能，从而提供更高的性能和更高的容量限制。</block>
-  <block id="af3ff68729b6eef28a7439636a40000a" category="admonition">目前，Cloud Volumes ONTAP 仅在单节点部署中支持 C3 系列。</block>
-  <block id="506a0b7b76d0386b3d56de15882686c0" category="paragraph">如果您的 Cloud Volumes ONTAP 系统运行 9.18.1 或更高版本，则用于轻松部署单节点的预配置包将自动使用 C3 虚拟机，同时使您能够根据工作负载需求自定义 IOPS 和吞吐量参数。同样，在创建聚合时，您可以添加 Hyperdisk Balanced 磁盘，以在 Google Cloud 中实现更好的性能和可扩展性。此外，您可以为默认 Flash Cache 支持选择 C3 系列计算机的 LSSD 变体。</block>
-  <block id="4e97495efaaec030c995f03b84344009" category="paragraph">将卷添加到聚合时，无法更改 C3 VM 的磁盘类型，因为 C3 仅支持 Hyperdisk Balanced 磁盘。同样，将具有 N2 VM 类型的系统复制到 C3 VM 时，磁盘类型默认设置为 Hyperdisk Balanced。</block>
   <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud 中 Cloud Volumes ONTAP 支持的配置</block>
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
-  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google 文档：C3 机器系列</block>
-  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
-  <block id="1a7265e4a0716c5c59fbf92d4b2b8f8b" category="section-title">Azure 中 Cloud Volumes ONTAP 的 VNet 安全性</block>
-  <block id="a128f7270c0bfb9c5f5d16ec39f0d354" category="paragraph">Azure 单个和多个可用区域中的 Cloud Volumes ONTAP 9.18.1 及更高版本部署支持 Azure Virtual Network (VNet) 加密，作为其分层安全策略的一部分来保护传输中的数据。Cloud Volumes ONTAP 利用 Azure 的本机数据报传输层安全性 (DTLS) 协议来保护 ONTAP 节点、管理接口和其他 Azure 服务之间的通信，防止拦截和未经授权的访问。这种网络级加密是对 ONTAP 内置存储和静态数据保护的补充，可为您的数据提供端到端的安全性。</block>
-  <block id="472b8c31c7082d1e8c4c46bb6921f950" category="inline-link">用于 Azure VNet 加密的网络</block>
-  <block id="2f932ac183ffb505894bacafe67a78d0" category="paragraph"><block ref="2f932ac183ffb505894bacafe67a78d0" category="inline-link-rx"></block></block>
-  <block id="d71e7e243c134c41083284d79bb58c37" category="section-title">2026 年 2 月 17 日</block>
-  <block id="17dfbc312023bdd4da992d8e751e72ac" category="doc">Azure NetApp Files 支持</block>
-  <block id="ea2f778dfb597a4b527dac7e944ad95b" category="paragraph">Ransomware Resilience 现在支持 Azure NetApp Files 系统，使您能够有效检测和响应 Azure NetApp Files 中的勒索软件威胁。当您发现工作负载时，Ransomware Resilience 现在会显示 Azure NetApp Files 并将其显示在保护仪表板中。Ransomware Resilience 对 Azure NetApp Files 的支持仅包括快照检测和保护策略。对 Azure NetApp Files 的支持当前处于预览状态。</block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
-  <block id="533173be617e8e70b39c22d6b639f1ef" category="section-title">从用户行为警报中排除用户</block>
-  <block id="34db265ea1c563cd1e8fec4196fdd55a" category="paragraph">Ransomware Resilience 现在允许您从用户行为警报中排除特定用户。排除受信任的用户可以防止误报和不必要的警报。</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">从警报中排除用户</block>
-  <block id="628cc6a9c569438d880eccc1e4a778da" category="paragraph">有关详细信息，请参见 <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>。</block>
-  <block id="366a951452a8cc6f0127d24e9230c837" category="section-title">用户行为活动的保护组支持</block>
-  <block id="3393700830226a018a19341bd00d6fa7" category="paragraph">Ransomware Resilience 保护组现在支持可疑用户行为检测的检测策略。当您将勒索软件保护策略应用于保护组时，它会跨工作负载应用策略，从而简化对网络安全态势的管理。</block>
-  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">创建保护组</block>
-  <block id="e37ee5388292007ad9d3935327219122" category="paragraph">有关详细信息，请参见 <block ref="5988324edfd7d92a7675cb7a08ac2a7e" category="inline-link-macro-rx"></block>。</block>
-  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">支持 Storage VM 迁移</block>
-  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。</block>
-  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">创建复制关系</block>
-  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">切换 Storage VM 及其复制卷</block>
-  <block id="718285f559bff92f1fc2fb988df3fabe" category="doc">Console 代理 4.4.1</block>
-  <block id="3ffe5c6490eae7ac4252c8efb9559119" category="paragraph-title">从 NetApp Console 访问 NetApp Data Infrastructure Insights</block>
-  <block id="0597e1be82ceeb01b40b4706c1dc68e1" category="paragraph">您可以从 NetApp Console 中访问 NetApp Data Infrastructure Insights 的免费试用版。转到 *Governance* &gt; *Data Infrastructure Insights* 进行注册，以探索有关数据环境的见解和分析。</block>
-  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
-  <block id="83babe62c403f56e76ef6809d4508f91" category="doc">改进的用户界面</block>
-  <block id="438ce765c897095715b03fca4b860a61" category="paragraph">已刷新 Disaster Recovery UI，以根据反馈提高性能和用户体验。</block>
-  <block id="c99f25325f86d3f0c79c43f7e35c908e" category="section-title">API Swagger 文档</block>
-  <block id="4dc69d78f0442e6b664baa4e0d9bd594" category="inline-image-macro">操作图标</block>
-  <block id="c75d11eee9117155e14ba1fe4d4e9609" category="inline-link-macro">将 URL 加入书签</block>
-  <block id="1ed2e3ee9da6a94c882b1fde4a104444" category="paragraph">灾难恢复 API Swagger 文档现在可以在常规浏览器中访问；不再需要隐身模式。要访问 API 文档，请浏览到灾难恢复仪表板，选择右上角的上下文菜单 <block ref="9bb01c837d73cae62964f6b5d76c3c64" category="inline-image-macro-rx" type="image"></block> 然后选择 **API Documentation** 以打开 Swagger 文档。您也可以 <block ref="1a92440ed6b8c60f65d4cdda7009f427" category="inline-link-macro-rx"></block>。</block>
-  <block id="498aaff0cc400a96455ebb5b21ae7ffa" category="paragraph">要使用此功能，<block ref="a00423c4266b8832da7ddbc75235d0cb" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="26b59663dcf673cfcdf7f1e6b23597f9" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
   <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Azure 支持的新区域</block>
   <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">现在，您可以在 Azure 的以下区域中的单个和多个可用性区域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。这包括对单节点和高可用性 (HA) 部署的支持。</block>
   <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">日本西部 (japanwest)</block>
@@ -186,9 +150,6 @@
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">要查看所有区域的列表，请参见<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="29759b568048f604f84457c1e384b4a3" category="section-title">2026 年 2 月 19 日</block>
-  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insights 附加项消耗显示</block>
-  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">查看 DII 消耗量</block>
-  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights (DII) 附加组件消耗现在显示在*当前消耗*和*消耗趋势*选项卡中。要了解更多信息，请参阅 <block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>。</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般可用性 (GA) 中支持的 KVM 工作负载</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可用（GA）。本次发布的 Kubernetes 工作负载还引入了以下增强功能：</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*报告支持*：您现在可以为受 NetApp Backup and Recovery 保护的 Kubernetes 集群和应用程序生成保护活动报告。</block>
@@ -227,7 +188,6 @@
   <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">适用于专用模式部署的 Infrastructure Manager 配置</block>
   <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">在专用模式部署中，您需要对 Cloud Volumes ONTAP 进行一些配置更改才能开始使用 Infrastructure Manager。请参阅<block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>。</block>
   <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">2026 年 2 月 26 日</block>
-  <block id="e2a0e249f352de2ea956157df300d5c0" category="paragraph">4.4.1 版本同时支持标准模式和受限模式。</block>
   <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">私有模式版本 (4.4.0)</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支持站点</block>
   <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">现在可以从<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>下载新的私有模式版本</block>
@@ -549,4 +509,7 @@
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">如果您是现有用户，访问权限应继续正常。例如，具有文件夹或项目管理员角色的平台角色具有现有访问权限。</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Data Classification 角色</block>
   <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">有关详细信息，请参见 <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>。</block>
+  <block id="ba0619dd0f47665766133e60320fb439" category="doc">健康度审查</block>
+  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中将不再提供 Wellness Review 功能。如有任何疑问，请发送电子邮件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
+  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
 </blocks>
