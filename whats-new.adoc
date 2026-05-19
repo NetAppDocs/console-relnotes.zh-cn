@@ -232,7 +232,7 @@ Data Classification 更新并改进了配置页面，从而实现了改进的可
 
 如果您是现有用户，访问权限应继续正常。例如，具有文件夹或项目管理员角色的平台角色具有现有访问权限。
 
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/console-setup-admin_classification-role/reference-iam-data-classification.html["Data Classification 角色"^]。
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-data-classification.html["Data Classification 角色"^]。
 
 
 
