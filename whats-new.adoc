@@ -1007,23 +1007,3 @@ Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可�
 *报告支持*：您现在可以为受 NetApp Backup and Recovery 保护的 Kubernetes 集群和应用程序生成保护活动报告。
 
 要了解有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保护 Kubernetes 工作负载概述"]。
-
-
-
-== 2026 年 2 月 19 日
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure 支持的新区域
-
-现在，您可以在 Azure 的以下区域中的单个和多个可用性区域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。这包括对单节点和高可用性 (HA) 部署的支持。
-
-* 日本西部 (japanwest)
-* 印度尼西亚中部 (indonesiacentral)
-
-
-要查看所有区域的列表，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全局区域地图"^]。
