@@ -143,12 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">从警报中排除用户</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">一般可用性 (GA) 中支持的 KVM 工作负载</block>
-  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">Kubernetes 工作负载支持现已在 NetApp Backup and Recovery 中普遍可用（GA）。本次发布的 Kubernetes 工作负载还引入了以下增强功能：</block>
-  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*报告支持*：您现在可以为受 NetApp Backup and Recovery 保护的 Kubernetes 集群和应用程序生成保护活动报告。</block>
-  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">2026 年 2 月 23 日</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">KVM 工作负载支持现已在 NetApp Backup and Recovery 中正式提供（GA）。</block>
-  <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">一般可用性 (GA) 中支持的 Kubernetes 工作负载</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">场景</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">操作</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">代理的新 API</block>
@@ -523,4 +517,7 @@
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包括 Trident Protect 26.05.1。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基于 VM 的应用程序的就地还原*：您现在可以将基于 VM 的应用程序还原到原始命名空间和原始集群。</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp 为您在 AWS 中的 Cloud Volumes ONTAP 订阅提供了增强的计费选项，让您可以更好地控制如何支付 Cloud Volumes ONTAP 容量和 NetApp 数据服务（如 NetApp Backup and Recovery）的费用。以前，所有 Cloud Volumes ONTAP 和数据服务的使用都是通过 AWS 市场中的 NetApp Intelligent Services (NIS) 列表一起计费的。</block>
+  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中创建保护组</block>
+  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的工作负载创建保护组，使您能够将多个工作负载归入一个策略下以简化管理。欲了解更多信息，请参见<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
+  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
 </blocks>
