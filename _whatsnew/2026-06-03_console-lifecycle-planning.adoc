@@ -1,0 +1,14 @@
+= 生命周期规划功能名称更新
+:allow-uri-read: 
+
+
+
+
+=== 生命周期规划功能名称更新
+
+以下生命周期规划功能的名称已更改：
+
+* 技术刷新功能现在被称为 *System Refresh*。了解如何 link:../use/tech-refresh.html["评估系统刷新"]。
+* 容量增加功能现在称为*存储扩展*。了解如何 link:../use/capacity-add.html["扩展存储"]。
+* 续订功能现在称为 *Support Renewals*。了解如何 link:../support/task-support-registration.html["注册以获得支持"]。
+
