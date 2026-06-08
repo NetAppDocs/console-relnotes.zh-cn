@@ -117,12 +117,10 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
-  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作负载增强功能</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">保护 KVM 工作负载概述</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">有关保护 KVM 工作负载的详细信息，请参阅<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block>。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相关链接</block>
-  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">提高了复制和移动的限制</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作负载增强功能</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
@@ -134,70 +132,12 @@
   <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud 中 Cloud Volumes ONTAP 支持的配置</block>
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
-  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">从警报中排除用户</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支持站点</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服务已被弃用：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
-  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
-  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*还原到源位置*：您现在可以将文件从本地快照和复制快照还原到源位置以及备用位置。</block>
-  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*每小时卷发现*：Dashboard 现在可以更快地发现和刷新新卷。</block>
-  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*支持暗站点*：您现在可以从<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>下载暗站点的 Backup and Recovery。目前，暗站点的 NetApp Backup and Recovery 仅支持 ONTAP Volumes 工作负载。</block>
-  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Unicode 兼容性改进*：目录索引现在可以更好地处理 Unicode 字符。</block>
-  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">*改进的 FlexGroup 兼容性*：将 ONTAP FlexVol 卷转换为 FlexGroup 卷时，现在可以恢复转换前所做的备份。</block>
-  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*多存储桶支持*：您现在可以使用跨不同云提供商的每个系统最多 6 个存储桶来保护系统中的卷。</block>
-  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">保护 ONTAP Volume 工作负载概述</block>
-  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">要了解有关保护 ONTAP Volume 工作负载的详细信息，请参阅<block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>。</block>
-  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*从对象存储还原访客数据*：您现在可以从对象存储还原访客文件和文件夹。</block>
-  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*VMFS/NFS 快速还原*：现在可以在还原到备用位置时启用快速还原选项。启用后，将仅从对象存储中检索 VM 元数据（文件、LUN 和命名空间），从而使卷的可用性快于完全恢复。</block>
-  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*支持 Amazon FSx for NetApp ONTAP*：VMware 工作负载现在支持运行 9.13.1 或更高版本的 Amazon FSx for NetApp ONTAP 存储系统。</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
-  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">从复制计划中排除数据存储库</block>
-  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">现在，在 Disaster 中创建复制计划时，可以从复制中排除特定的数据存储区。对于将 VM 配置为使用多个数据存储区的情况，这允许您限制要复制的数据存储区。</block>
-  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">已从 vCenter 密码中删除密码验证</block>
-  <block id="8cca1120916820e14384f393325831ff" category="paragraph">灾难恢复删除了对 vCenter 密码的密码限制，以允许包含空格的密码。</block>
-  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">在 NetApp Disaster Recovery 中添加本地和 Amazon EVS vCenter 集群</block>
-  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">有关详细信息，请参见 <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>。</block>
-  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">新复制计划子菜单</block>
-  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">灾难恢复现在包括新的菜单选项，以从复制计划仪表板触发 vCenter 刷新。您可以从复制计划仪表板的操作菜单访问子菜单：选择 **Plan Health**，然后选择 **Refresh Source vCenter / Refresh Target vCenter**。</block>
-  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">修改复制计划</block>
-  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">有关详细信息，请参见 <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>。</block>
-  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">改进的网络发现</block>
-  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery 现在包括改进的网络发现，以支持更广泛的网络配置。</block>
-  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">资源验证</block>
-  <block id="19458db6dfda018080434d803401d712" category="paragraph">为了确保可靠性，Data Classification 现在可以在扫描、报告生成和操作中验证可用的内存和磁盘资源。当内存使用率超过 95% 或磁盘空间低于 6 GB 时，Data Classification 会自动暂停操作。一旦资源充足，操作就会恢复。</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">监控 Data Classification 的运行状况</block>
-  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">要监视系统资源，请参见 <block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>。</block>
-  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">CIFS 目标现在支持复制和移动功能。两个操作的每个文件大小限制已从之前的 50 MB 限制增加到 1 GB。这两个操作的操作限制已增加到 1 TB 或 500 万个文件。</block>
-  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Active Directory 集成配置权限</block>
-  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">Data Classification 中对 Active Directory (AD) 集成设置的更改现在仅限于管理员。查看者不再能够修改 AD 设置。</block>
-  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">数据服务角色</block>
-  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">有关 Classification viewer 角色的详细信息，请参见 <block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>。</block>
-  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">透明代理支持</block>
-  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">Data Classification 现在支持透明代理配置，可在代理或受限网络环境中实现更顺畅的部署。</block>
-  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">在没有互联网访问权限的 Linux 主机上安装 NetApp Data Classification</block>
-  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">有关在受限环境中部署的详细信息，请参见 <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>。</block>
-  <block id="dd340069cb16665edf781618805f1165" category="doc">Console 代理 4.5.0</block>
-  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">4.5.0 版本同时支持标准模式和受限模式。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
-  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">详细了解如何在 Console 代理上运行配置检查。</block>
-  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">详细了解如何将 Keystone 角色分配给合作伙伴用户。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">从用户行为警报中批量排除用户</block>
-  <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">有关详细信息，请参见 <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>。</block>
-  <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience 通过添加电子邮件警报并在受支持的 SIEM 事件数据（AWS Security Hub、Microsoft Sentinel 和 Splunk Cloud）中包含用户行为事件，提高了对用户行为的洞察力。这些增强功能可为您的安全和合规性监控提供更准确的见解。</block>
-  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">将 NetApp Ransomware Resilience 连接到 SIEM</block>
-  <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">有关详细信息，请参见 <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>。</block>
-  <block id="3204a863a3a1a57abe7546af70eb77cf" category="doc">能够管理 Cloud Volumes ONTAP 的 Console 代理设置</block>
-  <block id="a51be83082fba5b4dcf135a536ea8b1d" category="paragraph">现在，即使失去连接或代理设置不正确，也可以在 NetApp Console 代理上管理 Cloud Volumes ONTAP 的代理设置。以前，如果 Console 代理在 20 分钟内无法连接到 Cloud Volumes ONTAP，它将使用默认设置覆盖您的手动代理设置。这导致通信失败，包括 AutoSupport 消息问题。若要保留现有系统的代理设置，请运行以下 API 调用：</block>
-  <block id="2ed7e2686c6c63422cc2a66168ff6a41" category="paragraph"><block ref="f4868aca388daf10284f58112e13f2bd" prefix="" category="inline-code"></block></block>
-  <block id="2bfe294417f6af6fb18d7ac186551586" category="paragraph">在请求正文中包含以下参数：</block>
-  <block id="7e6627b4e37aede8d2d720694c07915e" category="paragraph">默认模式为标准模式，这意味着如果 Console 代理在 20 分钟内无法连接到 Cloud Volumes ONTAP，它将使用默认设置覆盖您的代理设置。</block>
-  <block id="7bfa46b18158f588f3fb87cc98bc501b" category="inline-link">配置可修改的 NetApp Console 参数</block>
-  <block id="0383a3079d971b2242c6d61352ea3ab4" category="paragraph"><block ref="0383a3079d971b2242c6d61352ea3ab4" category="inline-link-rx"></block></block>
-  <block id="34df2c4da19b4e31f0349125e9cabfc7" category="section-title">2026 年 3 月 10 日</block>
   <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">适用于 Microsoft Sentinel 和 Splunk 的 SOAR playbook</block>
   <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
   <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
@@ -205,15 +145,9 @@
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">有关详细信息，请参见<block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026 年 3 月 12 日</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience 现在为 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 和 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。这些攻略能够简化威胁响应管理、自动化任务测试和基本勒索软件响应工作，包括创建快照和让卷脱机。</block>
-  <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">复制、移动和删除数据</block>
-  <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">有关详细信息，请参见<block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*每个计划层的虚拟机一致性支持*：现在，在为 VMware 工作负载配置保护策略时，您可以为特定计划层启用虚拟机一致性和应用程序一致性备份。支持年度、月度和周度层。</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026 年 3 月 16 日</block>
-  <block id="05ae2f7ed42f24ad34227986da264aae" category="paragraph-title">支持 RHEL 9.7</block>
-  <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">数据分类已添加 Red Hat Enterprise Linux v9.7，用于手动本地安装，包括暗站点部署。</block>
-  <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">以下操作系统需要使用 Podman 容器引擎，并且需要 Data Classification 1.30 或更高版本：Red Hat Enterprise Linux 版本 8.8、8.10、9.0、9.1、9.2、9.3、9.4、9.5、9.6 和 9.7。</block>
-  <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">有关详细信息，请参见<block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
   <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">发现 Oracle Database 工作负载</block>
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*群集主机支持*：您现在可以发现和保护使用 Oracle Automatic Storage Management (ASM) 并使用 VMDK 在 VMFS 文件系统上部署的 Oracle Real Application Clusters (RAC) 数据库。有关详细信息，请参阅<block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>。</block>
@@ -234,9 +168,6 @@
   <block id="ed300adca180c1e33d800707367434a6" category="doc">Google SecOps 的 SOAR 攻略</block>
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">Ransomware Resilience 现在为 <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。该攻略可以更轻松地管理威胁响应，自动化任务和测试，并支持基本的勒索软件响应工作，包括创建快照和使卷脱机。</block>
-  <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">支持所需端口的配置检查</block>
-  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">您可以使用配置检查来验证 Console 代理所需的端口是否已打开。您可以从 Console 或 Agent 维护控制台执行配置检查。<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
-  <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">您可以将 Keystone 角色分配给合作伙伴用户，以允许这些用户管理合作伙伴组织中的 Keystone 资源。<block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console 代理 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 版本同时支持标准模式和受限模式。</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">支持所需磁盘空间的配置检查</block>
@@ -428,8 +359,6 @@
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的高级选项部署 Cloud Volumes ONTAP</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">有关详细信息，请参见 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>。</block>
-  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">除了现有的基于 UI 和 CSV 的选项之外，Ransomware Resilience 现在还支持上传要从用户行为警报中排除的用户的 JSON 列表。</block>
-  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">用户行为检测增强功能</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">用户行为检测增强</block>
   <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：此版本包括 Trident Protect 26.05。</block>
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*从 Backup and Recovery 升级 Trident Protect*：如果您的 Kubernetes 集群正在运行 Trident Protect 26.05 或更高版本，您现在可以直接从 Backup and Recovery 升级 Trident Protect。</block>
@@ -459,4 +388,7 @@
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">注册以获得支持</block>
   <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">续订功能现在称为 *Support Renewals*。了解如何 <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>。</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026 年 6 月 03 日</block>
+  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支持 S3 兼容云存储*：卷工作负载的 NetApp Backup and Recovery 现在支持备份到 S3 兼容云存储。</block>
+  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
+  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
 </blocks>
