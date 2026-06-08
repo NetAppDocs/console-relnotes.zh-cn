@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支持 S3 兼容云存储*：卷工作负载的 NetApp Backup and Recovery 现在支持备份到 S3 兼容云存储。</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包括安全性改进和性能增强。</block>
 </blocks>
