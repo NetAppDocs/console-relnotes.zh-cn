@@ -138,13 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">适用于 Microsoft Sentinel 和 Splunk 的 SOAR playbook</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">整合 SOAR 攻略</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">有关详细信息，请参见<block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>。</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">2026 年 3 月 12 日</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience 现在为 <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> 和 <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block> 提供安全编排、自动化和响应 (SOAR) 攻略。这些攻略能够简化威胁响应管理、自动化任务测试和基本勒索软件响应工作，包括创建快照和让卷脱机。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*每个计划层的虚拟机一致性支持*：现在，在为 VMware 工作负载配置保护策略时，您可以为特定计划层启用虚拟机一致性和应用程序一致性备份。支持年度、月度和周度层。</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">2026 年 3 月 16 日</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">Disaster Recovery 提高了基于 VMFS 的数据存储的故障转移性能。Host Bus Adapter (HBA) 重新扫描和数据存储装载操作现在可以并行执行，从而减少总体故障转移时间，并最大限度地减少恢复事件期间的停机时间。</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">使用灾难恢复进行故障切换</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">有关故障转移的详细信息，请参见 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>。</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">支持 Cloud Volumes ONTAP 中的新 Azure 区域</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">您现在可以在 Azure 的马来西亚西部（malaysiawest）区域的单个和多个可用性区域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。这包括对单节点和高可用性 (HA) 部署的支持。</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">要查看所有区域的列表，请参见<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026 年 6 月 11 日</block>
 </blocks>
