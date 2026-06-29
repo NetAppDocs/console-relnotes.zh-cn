@@ -34,6 +34,31 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 
 
 
+=== 控制台设置和管理
+
+
+
+==== 私有模式版本 (4.7.0)
+
+现在可以从 https://mysupport.netapp.com/site/downloads["NetApp 支持站点"^]下载新的私有模式版本
+
+4.7.0 版本包括对以下 NetApp Console 组件和服务的更新。
+
+[cols="3*"]
+|===
+| 组件或服务 | 此版本中包含的版本 | 自上一个私有模式发布以来的更改 
+
+
+| Console 代理 | 4.7.0 | 转到  https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-05-11.html["NetApp Console 页面中的新增功能"^] 并参见版本 4.7.0 包含的更改。 
+
+
+| NetApp Backup and Recovery | 5.4.0（2026年6月8日） | 转到  https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["NetApp Backup and Recovery 页面中的新增功能"^]。 
+
+
+| NetApp Data Classification | 1.54.0（2026年5月11日） | 转到  https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["NetApp Classification 页面中的新增功能"^]。 
+|===
+
+
 === 备份和恢复
 
 
@@ -828,69 +853,3 @@ NOTE: 将出口网络层更改为 Tier-1 会产生额外费用。相应地规划
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud 中 Cloud Volumes ONTAP 支持的配置"^]
 * https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机"^]
 
-
-
-
-== 2026 年 3 月 31 日
-
-
-
-=== 备份和恢复
-
-
-
-==== Oracle Database 工作负载增强
-
-在此版本中，Oracle 数据库工作负载引入了以下增强功能：
-
-* *群集主机支持*：您现在可以发现和保护使用 Oracle Automatic Storage Management (ASM) 并使用 VMDK 在 VMFS 文件系统上部署的 Oracle Real Application Clusters (RAC) 数据库。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-discover-oracle.html["发现 Oracle Database 工作负载"]。
-* *RMAN 目录支持*：您现在可以将 Backup and Recovery 配置为在 RMAN 恢复目录中存储保护元数据，从而在目标控制文件丢失时提供冗余和长期保留。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-configure-oracle-database.html["配置 Oracle 数据库"]。
-
-
-要了解有关保护 Oracle Database 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保护 Oracle Database 工作负载概述"]。
-
-
-
-=== 勒索软件抵御能力
-
-
-
-==== Google SecOps 的 SOAR 攻略
-
-Ransomware Resilience 现在为 link:https://github.com/chronicle/content-hub/tree/main/content/response_integrations/third_party/partner/netappransomwareresilience["Google SecOps"^] 提供安全编排、自动化和响应 (SOAR) 攻略。该攻略可以更轻松地管理威胁响应，自动化任务和测试，并支持基本的勒索软件响应工作，包括创建快照和使卷脱机。
-
-有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["整合 SOAR 攻略"^]。
-
-
-
-== 2026 年 3 月 30 日
-
-
-
-=== Keystone
-
-NetApp Console中Keystone仪表板的新增强功能：
-
-
-
-==== 历史消费图表上突发容量以上
-
-*消费趋势*选项卡中的历史消费图表现在突出显示超出突发限制的使用情况。要了解更多信息，请参阅 link:./integrations/consumption-tab.html["查看 Keystone 订阅的消费趋势"]。
-
-
-
-==== 容量使用预测
-
-您可以在 *消耗趋势* 选项卡的 *历史消耗* 视图中使用 *Forecast* 切换来预测当前日期后 120 天的容量使用情况。要了解更多信息，请参阅 link:./integrations/consumption-tab.html#view-forecast-data["查看预测数据"]。
-
-
-
-==== 订阅导出中的跟踪 ID
-
-现在，从*订阅*页面下载的订阅报告在 Excel 和 CSV 格式的性能服务级别数据中都包含*跟踪 ID*。
-
-
-
-==== 订阅页面列可见性更新
-
-在 *Subscriptions* 页面上，*Keystone version* 列现在默认隐藏，只有当链接的订阅可用时，才会显示 *Linked subscriptions* 列。
