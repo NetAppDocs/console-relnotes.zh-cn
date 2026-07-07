@@ -473,4 +473,9 @@
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">对于容量使用情况，突发警报阈值现在基于订阅的承诺突发百分比，而不是固定的 20%。例如，如果您的承诺突发为 40%，则关键警报将在承诺容量利用率的 140% 时触发。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看和创建 Keystone 订阅的警报监控</block>
   <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">要了解更多信息，请参阅 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">从用户行为警报中排除文件路径</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的文件路径。如果您知道某些文件路径不存在风险，或者正在对卷中可能触发警报的文件进行操作，则可以排除这些文件路径。</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">从警报中排除文件路径</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">有关详细信息，请参见 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
 </blocks>
