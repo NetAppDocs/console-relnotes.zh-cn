@@ -351,11 +351,8 @@
   <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">续订功能现在称为 Support Renewals。了解 <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>。</block>
   <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">生命周期规划功能名称更新</block>
   <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">以下生命周期规划功能的名称已更改：</block>
-  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">技术刷新功能现在被称为 *System Refresh*。了解如何 <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block>。</block>
   <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">扩展存储</block>
-  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">容量增加功能现在称为*存储扩展*。了解如何 <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block>。</block>
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">注册以获得支持</block>
-  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">续订功能现在称为 *Support Renewals*。了解如何 <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>。</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026 年 6 月 03 日</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支持 S3 兼容云存储*：卷工作负载的 NetApp Backup and Recovery 现在支持备份到 S3 兼容云存储。</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
@@ -481,4 +478,7 @@
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 版本同时支持标准模式和受限模式。</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">此版本包括安全性改进和错误修复。</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">有关详细信息，请参见 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
+  <block id="32846264266c0647221942c075bdc06f" category="list-text">技术刷新功能现在称为 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
+  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量增加功能现在称为*存储扩展*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
+  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">续订功能现在称为*Support Renewals*。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
 </blocks>
