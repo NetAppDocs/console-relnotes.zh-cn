@@ -4,6 +4,7 @@
 
 
 
+[[digital-advisor-widget-name-updates]]
 === Digital Advisor 小部件名称更新
 
 以下 Digital Advisor 功能的名称已更改：

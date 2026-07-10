@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === 运行状况检查 GraphQL 迁移和数据准确性改进
 
 运行状况检查模块得到了增强，提高了数据准确性和符合货币标准的版本建议。作为此版本的一部分，它已从公共 API 迁移到 GraphQL，提供了改进的性能、灵活的查询和长期支持。

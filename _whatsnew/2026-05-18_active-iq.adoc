@@ -4,6 +4,7 @@
 
 
 
+[[wellness-review]]
 === 健康度审查
 
 自 2026 年 7 月起，Digital Advisor 中将不再提供 Wellness Review 功能。如有任何疑问，请发送电子邮件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。

@@ -4,6 +4,7 @@
 
 
 
+[[private-mode-release-4-7-0]]
 === 私有模式版本 (4.7.0)
 
 现在可以从 https://mysupport.netapp.com/site/downloads["NetApp 支持站点"^]下载新的私有模式版本

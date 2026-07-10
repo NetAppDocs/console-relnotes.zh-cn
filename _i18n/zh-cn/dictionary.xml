@@ -219,7 +219,6 @@
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">已重命名预配容量标签</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">标签 *Provisioned capacity* 已重命名为 *Provisioned volume capacity*。更新后的标签也会反映在相关的 CSV 和 Excel 报告中。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">应计突发的预测切换</block>
-  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。如需了解更多信息，请参阅 <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>。</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*编辑保护策略*：如果需要更改 Kubernetes 工作负载保护策略，您现在可以对其进行编辑。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
@@ -338,7 +337,6 @@
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改进了订阅时间线中同一天多个更新的显示</block>
   <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">查看 Keystone 订阅的时间表</block>
-  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅 <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>。</block>
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026 年 5 月 25 日</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的工作负载创建保护组，使您能够将多个工作负载归入一个策略下以简化管理。</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">欲了解更多信息，请参见<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
@@ -458,10 +456,8 @@
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">有关详细信息，请参见 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 订阅的 ADP 许可证分发</block>
   <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">查看 Keystone MetroCluster 订阅的消耗量和运行状况</block>
-  <block id="3ad62afeef69f8bc4e30a8bf1cd4ed24" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅 <block ref="1c707f11dcf40c95719514b3f1835196" category="inline-link-macro-rx"></block>。</block>
   <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">查看卷的勒索软件防护状态</block>
   <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP 中的自主勒索软件保护 (ARP)</block>
-  <block id="1c18f5a662955e3a23a23d54aca043b6" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅 <block ref="b12af018ff0eb76de3921de73532693b" category="inline-link-macro-rx"></block>。</block>
   <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">使用"反馈"选项卡分享反馈</block>
   <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">现在，您可以使用锚定在屏幕右下角的新*反馈*选项卡，从 Keystone 控制面板中的任何屏幕提供反馈。点击它将打开一个面板，您可以在其中分享您的体验并直接向 NetApp 提交评论。</block>
   <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">改进容量使用和订阅到期的警报</block>
@@ -469,7 +465,6 @@
   <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">对于订阅到期，警报现在在五个阈值处触发：到期前 180、90、60、30 和 7 天，随着日期临近，严重程度从信息级别升级为严重级别。</block>
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">对于容量使用情况，突发警报阈值现在基于订阅的承诺突发百分比，而不是固定的 20%。例如，如果您的承诺突发为 40%，则关键警报将在承诺容量利用率的 140% 时触发。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看和创建 Keystone 订阅的警报监控</block>
-  <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">要了解更多信息，请参阅 <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>。</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">从用户行为警报中排除文件路径</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的文件路径。如果您知道某些文件路径不存在风险，或者正在对卷中可能触发警报的文件进行操作，则可以排除这些文件路径。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">从警报中排除文件路径</block>
@@ -481,4 +476,9 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技术刷新功能现在称为 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量增加功能现在称为*存储扩展*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">续订功能现在称为*Support Renewals*。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
+  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。要了解更多信息，请参阅<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
+  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
+  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
+  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
+  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">要了解更多信息，请参阅<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
 </blocks>

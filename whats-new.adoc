@@ -30,10 +30,12 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[07-july-2026]]
 == 2026年7月7日
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -46,10 +48,12 @@ NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的
 
 
 
+[[29-june-2026]]
 == 2026 年 6 月 29 日
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -62,6 +66,7 @@ Ransomware Resilience 现在支持在生成用户活动警报时自动创建快�
 
 
 
+[[digital-advisor]]
 === 数字顾问
 
 
@@ -100,6 +105,7 @@ Ransomware Resilience 现在支持在生成用户活动警报时自动创建快�
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console中Keystone仪表板的新增强功能：
@@ -108,13 +114,13 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 ==== 查看 MetroCluster 订阅的 ADP 许可证分发
 
-*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅 link:./integrations/adp-tab.html["查看 Keystone MetroCluster 订阅的消耗量和运行状况"]。
+*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["查看 Keystone MetroCluster 订阅的消耗量和运行状况"]。
 
 
 
 ==== 查看卷的勒索软件防护状态
 
-*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅 link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP 中的自主勒索软件保护 (ARP)"]。
+*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅 https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP 中的自主勒索软件保护 (ARP)"^]。
 
 
 
@@ -132,14 +138,16 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 对于容量使用情况，突发警报阈值现在基于订阅的承诺突发百分比，而不是固定的 20%。例如，如果您的承诺突发为 40%，则关键警报将在承诺容量利用率的 140% 时触发。
 
-要了解更多信息，请参阅 link:./integrations/monitoring-alert-monitors.html["查看和创建 Keystone 订阅的警报监控"]。
+要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["查看和创建 Keystone 订阅的警报监控"]。
 
 
 
+[[15-june-2026]]
 == 2026 年 6 月 15 日
 
 
 
+[[console-setup-and-administration]]
 === 控制台设置和管理
 
 
@@ -165,6 +173,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 |===
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -183,10 +192,12 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[11-june-2026]]
 == 2026 年 6 月 11 日
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -199,10 +210,12 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[08-june-2026]]
 == 2026 年 6 月 08 日
 
 
 
+[[console-setup-and-administration]]
 === 控制台设置和管理
 
 
@@ -221,6 +234,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -258,6 +272,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[data-classification]]
 === 数据分类
 
 
@@ -268,6 +283,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[disaster-recovery]]
 === 灾难恢复
 
 
@@ -330,6 +346,7 @@ Disaster Recovery 提高了基于 VMFS 的数据存储的故障转移性能。Ho
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -354,6 +371,7 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -372,10 +390,12 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列
 
 
 
+[[03-june-2026]]
 == 2026 年 6 月 03 日
 
 
 
+[[lifecycle-planning]]
 === 生命周期规划
 
 
@@ -391,6 +411,7 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列
 
 
 
+[[digital-advisor]]
 === 数字顾问
 
 
@@ -406,10 +427,12 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列
 
 
 
+[[26-may-2026]]
 == 2026 年 5 月 26 日
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -422,10 +445,12 @@ Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的�
 
 
 
+[[25-may-2026]]
 == 2026 年 5 月 25 日
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console中Keystone仪表板的新增强功能：
@@ -434,14 +459,16 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 ==== 改进了订阅时间线中同一天多个更新的显示
 
-订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅 link:./integrations/subscription-timeline.html["查看 Keystone 订阅的时间表"]。
+订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["查看 Keystone 订阅的时间表"]。
 
 
 
+[[18-may-2026]]
 == 2026 年 5 月 18 日
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -464,6 +491,7 @@ Ransomware Resilience 现在支持 Google Cloud NetApp Volumes 系统，使您�
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -479,6 +507,7 @@ Ransomware Resilience 现在支持 Google Cloud NetApp Volumes 系统，使您�
 
 
 
+[[digital-advisor]]
 === 数字顾问
 
 
@@ -489,10 +518,12 @@ Ransomware Resilience 现在支持 Google Cloud NetApp Volumes 系统，使您�
 
 
 
+[[12-may-2026]]
 == 2026 年 5 月 12 日
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 
@@ -541,10 +572,12 @@ NOTE: 当您使用多种订阅类型或在房源之间迁移时，不会出现�
 
 
 
+[[11-may-2026]]
 == 2026 年 5 月 11 日
 
 
 
+[[console-setup-and-administration]]
 === 控制台设置和管理
 
 
@@ -566,6 +599,7 @@ NOTE: 当您使用多种订阅类型或在房源之间迁移时，不会出现�
 
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -629,6 +663,7 @@ NOTE: 当您使用多种订阅类型或在房源之间迁移时，不会出现�
 
 
 
+[[data-classification]]
 === 数据分类
 
 
@@ -661,6 +696,7 @@ NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA
 
 
 
+[[disaster-recovery]]
 === 灾难恢复
 
 
@@ -680,6 +716,7 @@ NetApp Disaster Recovery 现在包括对基于 Kubernetes 的工作负载的支�
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -716,10 +753,12 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[05-may-2026]]
 == 2026 年 5 月 05 日
 
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -739,10 +778,12 @@ link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference
 
 
 
+[[27-april-2026]]
 == 2026 年 4 月 27 日
 
 
 
+[[keystone]]
 === Keystone
 
 NetApp Console中Keystone仪表板的新增强功能：
@@ -757,14 +798,16 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 ==== 应计突发的预测切换
 
-现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。如需了解更多信息，请参阅 link:./integrations/consumption-tab.html#view-forecast-data["查看预测数据"]。
+现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["查看预测数据"]。
 
 
 
+[[20-april-2026]]
 == 2026 年 4 月 20 日
 
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -779,10 +822,12 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[13-april-2026]]
 == 2026 年 4 月 13 日
 
 
 
+[[console-setup-and-administration]]
 === 控制台设置和管理
 
 
@@ -801,6 +846,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[backup-and-recovery]]
 === 备份和恢复
 
 
@@ -870,6 +916,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[data-classification]]
 === 数据分类
 
 
@@ -880,6 +927,7 @@ NetApp Console中Keystone仪表板的新增强功能：
 
 
 
+[[cloud-tiering]]
 === 云层
 
 
@@ -898,6 +946,7 @@ NetApp 建议客户与其 NetApp 代表合作，将其现有分层许可证转�
 
 
 
+[[disaster-recovery]]
 === 灾难恢复
 
 
@@ -916,6 +965,7 @@ GCVE 的 NetApp Disaster Recovery 支持现已全面推出（GA）。借助 GA �
 
 
 
+[[ransomware-resilience]]
 === 勒索软件抵御能力
 
 
@@ -946,6 +996,7 @@ Ransomware Resilience 现在为 Splunk Enterprise 提供安全信息事件管理
 
 
 
+[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
 === 使用 FSx for ONTAP 管理现有关系的复制
 
 FSx for ONTAP 文件系统作为源或目标的复制关系管理现已在 NetApp Workload Factory 中。
@@ -954,6 +1005,7 @@ link:https://docs.netapp.com/us-en/data-services-replication/task-managing-repli
 
 
 
+[[cloud-volumes-ontap]]
 === Cloud Volumes ONTAP
 
 

@@ -18,6 +18,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 
 
 
+[[administration]]
 == 管理
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["设置和管理"^]
@@ -31,6 +32,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 
 
 
+[[storage]]
 == 存储
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["适用于ONTAP 的Amazon FSx"^]
@@ -48,6 +50,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 
 
 
+[[storage-as-a-service]]
 == 存储即服务
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 
 
 
+[[data-services]]
 == 数据服务
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["备份和恢复"^]
