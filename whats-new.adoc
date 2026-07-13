@@ -30,6 +30,64 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[13-july-2026]]
+== 2026年7月13日
+
+
+
+[[disaster-recovery]]
+=== 灾难恢复
+
+
+
+==== Kubernetes 更新
+
+灾难恢复针对基于 Kubernetes 的工作负载引入了以下更改：
+
+
+
+===== 从站点菜单管理 Trident Protect
+
+灾难恢复现在支持直接从灾难恢复用户界面中的"站点"菜单管理 Trident Protect。您可以升级 Trident Protect 或将其从灾难恢复中删除，从而简化 Kubernetes 资源的管理。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/manage.html["管理站点"^]。
+
+
+
+==== VMware 更新
+
+灾难恢复为基于 VMware 的工作负载引入了以下更改：
+
+
+
+===== 故障转移空数据存储库
+
+包含空数据存储的复制计划现在可以成功进行故障转移，而不会将其排除在计划之外或强制故障转移。在故障转移期间，Disaster Recovery 会自动在灾难恢复站点上挂载空数据存储，从而允许添加虚拟机并保护其以进行故障回复操作。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["故障转移到远程站点"^]。
+
+
+
+===== vCenter 网络自动映射
+
+现在，您可以在 vCenter 级别（即复制计划对话框之外）配置网络映射关系。配置完成后，灾难恢复会在添加或编辑复制计划时自动应用这些网络映射，从而简化复制计划管理。
+
+灾难恢复继续支持按计划覆盖。在复制计划中定义的现有网络映射仍然可以在每个网络的基础上进行编辑；这些映射优先于 vCenter 级别定义。
+
+
+
+==== 灾难恢复查看器角色收紧
+
+已从灾难恢复查看器角色中删除了查看"升级系统"选项卡的功能。此更改使角色与只读用户更合适的体验保持一致。link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-disaster-rec-roles.html["了解 NetApp Disaster Recovery 中的用户角色和权限"^]。
+
+
+
+==== 系统性能增强
+
+灾难恢复引入了一些更改，以减少系统资源消耗并提高各项操作的性能。
+
+
+
 [[07-july-2026]]
 == 2026年7月7日
 
@@ -819,213 +877,3 @@ NetApp Console中Keystone仪表板的新增强功能：
 *ASA r2 SAN 支持*：VMware 工作负载现在支持保护由 NetApp ASA r2 SAN 专用环境托管的 VMFS 数据存储上的 VM。
 
 要了解有关保护 VMware 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保护 VMware 工作负载概述"]。
-
-
-
-[[13-april-2026]]
-== 2026 年 4 月 13 日
-
-
-
-[[console-setup-and-administration]]
-=== 控制台设置和管理
-
-
-
-==== Console 代理 4.6.0
-
-4.6.0 版本同时支持标准模式和受限模式。
-
-此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。
-
-.支持所需磁盘空间的配置检查
-您可以使用配置检查验证 Console 代理所需的磁盘空间是否可用。您可以从 Console 或 Agent 维护控制台执行配置检查。link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["详细了解如何在 Console 代理上运行配置检查"^]
-
-.使用 ISO 升级已部署 vCenter 的控制台代理
-如果您在 vCenter 中使用 OVA 部署了 Console 代理，现在可以通过将 ISO 装载到虚拟机并从虚拟机维护控制台运行升级将其升级到新版本。link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["了解如何升级 vCenter 部署的 Console 代理"^]
-
-
-
-[[backup-and-recovery]]
-=== 备份和恢复
-
-
-
-==== ONTAP Volumes 工作负载增强
-
-在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：
-
-*支持 NetApp MetroCluster 主动/主动配置*：NetApp Backup and Recovery for Volumes 工作负载现在支持 MetroCluster 主动-主动配置。
-
-要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["保护 ONTAP 卷工作负载概述"]。
-
-
-
-==== Kubernetes 工作负载增强功能
-
-在此版本中，Kubernetes 工作负载引入了以下保护策略增强功能：
-
-* *编辑保护策略*：如果需要更改 Kubernetes 工作负载保护策略，您现在可以对其进行编辑。
-* *磁盘到磁盘支持*：您现在可以使用磁盘到磁盘备份架构配置 Kubernetes 保护策略。
-* *Google Cloud Platform 存储桶支持*：您现在可以配置 Kubernetes 保护策略以备份到 Google Cloud Platform 存储桶。
-
-
-有关保护策略的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["在 NetApp Backup and Recovery 中创建和管理保护策略"]。
-
-要了解有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保护 Kubernetes 工作负载概述"]。
-
-
-
-==== Hyper-V 工作负载增强功能
-
-在此版本中，Hyper-V 工作负载引入了以下增强功能：
-
-* *改进的作业处理*：NetApp Backup and Recovery 现在可以更有效地同时处理多个作业。
-* *SAN 支持（预览）*：Backup and Recovery 现在支持保护存储在 SAN 存储上的 Hyper-V VM。
-
-
-有关保护 Hyper-V 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["保护 Hyper-V 工作负载概述"]。
-
-
-
-==== KVM 工作负载增强
-
-在此版本中，KVM 工作负载引入了以下增强功能：
-
-* *改进的作业处理*：NetApp Backup and Recovery 现在可以更有效地同时处理多个作业。
-* *还原到备用位置（预览）*：您现在可以将 KVM VM 还原到备用目标。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["使用 NetApp Backup and Recovery 还原 KVM 虚拟机"]。
-
-
-有关保护 KVM 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["保护 KVM 工作负载概述"]。
-
-
-
-==== VMware 工作负载增强功能
-
-在此版本中，VMware 工作负载引入了以下增强功能：
-
-* *基于标记的保护*：VMware 工作负载的备份和恢复现在支持对存储在 NFS 和 VMFS 卷上的虚拟机的基于标记的保护，使您能够从 vCenter 标记而不是从单个虚拟机或数据存储构建保护组。当您在 vCenter 中标记虚拟机和数据存储时，备份和恢复会自动发现并将其包含在未来的备份中，而无需任何手动组维护。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["创建和管理保护组"]。
-* *还原到备用存储系统*：即使原始（主）存储系统完全不可用，您现在也可以将虚拟机还原到备用存储系统。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["还原 VMware 工作负载"]。
-* *将文件还原到 Linux VM*：您现在可以将 VM 文件和文件夹还原到 Linux VM。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["还原文件和文件夹"]。
-* *还原文件和文件夹时支持代理 VM* - 当您不希望将虚拟磁盘附加到原始 VM 时，现在可以使用代理 VM 从虚拟磁盘还原文件和文件夹。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["还原文件和文件夹"]。
-* *递归文件和文件夹搜索* - 您现在可以搜索整个虚拟磁盘以查找特定文件或文件夹。有关详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["还原文件和文件夹"]。
-* *改进的作业处理*：NetApp Backup and Recovery 现在可以更有效地同时处理多个作业。
-
-
-要了解有关保护 VMware 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保护 VMware 工作负载概述"]。
-
-
-
-[[data-classification]]
-=== 数据分类
-
-
-
-==== 常规改进
-
-此版本的 Data Classification 包括错误修复、安全改进和性能增强。
-
-
-
-[[cloud-tiering]]
-=== 云层
-
-
-
-==== 不再提供 NetApp Cloud Tiering
-
-自 2026 年 4 月 26 日起，NetApp Cloud Tiering 不再可供购买或续订许可证。
-
-现有客户可以继续使用并获得 NetApp Cloud Tiering 支持，直至其订阅或许可合同到期。订阅到期后，客户将无法再访问 NetApp Cloud Tiering 功能或支持。
-
-NetApp 建议客户与其 NetApp 代表合作，将其现有分层许可证转换为 ONTAP FabricPool 许可证，该许可证提供 ONTAP 中数据分层的功能。有关如何在 ONTAP 中使用 FabricPool 设置数据分层的更多信息，请参见 link:https://docs.netapp.com/us-en/ontap/fabricpool/install-license-aws-azure-ibm-task.html["在 ONTAP 集群上安装 FabricPool 许可证"]。
-
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-Notice2.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_9L2PauNXYE0fOs0RIz8KK2q5Jb6sg8Yv-97NNJ53ceAab9UAqpKOrAvByxsOWqhIQHNCHgFfM0q3TI["NetApp Cloud Tiering 停止提供通知"]
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-FAQ-v3.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_rplJe_ZtlY4PQAQRQlewsDa0W4JR55muT0KCThR46zI7-uOhIYfVsxODDKFrnYYvy5uZzvhEKHOwBI["NetApp Cloud Tiering 停止可用性常见问题解答"]
-
-
-
-
-[[disaster-recovery]]
-=== 灾难恢复
-
-
-
-==== Google Cloud VMware Engine (GCVE) 支持现已全面推出 (GA)
-
-GCVE 的 NetApp Disaster Recovery 支持现已全面推出（GA）。借助 GA 支持，Disaster Recovery for GCVE 现在支持：
-
-* *平台管理的快照：* 通过 ONTAP 或 Google Cloud Platform (GCP) 无缝管理备份和保留策略。
-* *每个复制计划有多个数据存储区：*通过将多个数据存储区整合到单个复制策略中，简化 Disaster Recovery 计划。
-* *对不可用的源站点强制故障转移：*如果源站点不可用，则切换到灾难恢复站点。
-* *按需延迟 SnapMirror 重新同步和还原复制：* 使用"跳过保护"选项延迟 SnapMirror 重新同步，以避免在高峰操作期间对生产工作负载产生影响，然后使用重新保护选项按需还原复制
-
-
-有关 GCVE 支持的详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Disaster Recovery 支持的配置"^]。
-
-
-
-[[ransomware-resilience]]
-=== 勒索软件抵御能力
-
-
-
-==== 清理还原
-
-Ransomware Resilience 现在支持 clean restores，这是一种新的恢复选项，可帮助您快速轻松地从勒索软件攻击中恢复。Clean restores 提供指导性工作流程，可识别最佳还原点以启动和运行您的工作负载，同时最大限度地减少停机时间。Clean restore 中的工作流程还提供对数据的文件级见解，确保您可以还原无恶意软件的工作负载，从而防止再次感染并最大限度地减少数据丢失。
-
-要了解支持的配置以及如何配置系统以进行干净还原，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["创建隔离的恢复环境"^]。要了解如何使用干净还原进行恢复，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["使用干净还原恢复工作负载"^]。
-
-
-
-==== Splunk Enterprise 的 SIEM 支持
-
-Ransomware Resilience 现在为 Splunk Enterprise 提供安全信息事件管理 (SIEM) 支持，使您能够集中日志和事件数据，并简化威胁分析和检测。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["将勒索软件弹性连接到 SIEM"^]。
-
-
-
-==== 用户行为检测增强
-
-对数据泄露事件的洞察现在可以在事件发生后保留 13 个月，从而可以根据您的报告需求进行更长时间的记录保存。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["了解用户行为检测"^]。
-
-复制 :leveloffset: +1
-
-
-
-[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
-=== 使用 FSx for ONTAP 管理现有关系的复制
-
-FSx for ONTAP 文件系统作为源或目标的复制关系管理现已在 NetApp Workload Factory 中。
-
-link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["管理数据复制"]
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== 借助 Google Cloud C3 VM 改进了 Cloud Volumes ONTAP 支持
-
-Cloud Volumes ONTAP 现在增强了对 Google Cloud C3 系列虚拟机的支持，实现了以下附加功能：
-
-* 在 Cloud Volumes ONTAP 部署中，您可以在 C3 系列中的不同变体之间切换实例类型。
-* 更改实例类型时，如果选择 c3-standard-44 或 c3-standard-88 及其 LSSD 变体作为目标 VM，则会自动应用 Google 网络服务出口网络层 Tier-1。如果切换到任何其他 C3 变体，则出口网络层设置为 Standard。
-+
-
-NOTE: 将出口网络层更改为 Tier-1 会产生额外费用。相应地规划部署和升级。
-
-* 如果您选择 C3 的本地 SSD (LSSD) 变体，默认情况下会启用 Flash Cache。无法在 Cloud Volumes ONTAP 部署中的 C3 LSSD 变体之间切换，即使目标变体支持 Flash Cache。
-* 现在，您可以在 C3 虚拟机上向新的和现有的聚合添加卷。
-* 通过 NetApp Console 或使用 `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API 添加卷时，可以更改 IOPS 和吞吐量设置。
-
-
-.相关链接
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Google Cloud 中 Cloud Volumes ONTAP 支持的配置"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机"^]
-

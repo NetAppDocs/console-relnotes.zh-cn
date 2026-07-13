@@ -128,99 +128,31 @@
   <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保护 Oracle Database 工作负载概述</block>
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
-  <block id="bf89f4b1f72b6398bcca3a3ff4b6f7c1" category="doc">Cloud Volumes ONTAP 支持下一代 Google Cloud 虚拟机</block>
-  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud 中 Cloud Volumes ONTAP 支持的配置</block>
-  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服务已被弃用：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看预测数据</block>
-  <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Console 代理 4.6.0</block>
-  <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">4.6.0 版本同时支持标准模式和受限模式。</block>
-  <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">支持所需磁盘空间的配置检查</block>
-  <block id="6644a48d7e2c01ea2eb4118705a6aecb" category="inline-link-macro">详细了解如何在 Console 代理上运行配置检查</block>
-  <block id="01ec5c0199a20329cd9739a87994ba1d" category="paragraph">您可以使用配置检查验证 Console 代理所需的磁盘空间是否可用。您可以从 Console 或 Agent 维护控制台执行配置检查。<block ref="2f1b890fa743352ff9f5cd648c952940" category="inline-link-macro-rx"></block></block>
-  <block id="6f8cdd1e2991c2d2f9a4580b6f79bf52" category="paragraph-title">使用 ISO 升级已部署 vCenter 的控制台代理</block>
-  <block id="307d2695a2fce9ab7e904c8ad0ec1904" category="inline-link-macro">了解如何升级 vCenter 部署的 Console 代理</block>
-  <block id="30c4a8a1d5fde5730fe4249081e4d06c" category="paragraph">如果您在 vCenter 中使用 OVA 部署了 Console 代理，现在可以通过将 ISO 装载到虚拟机并从虚拟机维护控制台运行升级将其升级到新版本。<block ref="5494ba1785de42707e7a1fa6cefcddcd" category="inline-link-macro-rx"></block></block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
-  <block id="a83b3bb31eda1beff171bab61e67aa23" category="paragraph">*支持 NetApp MetroCluster 主动/主动配置*：NetApp Backup and Recovery for Volumes 工作负载现在支持 MetroCluster 主动-主动配置。</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
-  <block id="19455401d550e37f86235df1de2da367" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下保护策略增强功能：</block>
-  <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*磁盘到磁盘支持*：您现在可以使用磁盘到磁盘备份架构配置 Kubernetes 保护策略。</block>
-  <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Google Cloud Platform 存储桶支持*：您现在可以配置 Kubernetes 保护策略以备份到 Google Cloud Platform 存储桶。</block>
-  <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">在 NetApp Backup and Recovery 中创建和管理保护策略</block>
-  <block id="a51dec4d18c2ec4a0870f9ac159087be" category="paragraph">有关保护策略的详细信息，请参阅<block ref="f4766eb2cdd623ee9325b7be7c1e14e2" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
-  <block id="6f9c0bad860671276c7314dda8468d6b" category="list-text">*改进的作业处理*：NetApp Backup and Recovery 现在可以更有效地同时处理多个作业。</block>
-  <block id="f02d5e72af9add59ab18089e0f4cc895" category="list-text">*SAN 支持（预览）*：Backup and Recovery 现在支持保护存储在 SAN 存储上的 Hyper-V VM。</block>
   <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保护 Hyper-V 工作负载概述</block>
   <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
   <block id="354bffd56a05a78c1495900b2fa41f88" category="section-title">KVM 工作负载增强</block>
-  <block id="9e61640a2e25b290407c7bce4b5f72fb" category="paragraph">在此版本中，KVM 工作负载引入了以下增强功能：</block>
-  <block id="02055854e5f8d7c0a2161503c5645d5a" category="inline-link">使用 NetApp Backup and Recovery 还原 KVM 虚拟机</block>
-  <block id="2695e041e7821912ad62ed125ae887a9" category="list-text">*还原到备用位置（预览）*：您现在可以将 KVM VM 还原到备用目标。有关详细信息，请参阅<block ref="c82574f572233aef5ee5178c16dc1758" category="inline-link-rx"></block>。</block>
-  <block id="318e7f91a44ca688085735c8092e7c69" category="inline-link">创建和管理保护组</block>
-  <block id="b4ad3ee842f554f84ff60d2d0f7228a6" category="list-text">*基于标记的保护*：VMware 工作负载的备份和恢复现在支持对存储在 NFS 和 VMFS 卷上的虚拟机的基于标记的保护，使您能够从 vCenter 标记而不是从单个虚拟机或数据存储构建保护组。当您在 vCenter 中标记虚拟机和数据存储时，备份和恢复会自动发现并将其包含在未来的备份中，而无需任何手动组维护。有关详细信息，请参阅<block ref="863c691e599eacbfae8d86e5506c4592" category="inline-link-rx"></block>。</block>
-  <block id="d782b6346ca61c6cf09a6d3470f1e8a1" category="inline-link">还原 VMware 工作负载</block>
-  <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*还原到备用存储系统*：即使原始（主）存储系统完全不可用，您现在也可以将虚拟机还原到备用存储系统。有关详细信息，请参阅<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>。</block>
-  <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">还原文件和文件夹</block>
-  <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*将文件还原到 Linux VM*：您现在可以将 VM 文件和文件夹还原到 Linux VM。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
-  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">此版本的 Data Classification 包括错误修复、安全改进和性能增强。</block>
-  <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">Google Cloud VMware Engine (GCVE) 支持现已全面推出 (GA)</block>
-  <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">GCVE 的 NetApp Disaster Recovery 支持现已全面推出（GA）。借助 GA 支持，Disaster Recovery for GCVE 现在支持：</block>
-  <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*平台管理的快照：* 通过 ONTAP 或 Google Cloud Platform (GCP) 无缝管理备份和保留策略。</block>
-  <block id="045d30a52ce459f46c504234d025f4c3" category="list-text">*每个复制计划有多个数据存储区：*通过将多个数据存储区整合到单个复制策略中，简化 Disaster Recovery 计划。</block>
-  <block id="c4eadd4786334639a92ab9b1508f337f" category="list-text">*对不可用的源站点强制故障转移：*如果源站点不可用，则切换到灾难恢复站点。</block>
-  <block id="a7772ec1948f1cd5c6087ddb93603474" category="list-text">*按需延迟 SnapMirror 重新同步和还原复制：* 使用"跳过保护"选项延迟 SnapMirror 重新同步，以避免在高峰操作期间对生产工作负载产生影响，然后使用重新保护选项按需还原复制</block>
-  <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Disaster Recovery 支持的配置</block>
-  <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">有关 GCVE 支持的详细信息，请参见 <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>。</block>
-  <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">2026 年 4 月 13 日</block>
-  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">清理还原</block>
-  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience 现在支持 clean restores，这是一种新的恢复选项，可帮助您快速轻松地从勒索软件攻击中恢复。Clean restores 提供指导性工作流程，可识别最佳还原点以启动和运行您的工作负载，同时最大限度地减少停机时间。Clean restore 中的工作流程还提供对数据的文件级见解，确保您可以还原无恶意软件的工作负载，从而防止再次感染并最大限度地减少数据丢失。</block>
-  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">创建隔离的恢复环境</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用干净还原恢复工作负载</block>
-  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Splunk Enterprise 的 SIEM 支持</block>
-  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">Ransomware Resilience 现在为 Splunk Enterprise 提供安全信息事件管理 (SIEM) 支持，使您能够集中日志和事件数据，并简化威胁分析和检测。</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">将勒索软件弹性连接到 SIEM</block>
-  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">有关详细信息，请参见 <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>。</block>
-  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">对数据泄露事件的洞察现在可以在事件发生后保留 13 个月，从而可以根据您的报告需求进行更长时间的记录保存。</block>
-  <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">要了解支持的配置以及如何配置系统以进行干净还原，请参见 <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>。要了解如何使用干净还原进行恢复，请参见 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
-  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">借助 Google Cloud C3 VM 改进了 Cloud Volumes ONTAP 支持</block>
-  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP 现在增强了对 Google Cloud C3 系列虚拟机的支持，实现了以下附加功能：</block>
-  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">在 Cloud Volumes ONTAP 部署中，您可以在 C3 系列中的不同变体之间切换实例类型。</block>
-  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">更改实例类型时，如果选择 c3-standard-44 或 c3-standard-88 及其 LSSD 变体作为目标 VM，则会自动应用 Google 网络服务出口网络层 Tier-1。如果切换到任何其他 C3 变体，则出口网络层设置为 Standard。</block>
-  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">将出口网络层更改为 Tier-1 会产生额外费用。相应地规划部署和升级。</block>
-  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">如果您选择 C3 的本地 SSD (LSSD) 变体，默认情况下会启用 Flash Cache。无法在 Cloud Volumes ONTAP 部署中的 C3 LSSD 变体之间切换，即使目标变体支持 Flash Cache。</block>
-  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">现在，您可以在 C3 虚拟机上向新的和现有的聚合添加卷。</block>
-  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">通过 NetApp Console 或使用<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API 添加卷时，可以更改 IOPS 和吞吐量设置。</block>
-  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
-  <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*还原文件和文件夹时支持代理 VM* - 当您不希望将虚拟磁盘附加到原始 VM 时，现在可以使用代理 VM 从虚拟磁盘还原文件和文件夹。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
-  <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*递归文件和文件夹搜索* - 您现在可以搜索整个虚拟磁盘以查找特定文件或文件夹。有关详细信息，请参阅<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>。</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 SAN 支持*：VMware 工作负载现在支持保护由 NetApp ASA r2 SAN 专用环境托管的 VMFS 数据存储上的 VM。</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">2026 年 4 月 20 日</block>
-  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">不再提供 NetApp Cloud Tiering</block>
-  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">自 2026 年 4 月 26 日起，NetApp Cloud Tiering 不再可供购买或续订许可证。</block>
-  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">现有客户可以继续使用并获得 NetApp Cloud Tiering 支持，直至其订阅或许可合同到期。订阅到期后，客户将无法再访问 NetApp Cloud Tiering 功能或支持。</block>
-  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">在 ONTAP 集群上安装 FabricPool 许可证</block>
-  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetApp 建议客户与其 NetApp 代表合作，将其现有分层许可证转换为 ONTAP FabricPool 许可证，该许可证提供 ONTAP 中数据分层的功能。有关如何在 ONTAP 中使用 FabricPool 设置数据分层的更多信息，请参见 <block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block>。</block>
-  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering 停止提供通知</block>
-  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
-  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering 停止可用性常见问题解答</block>
-  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">已重命名预配容量标签</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">标签 *Provisioned capacity* 已重命名为 *Provisioned volume capacity*。更新后的标签也会反映在相关的 CSV 和 Excel 报告中。</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">应计突发的预测切换</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
-  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*编辑保护策略*：如果需要更改 Kubernetes 工作负载保护策略，您现在可以对其进行编辑。</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
@@ -266,11 +198,6 @@
   <block id="e5b8f2d9ef7cdce04d260640283c68c6" category="paragraph">Ransomware Resilience 现在支持使用 Google SecOps 和 Splunk SOAR playbooks 阻止个人用户。借助此功能，当 Ransomware Resilience 检测到数据泄露或大规模删除数据等可疑用户活动时，您可以自动阻止用户。</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
-  <block id="6edeb5e7f8d6c86621cc7603e861b9ba" category="doc">使用 FSx for ONTAP 管理现有关系的复制</block>
-  <block id="12ad030c730fdc0c585b94ec9fbfc39b" category="paragraph">FSx for ONTAP 文件系统作为源或目标的复制关系管理现已在 NetApp Workload Factory 中。</block>
-  <block id="c27a58445f6be9881526a37e46bb7d26" category="inline-link-macro">管理数据复制</block>
-  <block id="0b1fa8def44610bb724d3d46f4ace772" category="paragraph"><block ref="0b1fa8def44610bb724d3d46f4ace772" category="inline-link-macro-rx"></block></block>
-  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">复制 :leveloffset: +1</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
   <block id="c6527bb2f1b87269be16603057b53a2c" category="paragraph">由于 AWS 企业折扣计划 (EDP) 的变化，NetApp 在 AWS 市场中引入了独立的 Cloud Volumes ONTAP 订阅，允许您将 Cloud Volumes ONTAP 容量的计费与数据服务分开。这种分离使您可以更灵活地管理 EDP 积分和成本。NetApp 建议使用独立订阅来更好地管理 Cloud Volumes ONTAP 使用情况的成本，同时在 2026 年 7 月 31 日 EDP 要求生效后继续使用 NIS 订阅进行数据服务计费。</block>
   <block id="bc5abfb3f56ed8d61846aead3435d204" category="paragraph">AWS 中的独立 Cloud Volumes ONTAP 订阅仅支持基于容量的有效 Essentials 或 Freemium 许可证包。不支持 Professional 包。您可以选择最适合您需求的账单方式：</block>
@@ -327,7 +254,6 @@
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的高级选项部署 Cloud Volumes ONTAP</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">有关详细信息，请参见 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>。</block>
-  <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">用户行为检测增强</block>
   <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：此版本包括 Trident Protect 26.05。</block>
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*从 Backup and Recovery 升级 Trident Protect*：如果您的 Kubernetes 集群正在运行 Trident Protect 26.05 或更高版本，您现在可以直接从 Backup and Recovery 升级 Trident Protect。</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包括 Trident Protect 26.05.1。</block>
@@ -356,8 +282,6 @@
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包括安全性改进和性能增强。</block>
-  <block id="4b77ea6c402cb5104fd06a61c7376030" category="inline-link-macro">了解用户行为检测</block>
-  <block id="85780f52607b54dbe81ff2c46d981a17" category="paragraph">有关详细信息，请参见 <block ref="371ae1c35fd8f1482622c079d0f009f9" category="inline-link-macro-rx"></block>。</block>
   <block id="ad047b692e58386490130db85fe198fd" category="doc">增强保护策略的灵活性</block>
   <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Ransomware Resilience 现在为选择勒索软件检测策略提供了更大的灵活性。以前，所有勒索软件保护策略都必须包括加密检测。现在，您可以仅使用用户行为检测来启用勒索软件保护策略。</block>
   <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">保护策略仍然可以包括加密检测_和_可疑用户行为检测。阻止文件扩展名也可以添加到任何保护策略中。</block>
@@ -481,4 +405,21 @@
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">要了解更多信息，请参阅<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
+  <block id="a3385cf694f169469155cf608126cc13" category="section-title">从站点菜单管理 Trident Protect</block>
+  <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">灾难恢复现在支持直接从灾难恢复用户界面中的"站点"菜单管理 Trident Protect。您可以升级 Trident Protect 或将其从灾难恢复中删除，从而简化 Kubernetes 资源的管理。</block>
+  <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">管理站点</block>
+  <block id="cee9739236651212176e7c87838bb2d3" category="paragraph">有关详细信息，请参见 <block ref="b4c4c365d924dbf2ff79378d36f70a71" category="inline-link-macro-rx"></block>。</block>
+  <block id="cc6fa95b1e18a1fb7c53cf32734ead26" category="paragraph">灾难恢复为基于 VMware 的工作负载引入了以下更改：</block>
+  <block id="7f2d139bc27153ad07daea80fab0a433" category="section-title">故障转移空数据存储库</block>
+  <block id="bfea9e3d533bac76e79429a83d38837c" category="paragraph">包含空数据存储的复制计划现在可以成功进行故障转移，而不会将其排除在计划之外或强制故障转移。在故障转移期间，Disaster Recovery 会自动在灾难恢复站点上挂载空数据存储，从而允许添加虚拟机并保护其以进行故障回复操作。</block>
+  <block id="d3835be5f3c2a797d5fc948f95289e0c" category="paragraph">有关详细信息，请参见 <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>。</block>
+  <block id="0fddd8fb8cd772934e1e5021d105b7fb" category="section-title">vCenter 网络自动映射</block>
+  <block id="07efa6bd1ca4b90d1c4eb002786f661b" category="paragraph">现在，您可以在 vCenter 级别（即复制计划对话框之外）配置网络映射关系。配置完成后，灾难恢复会在添加或编辑复制计划时自动应用这些网络映射，从而简化复制计划管理。</block>
+  <block id="1eee5c19633b811fc646be143dcd283f" category="paragraph">灾难恢复继续支持按计划覆盖。在复制计划中定义的现有网络映射仍然可以在每个网络的基础上进行编辑；这些映射优先于 vCenter 级别定义。</block>
+  <block id="d315df6836105d6791cc83a6539ee7e9" category="section-title">灾难恢复查看器角色收紧</block>
+  <block id="6fb21aa5ad614d3da3c4d910339be1a1" category="inline-link-macro">了解 NetApp Disaster Recovery 中的用户角色和权限</block>
+  <block id="266377e44a916fdf2cc18bfbb23cf6bf" category="paragraph">已从灾难恢复查看器角色中删除了查看"升级系统"选项卡的功能。此更改使角色与只读用户更合适的体验保持一致。<block ref="8100c1fe7b8d110e1492908ee1d65a0c" category="inline-link-macro-rx"></block>。</block>
+  <block id="3ddd9403dd985627a83f357af005a768" category="section-title">系统性能增强</block>
+  <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">灾难恢复引入了一些更改，以减少系统资源消耗并提高各项操作的性能。</block>
+  <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
 </blocks>
