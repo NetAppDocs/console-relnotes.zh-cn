@@ -422,4 +422,50 @@
   <block id="3ddd9403dd985627a83f357af005a768" category="section-title">系统性能增强</block>
   <block id="baa35064269b3904d8b57c0745ca18f8" category="paragraph">灾难恢复引入了一些更改，以减少系统资源消耗并提高各项操作的性能。</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
+  <block id="edf20e41ca56535f9914b651d4176206" category="section-title">适用于 Microsoft Sentinel 的 ARM 模板</block>
+  <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience 现在提供 Azure Resource Manager (ARM) 模板，用于连接到 Microsoft Sentinel 作为 SIEM，提供辅助方法以简化部署。</block>
+  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">连接到 SIEM 以进行威胁检测和分析</block>
+  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">有关详细信息，请参见 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>。</block>
+  <block id="b6e501a3f9a9964fecae7c393bb7cf74" category="doc">Cloud Volumes ONTAP 9.19.1 RC</block>
+  <block id="f11434f81dce28dd60c981c553fa8539" category="paragraph">您现在可以使用 NetApp Console 在 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.19.1 的 Release Candidate (RC) 版本。此版本不可用于在 Amazon Web Service (AWS) 和 Microsoft Azure (Azure) 中进行部署和升级。</block>
+  <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">详细了解此版本的 Cloud Volumes ONTAP</block>
+  <block id="e0a027f4bdcd16cda78c830ace94fc76" category="paragraph"><block ref="539cae97b36c04420caaf667f01300c8" category="inline-link-macro-rx"></block>。</block>
+  <block id="25e0da852d260d2649ca08106da6e096" category="section-title">支持 Cloud Volumes ONTAP HA 中的下一代 Google Cloud VM</block>
+  <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">借助 9.19.1，NetApp 将 Cloud Volumes ONTAP 高可用性 (HA) 部署从 N2 虚拟机迁移到下一代 Google Cloud C3 系列虚拟机，以获得更快、更具可扩展性的体验。</block>
+  <block id="6cc056a948dd84f835846a2201f9b4b5" category="admonition">此支持仅适用于单可用区 (AZ) HA 部署。</block>
+  <block id="daeb9d2c445d835a4dfabab85d7f7ac8" category="paragraph">现在，您可以在 Google Cloud 中部署 Cloud Volumes ONTAP 9.19.1 及更高版本时利用 C3 系列虚拟机。这些机器具有更高的性能和更大的容量限制。它们使用 Google Virtual NIC (gVNIC) 和 Hyperdisk Balanced 磁盘，在密集型工作负载上实现动态性能。</block>
+  <block id="039aeba61a2d04ffa12dc9230a552474" category="paragraph">如果您的 Cloud Volumes ONTAP 系统运行 9.19.1 或更高版本，则用于在单个 AZ 中轻松部署的预配置包将自动使用 C3 VM，同时使您能够根据工作负载需求自定义 IOPS 和吞吐量参数。同样，在创建聚合时，您可以添加 Zonal Hyperdisk Balanced 磁盘，以在 Google Cloud 中实现更好的性能和可扩展性。您还可以选择 C3 系列机器的 LSSD 变体，以获得默认 Flash Cache 支持。</block>
+  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">请注意以下几点：</block>
+  <block id="a8b9ee4ec08e660e7c78a765fe6e8e76" category="list-text">在 Cloud Volumes ONTAP 部署中，您无法将 C3 虚拟机更改为 N2 系列虚拟机，反之亦然。但是，您可以在 C3 系列中的不同变体之间切换实例类型。</block>
+  <block id="4508abef5bde6dc4e321f4c629f6b5df" category="admonition">根据连接的数据磁盘数量，更改 C3 系列中的实例类型可能需要更长时间。请提前规划您的配置，以避免对性能造成影响。</block>
+  <block id="5d6ac50e964794f1d9f58de17f041571" category="list-text">更改实例类型时，如果选择 c3-standard-44 或 c3-standard-88 及其本地 SSD (LSSD) 变体作为目标 VM，则会自动应用 Google 网络服务 egress network tier _Tier-1_。如果切换回任何其他 C3 变体，则出口网络层将设置为 _Standard_。</block>
+  <block id="cc900a1bed6dc9c21fe26836d5594034" category="admonition">将出口网络层更改为 _Tier-1_ 会产生额外费用。请相应地规划部署和升级。</block>
+  <block id="745f1e222c1a230bd097ce9d3bc14619" category="list-text">如果选择 C3 的 LSSD 变体，默认情况下会启用 Flash Cache。即使目标变体支持 Flash Cache，您也无法在 Cloud Volumes ONTAP 部署中的 C3 LSSD 变体之间切换。</block>
+  <block id="562863c77a375e6f0ad98475be21d62d" category="list-text">在 C3 虚拟机上，您可以向新的和现有的聚合添加卷。</block>
+  <block id="0934d6e64727e82c89dcc51725cc8a7d" category="list-text">将 N2 VM 类型的 Cloud Volumes ONTAP 系统复制到 C3 VM 类型时，磁盘类型默认设置为 Hyperdisk Balanced。</block>
+  <block id="7f779554154f7bbce7ebe34e61b8a90f" category="list-text">通过 NetApp Console 或使用<block ref="566e7ce0d4fe7a4872db87a6368a9417" prefix=" " category="inline-code"></block> API 添加聚合时，可以更改 IOPS 和吞吐量设置。</block>
+  <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Google Cloud 中 Cloud Volumes ONTAP 支持的配置</block>
+  <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
+  <block id="fe7bf6c599e29ac1b663b6261745a091" category="inline-link">Google 文档：C3 机器系列</block>
+  <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
+  <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">简化 Google Cloud 中的 Cloud Volumes ONTAP 部署</block>
+  <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">现在，您可以使用*快速创建*向导在 Google Cloud 中为单节点和高可用性 (HA) 配置部署 Cloud Volumes ONTAP。这种简化的流程减少了步骤，在单个页面上自动设置默认值，并最大限度地减少导航操作，从而实现更快、更轻松的部署。</block>
+  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">使用 Quick create 在 Google Cloud 中部署 Cloud Volumes ONTAP</block>
+  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
+  <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">使用 Google Cloud 中的高级选项部署 Cloud Volumes ONTAP</block>
+  <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
+  <block id="12d92330947695a8724da477e7db5baa" category="section-title">Cloud Volumes ONTAP 访问角色简介</block>
+  <block id="ae05e9d1fb64b3f3eb3c2b718a64b7c2" category="paragraph">NetApp 为 Cloud Volumes ONTAP 引入了身份和访问管理 (IAM) 角色，实现了基于角色的访问控制 (RBAC)，以提升安全性并简化合规管理。用户可以继续使用其现有凭据登录 NetApp Console，以执行 Cloud Volumes ONTAP 操作。但是，身份验证现在通过身份联合进行路由，使 Console 管理员能够对这些功能进行更精细的控制。每个用户必须具有以下角色之一，才能对 Cloud Volumes ONTAP 执行任何操作。如果没有角色，用户将无法查看或访问 Cloud Volumes ONTAP 实例。</block>
+  <block id="ac12122f7d4bba19a9bdf9634b8cc548" category="list-text">*Cloud Volumes ONTAP viewer*：授予对 Cloud Volumes ONTAP 屏幕和选项卡的只读访问权限。此角色中禁用了某些屏幕和操作按钮。</block>
+  <block id="147d529d31a33dd1ffe2aed02030d216" category="list-text">*Cloud Volumes ONTAP operator*：启用日常管理任务，例如添加卷、管理存储和配置复制。</block>
+  <block id="ccb8cf6de876397f5af5fd2969199a4c" category="list-text">*Cloud Volumes ONTAP admin*：提供对所有 Cloud Volumes ONTAP 操作的完全访问权限。</block>
+  <block id="9118c1f5d2016b980f9d65d7ab66a79b" category="paragraph">Console 管理员从*管理 &gt; 身份*为 Cloud Volumes ONTAP 用户分配角色。角色权限基于用户的组织，并应用于该组织中的所有 Cloud Volumes ONTAP 系统。</block>
+  <block id="7e04f92c9f24c942f442e9d0b64d902d" category="paragraph">Cloud Volumes ONTAP 使用每个用户权限的本地缓存强制执行 RBAC，该缓存每小时自动刷新一次。当为用户分配新角色或更改其现有角色时，该更改可能需要最多一小时才能生效，此后，角色允许的所有工作流将被启用。</block>
+  <block id="cacd0669e0e9c09f881a4cca5340e098" category="admonition">首次部署 Console 代理或将现有 Console 代理升级到 Console 4.9.0 或更高版本时，一次性种子设定过程会自动将 Cloud Volumes ONTAP 角色分配给组织中的所有现有用户。此过程最多可能需要 30 分钟才能完成。完成后，Console 将为现有用户分配适当的角色。</block>
+  <block id="2c3736b0de2c7956e8b876c728c32036" category="paragraph">Cloud Volumes ONTAP 角色适用于 Amazon Web Service (AWS)、Microsoft Azure (Azure) 和 Google Cloud 环境。</block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console 访问角色</block>
+  <block id="ccca36d58a98cb8fda0efa22f507ff91" category="list-text"><block ref="ccca36d58a98cb8fda0efa22f507ff91" category="inline-link-rx"></block></block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Cloud Volumes ONTAP 访问角色（位于 NetApp Console 中）</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
 </blocks>
