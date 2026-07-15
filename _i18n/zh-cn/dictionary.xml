@@ -468,4 +468,11 @@
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Cloud Volumes ONTAP 访问角色（位于 NetApp Console 中）</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">2026年7月14日</block>
+  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Console 代理 4.9.0</block>
+  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">4.9.0 版本同时支持标准模式和受限模式。</block>
+  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">支持对 Cloud Volumes ONTAP 进行基于角色的访问控制</block>
+  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">控制台支持基于角色的访问 Cloud Volumes ONTAP。</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">详细了解 Cloud Volumes ONTAP 基于角色的访问</block>
+  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
 </blocks>
