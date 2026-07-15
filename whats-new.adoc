@@ -57,6 +57,17 @@ link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.h
 
 
 
+[[amazon-fsx-for-ontap]]
+=== Amazon FSX for ONTAP
+
+
+
+==== 从 NetApp Console 中的工作负载中删除 GenAI 工作负载
+
+GenAI 工作负载已从 NetApp Console 中的工作负载中删除。
+
+
+
 [[14-july-2026]]
 == 2026年7月14日
 
