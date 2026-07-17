@@ -477,5 +477,8 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">2026年7月15日</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">从 NetApp Console 中的工作负载中删除 GenAI 工作负载</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">GenAI 工作负载已从 NetApp Console 中的工作负载中删除。</block>
-  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*增强的多存储桶支持*：从 ONTAP 9.19.1 及更高版本开始，您现在可以跨不同云提供商使用每个系统最多 100 个存储桶来保护系统中的卷。</block>
+  <block id="66591c0e71be05bd24e1869944b92db6" category="doc">增强对所有工作负载的多存储桶支持</block>
+  <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">在此 Backup and Recovery 版本中，您现在可以跨不同云提供商，为每个系统最多使用 100 个存储桶来保护系统中的工作负载。</block>
+  <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">了解 NetApp Backup and Recovery</block>
+  <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">要了解有关 NetApp Backup and Recovery 的详细信息，请参阅<block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>。</block>
 </blocks>
