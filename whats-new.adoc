@@ -1005,23 +1005,3 @@ NetApp Console中Keystone仪表板的新增强功能：
 ==== 应计突发的预测切换
 
 现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["查看预测数据"]。
-
-
-
-[[20-april-2026]]
-== 2026 年 4 月 20 日
-
-
-
-[[backup-and-recovery]]
-=== 备份和恢复
-
-
-
-==== VMware 工作负载增强功能
-
-在此版本中，VMware 工作负载引入了以下增强功能：
-
-*ASA r2 SAN 支持*：VMware 工作负载现在支持保护由 NetApp ASA r2 SAN 专用环境托管的 VMFS 数据存储上的 VM。
-
-要了解有关保护 VMware 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保护 VMware 工作负载概述"]。
