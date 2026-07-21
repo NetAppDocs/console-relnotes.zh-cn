@@ -520,4 +520,10 @@
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">Wellness Review 功能已被弃用，自 2026 年 7 月起不再在 Digital Advisor 中提供。</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
+  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">通过 webhook 配置 SIEM</block>
+  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience 现在支持通过 Ransomware Resilience UI 中的 Webhook 配置安全信息和事件管理 (SIEM) 系统。通过 Webhook，您可以使用首选的 SIEM 系统来组织勒索软件监控。</block>
+  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">配置 SIEM 系统</block>
+  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">有关详细信息，请参见<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
+  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">自动响应用户活动事件的电子邮件警报</block>
+  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience 现在可以在用户活动事件触发自动响应时发送电子邮件通知，从而提高 Ransomware Resilience 和勒索软件活动的清晰度和可见性。</block>
 </blocks>
