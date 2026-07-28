@@ -135,7 +135,6 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">查看预测数据</block>
   <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
@@ -147,10 +146,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用干净还原恢复工作负载</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">将勒索软件弹性连接到 SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">已重命名预配容量标签</block>
-  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">标签 *Provisioned capacity* 已重命名为 *Provisioned volume capacity*。更新后的标签也会反映在相关的 CSV 和 Excel 报告中。</block>
-  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">应计突发的预测切换</block>
-  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026 年 4 月 27 日</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
   <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">使用 OVA 部署 Data Classification</block>
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
@@ -398,7 +393,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技术刷新功能现在称为 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量增加功能现在称为*存储扩展*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">续订功能现在称为*Support Renewals*。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
-  <block id="59cd389cee057923ba31ddf4336c8526" category="paragraph">现在，您可以使用 *消费趋势* 选项卡的 *累计突发* 视图中的 *预测* 切换来预测当前日期后 120 天的累计突发使用情况。要了解更多信息，请参阅<block ref="66d7c7dbf3416596c75cfd488116093b" category="inline-link-rx"></block>。</block>
   <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
@@ -538,4 +532,18 @@
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用区域冗余存储 (ZRS) 在多个可用区中实现 HA</block>
   <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">有关所有受支持区域的列表，请参阅<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
+  <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根据工作负载和系统类型标准化保护组</block>
+  <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">Ransomware Resilience 现在强制要求保护组仅包含一种工作负载类型和系统类型。创建新的保护组时，必须指定工作负载类型（文件系统或块）以及工作负载的系统。此增强功能可确保为保护组选择的勒索软件保护策略能够成功应用于组中的所有工作负载。</block>
+  <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">如果现有的保护组混合使用系统和工作负载类型，则可以继续使用它们，但无法将工作负载添加到保护组。</block>
+  <block id="d3bc7420d7e89fa51ba74ffa21c65564" category="inline-link-macro">创建保护组</block>
+  <block id="9cc8304f699313927313d2034fff7636" category="paragraph">有关详细信息，请参见<block ref="6971a647ce964528556f81913b109378" category="inline-link-macro-rx"></block>。</block>
+  <block id="3813b173292c59d50038bdf05c6b0021" category="section-title">就绪演练增强</block>
+  <block id="cf649f651dc2f032117c490236422d53" category="paragraph">Ransomware Resilience 现在使您能够根据攻击类型进行准备演习。Ransomware Resilience 可检测五种类型的攻击，您可以针对每种类型执行准备演练，以模拟攻击和恢复过程，从而了解您应对勒索软件攻击的准备情况。</block>
+  <block id="d805ea206a1d58881a7d28213018ae80" category="inline-link-macro">进行准备演习</block>
+  <block id="400f918ffe7626d9fd96dbfc4fa0f591" category="paragraph">有关详细信息，请参见<block ref="70ab6610cf4ffc0f4f5683c14443a025" category="inline-link-macro-rx"></block>。</block>
+  <block id="363260f41aed8104ffe114ccda875937" category="section-title">暂停或删除 SIEM 系统</block>
+  <block id="b18d1990e5bda04c0ed4210a1113e197" category="paragraph">Ransomware Resilience 现在在 UI 中包含暂停或删除 SIEM 系统的选项。此增强功能使您可以更轻松地暂时禁用系统以进行故障排除或维护，或将其完全移除。</block>
+  <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">禁用 SIEM 系统</block>
+  <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">有关详细信息，请参见<block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
+  <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
 </blocks>
