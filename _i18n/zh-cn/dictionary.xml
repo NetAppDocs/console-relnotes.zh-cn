@@ -151,10 +151,6 @@
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification 现在支持使用 VMware Open Virtual Appliance (OVA) 进行部署，为本地 VMware vSphere 环境提供了简化的部署策略。</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">有关详细信息，请参见 <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>。</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
-  <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*对保护 VM 的本机支持*：您现在可以创建基于 VM 的应用程序，使您能够以保护任何其他应用程序的方式保护虚拟机。</block>
-  <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*资源转换*：您现在可以使用资源转换和资源转换模板在还原过程中添加、删除和修改资源属性。</block>
-  <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*查看受保护的资源*：您现在可以查看应用程序的每个恢复点中包含的资源，并下载详细的 JSON 报告。这使您可以全面了解您的恢复点，并简化审计合规性。</block>
-  <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">2026 年 5 月 05 日</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">基于 Kubernetes 的工作负载支持（预览）</block>
   <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">Trident Protect 目前支持的任何 Kubernetes 版本</block>
   <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery 现在包括对基于 Kubernetes 的工作负载的支持。借助 Kubernetes 支持，您可以保护在 Kubernetes 集群上运行的应用程序，包括 OpenShift 虚拟化环境。Disaster Recovery 支持 <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>，确保容器化应用程序的无缝集成和强大的灾难恢复功能。</block>
@@ -247,8 +243,6 @@
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的高级选项部署 Cloud Volumes ONTAP</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">有关详细信息，请参见 <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>。</block>
-  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*：此版本包括 Trident Protect 26.05。</block>
-  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*从 Backup and Recovery 升级 Trident Protect*：如果您的 Kubernetes 集群正在运行 Trident Protect 26.05 或更高版本，您现在可以直接从 Backup and Recovery 升级 Trident Protect。</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*：此版本包括 Trident Protect 26.05.1。</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*基于 VM 的应用程序的就地还原*：您现在可以将基于 VM 的应用程序还原到原始命名空间和原始集群。</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp 为您在 AWS 中的 Cloud Volumes ONTAP 订阅提供了增强的计费选项，让您可以更好地控制如何支付 Cloud Volumes ONTAP 容量和 NetApp 数据服务（如 NetApp Backup and Recovery）的费用。以前，所有 Cloud Volumes ONTAP 和数据服务的使用都是通过 AWS 市场中的 NetApp Intelligent Services (NIS) 列表一起计费的。</block>
@@ -546,4 +540,49 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">禁用 SIEM 系统</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">有关详细信息，请参见<block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中的架构完善仪表板现已更新了 FSx for ONTAP 的存储配置名称，以提高清晰度和一致性。</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">计划卷备份</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">卷备份</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD 容量阈值</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">固态硬盘容量余量</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">文件容量阈值</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">文件容量净空</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">长期保留数据的可靠性</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">复制策略标签</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">计划的本地快照</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot 策略</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">删除不必要的备份</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">备份过期时间</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">删除不必要的快照</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Snapshot 到期</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">未充分利用的固态硬盘容量</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">SSD 容量过度配置</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">非活动块设备</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">非活动数据块设备(LUN)</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">通过冷数据分层优化总拥有成本</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">冷数据分层</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">卷逻辑容量报告</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">主机可见容量报告</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup 卷重新平衡</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">重新平衡 FlexGroup 卷</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol 卷重新平衡</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">重新平衡 FlexVol 卷</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">缓存关系写入模式</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache 写入模式</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">优化缓存卷大小</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache 副本大小</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">未经授权访问卷</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">未经授权的 iSCSI 卷访问</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI 已禁用</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">勒索软件保护（ARP/AI）</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修复、关闭和重新激活 Microsoft Azure 中 Cloud Volumes ONTAP 的配置</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中精心设计的仪表板现在允许您修复 Cloud Volumes ONTAP 系统的配置建议。</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您还可以从良好架构分析中忽略一个或多个配置。这样，您可以忽略不适用于您的环境的特定配置。</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果稍后要包含已取消的配置，可以在架构良好的控制面板中重新激活该配置。这会将配置还原到分析中，并允许您获取其建议和修复。</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
 </blocks>
