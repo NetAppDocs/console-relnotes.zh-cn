@@ -542,4 +542,19 @@
   <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">性能和资源优化</block>
   <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">已进行了各种底层改进，以减少整体系统资源消耗并提高 Disaster Recovery 操作的性能。</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
+  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
+  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*支持 NetApp Console 本地部署*：此版本的 NetApp Backup and Recovery 支持处于预览状态的 NetApp Console 本地部署。</block>
+  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 天的作业保留*：Backup and Recovery 现在会在 Job Monitor 中保留作业信息 90 天。</block>
+  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
+  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*还原到备用位置支持（适用于 SAN VM）*：现在，您可以将基于 SAN 的 VM 备份还原到备用位置。</block>
+  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Multiple backup delete support*：您现在可以一次删除多个备份。</block>
+  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作负载增强</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*可插拔数据库(PDB)还原和克隆*：Backup and Recovery for NetApp Console 服务现在支持还原和克隆可插拔数据库。</block>
+  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保护 Oracle Database 工作负载概述</block>
+  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
+  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*预览对气隙资源的支持*：如果在 NetApp Console 本地部署中运行 NetApp Backup and Recovery，您可以发现、保护和还原气隙 Kubernetes 资源。此功能在此版本中处于预览状态。</block>
+  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
+  <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*将还原作业优先于备份*：现在，在还原虚拟机或文件时，您可以将还原作业优先于备份作业。</block>
+  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*在不激活 Backup and Recovery 的情况下发现 ONTAP 系统和卷*：您现在可以在不激活 Backup and Recovery 的情况下发现系统和卷。</block>
 </blocks>
