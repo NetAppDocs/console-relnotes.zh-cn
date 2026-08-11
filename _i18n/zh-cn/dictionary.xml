@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*还原到备用位置支持（适用于 SAN VM）*：现在，您可以将基于 SAN 的 VM 备份还原到备用位置。</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Multiple backup delete support*：您现在可以一次删除多个备份。</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Oracle Database 工作负载增强</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*可插拔数据库(PDB)还原和克隆*：Backup and Recovery for NetApp Console 服务现在支持还原和克隆可插拔数据库。</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">保护 Oracle Database 工作负载概述</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>。</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*预览对气隙资源的支持*：如果在 NetApp Console 本地部署中运行 NetApp Backup and Recovery，您可以发现、保护和还原气隙 Kubernetes 资源。此功能在此版本中处于预览状态。</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*将还原作业优先于备份*：现在，在还原虚拟机或文件时，您可以将还原作业优先于备份作业。</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*在不激活 Backup and Recovery 的情况下发现 ONTAP 系统和卷*：您现在可以在不激活 Backup and Recovery 的情况下发现系统和卷。</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">活动扫描选项卡可增强扫描管理</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">数据分类现在在配置菜单中提供了 *Active scans* 选项卡，为管理扫描提供了增强的体验。Active scans 选项卡提供了您已激活扫描的所有卷的概述，并提供熟悉的筛选器以对资源进行排序。该选项卡还提供了一个集中位置，用于确定扫描优先级、暂停扫描和查看错误。</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">管理扫描</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">有关详细信息，请参见 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>。</block>
 </blocks>

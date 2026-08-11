@@ -1,0 +1,12 @@
+= 活动扫描选项卡可增强扫描管理
+:allow-uri-read: 
+
+
+
+
+[[active-scans-tab-to-enhance-scan-management]]
+=== 活动扫描选项卡可增强扫描管理
+
+数据分类现在在配置菜单中提供了 *Active scans* 选项卡，为管理扫描提供了增强的体验。Active scans 选项卡提供了您已激活扫描的所有卷的概述，并提供熟悉的筛选器以对资源进行排序。该选项卡还提供了一个集中位置，用于确定扫描优先级、暂停扫描和查看错误。
+
+有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html["管理扫描"^]。
