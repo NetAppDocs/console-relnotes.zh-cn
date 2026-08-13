@@ -133,8 +133,6 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">保护 Hyper-V 工作负载概述</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>。</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用干净还原恢复工作负载</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
@@ -565,4 +563,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">删除数据收集器</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">勒索软件弹性现在支持删除数据收集器。对工作负载启用用户活动检测时，将自动创建数据收集器；如果数据收集器过时，您现在可以手动删除它。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">有关详细信息，请参见 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
+  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">使用 NetApp Backup and Recovery 的 Hyper-V 保护工作流</block>
+  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>。</block>
 </blocks>
