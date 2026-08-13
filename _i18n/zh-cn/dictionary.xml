@@ -562,4 +562,7 @@
   <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">该服务现在能够更高效地处理集群状态更新，减少间歇性超时和停机时间，并加强 SMaS 关系的自动计划外故障转移中介。</block>
   <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 管理包括安全修复和错误修复。</block>
   <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026年8月13日</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">删除数据收集器</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">勒索软件弹性现在支持删除数据收集器。对工作负载启用用户活动检测时，将自动创建数据收集器；如果数据收集器过时，您现在可以手动删除它。</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">有关详细信息，请参见 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
 </blocks>
