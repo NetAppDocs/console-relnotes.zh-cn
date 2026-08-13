@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">数据分类现在在配置菜单中提供了 *Active scans* 选项卡，为管理扫描提供了增强的体验。Active scans 选项卡提供了您已激活扫描的所有卷的概述，并提供熟悉的筛选器以对资源进行排序。该选项卡还提供了一个集中位置，用于确定扫描优先级、暂停扫描和查看错误。</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">管理扫描</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">有关详细信息，请参见 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>。</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console 代理 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 版本同时支持标准模式和受限模式。</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">提高云中介的响应速度和可靠性</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">该服务现在能够更高效地处理集群状态更新，减少间歇性超时和停机时间，并加强 SMaS 关系的自动计划外故障转移中介。</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 管理包括安全修复和错误修复。</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">2026年8月13日</block>
 </blocks>
