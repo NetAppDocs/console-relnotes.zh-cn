@@ -1,0 +1,12 @@
+= Config Drift 的弃用通知
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Config Drift 的弃用通知
+
+Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。

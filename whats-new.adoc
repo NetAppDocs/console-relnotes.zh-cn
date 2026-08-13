@@ -73,6 +73,24 @@ NetApp Console 4.10.0 管理包括安全修复和错误修复。
 
 
 
+[[12-august-2026]]
+== 2026年8月12日
+
+
+
+[[digital-advisor]]
+=== 数字顾问
+
+
+
+==== Config Drift 的弃用通知
+
+Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。
+
+
+
 [[10-august-2026]]
 == 2026年8月10日
 

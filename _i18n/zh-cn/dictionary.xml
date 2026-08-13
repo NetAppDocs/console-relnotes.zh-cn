@@ -565,4 +565,7 @@
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">有关详细信息，请参见 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
   <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">使用 NetApp Backup and Recovery 的 Hyper-V 保护工作流</block>
   <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>。</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
 </blocks>
