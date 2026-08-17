@@ -30,6 +30,54 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[17-august-2026]]
+== 2026年8月17日
+
+
+
+[[backup-and-recovery]]
+=== 备份和恢复
+
+
+
+==== Hyper-V 工作负载增强功能
+
+在此版本中，Hyper-V 工作负载引入了以下增强功能：
+
+*将对象存储备份还原到备用位置*：您现在可以将 Hyper-V 虚拟机、文件和文件夹从对象存储还原到备用存储位置。
+
+有关保护 Hyper-V 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载"]。
+
+
+
+==== Kubernetes 工作负载增强功能
+
+在此版本中，Kubernetes 工作负载引入了以下增强功能：
+
+* *Trident Protect 26.08*：此版本包括 Trident Protect 26.08。
+* *备份重试*：您现在可以启用备份重试，并将重试次数和重试间隔配置为 Kubernetes 保护策略中的高级设置。
+* *部分备份成功*：您现在可以在 Kubernetes 保护策略中配置高级设置，以便在个别资源出现故障时继续备份，从而允许备份作业以部分成功的状态完成。即使某些资源在备份操作期间失败，您也可以还原已备份的资源。
+* *崩溃一致性和虚拟机一致性备份*：Backup and Recovery for NetApp Console 服务现在支持配置保护策略，以创建崩溃一致性或虚拟机一致性备份或快照。您还可以自定义在保护操作期间执行虚拟机冻结的方式。
+* *Reconnect Kubernetes cluster upon Console agent IP change*：Backup and Recovery for NetApp Console 服务现在支持在代理的 IP 地址发生变化时，将集群重新连接到其 Console 代理。
+* *将集群迁移到新的 Console 代理*：Backup and Recovery for NetApp Console 服务现在支持在原始代理失败或被删除时将集群迁移到新的 Console 代理，从而确保应用保护不中断。
+
+
+要了解有关保护 Kubernetes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["了解如何通过 NetApp Backup and Recovery 保护 Kubernetes 工作负载"]。
+
+
+
+==== Oracle Database 工作负载增强
+
+在此版本中，Oracle 数据库工作负载引入了以下增强功能：
+
+* *Pluggable Database (PDB) restore*：您现在可以还原单个可插拔数据库 (PDB) 和 PDB 表空间，包括时间点恢复。
+* *Pluggable Database (PDB) clone*：您现在可以将单个 PDB 克隆到现有的目标容器数据库 (CDB) 中，并且可以选择在克隆完整的容器数据库时排除 PDB。
+
+
+要了解有关保护 Oracle Database 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载"]。
+
+
+
 [[13-august-2026]]
 == 2026年8月13日
 
@@ -1161,58 +1209,3 @@ NetApp Console中Keystone仪表板的新增强功能：
 ==== 改进了订阅时间线中同一天多个更新的显示
 
 订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["查看 Keystone 订阅的时间表"]。
-
-
-
-[[18-may-2026]]
-== 2026 年 5 月 18 日
-
-
-
-[[ransomware-resilience]]
-=== 勒索软件抵御能力
-
-
-
-==== Google Cloud NetApp Volumes 支持（预览）
-
-Ransomware Resilience 现在支持 Google Cloud NetApp Volumes 系统，使您能够有效检测和响应 Google Cloud NetApp Volumes 中的勒索软件威胁。当您进行发现时，Ransomware Resilience 会自动显示来自 Google Cloud NetApp Volumes 系统的工作负载。当您发现这些系统时，它们会出现在 Ransomware Resilience 仪表板中。Ransomware Resilience 对 Google Cloud NetApp Volumes 的支持目前处于预览阶段。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["了解勒索软件恢复能力"^]。有关 Google Cloud NetApp Volumes 支持范围的信息，请查看 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["勒索软件恢复能力的局限性"^]。
-
-
-
-==== 清理还原增强功能
-
-清除还原现在支持报告。使用报告，您可以查看和评估清除还原，并将此信息离线保存为 CSV 文件。
-
-清除还原现在还支持停止分析。如果停止分析，则必须重新开始清除还原。
-
-要了解有关报告的更多信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["下载 Ransomware Resilience 中的报告"^]。要了解有关恢复的更多信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["使用干净还原恢复工作负载"^]。
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Azure 中的简化 Cloud Volumes ONTAP 部署
-
-现在，您可以使用快速创建在 Azure 中部署单节点和高可用性 (HA) 配置的 Cloud Volumes ONTAP。这种简化的流程与高级方法相比减少了步骤数，自动在单个页面上设置默认值，并最大限度地减少导航，使部署更快、更轻松。
-
-.相关链接
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-azure.html["使用快速创建在 Azure 中部署 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-deploying-otc-azure.html["使用 Azure 中的高级选项部署 Cloud Volumes ONTAP"^]
-
-
-
-
-[[digital-advisor]]
-=== 数字顾问
-
-
-
-==== 健康度审查
-
-自 2026 年 7 月起，Digital Advisor 中将不再提供 Wellness Review 功能。如有任何疑问，请发送电子邮件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。

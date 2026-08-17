@@ -123,7 +123,6 @@
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
-  <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">了解勒索软件恢复能力</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服务已被弃用：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
@@ -133,31 +132,13 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
-  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">使用干净还原恢复工作负载</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
-  <block id="9a9dd7aacb2ac352c55dbbc5bc460b94" category="doc">清理还原增强功能</block>
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
-  <block id="ba0619dd0f47665766133e60320fb439" category="doc">健康度审查</block>
-  <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">自 2026 年 7 月起，Digital Advisor 中将不再提供 Wellness Review 功能。如有任何疑问，请发送电子邮件至 mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#]。</block>
-  <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">2026 年 5 月 18 日</block>
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 支持（预览）</block>
-  <block id="d80af1c0606a32f418ab576db57cacc1" category="paragraph">Ransomware Resilience 现在支持 Google Cloud NetApp Volumes 系统，使您能够有效检测和响应 Google Cloud NetApp Volumes 中的勒索软件威胁。当您进行发现时，Ransomware Resilience 会自动显示来自 Google Cloud NetApp Volumes 系统的工作负载。当您发现这些系统时，它们会出现在 Ransomware Resilience 仪表板中。Ransomware Resilience 对 Google Cloud NetApp Volumes 的支持目前处于预览阶段。</block>
-  <block id="35b27350003f459df80234524883b5fc" category="inline-link-macro">勒索软件恢复能力的局限性</block>
-  <block id="cae4e00f2196b1be86c3e1e5dec224f5" category="paragraph">有关详细信息，请参见 <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>。有关 Google Cloud NetApp Volumes 支持范围的信息，请查看 <block ref="27362f7d9843ec19f9f3145cc1ee646c" category="inline-link-macro-rx"></block>。</block>
-  <block id="f5523776592686b65cfe8d99ccda44ac" category="paragraph">清除还原现在支持报告。使用报告，您可以查看和评估清除还原，并将此信息离线保存为 CSV 文件。</block>
-  <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">清除还原现在还支持停止分析。如果停止分析，则必须重新开始清除还原。</block>
-  <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">下载 Ransomware Resilience 中的报告</block>
-  <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">要了解有关报告的更多信息，请参见 <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>。要了解有关恢复的更多信息，请参见 <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>。</block>
-  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Azure 中的简化 Cloud Volumes ONTAP 部署</block>
-  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">现在，您可以使用快速创建在 Azure 中部署单节点和高可用性 (HA) 配置的 Cloud Volumes ONTAP。这种简化的流程与高级方法相比减少了步骤数，自动在单个页面上设置默认值，并最大限度地减少导航，使部署更快、更轻松。</block>
-  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">使用快速创建在 Azure 中部署 Cloud Volumes ONTAP</block>
-  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
-  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">使用 Azure 中的高级选项部署 Cloud Volumes ONTAP</block>
-  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中创建保护组</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
   <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改进了订阅时间线中同一天多个更新的显示</block>
@@ -568,4 +549,23 @@
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
+  <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
+  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*将对象存储备份还原到备用位置*：您现在可以将 Hyper-V 虚拟机、文件和文件夹从对象存储还原到备用存储位置。</block>
+  <block id="9836134eb11f1353834ea33101d25681" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载</block>
+  <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>。</block>
+  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*：此版本包括 Trident Protect 26.08。</block>
+  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*备份重试*：您现在可以启用备份重试，并将重试次数和重试间隔配置为 Kubernetes 保护策略中的高级设置。</block>
+  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*部分备份成功*：您现在可以在 Kubernetes 保护策略中配置高级设置，以便在个别资源出现故障时继续备份，从而允许备份作业以部分成功的状态完成。即使某些资源在备份操作期间失败，您也可以还原已备份的资源。</block>
+  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*崩溃一致性和虚拟机一致性备份*：Backup and Recovery for NetApp Console 服务现在支持配置保护策略，以创建崩溃一致性或虚拟机一致性备份或快照。您还可以自定义在保护操作期间执行虚拟机冻结的方式。</block>
+  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*Reconnect Kubernetes cluster upon Console agent IP change*：Backup and Recovery for NetApp Console 服务现在支持在代理的 IP 地址发生变化时，将集群重新连接到其 Console 代理。</block>
+  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*将集群迁移到新的 Console 代理*：Backup and Recovery for NetApp Console 服务现在支持在原始代理失败或被删除时将集群迁移到新的 Console 代理，从而确保应用保护不中断。</block>
+  <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">了解如何通过 NetApp Backup and Recovery 保护 Kubernetes 工作负载</block>
+  <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>。</block>
+  <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Database 工作负载增强</block>
+  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*Pluggable Database (PDB) restore*：您现在可以还原单个可插拔数据库 (PDB) 和 PDB 表空间，包括时间点恢复。</block>
+  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*Pluggable Database (PDB) clone*：您现在可以将单个 PDB 克隆到现有的目标容器数据库 (CDB) 中，并且可以选择在克隆完整的容器数据库时排除 PDB。</block>
+  <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载</block>
+  <block id="883ef32320e466646eafa77fe6544695" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
 </blocks>
