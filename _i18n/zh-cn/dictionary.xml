@@ -568,4 +568,8 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">在精心设计的控制面板中支持 Google Cloud NetApp Volumes</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 控制面板现在支持 Google Cloud NetApp Volumes。存储管理员可以查看其存储池和配置的状态，获取提高效率、成本、性能、可靠性和安全性的建议，并采取行动优化操作并遵循最佳实践。</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 的配置分析</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">详细了解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
 </blocks>
