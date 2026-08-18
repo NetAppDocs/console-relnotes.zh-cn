@@ -424,7 +424,6 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">禁用 SIEM 系统</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">有关详细信息，请参见<block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
@@ -572,7 +571,8 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的配置分析</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">在 NetApp Console 系统页面中显示的架构良好问题</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">在架构完善的仪表板中更新了配置名称</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。</block>
 </blocks>
