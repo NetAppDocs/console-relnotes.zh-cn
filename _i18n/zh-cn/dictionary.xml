@@ -383,11 +383,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的存储系统和配置的单一视图。控制面板提供见解和建议，以帮助您实现卓越运营。您可以查看配置的良好架构状态、由您使用的存储类型的良好架构框架的支柱组织的配置问题以及配置问题和建议列表。</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">精心设计的仪表板</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">详细了解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">控制台中的架构完善控制面板可用于以下存储系统：</block>
-  <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">创建自己的自定义规则</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">详细了解自定义规则</block>
@@ -430,7 +425,6 @@
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">有关详细信息，请参见<block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>。</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">2026年7月27日</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架构良好的仪表板中更新了 FSx for ONTAP 的配置名称</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中的架构完善仪表板现已更新了 FSx for ONTAP 的存储配置名称，以提高清晰度和一致性。</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">旧配置名称</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新配置名称</block>
@@ -572,4 +566,13 @@
   <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 控制面板现在支持 Google Cloud NetApp Volumes。存储管理员可以查看其存储池和配置的状态，获取提高效率、成本、性能、可靠性和安全性的建议，并采取行动优化操作并遵循最佳实践。</block>
   <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 的配置分析</block>
   <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">详细了解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP。</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Console 中经过精心设计的仪表板可用于 <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">FSx for ONTAP 支持（在 NetApp Console 的架构完善仪表板中）</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的配置分析</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中的架构完善仪表盘现在包含 FSx for ONTAP 的新存储配置名称。</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">在 NetApp Console 系统页面中显示的架构良好问题</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
 </blocks>
