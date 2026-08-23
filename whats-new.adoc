@@ -30,6 +30,27 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[20-august-2026]]
+== 2026年8月20日
+
+
+
+[[digital-advisor]]
+=== 数字顾问
+
+
+
+==== Value Insights 简介
+
+Value Insights 功能整合了 ONTAP 系统的整体运行状况、节省、稳定性和安全信息。您可以通过 ONTAP 环境的持续数据驱动视图，利用此信息改善系统运行状况和性能。
+
+
+NOTE: Value Insights 仅适用于 ONTAP 系统。
+
+详细了解link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["价值洞察"]。
+
+
+
 [[17-august-2026]]
 == 2026年8月17日
 
@@ -1219,21 +1240,3 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列
 Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的工作负载创建保护组，使您能够将多个工作负载归入一个策略下以简化管理。
 
 欲了解更多信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["在 Ransomware Resilience 中创建保护组"^]。
-
-
-
-[[25-may-2026]]
-== 2026 年 5 月 25 日
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp Console中Keystone仪表板的新增强功能：
-
-
-
-==== 改进了订阅时间线中同一天多个更新的显示
-
-订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/subscription-timeline.html["查看 Keystone 订阅的时间表"]。

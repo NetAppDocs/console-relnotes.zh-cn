@@ -141,9 +141,6 @@
   <block id="a1b7351b5e78c5f7b3c07f1f9b210761" category="doc">Google Cloud NetApp Volumes 支持（预览）</block>
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">在 Ransomware Resilience 中创建保护组</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">2026 年 5 月 26 日</block>
-  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">改进了订阅时间线中同一天多个更新的显示</block>
-  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">查看 Keystone 订阅的时间表</block>
-  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026 年 5 月 25 日</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的工作负载创建保护组，使您能够将多个工作负载归入一个策略下以简化管理。</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">欲了解更多信息，请参见<block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>。</block>
   <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 小部件名称更新</block>
@@ -280,7 +277,6 @@
   <block id="32846264266c0647221942c075bdc06f" category="list-text">技术刷新功能现在称为 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
   <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量增加功能现在称为*存储扩展*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
   <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">续订功能现在称为*Support Renewals*。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
-  <block id="ba5dc947a0339c89568e57148a12b467" category="paragraph">订阅时间表图表现在会显示在同一天发生多个不同类型的订阅更新时的数字，而不是单独的图标。将鼠标悬停在数字上可查看当天的所有更新类型。下载的报告包括每个更新的单独一行，为您提供所有更改的完整记录。要了解更多信息，请参阅<block ref="1d47dbd375b0b6ee7030543c5313f259" category="inline-link-rx"></block>。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">要了解更多信息，请参阅<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
@@ -575,4 +571,10 @@
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">在架构完善的仪表板中更新了配置名称</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Value Insights 简介</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">Value Insights 功能整合了 ONTAP 系统的整体运行状况、节省、稳定性和安全信息。您可以通过 ONTAP 环境的持续数据驱动视图，利用此信息改善系统运行状况和性能。</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights 仅适用于 ONTAP 系统。</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">价值洞察</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">详细了解<block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>。</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">2026年8月20日</block>
 </blocks>
