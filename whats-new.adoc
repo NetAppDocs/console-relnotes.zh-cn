@@ -1222,21 +1222,3 @@ Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列
 * "容量添加"功能现在称为"存储扩展"。了解 link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
 * 续订功能现在称为 Support Renewals。了解 link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Digital Advisor 小工具"]。
 
-
-
-
-[[26-may-2026]]
-== 2026 年 5 月 26 日
-
-
-
-[[ransomware-resilience]]
-=== 勒索软件抵御能力
-
-
-
-==== Google Cloud NetApp Volumes 支持（预览）
-
-Ransomware Resilience 现在支持为 Google Cloud NetApp Volumes 系统中的工作负载创建保护组，使您能够将多个工作负载归入一个策略下以简化管理。
-
-欲了解更多信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["在 Ransomware Resilience 中创建保护组"^]。
