@@ -577,4 +577,7 @@
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">支持 Azure 中的奥地利东部和比利时中部地区</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">现在，您可以在 Azure 的奥地利东部 (austriaeast) 和比利时中部 (belgiumcentral) 区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
+  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">通过 Console 代理交付 SIEM 事件</block>
+  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience 现在支持通过 Console 代理传送 SIEM 事件，以及通过 NetApp Console 传送事件的现有选项。</block>
+  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">当您通过 Console 代理交付 SIEM 事件时，您可以将 SIEM 事件交付保持在您的网络边界内。这简化了具有严格 IP 地址允许列表的本地环境的部署，并且可以更好地与现有安全控制保持一致。要使用此选项，请确保 Console 代理能够通过任何防火墙或代理控件解析并连接到所需端口上的 SIEM 端点。</block>
 </blocks>
