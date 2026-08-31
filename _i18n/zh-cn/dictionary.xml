@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">通过 Console 代理交付 SIEM 事件</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience 现在支持通过 Console 代理传送 SIEM 事件，以及通过 NetApp Console 传送事件的现有选项。</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">当您通过 Console 代理交付 SIEM 事件时，您可以将 SIEM 事件交付保持在您的网络边界内。这简化了具有严格 IP 地址允许列表的本地环境的部署，并且可以更好地与现有安全控制保持一致。要使用此选项，请确保 Console 代理能够通过任何防火墙或代理控件解析并连接到所需端口上的 SIEM 端点。</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">改进的 SnapMirror Snapshot 管理</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">现在，您可以使用最新的快照触发故障转移，这是不拍摄新快照时的首选方法。</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">选择特定的快照基线时，默认情况下，SnapMirror 传输快照是隐藏的。这是因为它们可能在故障转移过程中被删除，导致由于"未找到公共快照"错误而无法在故障转移后重新保护工作负载。您仍然可以使用这些快照，但必须完成额外的确认提示以确认风险。</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">故障转移到远程站点</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">有关详细信息，请参见 <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>。</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">其他改进</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">为提高测试故障转移工作流的弹性，进行了一些小的改进。</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">已更正添加脚本时的验证错误。</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">2026年8月31日</block>
 </blocks>
