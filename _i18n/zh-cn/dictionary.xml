@@ -138,18 +138,6 @@
   <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
   <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
-  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Digital Advisor 小部件名称更新</block>
-  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">以下 Digital Advisor 功能的名称已更改：</block>
-  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">评估系统刷新</block>
-  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">技术刷新功能现在称为系统刷新。了解如何 <block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>。</block>
-  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Digital Advisor 小工具</block>
-  <block id="7b68bc21ce78c08210db229203879260" category="list-text">"容量添加"功能现在称为"存储扩展"。了解 <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>。</block>
-  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">续订功能现在称为 Support Renewals。了解 <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>。</block>
-  <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">生命周期规划功能名称更新</block>
-  <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">以下生命周期规划功能的名称已更改：</block>
-  <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">扩展存储</block>
-  <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">注册以获得支持</block>
-  <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">2026 年 6 月 03 日</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支持 S3 兼容云存储*：卷工作负载的 NetApp Backup and Recovery 现在支持备份到 S3 兼容云存储。</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
@@ -269,9 +257,6 @@
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 版本同时支持标准模式和受限模式。</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">此版本包括安全性改进和错误修复。</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">有关详细信息，请参见 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
-  <block id="32846264266c0647221942c075bdc06f" category="list-text">技术刷新功能现在称为 *System Refresh*。了解如何操作<block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>。</block>
-  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">容量增加功能现在称为*存储扩展*。了解如何操作<block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>。</block>
-  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">续订功能现在称为*Support Renewals*。了解如何操作<block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">要了解更多信息，请参阅<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
@@ -589,4 +574,13 @@
   <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">为提高测试故障转移工作流的弹性，进行了一些小的改进。</block>
   <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">已更正添加脚本时的验证错误。</block>
   <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">2026年8月31日</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Cloud Volumes ONTAP 的远程数据复制评估</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">新的评估可用于检查 Cloud Volumes ONTAP 数据是否受远程复制保护。它有助于确保您的数据保护计划遵循灾难恢复和业务连续性的最佳实践。</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">了解 Cloud Volumes ONTAP 的配置分析</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">忽略整个精心设计的配置</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">现在，您可以从控制面板中取消整个推荐配置。这使您可以更好地控制针对您的环境显示哪些建议和评估。</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">精心设计的仪表板中的数据库工作负载建议</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">使用 FSx for ONTAP 的数据库工作负载建议现在可在 NetApp Console 的精心设计的仪表板中找到。您可以在一个位置查看存储资源和数据库工作负载的状态，从而全面了解基础架构的运行状况。</block>
+  <block id="ba08a463d06739f442d7b83ca5021909" category="section-title">2026年9月1日</block>
 </blocks>
