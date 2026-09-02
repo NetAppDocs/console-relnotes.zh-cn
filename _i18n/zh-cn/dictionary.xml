@@ -583,4 +583,14 @@
   <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">精心设计的仪表板中的数据库工作负载建议</block>
   <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">使用 FSx for ONTAP 的数据库工作负载建议现在可在 NetApp Console 的精心设计的仪表板中找到。您可以在一个位置查看存储资源和数据库工作负载的状态，从而全面了解基础架构的运行状况。</block>
   <block id="ba08a463d06739f442d7b83ca5021909" category="section-title">2026年9月1日</block>
+  <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Azure Secret 和 Top Secret 区域中的 Cloud Volumes ONTAP 支持（私有预览）</block>
+  <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP 现在支持在私有预览中的 Azure Government Secret 和 Top Secret 区域中进行部署。此功能将 Cloud Volumes ONTAP 扩展到 Microsoft 的分类 Azure 环境，使政府和国防客户能够使用 ONTAP 进行数据管理、保护和灾难恢复，以支持国家安全工作负载。请联系您的 NetApp 客户团队以参与其中。</block>
+  <block id="9a4d5529d16b869118217275b6da762d" category="paragraph">有关信息，请参阅 Azure 文档：</block>
+  <block id="d6cb1d3533b658f7c8098c480b799207" category="inline-link">适用于美国政府任务的云服务^</block>
+  <block id="77063c44fc617a6f3c637b1e2c35bd37" category="list-text"><block ref="77063c44fc617a6f3c637b1e2c35bd37" category="inline-link-rx"></block></block>
+  <block id="985c02ef44894c5b9eb81c7ef41befb6" category="inline-link">Azure Government Secret</block>
+  <block id="97003784d2f5493688983ca3efa74e68" category="list-text"><block ref="97003784d2f5493688983ca3efa74e68" category="inline-link-rx"></block></block>
+  <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
+  <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
+  <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026 年 9 月 2 日</block>
 </blocks>
