@@ -30,6 +30,24 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[14-september-2026]]
+== 2026年9月14日
+
+
+
+[[digital-advisor]]
+=== 数字顾问
+
+
+
+==== 虚拟机弃用通知
+
+虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。
+
+
+
 [[02-september-2026]]
 == 2026 年 9 月 2 日
 

@@ -127,97 +127,16 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
-  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
-  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">常规改进</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
-  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">整合 SOAR 攻略</block>
-  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费</block>
-  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支持 S3 兼容云存储*：卷工作负载的 NetApp Backup and Recovery 现在支持备份到 S3 兼容云存储。</block>
-  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*将文件和文件夹还原到来宾 VM 改进*：您现在可以将文件和文件夹从主存储或二级存储上的快照还原到来宾 Windows VM。CIFS 和 SAN VM 现在支持此功能。</block>
-  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">此版本的 Data Classification 包括安全性改进和性能增强。</block>
-  <block id="ad047b692e58386490130db85fe198fd" category="doc">增强保护策略的灵活性</block>
-  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">Ransomware Resilience 现在为选择勒索软件检测策略提供了更大的灵活性。以前，所有勒索软件保护策略都必须包括加密检测。现在，您可以仅使用用户行为检测来启用勒索软件保护策略。</block>
-  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">保护策略仍然可以包括加密检测_和_可疑用户行为检测。阻止文件扩展名也可以添加到任何保护策略中。</block>
-  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">如果禁用现有策略的部分保护策略，则在策略的上一次迭代下创建的任何现有警报只能标记为"已解决"而不是"已忽略"。例如，如果您有一个保护策略，其中包括加密检测和可疑用户行为，但您禁用了加密检测，则只能解决该工作负载的现有加密警报。</block>
-  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">使用 NetApp Ransomware Resilience 保护策略保护工作负载</block>
-  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">有关详细信息，请参见 <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>。</block>
-  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">SOAR 战术手册增强功能</block>
-  <block id="993b3419e78327c12451169533b8d701" category="paragraph">Ransomware Resilience SOAR 攻略现在可在您阻止用户或使卷脱机后提供补救步骤。如果操作被认为不是勒索软件威胁，您现在可以将卷恢复联机并取消阻止用户。</block>
-  <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1 及更高版本支持 M6id 和 M6idn EC2 实例系列，用于 AWS 中的新建和现有单节点和高可用性 (HA) 对部署。与第 5 代通用系统相比，这些第 6 代实例具有更快的处理能力、更强的网络功能和更高的性能。</block>
-  <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*M6id 实例*：通过高速、低延迟的本地 NVMe 存储提供计算和内存的平衡。所有 M6id 实例大小都支持 Flash Cache。这些实例非常适合数据记录和媒体处理等工作负载。</block>
-  <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*M6idn 实例*：提供与 M6id 实例相同的本地 NVMe 存储功能。所有 M6idn 实例大小都支持 Flash Cache。</block>
-  <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">我们不建议使用较小尺寸的 m6id.xlarge、m6id.2xlarge、m6idn.xlarge 和 m6idn.2xlarge 实例类型进行高性能或内存密集型工作负载。对于这些工作负载，请使用具有更高核心计数和更大内存的实例类型。</block>
-  <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">AWS 中支持的 Cloud Volumes ONTAP 配置</block>
-  <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">有关详细信息，请参阅<block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>。</block>
-  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">支持 AWS 中 Cloud Volumes ONTAP 的新 EC2 实例</block>
   <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Kubernetes 更新</block>
   <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">灾难恢复针对基于 Kubernetes 的工作负载引入了以下更改：</block>
-  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">测试 Kubernetes 工作负载的故障转移支持</block>
-  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">灾难恢复现在支持测试 Kubernetes 工作负载的故障转移过程。测试故障转移允许您验证灾难恢复计划。完成测试后，您可以清理测试故障转移，以便系统自动清理测试资源，以减少开销并确保环境的一致性。</block>
-  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">测试故障转移过程</block>
-  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">有关详细信息，请参见 <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>。</block>
-  <block id="9be7f1264301a801add3868ed7829904" category="section-title">计划的测试故障转移</block>
-  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">您现在可以通过安排测试故障转移来自动执行灾难恢复测试。您可以设置定期测试故障转移的时间表，以连续验证恢复计划，而无需人工干预，有助于保持对恢复目标的信心并满足合规性要求。</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">管理复制计划</block>
-  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">有关详细信息，请参见 <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>。</block>
-  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Kubernetes 工作负载的计划发现</block>
-  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">使用定时发现，您可以控制 Disaster Recovery 扫描新 Kubernetes 工作负载的频率。您可以配置发现间隔以与操作节奏保持一致，从而减少不必要的系统开销，同时确保及时检测和保护新的工作负载。</block>
-  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">自定义发现计划</block>
-  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">有关详细信息，请参见 <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>。</block>
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware 更新</block>
-  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">空数据存储的保护</block>
-  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">映射信息</block>
-  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">灾难恢复现在允许为不包含任何虚拟机 (VM) 的数据存储配置保护。随后添加到数据存储的任何 VM 都会被灾难恢复自动检测到，此时您必须提供 <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>。</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">故障转移到远程站点</block>
-  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">将空数据存储区添加到保护计划时，必须在执行故障切换之前从保护计划中删除该数据存储区，或执行强制故障切换。有关详细信息，请参见 <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>。</block>
-  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">将先前排除的数据存储还原到保护计划</block>
-  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">以前排除在保护范围之外的数据存储区现在可以重新包括在内。随着时间的推移，在管理和更新灾难恢复配置时，此增强功能提供了更大的灵活性。</block>
-  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">管理站点、资源组和复制计划</block>
-  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">有关详细信息，请参见 <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>。</block>
-  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">基于 VMFS 的数据存储更快的故障切换</block>
-  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">Disaster Recovery 提高了基于 VMFS 的数据存储的故障转移性能。Host Bus Adapter (HBA) 重新扫描和数据存储装载操作现在可以并行执行，从而减少总体故障转移时间，并最大限度地减少恢复事件期间的停机时间。</block>
-  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">使用灾难恢复进行故障切换</block>
-  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">有关故障转移的详细信息，请参见 <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>。</block>
-  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">支持 Cloud Volumes ONTAP 中的新 Azure 区域</block>
-  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">您现在可以在 Azure 的马来西亚西部（malaysiawest）区域的单个和多个可用性区域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。这包括对单节点和高可用性 (HA) 部署的支持。</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">要查看所有区域的列表，请参见<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
-  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">2026 年 6 月 11 日</block>
-  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*：此版本包括 Trident Protect 26.06。</block>
-  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*在还原期间跳过应用程序创建*：现在，您可以在还原操作期间跳过自动创建应用程序自定义资源对象。这减少了应用程序清单中不必要的条目。</block>
-  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*还原虚拟机永久卷声明*：现在，在还原基于虚拟机的应用程序时，您可以还原单个永久卷声明，而无需还原整个虚拟机，从而在特定磁盘或卷受损坏或数据丢失影响时加快恢复速度。</block>
-  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*作业监视器改进*：作业监控现在提供了对 Kubernetes 保护作业的增强可见性。您可以查看有关作业和子作业的详细状态信息，并查看每个作业和子作业使用的目标存储。</block>
-  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">2026 年 6 月 15 日</block>
-  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">创建和管理 Hyper-V 工作负载的保护组</block>
-  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*保护组现在使用主机时区计划*：保护组现在使用 Hyper-V 主机的时区。在引入主机时区调度之前创建的保护组继续使用其先前配置的时间（通常为 UTC）。要更新这些保护组以使用 Hyper-V 主机时区，必须重新创建计划。请参阅<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>以获取更多信息。</block>
-  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">创建和管理 VMware 工作负载的保护组</block>
-  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*保护组现在使用主机时区计划*：保护组现在使用托管 VMware vCenter Server 的时区。在引入主机时区计划之前创建的保护组继续在其先前配置的时区（通常为 UTC）上运行。要使用 vCenter 时区，必须重新创建计划。请参阅<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>以获取更多信息。</block>
-  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">私有模式版本 (4.7.0)</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支持站点</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">现在可以从<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block>下载新的私有模式版本</block>
-  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">4.7.0 版本包括对以下 NetApp Console 组件和服务的更新。</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">组件或服务</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本中包含的版本</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上一个私有模式发布以来的更改</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Console 代理</block>
-  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">NetApp Console 页面中的新增功能</block>
-  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell">转到 <block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block> 并参见版本 4.7.0 包含的更改。</block>
-  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
-  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0（2026年6月8日）</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 页面中的新增功能</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">转到 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
-  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0（2026年5月11日）</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 页面中的新增功能</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">转到 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">运行状况检查 GraphQL 迁移和数据准确性改进</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">运行状况检查模块得到了增强，提高了数据准确性和符合货币标准的版本建议。作为此版本的一部分，它已从公共 API 迁移到 GraphQL，提供了改进的性能、灵活的查询和长期支持。</block>
   <block id="d6493900927657728256c0c09c4e62d3" category="section-title">建议使用的软件</block>
@@ -253,9 +172,6 @@
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的文件路径。如果您知道某些文件路径不存在风险，或者正在对卷中可能触发警报的文件进行操作，则可以排除这些文件路径。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">从警报中排除文件路径</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
-  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Console 代理 4.8.0</block>
-  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">4.8.0 版本同时支持标准模式和受限模式。</block>
-  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">此版本包括安全性改进和错误修复。</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">有关详细信息，请参见 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
@@ -513,8 +429,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">删除数据收集器</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">勒索软件弹性现在支持删除数据收集器。对工作负载启用用户活动检测时，将自动创建数据收集器；如果数据收集器过时，您现在可以手动删除它。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">有关详细信息，请参见 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
-  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">使用 NetApp Backup and Recovery 的 Hyper-V 保护工作流</block>
-  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>。</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
@@ -593,4 +507,7 @@
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">2026 年 9 月 2 日</block>
+  <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">虚拟机弃用通知</block>
+  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。</block>
+  <block id="84de9715d135be833103283dc9df0296" category="section-title">2026年9月14日</block>
 </blocks>
