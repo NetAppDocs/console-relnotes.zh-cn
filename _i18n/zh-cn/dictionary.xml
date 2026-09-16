@@ -521,4 +521,29 @@
   <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*每日备份数据传输报告*：NetApp Backup and Recovery for Volumes 现在在"报告"选项卡下提供每日备份数据传输报告，让您可以查看整个环境中的每日备份和复制数据传输活动。您可以生成完整帐户或选定存储系统的报告，按日期范围和保护类型进行筛选，并以 CSV 格式下载结果。</block>
   <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">了解使用 NetApp Backup and Recovery 的 ONTAP 卷保护</block>
   <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>。</block>
+  <block id="432e57b4ac6417575095631e36c4ad84" category="doc">支持 StorageGRID 12.1</block>
+  <block id="b6d09872582b8745a9b3f149504d2383" category="paragraph">您现在可以通过 NetApp Console 管理您的 StorageGRID 12.1 系统。</block>
+  <block id="fe21ed67c3641d5e2e10ba99109b6611" category="inline-link">了解如何使用 NetApp Console 中的高级视图管理 StorageGRID</block>
+  <block id="4df6d59ec4dc722c05f0d3acec14b56c" category="paragraph"><block ref="e0100fd3222c3d2603aecd8b497b4e0b" category="inline-link-rx"></block>。</block>
+  <block id="bc084b415a20851b8e676913db93fcd2" category="doc">Kubernetes 支持现已在 NetApp Disaster Recovery 中正式发布 (GA)</block>
+  <block id="9324db17e670e1369640c556f71a1423" category="paragraph">NetApp Disaster Recovery 中对基于 Kubernetes 的工作负载的支持现已正式商用 (GA)。通过对基于 Kubernetes 的工作负载的支持，您可以保护在 Kubernetes 集群上运行的应用程序，包括 OpenShift Virtualization 环境。Disaster Recovery 支持 Trident Protect 当前支持的任何 Kubernetes 版本，从而确保为容器化应用程序提供无缝集成和强大的灾难恢复能力。</block>
+  <block id="082f6fbdb4843c5f374a215502f493b9" category="inline-link-macro">NetApp Disaster Recovery 的 Kubernetes 要求</block>
+  <block id="09aa82bf41a96669e2e7ab72fce53b68" category="paragraph">要开始保护基于 Kubernetes 的工作负载，请参见 <block ref="d1415fee440f8c1c4acbcf4ee7535778" category="inline-link-macro-rx"></block>。</block>
+  <block id="8bbea59fb56a0e0b18eb0dbc87a3e911" category="section-title">资源转换</block>
+  <block id="23ec139ada546bb40b0037293927926e" category="paragraph">灾难恢复现在支持资源转换，允许您在故障转移期间修改工作负载的任何方面。此功能提供了在灾难恢复事件期间根据不同环境和配置调整工作负载的灵活性。</block>
+  <block id="1cb71dc0319186e8a5ef959445ae26e6" category="inline-link-macro">管理资源转换</block>
+  <block id="5dc97329134aa1a46a95297e199ee57a" category="paragraph">创建复制计划时会应用资源转换。您可以在新的"设置"页面中创建、编辑和删除资源转换。有关详细信息，请参见<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>。</block>
+  <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">脚本执行</block>
+  <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">现在，您可以将自定义脚本注入故障转移工作流，以协调应用程序的静默和恢复。此功能有助于确保在复制和还原快照之前正确准备应用程序，从而在故障转移后无缝恢复操作。</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
+  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">要了解如何注入自定义脚本，请参见 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
+  <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">新建工作负载页面</block>
+  <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">Disaster Recovery 已将"工作负载"页面添加到 UI，可提供所有已发现工作负载及其保护状态的综合视图。"工作负载"页面使您能够更有效地监控和管理工作负载。</block>
+  <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">在 Disaster Recovery 中查看运行状况和保护状态</block>
+  <block id="62cca7f4abc63d606056cd2842c6540f" category="paragraph">有关详细信息，请参见<block ref="97bec68dd22e6068edf69b3149251ef2" category="inline-link-macro-rx"></block>。</block>
+  <block id="cb212c0e367b7e5f6090b19e7f1473eb" category="section-title">"设置"页面</block>
+  <block id="7d4c91b69e54df2f702e8579ef0febe4" category="inline-link-macro">管理 AppVaults</block>
+  <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">灾难恢复现在提供了一个"设置"页面，用于集中管理资源转换模板和AppVaults。此页面提供单一界面来配置和管理灾难恢复计划的这些关键组件。要了解有关"设置"页面中选项的更多信息，请参阅<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>和<block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
+  <block id="8904eb8da011894f529ca214813ca630" category="paragraph">Disaster Recovery 在复制计划创建页面中引入了增强的验证，以确保更流畅、无错误的用户体验。</block>
+  <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">Disaster Recovery 还提高了服务的弹性，以容忍间歇性请求超时，从而提升了 UI 的整体性能和可靠性。</block>
 </blocks>
