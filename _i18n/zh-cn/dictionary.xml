@@ -154,7 +154,6 @@
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上面列出的受影响系统上重新触发 AutoSupport，以恢复运行状况检查视图中的当前数据。</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
   <block id="fb9721f24a420ba827ac36665b13797e" category="doc">自动响应用户活动警报</block>
-  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">Ransomware Resilience 现在支持在生成用户活动警报时自动创建快照和阻止用户。通过自动响应，您可以在生成警告后立即阻止用户，并创建快照进行恢复，从而无需手动干预即可更快地响应。</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自动响应用户活动警报</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">有关详细信息，请参见 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
   <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 订阅的 ADP 许可证分发</block>
@@ -546,4 +545,12 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">灾难恢复现在提供了一个"设置"页面，用于集中管理资源转换模板和AppVaults。此页面提供单一界面来配置和管理灾难恢复计划的这些关键组件。要了解有关"设置"页面中选项的更多信息，请参阅<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>和<block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">Disaster Recovery 在复制计划创建页面中引入了增强的验证，以确保更流畅、无错误的用户体验。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">Disaster Recovery 还提高了服务的弹性，以容忍间歇性请求超时，从而提升了 UI 的整体性能和可靠性。</block>
+  <block id="bf243787cd494f22987c64c448019324" category="paragraph">NetApp Ransomware Resilience 现在支持对用户活动事件的自动响应。您可以在生成用户活动警报时自动阻止用户并创建快照。这些操作可实现更快的响应，而无需人工干预。</block>
+  <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">增强对干净还原的支持</block>
+  <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">现在，针对可疑用户行为和基于用户的加密攻击，可以使用干净还原进行恢复。此增强功能在现有基础上新增了对基于加密（熵）攻击的支持。这项增强功能使您能够充分利用 clean restore 的引导式方法，确定最佳还原点，从而最大限度地减少数据丢失并加快恢复速度。</block>
+  <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">为干净还原创建隔离的恢复环境</block>
+  <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">有关详细信息，请参见<block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>。</block>
+  <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Google Cloud NetApp Volumes 的 SAN 支持</block>
+  <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience 现在为来自 Google Cloud NetApp Volumes 的 SAN 工作负载提供支持，使您能够检测针对 SAN 工作负载的基于加密的勒索软件攻击。Google Cloud NetApp Volumes 中对 SAN 的支持现已全面推出。</block>
+  <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">有关详细信息，请参见 <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> 和 <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>。</block>
 </blocks>
