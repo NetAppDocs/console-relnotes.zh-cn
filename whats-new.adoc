@@ -896,7 +896,7 @@ https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["
 
 Ransomware Resilience 现在支持通过 Ransomware Resilience UI 中的 Webhook 配置安全信息和事件管理 (SIEM) 系统。通过 Webhook，您可以使用首选的 SIEM 系统来组织勒索软件监控。
 
-有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["配置 SIEM 系统"^]。
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["使用 Webhook 配置 SIEM 系统"^]。
 
 
 
@@ -1205,7 +1205,7 @@ NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的
 
 Ransomware Resilience 现在提供 Azure Resource Manager (ARM) 模板，用于连接到 Microsoft Sentinel 作为 SIEM，提供辅助方法以简化部署。
 
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["连接到 SIEM 以进行威胁检测和分析"^]。
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["在 Ransomware Resilience 中配置 Microsoft Sentinel SIEM"^]。
 
 
 

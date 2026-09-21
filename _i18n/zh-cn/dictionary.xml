@@ -194,8 +194,6 @@
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
   <block id="edf20e41ca56535f9914b651d4176206" category="section-title">适用于 Microsoft Sentinel 的 ARM 模板</block>
   <block id="7add8fc88b51e4a92eb3463aed73b61d" category="paragraph">Ransomware Resilience 现在提供 Azure Resource Manager (ARM) 模板，用于连接到 Microsoft Sentinel 作为 SIEM，提供辅助方法以简化部署。</block>
-  <block id="5b782deb754617d2be1da0beb60e5b16" category="inline-link-macro">连接到 SIEM 以进行威胁检测和分析</block>
-  <block id="861174940ee146accf84fbe687b7ff1c" category="paragraph">有关详细信息，请参见 <block ref="9ce2483ddf8d37cd167d593bafc6e6e7" category="inline-link-macro-rx"></block>。</block>
   <block id="1794b1ebac03efdd38e24eb28c47629a" category="inline-link-macro">详细了解此版本的 Cloud Volumes ONTAP</block>
   <block id="25e0da852d260d2649ca08106da6e096" category="section-title">支持 Cloud Volumes ONTAP HA 中的下一代 Google Cloud VM</block>
   <block id="8eb29cd4df495e469d2747ba84799174" category="paragraph">借助 9.19.1，NetApp 将 Cloud Volumes ONTAP 高可用性 (HA) 部署从 N2 虚拟机迁移到下一代 Google Cloud C3 系列虚拟机，以获得更快、更具可扩展性的体验。</block>
@@ -591,4 +589,8 @@
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包括 Trident Protect 26.09。</block>
   <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*集群和命名空间粒度的基于角色的访问控制*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册特定命名空间以进行访问控制。这可以在集群或命名空间级别实现更精细的访问控制。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restore files and folders*：现在，您可以从基于 Kubernetes VM 的应用程序备份中还原或下载特定的文件和文件夹。</block>
+  <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">在 Ransomware Resilience 中配置 Microsoft Sentinel SIEM</block>
+  <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">有关详细信息，请参见<block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>。</block>
+  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">使用 Webhook 配置 SIEM 系统</block>
+  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">有关详细信息，请参见<block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>。</block>
 </blocks>
