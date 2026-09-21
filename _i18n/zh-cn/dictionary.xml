@@ -575,4 +575,17 @@
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026年9月17日</block>
   <block id="9bb8a5cf038a4165b497e11d9718970b" category="cell">5.6.2（2026 年 8 月 31 日）</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">虚拟机功能将于 2026 年 10 月在 Digital Advisor 中弃用。</block>
+  <block id="b97fde06b7b518f77d6af8b950fd42b8" category="doc">在私有模式部署中支持基于容量的许可证</block>
+  <block id="e7407e69cea5642ae9e0cd7198fe3213" category="paragraph">您现在可以在 AWS、Azure 和 Google Cloud 中以私有模式部署具有基于容量许可证的 Cloud Volumes ONTAP 系统。</block>
+  <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp 仅支持私有模式下基于容量的许可的 Essentials 软件包。从 NetApp 购买基于容量的自带许可证 (BYOL) Essentials 软件包，并在部署期间将其分配给您的系统。前 500 GiB 的已消耗容量不计入您的许可费用。随着工作负载需求的增长，您可以购买额外的套餐。</block>
+  <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp 建议对所有私有模式的 Cloud Volumes ONTAP 部署使用基于容量的许可。如果您现有的私有模式部署使用基于节点的许可证，则可以通过从 NetApp 购买 Essentials 软件包将其转换为基于容量的许可。这一新的部署功能与转换选项相结合，支持 NetApp 逐步从基于节点的许可转向基于容量的许可的计划。</block>
+  <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Cloud Volumes ONTAP 许可</block>
+  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
+  <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">了解Cloud Volumes ONTAP BYOL</block>
+  <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">停止提供基于节点的许可证</block>
+  <block id="891135e9b9da3df96fe5c02cfac5295d" category="list-text"><block ref="891135e9b9da3df96fe5c02cfac5295d" category="inline-link-rx"></block></block>
+  <block id="c1abbf97e12a86fa8ee3d99a6d57e8d2" category="inline-link">管理 Cloud Volumes ONTAP 的基于节点的许可证</block>
+  <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
+  <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026年9月21日</block>
 </blocks>
