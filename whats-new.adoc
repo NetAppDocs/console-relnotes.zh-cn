@@ -30,6 +30,32 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[25-september-2026]]
+== 2026年9月25日
+
+
+
+[[digital-advisor]]
+=== 数字顾问
+
+
+
+==== Value Insights Dashboard 的内容更新
+
+已发布价值洞察仪表板文档的更新。
+
+详细了解link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["如何在 Digital Advisor 中使用 Value Insights Dashboard"^]。
+
+
+
+==== Config Drift 的弃用通知
+
+Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor 中提供。
+
+如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。
+
+
+
 [[21-september-2026]]
 == 2026年9月21日
 

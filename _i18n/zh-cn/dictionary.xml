@@ -595,4 +595,10 @@
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*在虚拟机主机发现期间进行凭据选择* ：现在，当您发现 KVM、Hyper-V 或 VMware 主机时，您可以使用已添加到 Backup and Recovery 中的凭据。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作负载增强</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*将还原作业优先于备份*：现在，在还原卷、文件或文件夹时，您可以将还原作业优先于备份作业。</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insights Dashboard 的内容更新</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">已发布价值洞察仪表板文档的更新。</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">如何在 Digital Advisor 中使用 Value Insights Dashboard</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">详细了解<block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>。</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor 中提供。</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
 </blocks>
