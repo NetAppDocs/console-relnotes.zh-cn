@@ -30,6 +30,36 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[28-september-2026]]
+== 2026年9月28日
+
+
+
+[[backup-and-recovery]]
+=== 备份和恢复
+
+
+
+==== 常规 NetApp Backup and Recovery 增强功能
+
+在此版本中，KVM、Hyper-V 和 VMware 工作负载引入了以下增强功能：
+
+*控制台基于角色的访问控制 (RBAC) 支持*：Hyper-V、KVM 和 VMware 工作负载现在支持 NetApp Console 框架的 RBAC，使您能够管理对单个 Hyper-V、KVM 或 VMware 主机的访问。
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["详细了解在 NetApp Backup and Recovery 中使用 RBAC"]。
+
+
+
+==== VMware 工作负载增强功能
+
+在此版本中，VMware 工作负载引入了以下增强功能：
+
+*Google Cloud NetApp Volumes Flex Unified 支持*：适用于 VMware 工作负载的 NetApp Backup and Recovery 现在支持 Google Cloud NetApp Volumes 的 Flex Unified 服务级别。Flex Unified 仅在 ONTAP 模式下受支持。
+
+要了解有关保护 VMware 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["通过 NetApp Backup and Recovery 保护 VMware 工作负载"]。
+
+
+
 [[25-september-2026]]
 == 2026年9月25日
 
@@ -66,12 +96,22 @@ Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor
 
 
 
+==== ONTAP Volumes 工作负载增强
+
+在此版本中，ONTAP Volumes 工作负载引入了以下预览增强功能：
+
+*改进对暗站点的支持*：暗站点的 NetApp Backup and Recovery 现在提供与 NetApp Backup and Recovery 相同的 ONTAP Volumes 数据保护功能。此增强功能包括更新的备份、还原和作业管理服务以及新的元数据数据库。在升级期间，将自动保留和迁移现有数据库数据。升级后，请查看审核日志以验证迁移是否成功完成。暗站点的 NetApp Backup and Recovery 仅支持 ONTAP Volumes 工作负载。
+
+要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["了解使用 NetApp Backup and Recovery 的 ONTAP 卷保护"]。
+
+
+
 ==== Kubernetes 工作负载增强功能
 
 在此版本中，Kubernetes 工作负载引入了以下增强功能：
 
 * *Trident Protect 26.09*：此版本包括 Trident Protect 26.09。
-* *集群和命名空间粒度的基于角色的访问控制*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册特定命名空间以进行访问控制。这可以在集群或命名空间级别实现更精细的访问控制。
+* *集群和命名空间粒度基于角色的访问控制（RBAC）*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册用于访问控制的特定命名空间。这可以在集群或命名空间级别实现更精细的访问控制。
 * *Restore files and folders*：现在，您可以从基于 Kubernetes VM 的应用程序备份中还原或下载特定的文件和文件夹。
 
 
@@ -1232,97 +1272,3 @@ NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的
 Ransomware Resilience 现在提供 Azure Resource Manager (ARM) 模板，用于连接到 Microsoft Sentinel 作为 SIEM，提供辅助方法以简化部署。
 
 有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["在 Ransomware Resilience 中配置 Microsoft Sentinel SIEM"^]。
-
-
-
-[[29-june-2026]]
-== 2026 年 6 月 29 日
-
-
-
-[[ransomware-resilience]]
-=== 勒索软件抵御能力
-
-
-
-==== 自动响应用户活动警报
-
-NetApp Ransomware Resilience 现在支持对用户活动事件的自动响应。您可以在生成用户活动警报时自动阻止用户并创建快照。这些操作可实现更快的响应，而无需人工干预。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["自动响应用户活动警报"^]。
-
-
-
-[[digital-advisor]]
-=== 数字顾问
-
-
-
-==== 运行状况检查 GraphQL 迁移和数据准确性改进
-
-运行状况检查模块得到了增强，提高了数据准确性和符合货币标准的版本建议。作为此版本的一部分，它已从公共 API 迁移到 GraphQL，提供了改进的性能、灵活的查询和长期支持。
-
-
-
-===== 建议使用的软件
-
-运行状况检查模块中的推荐软件增强功能现在提供了更准确和一致的数据。
-
-* 固件版本显示下的磁盘架和驱动器计数显示每个系统的准确值，不再包括 HA 对计数。
-* 最低和最新版本建议现在根据有效集群版本在集群级别进行计算，符合货币标准——以前，这些建议是在节点级别计算的。
-
-
-
-
-===== AutoSupport 数据依赖关系
-
-由于后端改进，AutoSupport 采用和推荐的软件视图依赖于最新的 AutoSupport 数据。这可能会通过以下方式影响您的当前视图：
-
-[cols="30,70"]
-|===
-| 场景 | 受影响的系统 
-
-
-| 未显示数据 | 自 2025 年 10 月以来未发送 AutoSupport 的系统 
-
-
-| 过期值 | 在过去 30 天内未发送 AutoSupport 的系统 
-|===
-在上面列出的受影响系统上重新触发 AutoSupport，以恢复运行状况检查视图中的当前数据。
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp Console中Keystone仪表板的新增强功能：
-
-
-
-==== 查看 MetroCluster 订阅的 ADP 许可证分发
-
-*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["查看 Keystone MetroCluster 订阅的消耗量和运行状况"]。
-
-
-
-==== 查看卷的勒索软件防护状态
-
-*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅 https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAP 中的自主勒索软件保护 (ARP)"^]。
-
-
-
-==== 使用"反馈"选项卡分享反馈
-
-现在，您可以使用锚定在屏幕右下角的新*反馈*选项卡，从 Keystone 控制面板中的任何屏幕提供反馈。点击它将打开一个面板，您可以在其中分享您的体验并直接向 NetApp 提交评论。
-
-
-
-==== 改进容量使用和订阅到期的警报
-
-系统生成的监控器现在为容量使用情况和订阅到期提供更精细的告警。
-
-对于订阅到期，警报现在在五个阈值处触发：到期前 180、90、60、30 和 7 天，随着日期临近，严重程度从信息级别升级为严重级别。
-
-对于容量使用情况，突发警报阈值现在基于订阅的承诺突发百分比，而不是固定的 20%。例如，如果您的承诺突发为 40%，则关键警报将在承诺容量利用率的 140% 时触发。
-
-要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["查看和创建 Keystone 订阅的警报监控"]。

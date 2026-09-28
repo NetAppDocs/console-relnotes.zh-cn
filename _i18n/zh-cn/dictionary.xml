@@ -137,44 +137,13 @@
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">VMware 更新</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">故障转移到远程站点</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
-  <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">运行状况检查 GraphQL 迁移和数据准确性改进</block>
-  <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">运行状况检查模块得到了增强，提高了数据准确性和符合货币标准的版本建议。作为此版本的一部分，它已从公共 API 迁移到 GraphQL，提供了改进的性能、灵活的查询和长期支持。</block>
-  <block id="d6493900927657728256c0c09c4e62d3" category="section-title">建议使用的软件</block>
-  <block id="62d94d8f05c78645a78c9aa2a5a0656e" category="paragraph">运行状况检查模块中的推荐软件增强功能现在提供了更准确和一致的数据。</block>
-  <block id="519ef0af74847ba658e0e372af62c2d9" category="list-text">固件版本显示下的磁盘架和驱动器计数显示每个系统的准确值，不再包括 HA 对计数。</block>
-  <block id="f3ecf83f5405b8c9ae015216ab98b6ef" category="list-text">最低和最新版本建议现在根据有效集群版本在集群级别进行计算，符合货币标准——以前，这些建议是在节点级别计算的。</block>
-  <block id="b6bdc044bc2fc474a21f0bb38c36e848" category="section-title">AutoSupport 数据依赖关系</block>
-  <block id="21703a68dc34fb690cd63eab5b8673d3" category="paragraph">由于后端改进，AutoSupport 采用和推荐的软件视图依赖于最新的 AutoSupport 数据。这可能会通过以下方式影响您的当前视图：</block>
-  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">场景</block>
-  <block id="3a3c1f7cef221775b106f2d32f9f8542" category="cell">受影响的系统</block>
-  <block id="8df497acd9705cbe06a50764942ed68a" category="cell">未显示数据</block>
-  <block id="c3dac7d16903ae7e8c7256657c5c94f0" category="cell">自 2025 年 10 月以来未发送 AutoSupport 的系统</block>
-  <block id="30b12656a9029663eea37f6a804f28a4" category="cell">过期值</block>
-  <block id="e20432694f9004583c0756c875ad9910" category="cell">在过去 30 天内未发送 AutoSupport 的系统</block>
-  <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">在上面列出的受影响系统上重新触发 AutoSupport，以恢复运行状况检查视图中的当前数据。</block>
-  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">2026 年 6 月 29 日</block>
-  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">自动响应用户活动警报</block>
   <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">自动响应用户活动警报</block>
   <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">有关详细信息，请参见 <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="14bea224c3ef88c765b41449933ebeb8" category="doc">查看 MetroCluster 订阅的 ADP 许可证分发</block>
-  <block id="511c40cd8a486a0e8aa1251baf8515ee" category="inline-link-macro">查看 Keystone MetroCluster 订阅的消耗量和运行状况</block>
-  <block id="82ee282c36e597ba42bea56f0d029b9e" category="section-title">查看卷的勒索软件防护状态</block>
-  <block id="959a686de018aa5e6a4a2b33d83ab22b" category="inline-link-macro">ONTAP 中的自主勒索软件保护 (ARP)</block>
-  <block id="aa2298f4012d00689c6db262f51b627f" category="section-title">使用"反馈"选项卡分享反馈</block>
-  <block id="6938bc958f8539e0bb0d56145bf54011" category="paragraph">现在，您可以使用锚定在屏幕右下角的新*反馈*选项卡，从 Keystone 控制面板中的任何屏幕提供反馈。点击它将打开一个面板，您可以在其中分享您的体验并直接向 NetApp 提交评论。</block>
-  <block id="03c47a6c52980a6f54e9df7f4c59cb77" category="section-title">改进容量使用和订阅到期的警报</block>
-  <block id="00d1cd9fd062313d8bbfe761883837c6" category="paragraph">系统生成的监控器现在为容量使用情况和订阅到期提供更精细的告警。</block>
-  <block id="ba9431d5ada7b4b6e05b421ef88f8c24" category="paragraph">对于订阅到期，警报现在在五个阈值处触发：到期前 180、90、60、30 和 7 天，随着日期临近，严重程度从信息级别升级为严重级别。</block>
-  <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">对于容量使用情况，突发警报阈值现在基于订阅的承诺突发百分比，而不是固定的 20%。例如，如果您的承诺突发为 40%，则关键警报将在承诺容量利用率的 140% 时触发。</block>
-  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">查看和创建 Keystone 订阅的警报监控</block>
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">从用户行为警报中排除文件路径</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">NetApp Ransomware Resilience 支持在用户行为监控警报中排除特定的文件路径。如果您知道某些文件路径不存在风险，或者正在对卷中可能触发警报的文件进行操作，则可以排除这些文件路径。</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">从警报中排除文件路径</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">2026年7月7日</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">有关详细信息，请参见 <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>。</block>
-  <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">*高级数据保护 (ADP)* 选项卡上现在有一个新的*许可证分发*子选项卡，让您可以查看 MetroCluster 合作伙伴集群中的 ADP 许可证使用情况。要了解更多信息，请参阅<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>。</block>
-  <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">*资产*中的*集群中的卷*选项卡现在包含一个 *ARP 状态*列，显示每个卷是启用还是禁用自主勒索软件防护 (ARP)，让您可以查看托管资产中的勒索软件防护状态。要了解有关 ARP 的更多信息，请参阅<block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>。</block>
-  <block id="86160081a3f709a69c529a9b26266813" category="paragraph">要了解更多信息，请参阅<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>。</block>
   <block id="a3385cf694f169469155cf608126cc13" category="section-title">从站点菜单管理 Trident Protect</block>
   <block id="d108f39d7ac8db7fc5eab434cd7df7fc" category="paragraph">灾难恢复现在支持直接从灾难恢复用户界面中的"站点"菜单管理 Trident Protect。您可以升级 Trident Protect 或将其从灾难恢复中删除，从而简化 Kubernetes 资源的管理。</block>
   <block id="ceb6da856e73533ddb08cf15abe120b7" category="inline-link-macro">管理站点</block>
@@ -536,7 +505,6 @@
   <block id="492b98a527a1b4e6495db2e0303f0c2a" category="paragraph">灾难恢复现在提供了一个"设置"页面，用于集中管理资源转换模板和AppVaults。此页面提供单一界面来配置和管理灾难恢复计划的这些关键组件。要了解有关"设置"页面中选项的更多信息，请参阅<block ref="1e2c857c3180265548c388e582cc81c4" category="inline-link-macro-rx"></block>和<block ref="798f6a1b892593cf81f8f5b5eaacd21a" category="inline-link-macro-rx"></block>。</block>
   <block id="8904eb8da011894f529ca214813ca630" category="paragraph">Disaster Recovery 在复制计划创建页面中引入了增强的验证，以确保更流畅、无错误的用户体验。</block>
   <block id="d0a5cb5d70546b098b3c7c48225d6234" category="paragraph">Disaster Recovery 还提高了服务的弹性，以容忍间歇性请求超时，从而提升了 UI 的整体性能和可靠性。</block>
-  <block id="bf243787cd494f22987c64c448019324" category="paragraph">NetApp Ransomware Resilience 现在支持对用户活动事件的自动响应。您可以在生成用户活动警报时自动阻止用户并创建快照。这些操作可实现更快的响应，而无需人工干预。</block>
   <block id="5beb9d1a7ce3f39235bef552e08036ab" category="doc">增强对干净还原的支持</block>
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">现在，针对可疑用户行为和基于用户的加密攻击，可以使用干净还原进行恢复。此增强功能在现有基础上新增了对基于加密（熵）攻击的支持。这项增强功能使您能够充分利用 clean restore 的引导式方法，确定最佳还原点，从而最大限度地减少数据丢失并加快恢复速度。</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">为干净还原创建隔离的恢复环境</block>
@@ -585,7 +553,6 @@
   <block id="9bb44fee1ffc8cb84fe1dd304c171c38" category="list-text"><block ref="9bb44fee1ffc8cb84fe1dd304c171c38" category="inline-link-rx"></block></block>
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">2026年9月21日</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09*：此版本包括 Trident Protect 26.09。</block>
-  <block id="6e2d39e3670c746bf336eaad2e07b214" category="list-text">*集群和命名空间粒度的基于角色的访问控制*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册特定命名空间以进行访问控制。这可以在集群或命名空间级别实现更精细的访问控制。</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restore files and folders*：现在，您可以从基于 Kubernetes VM 的应用程序备份中还原或下载特定的文件和文件夹。</block>
   <block id="3869c7cd38e882ee17d54e5db2f6888a" category="inline-link-macro">在 Ransomware Resilience 中配置 Microsoft Sentinel SIEM</block>
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">有关详细信息，请参见<block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>。</block>
@@ -601,4 +568,14 @@
   <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">详细了解<block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>。</block>
   <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">Config Drift 功能已被弃用，自 2026 年 9 月起不再在 Digital Advisor 中提供。</block>
   <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">2026年9月25日</block>
+  <block id="419cd2b7ee4c4a768ccdb742a76a6d51" category="paragraph">*改进对暗站点的支持*：暗站点的 NetApp Backup and Recovery 现在提供与 NetApp Backup and Recovery 相同的 ONTAP Volumes 数据保护功能。此增强功能包括更新的备份、还原和作业管理服务以及新的元数据数据库。在升级期间，将自动保留和迁移现有数据库数据。升级后，请查看审核日志以验证迁移是否成功完成。暗站点的 NetApp Backup and Recovery 仅支持 ONTAP Volumes 工作负载。</block>
+  <block id="fc56ab1b23274c05b12ad0c8dc80ef1c" category="list-text">*集群和命名空间粒度基于角色的访问控制（RBAC）*：在 Kubernetes 集群发现期间，您可以通过选择要与新集群关联的项目或文件夹来控制对资源的访问。您还可以注册用于访问控制的特定命名空间。这可以在集群或命名空间级别实现更精细的访问控制。</block>
+  <block id="f7afeeafbf15177ad50522c2abcfb502" category="paragraph">*控制台基于角色的访问控制 (RBAC) 支持*：Hyper-V、KVM 和 VMware 工作负载现在支持 NetApp Console 框架的 RBAC，使您能够管理对单个 Hyper-V、KVM 或 VMware 主机的访问。</block>
+  <block id="ba79eaf594c940e1fe41ef7be1d90de0" category="inline-link">详细了解在 NetApp Backup and Recovery 中使用 RBAC</block>
+  <block id="c0efbe51bb7620993fb42a308c6ad8b2" category="paragraph"><block ref="d7adec871f52434e6c062a1e94dd0f14" category="inline-link-rx"></block>。</block>
+  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
+  <block id="fd2c958c800e793ec18ea2546e033c24" category="paragraph">*Google Cloud NetApp Volumes Flex Unified 支持*：适用于 VMware 工作负载的 NetApp Backup and Recovery 现在支持 Google Cloud NetApp Volumes 的 Flex Unified 服务级别。Flex Unified 仅在 ONTAP 模式下受支持。</block>
+  <block id="1e2fd5e7979041c997816d29d5c1e2c0" category="inline-link">通过 NetApp Backup and Recovery 保护 VMware 工作负载</block>
+  <block id="af77598cf52235180b19bf359e518fc2" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="d7977b9c562cb95be37532b996678207" category="inline-link-rx"></block>。</block>
+  <block id="e133e28734ec4222b7f45792925cee97" category="section-title">2026年9月28日</block>
 </blocks>
