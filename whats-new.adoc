@@ -348,7 +348,7 @@ Cloud Volumes ONTAP 现在支持在私有预览中的 Azure Government Secret �
 
 有关信息，请参阅 Azure 文档：
 
-* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["适用于美国政府任务的云服务^"]
+* https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions/["适用于美国政府任务的云"^]
 * https://azure.microsoft.com/en-us/explore/global-infrastructure/government/national-security["Azure Government Secret"^]
 * https://azure.microsoft.com/en-us/blog/azure-government-top-secret-now-generally-available-for-us-national-security-missions["Azure Government Top Secret"^]
 
@@ -460,7 +460,7 @@ Ransomware Resilience 现在支持通过 Console 代理传送 SIEM 事件，以�
 * 使用区域冗余存储 (ZRS) 在多个可用区中实现 HA
 
 
-有关所有受支持区域的列表，请参阅 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全局区域地图"^]。
+有关所有受支持区域的列表，请参阅 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全局区域地图"^]。
 
 
 
@@ -927,7 +927,7 @@ Ransomware Resilience 现在在 UI 中包含暂停或删除 SIEM 系统的选项
 * 使用区域冗余存储 (ZRS) 在多个可用区中实现 HA
 
 
-有关所有受支持区域的列表，请参阅 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的全局区域地图"^]。
+有关所有受支持区域的列表，请参阅 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全局区域地图"^]。
 
 
 
