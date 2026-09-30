@@ -581,4 +581,14 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有关所有受支持区域的列表，请参阅<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">适用于美国政府任务的云</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">在 Workload Factory 中发现 Flex Unified 资源</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory 现在可以通过 ONTAP API 代理端点查找 Google Cloud NetApp Volumes Flex 统一默认模式和 ONTAP 模式存储池和卷。这些资源显示在清单中，并包含在架构完善评估和建议中。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">了解 Google Cloud NetApp Volumes 的配置分析</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">从 NetApp Console Canvas 进入 Flex Unified 系统</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">您现在可以从 NetApp Console Canvas 中为已发现的 Google Cloud NetApp Volumes Flex Unified 系统选择 *Enter System*。这将打开所选系统的"资源"页面，以便您可以使用默认模式系统可用的相同工作流程查看关联的存储池和卷。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">针对 Flex Unified 资源的架构优化评估</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>
