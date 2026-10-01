@@ -590,5 +590,5 @@
   <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">针对 Flex Unified 资源的架构优化评估</block>
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
 </blocks>
