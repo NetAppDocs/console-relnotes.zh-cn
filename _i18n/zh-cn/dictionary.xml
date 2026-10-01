@@ -591,4 +591,8 @@
   <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。</block>
   <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
+  <block id="935253a377b19143ee00ca184dec844f" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下预览增强功能：</block>
+  <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*取消卷还原作业*：您现在可以从作业监控页面取消正在进行的 ONTAP 卷还原作业，从而更轻松地管理长期运行或运行缓慢的作业。</block>
+  <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改进的卷索引状态报告*：ONTAP 卷仪表板现在通过为不符合索引条件的卷和快照副本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>状态，更准确地报告索引状态。该<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>状态现在专用于等待索引的卷，卷详细信息现在显示每个快照的索引状态，并附有悬停文本说明卷或快照副本不会被索引的原因。</block>
+  <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支持*：您现在可以保护托管在 2 节点和 4 节点 NetApp AFX 集群上的卷。</block>
 </blocks>
