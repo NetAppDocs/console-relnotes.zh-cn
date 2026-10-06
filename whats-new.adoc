@@ -30,6 +30,24 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[04-october-2026]]
+== 2026年10月4日
+
+
+
+[[well-architected-dashboard]]
+=== Well-architected 仪表板
+
+
+
+==== 编辑并管理自定义规则
+
+您现在可以在规则目录中编辑自定义规则。您可以更新规则名称和设置，查看聊天中的更改，验证编辑，以及删除不再需要的规则。
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自定义规则"]
+
+
+
 [[30-september-2026]]
 == 2026年9月30日
 

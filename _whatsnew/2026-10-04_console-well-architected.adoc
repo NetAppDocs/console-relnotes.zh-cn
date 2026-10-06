@@ -1,0 +1,12 @@
+= 编辑并管理自定义规则
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== 编辑并管理自定义规则
+
+您现在可以在规则目录中编辑自定义规则。您可以更新规则名称和设置，查看聊天中的更改，验证编辑，以及删除不再需要的规则。
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自定义规则"]
