@@ -86,6 +86,22 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 
 有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。
 
+<stdin> 中的未解析指令 - include::_include/data-services-workloads.adoc[] :leveloffset: +1
+
+
+
+[[initial-release-of-oracle-cloud-infrastructure-netapp-storage-service-for-workload-factory]]
+=== 适用于 Workload Factory 的 Oracle 云基础架构 NetApp 存储服务的初始版本
+
+适用于 Workload Factory 的 OCI NetApp 存储服务 (OCI NSS) 的初始版本提供入门、系统发现、凭据管理以及链接创建和关联。要请求访问 OCI NSS，请向 Oracle 提交支持工单。
+
+
+
+[[workload-factory-documentation-for-netapp-console-users]]
+=== 面向 NetApp Console 用户的 Workload Factory 文档
+
+您可以在 NetApp Console 中找到 Workload Factory 的详细文档，包括入门指南、系统发现、凭据管理以及链接创建和关联。
+
 
 
 [[28-september-2026]]

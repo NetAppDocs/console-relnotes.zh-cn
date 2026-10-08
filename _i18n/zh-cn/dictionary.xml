@@ -594,4 +594,9 @@
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支持*：如果不想使用存储帐户访问密钥进行 Azure 身份验证，现在可以对 Azure 对象存储桶配置使用 Microsoft Entra ID 身份验证。运行 ONTAP 9.16.1 或更高版本的 Azure 系统中的 Cloud Volumes ONTAP 支持此选项。</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作负载增强</block>
+  <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">适用于 Workload Factory 的 Oracle 云基础架构 NetApp 存储服务的初始版本</block>
+  <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">适用于 Workload Factory 的 OCI NetApp 存储服务 (OCI NSS) 的初始版本提供入门、系统发现、凭据管理以及链接创建和关联。要请求访问 OCI NSS，请向 Oracle 提交支持工单。</block>
+  <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">面向 NetApp Console 用户的 Workload Factory 文档</block>
+  <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">您可以在 NetApp Console 中找到 Workload Factory 的详细文档，包括入门指南、系统发现、凭据管理以及链接创建和关联。</block>
+  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">&lt;stdin&gt; 中的未解析指令 - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
 </blocks>
