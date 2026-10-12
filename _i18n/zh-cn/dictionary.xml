@@ -548,4 +548,14 @@
   <block id="838e15ad2606430b761fae47ebb38dee" category="section-title">Kubernetes 合规性检查</block>
   <block id="07de08b6dc69bbb77fbf2faa073882f2" category="paragraph">灾难恢复添加了合规性检查，以识别 Kubernetes 工作负载缺少的工作环境。这些合规性检查有助于确保工作负载运行状况，以确保复制计划的完整性。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
+  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
+  <block id="b77bf9dc680cf2db1d8b3d5f6156585b" category="list-text">*NetApp MetroCluster 支持*：NetApp Backup and Recovery 现在使您能够保护由 NetApp MetroCluster 镜像的 Hyper-V 虚拟机。</block>
+  <block id="7ed9eebaad97e0f936b753873e6ff586" category="list-text">*针对 SAN VM 的跨区磁盘保护*：对于 CIFS 和 SAN 配置，您现在可以保护连接到保护组中每个 VM 的每个磁盘。这包括分布在多个 ONTAP 卷或 ONTAP 存储系统（跨区磁盘）上的文件，以及仅限于单个位置的文件。</block>
+  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">在此版本中，Oracle 数据库工作负载引入了以下增强功能：</block>
+  <block id="82dd01a289cf98e9d962781faec1018b" category="paragraph">*自动归档日志管理*：在数据库还原和克隆操作期间，NetApp Backup and Recovery 会自动发现并装载所需的归档日志，然后在操作完成后将其卸载。支持主、辅助和对象存储日志源。</block>
+  <block id="5f1a7ddd55d2a0b34003e08fe7cacdaf" category="section-title">Microsoft SQL Server 工作负载增强</block>
+  <block id="32d770e78ed41453037389dce2e33d9c" category="paragraph">在此版本中，Microsoft SQL Server 工作负载引入了以下增强功能：</block>
+  <block id="92337d8e70dfe880909b2051333e2fe4" category="paragraph">*许可变更*：使用磁盘到磁盘或磁盘到磁盘扇出架构的备份不再收费。收费仅适用于备份到对象存储，包括使用 3-2-1 或磁盘到对象存储架构的备份。</block>
+  <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Microsoft SQL Server 工作负载</block>
+  <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">要了解有关保护 Microsoft SQL Server 工作负载的详细信息，请参阅<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
 </blocks>
