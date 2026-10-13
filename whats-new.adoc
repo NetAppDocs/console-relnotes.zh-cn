@@ -105,6 +105,25 @@ NetApp Disaster Recovery 现在支持通过指定资源的优先级顺序和可�
 
 
 
+[[keystone]]
+=== Keystone
+
+此 Keystone STaaS 版本在 NetApp Console 的 Keystone 仪表板中包含以下更新。
+
+
+
+==== 为 Keystone 订阅生成健康见解
+
+您可以从 NetApp Console 的 *Storage > Keystone > Monitoring > Health reports* 下载按需 PowerPoint 报告，或安排一次性、每周、每月或每季度的定期交付。每份报告综合了所选订阅的订阅使用情况、运营健康状况、风险和漏洞，帮助您识别问题并与收件人共享可操作的见解。如需了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html["为 Keystone 订阅生成和计划运行状况报告"]。
+
+
+
+==== 查看 ONTAP 集群和聚合容量
+
+您可以在 *资产 > 集群和聚合* 中查看 ONTAP 集群及其聚合的物理容量、逻辑容量和存储效率。这仅适用于按物理容量计费的 Keystone STaaS 订阅。如需了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["查看 Keystone 订阅中的资产"]和 https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["查看与 Keystone 订阅关联的资产"]。
+
+
+
 [[04-october-2026]]
 == 2026年10月4日
 
