@@ -584,4 +584,5 @@
   <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">防止在 Azure 维护期间 Cloud Volumes ONTAP HA 对发生中断</block>
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*作业监视器自定义日期范围筛选*：您现在可以通过从作业监视器中的日历中选择自定义开始和结束日期来搜索过去 90 天的作业。</block>
 </blocks>
