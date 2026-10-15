@@ -30,6 +30,24 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[15-october-2026]]
+== 2026年10月15日
+
+
+
+[[digital-advisor]]
+=== 数字顾问
+
+
+
+==== Value Insights 中的 E-Series 和 StorageGRID 支持
+
+Value Insights 现在包括 ONTAP、E-Series 和 StorageGRID 系统的健康、风险、安全风险和生命周期总计。您可以按平台筛选控制面板，以查看特定于平台的详细信息。交付和预计节省的费用仅适用于 ONTAP 系统。
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["在 Digital Advisor 中发现价值洞察"]。
+
+
+
 [[14-october-2026]]
 == 2026年10月14日
 
