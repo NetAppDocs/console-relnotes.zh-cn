@@ -177,7 +177,6 @@
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">支持 Azure 中的智利中部地区</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">现在可以在 Azure 的智利中部（chilecentral）区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">单节点</block>
-  <block id="fce4191353d1af53ceb25c03f87affd6" category="list-text">使用本地冗余存储 (LRS) 的单个可用性区域中的 HA</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用区域冗余存储 (ZRS) 在多个可用区中实现 HA</block>
   <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根据工作负载和系统类型标准化保护组</block>
@@ -561,7 +560,6 @@
   <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
   <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">适用于 Cloud Volumes ONTAP 的 Azure 主机加密</block>
   <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">从 Cloud Volumes ONTAP 9.19.1 GA 开始，对于满足先决条件的新 Azure 单节点和高可用性（HA）部署，默认情况下会在主机上启用 Azure 加密。此功能会在数据写入主机和从主机读取时，对托管 VM 的物理服务器上的数据进行加密，包括临时磁盘和相关的主机级缓存。</block>
-  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">在 Azure 中部署 Cloud Volumes ONTAP 之前，请确保满足以下前提条件：</block>
   <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Microsoft 文档：在主机上启用加密</block>
   <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text">已为您的 Azure 订阅注册了<block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block>功能。请参阅<block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>。</block>
   <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Microsoft 文档：查找支持的 VM 大小</block>
@@ -590,4 +588,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">在 Digital Advisor 中发现价值洞察</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">使用本地冗余存储（LRS）的单个可用区中的 HA</block>
+  <block id="145afd276d37daec187001af80160d51" category="paragraph">在 Azure 中部署 Cloud Volumes ONTAP 之前，请确认您的环境满足以下先决条件：</block>
 </blocks>
