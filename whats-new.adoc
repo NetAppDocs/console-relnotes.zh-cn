@@ -206,61 +206,8 @@ NetApp Disaster Recovery 现在支持通过指定资源的优先级顺序和可�
 
 
 
-[[04-october-2026]]
-== 2026年10月4日
-
-
-
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== 编辑并管理自定义规则
-
-您现在可以在规则目录中编辑自定义规则。您可以更新规则名称和设置，查看聊天中的更改，验证编辑，以及删除不再需要的规则。
-
-link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自定义规则"]
-
-
-
 [[30-september-2026]]
 == 2026年9月30日
-
-
-
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== 在 Workload Factory 中发现 Flex Unified 资源
-
-Workload Factory 现在可以通过 ONTAP API 代理端点查找 Google Cloud NetApp Volumes Flex 统一默认模式和 ONTAP 模式存储池和卷。这些资源显示在清单中，并包含在架构完善评估和建议中。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
-
-
-
-==== 从 NetApp Console Canvas 进入 Flex Unified 系统
-
-您现在可以从 NetApp Console Canvas 中为已发现的 Google Cloud NetApp Volumes Flex Unified 系统选择 *Enter System*。这将打开所选系统的"资源"页面，以便您可以使用默认模式系统可用的相同工作流程查看关联的存储池和卷。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
-
-
-
-==== 针对 Flex Unified 资源的架构优化评估
-
-精心设计的仪表板现在可以评估 Google Cloud NetApp Volumes Flex Unified 存储池和卷的 SSD 容量空间、卷容量空间和快照策略覆盖范围。结果显示在 Google Cloud NetApp Volumes 架构良好的体验中，并以默认模式或 ONTAP 模式识别资源。
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的配置分析"]
-
-
-
-==== 在 NetApp Console 系统页面中显示的架构良好问题
-
-有关精心架构问题的通知，可从 NetApp Console 的"存储管理系统"页面获取 Google Cloud NetApp Volumes 的相关通知。此功能可帮助您快速识别 Google Cloud NetApp Volumes 系统中的配置问题，并从通知导航到工作负载精心架构仪表板。
 
 
 
@@ -629,31 +576,6 @@ Cloud Volumes ONTAP 现在支持在私有预览中的 Azure Government Secret �
 
 
 
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== Cloud Volumes ONTAP 的远程数据复制评估
-
-新的评估可用于检查 Cloud Volumes ONTAP 数据是否受远程复制保护。它有助于确保您的数据保护计划遵循灾难恢复和业务连续性的最佳实践。
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["了解 Cloud Volumes ONTAP 的配置分析"]
-
-
-
-==== 忽略整个精心设计的配置
-
-现在，您可以从控制面板中取消整个推荐配置。这使您可以更好地控制针对您的环境显示哪些建议和评估。
-
-
-
-==== 精心设计的仪表板中的数据库工作负载建议
-
-使用 FSx for ONTAP 的数据库工作负载建议现在可在 NetApp Console 的精心设计的仪表板中找到。您可以在一个位置查看存储资源和数据库工作负载的状态，从而全面了解基础架构的运行状况。
-
-
-
 [[storagegrid]]
 === StorageGRID
 
@@ -756,88 +678,6 @@ NOTE: Value Insights 仅适用于 ONTAP 系统。
 
 [[17-august-2026]]
 == 2026年8月17日
-
-
-
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== FSx for ONTAP 支持（在 NetApp Console 的架构完善仪表板中）
-
-NetApp Console 中的架构完善控制面板适用于 Amazon FSx for NetApp ONTAP。
-
-link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的配置分析"]
-
-
-
-==== 在架构完善的仪表板中更新了配置名称
-
-NetApp Console 中的架构完善仪表板现在包含新的存储配置名称。
-
-下表列出了架构良好的仪表板中的旧配置名称及其对应的新配置名称。
-
-[cols="1,1"]
-|===
-| 旧配置名称 | 新配置名称 
-
-
-| 计划卷备份 | 卷备份 
-
-
-| SSD 容量阈值 | 固态硬盘容量余量 
-
-
-| 文件容量阈值 | 文件容量净空 
-
-
-| 长期保留数据的可靠性 | 复制策略标签 
-
-
-| 计划的本地快照 | Snapshot 策略 
-
-
-| 删除不必要的备份 | 备份过期时间 
-
-
-| 删除不必要的快照 | Snapshot 到期 
-
-
-| 未充分利用的固态硬盘容量 | SSD 容量过度配置 
-
-
-| 非活动块设备 | 非活动数据块设备(LUN) 
-
-
-| 通过冷数据分层优化总拥有成本 | 冷数据分层 
-
-
-| 卷逻辑容量报告 | 主机可见容量报告 
-
-
-| FlexGroup 卷重新平衡 | 重新平衡 FlexGroup 卷 
-
-
-| FlexVol 卷重新平衡 | 重新平衡 FlexVol 卷 
-
-
-| 缓存关系写入模式 | FlexCache 写入模式 
-
-
-| 优化缓存卷大小 | FlexCache 副本大小 
-
-
-| 未经授权访问卷 | 未经授权的 iSCSI 卷访问 
-
-
-| ARP/AI 已禁用 | 勒索软件保护（ARP/AI） 
-|===
-
-
-==== 在 NetApp Console 系统页面中显示的架构良好问题
-
-Microsoft Azure 中 Cloud Volumes ONTAP 的架构良好问题通知可从 NetApp Console 的"存储管理系统"页面获取。此功能可帮助您快速识别 Azure 中 Cloud Volumes ONTAP 系统中的配置问题，并从通知导航到 Workloads 架构良好仪表板。
 
 
 
@@ -950,19 +790,6 @@ Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。
 
 
 
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== 在精心设计的控制面板中支持 Google Cloud NetApp Volumes
-
-NetApp Console 控制面板现在支持 Google Cloud NetApp Volumes。存储管理员可以查看其存储池和配置的状态，获取提高效率、成本、性能、可靠性和安全性的建议，并采取行动优化操作并遵循最佳实践。
-
-详细了解link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes 的配置分析"]。
-
-
-
 [[backup-and-recovery]]
 === 备份和恢复
 
@@ -1070,23 +897,6 @@ Disaster Recovery 通过用户级作业日志记录提高了作业的可问责�
 
 [[03-august-2026]]
 == 2026年8月3日
-
-
-
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== 修复、关闭和重新激活 Microsoft Azure 中 Cloud Volumes ONTAP 的配置
-
-NetApp Console 中精心设计的仪表板现在允许您修复 Cloud Volumes ONTAP 系统的配置建议。
-
-您还可以从良好架构分析中忽略一个或多个配置。这样，您可以忽略不适用于您的环境的特定配置。
-
-如果稍后要包含已取消的配置，可以在架构良好的控制面板中重新激活该配置。这会将配置还原到分析中，并允许您获取其建议和修复。
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["修复、关闭和重新激活 Microsoft Azure 中 Cloud Volumes ONTAP 的配置"]
 
 
 
@@ -1202,29 +1012,6 @@ Ransomware Resilience 现在在 UI 中包含暂停或删除 SIEM 系统的选项
 
 [[20-july-2026]]
 == 2026年7月20日
-
-
-
-[[well-architected-dashboard]]
-=== Well-architected 仪表板
-
-
-
-==== 隆重推出 NetApp Console 中精心设计的控制面板
-
-NetApp Console 中的精心设计的控制面板提供了跨帐户和区域的存储系统和配置的单一视图。控制面板提供见解和建议，以帮助您实现卓越运营。您可以查看配置的良好架构状态、由您使用的存储类型的良好架构框架的支柱组织的配置问题以及配置问题和建议列表。
-
-详细了解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["精心设计的仪表板"]。
-
-Console 中经过精心设计的仪表板可用于 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP。"]
-
-
-
-==== 创建自己的自定义规则
-
-以通俗易懂的语言编写自定义规则，以确保您的系统遵循组织的标准和 NetApp 最佳实践。通过试运行测试规则，然后安排它们在您的环境中运行。
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["详细了解自定义规则"]
 
 
 
