@@ -30,6 +30,26 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[19-october-2026]]
+== 2026年10月19日
+
+
+
+[[backup-and-recovery]]
+=== 备份和恢复
+
+
+
+==== Oracle Database 工作负载增强
+
+在此版本中，Oracle 数据库工作负载引入了以下增强功能：
+
+*Oracle Data Guard 支持*：NetApp Backup and Recovery 现在支持使用保护组来保护使用 Oracle Data Guard 实现高可用性的主数据库和备用数据库。
+
+要了解有关保护 Oracle Database 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载"]。
+
+
+
 [[15-october-2026]]
 == 2026年10月15日
 
@@ -1007,91 +1027,3 @@ Ransomware Resilience 现在在 UI 中包含暂停或删除 SIEM 系统的选项
 
 
 有关所有受支持区域的列表，请参阅 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全局区域地图"^]。
-
-
-
-[[20-july-2026]]
-== 2026年7月20日
-
-
-
-[[ransomware-resilience]]
-=== 勒索软件抵御能力
-
-
-
-==== 通过 webhook 配置 SIEM
-
-Ransomware Resilience 现在支持通过 Ransomware Resilience UI 中的 Webhook 配置安全信息和事件管理 (SIEM) 系统。通过 Webhook，您可以使用首选的 SIEM 系统来组织勒索软件监控。
-
-有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["使用 Webhook 配置 SIEM 系统"^]。
-
-
-
-==== 自动响应用户活动事件的电子邮件警报
-
-Ransomware Resilience 现在可以在用户活动事件触发自动响应时发送电子邮件通知，从而提高 Ransomware Resilience 和勒索软件活动的清晰度和可见性。
-
-有关详细信息，请参见 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["自动响应用户活动警报"^]。
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== 简化从 AWS Marketplace 载入 Cloud Volumes ONTAP 的流程
-
-NetApp 为来自 AWS Marketplace 的 Cloud Volumes ONTAP 引入了简化的入门流程，减少了手动步骤和入门阻力。
-
-以前，从 AWS Marketplace 部署 Cloud Volumes ONTAP 需要在多个屏幕之间导航，并手动配置角色、策略和凭据。这使得入门流程缓慢且容易出错。
-
-新的入职流程通过以下功能简化了从市场订阅到全面运行的 Cloud Volumes ONTAP 环境的过渡：
-
-. 订阅 AWS Marketplace 上的专用 Cloud Volumes ONTAP 列表：您在 AWS Marketplace 上订阅 Cloud Volumes ONTAP 独立列表，购买订阅并设置您的 AWS 帐户（如果您还没有）。
-. 在 NetApp Console 上的引导路径：您在 NetApp Console 中设置帐户，Console 会自动引导您进入部署过程，并在右侧显示引导路径。如果您需要离开 Console，可以稍后继续引导行程。
-. 关联您的订阅：您可以自动将订阅与 Console 关联，从而避免手动链接的步骤。
-. 使用 AWS 凭据配置的控制台代理部署：您可以自动创建所需的 AWS 角色。该流程在您的 AWS 账户中部署 AWS CloudFormation 堆栈，其中包含供您查看的角色和策略，然后将其与 NetApp Console 相关联，从而无需手动设置 IAM。然后继续完成代理配置、网络和安全组设置，以开始代理部署。
-. 在 AWS 中部署新的 Cloud Volumes ONTAP 系统：您可以直接导航到 `Quick create`向导，以实现更快、更简化的 Cloud Volumes ONTAP 部署。
-
-
-.相关链接
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-onboard-cvo-aws-marketplace.html["从 AWS Marketplace 载入 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-aws.html["在 AWS 中使用快速创建部署 Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["AWS 中 Cloud Volumes ONTAP 和数据服务的灵活计费"^]
-
-
-
-
-==== Azure 中 Cloud Volumes ONTAP 的良好架构配置分析
-
-NetApp Console 现在支持对在 Microsoft Azure 中运行的 Cloud Volumes ONTAP 系统进行良好架构配置分析。Console 每天分析您的部署，并提供良好架构状态、见解和建议，以帮助您维护符合 NetApp 最佳实践和良好架构框架的系统。
-
-精心设计的仪表板显示已分析系统的总数，并按配置和严重级别对其资源进行分类。如果您是系统管理员，您可以直接从 Console 仪表板查看组织内任何配置问题的建议，并下载所有建议的 CSV 报告。配置根据以下内容进行分类：
-
-* *可靠性*：即使在发生中断时，也能确保工作负载正常一致地运行。
-* *安全*：通过风险评估和缓解来保护数据、系统和资产。
-* *卓越运营*：优化架构，实现业务价值最大化。
-* *成本优化*：降低和优化成本，实现更大的业务价值。
-
-
-.相关链接
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-configuration-analysis-cvo.html["Cloud Volumes ONTAP 的配置分析"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["使用 Workload Factory 改进 Azure 中的 Cloud Volumes ONTAP 配置"^]
-
-
-
-
-[[keystone]]
-=== Keystone
-
-NetApp Console中Keystone仪表板的新增强功能：
-
-
-
-==== 查看订阅到期和自动续订状态
-
-订阅表中的*订阅到期天数*列（*存储 > Keystone > 订阅*）现在会在到期日期旁边显示一个图标。图标颜色表示自动续订关闭时的到期临近程度：绿色（>120 天）、橙色（91–120 天）、红色（<90 天）或灰色（已过期）。对于已启用自动续订的订阅，将显示一个自动续订图标，表明订阅将在当前期限结束时自动续订。该状态为只读，反映您的合同条款。打开订阅后，这些图标将显示在*当前消费量*、*消费趋势*、*订阅时间表*和*资产*选项卡的订阅详细信息标题中，让您在导航时可以查看到期和续订状态。
-
-要了解更多信息，请参阅 https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["查看有关 Keystone 订阅的详细信息"]。
