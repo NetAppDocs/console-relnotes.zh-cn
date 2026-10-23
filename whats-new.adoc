@@ -30,6 +30,38 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[20-october-2026]]
+== 2026年10月20日
+
+
+
+[[ransomware-resilience]]
+=== 勒索软件抵御能力
+
+
+
+==== 增强的隔离恢复环境配置
+
+Ransomware Resilience 现在提供增强的隔离恢复环境配置工作流程。新的工作流程明确并简化了为云或本地环境设置隔离恢复环境的流程。
+
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["为干净还原创建隔离的恢复环境"^]。
+
+
+
+==== 用于启用用户活动监控的增强型工作流程
+
+Ransomware Resilience 改进了启用用户活动监控的工作流程。以前，每次在工作负载上启用带有用户活动监控的勒索软件保护策略时，Ransomware Resilience 都会测试数据收集器的连接。借助该更新，如果存储 VM 存在数据收集器且处于“正在运行”状态，则现在会跳过该检查，从而加快保护工作流程。
+
+有关详细信息，请参见 link:link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["保护工作负载"^]。
+
+
+
+==== Google Cloud NetApp Volumes Flex 服务级别正式推出
+
+Ransomware Resilience 中 Google Cloud NetApp Volumes 对 Flex 服务级别的支持现已全面推出（GA）。
+
+
+
 [[19-october-2026]]
 == 2026年10月19日
 
@@ -1004,26 +1036,3 @@ Ransomware Resilience 现在使您能够根据攻击类型进行准备演习。R
 Ransomware Resilience 现在在 UI 中包含暂停或删除 SIEM 系统的选项。此增强功能使您可以更轻松地暂时禁用系统以进行故障排除或维护，或将其完全移除。
 
 有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html#disable-a-siem-system["禁用 SIEM 系统"^]。
-
-
-
-[[23-july-2026]]
-== 2026年7月23日
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== 支持 Azure 中的智利中部地区
-
-现在可以在 Azure 的智利中部（chilecentral）区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：
-
-* 单节点
-* 使用本地冗余存储（LRS）的单个可用区中的 HA
-* 使用区域冗余存储 (ZRS) 在多个可用区中实现 HA
-
-
-有关所有受支持区域的列表，请参阅 https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Azure 下的全局区域地图"^]。

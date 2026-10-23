@@ -135,11 +135,8 @@
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">配置 SIEM 系统</block>
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">有关详细信息，请参见<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
-  <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">支持 Azure 中的智利中部地区</block>
-  <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">现在可以在 Azure 的智利中部（chilecentral）区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">单节点</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用区域冗余存储 (ZRS) 在多个可用区中实现 HA</block>
-  <block id="668ee036e2ed867c0005914c6da1d380" category="section-title">2026年7月23日</block>
   <block id="752cfb7f100699ed10b934470fc8824c" category="doc">根据工作负载和系统类型标准化保护组</block>
   <block id="3a53d7e702e0596f76d0deb9f8cc03ea" category="paragraph">Ransomware Resilience 现在强制要求保护组仅包含一种工作负载类型和系统类型。创建新的保护组时，必须指定工作负载类型（文件系统或块）以及工作负载的系统。此增强功能可确保为保护组选择的勒索软件保护策略能够成功应用于组中的所有工作负载。</block>
   <block id="372c0699ee751a2658f1b4a897349a47" category="paragraph">如果现有的保护组混合使用系统和工作负载类型，则可以继续使用它们，但无法将工作负载添加到保护组。</block>
@@ -470,4 +467,13 @@
   <block id="145afd276d37daec187001af80160d51" category="paragraph">在 Azure 中部署 Cloud Volumes ONTAP 之前，请确认您的环境满足以下先决条件：</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 支持*：NetApp Backup and Recovery 现在支持使用保护组来保护使用 Oracle Data Guard 实现高可用性的主数据库和备用数据库。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
+  <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">增强的隔离恢复环境配置</block>
+  <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">Ransomware Resilience 现在提供增强的隔离恢复环境配置工作流程。新的工作流程明确并简化了为云或本地环境设置隔离恢复环境的流程。</block>
+  <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">用于启用用户活动监控的增强型工作流程</block>
+  <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience 改进了启用用户活动监控的工作流程。以前，每次在工作负载上启用带有用户活动监控的勒索软件保护策略时，Ransomware Resilience 都会测试数据收集器的连接。借助该更新，如果存储 VM 存在数据收集器且处于“正在运行”状态，则现在会跳过该检查，从而加快保护工作流程。</block>
+  <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">保护工作负载</block>
+  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">有关详细信息，请参见 <block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block>。</block>
+  <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 服务级别正式推出</block>
+  <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware Resilience 中 Google Cloud NetApp Volumes 对 Flex 服务级别的支持现已全面推出（GA）。</block>
+  <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026年10月20日</block>
 </blocks>
