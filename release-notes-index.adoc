@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完整发行说明。 
 ---
-= 发行说明索引
+= NetApp Console 的发行说明索引
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

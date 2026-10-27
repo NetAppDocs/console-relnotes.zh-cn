@@ -455,7 +455,6 @@
   <block id="07405e58de7ae5291e2723155a5869b4" category="section-title">用于启用用户活动监控的增强型工作流程</block>
   <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">Ransomware Resilience 改进了启用用户活动监控的工作流程。以前，每次在工作负载上启用带有用户活动监控的勒索软件保护策略时，Ransomware Resilience 都会测试数据收集器的连接。借助该更新，如果存储 VM 存在数据收集器且处于“正在运行”状态，则现在会跳过该检查，从而加快保护工作流程。</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">保护工作负载</block>
-  <block id="5f705092fbb64e2adcc5b83793eed660" category="paragraph">有关详细信息，请参见 <block ref="f5df6f8f09e7648e9d6889e3e6e725cb" category="inline-link-macro-rx"></block>。</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">Google Cloud NetApp Volumes Flex 服务级别正式推出</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">Ransomware Resilience 中 Google Cloud NetApp Volumes 对 Flex 服务级别的支持现已全面推出（GA）。</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">2026年10月20日</block>
@@ -479,4 +478,7 @@
   <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">要了解如何注入自定义脚本，请参见 <block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>。</block>
   <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp Disaster Recovery 现在支持通过指定资源的优先级顺序和可选的延迟时间，为 Kubernetes 复制计划中的资源组设置可选的启动顺序。此选项使您能够在必要时同时启动资源，并延迟启动依赖于其他资源的资源，从而支持您的应用程序以健康的方式恢复联机。</block>
   <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">有关详细信息，请参见 <block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block>。</block>
+  <block id="a2796a8db571ead965c0a0f1d62135a3" category="paragraph">有关详细信息，请参见 <block ref="092a9715a1fcee9c7af4662f48f0f290" category="inline-link-macro-rx"></block>。</block>
+  <block id="25b96777bfadb381f78f25912d595183" category="doc">NetApp Console 的法律声明</block>
+  <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console 的发行说明索引</block>
 </blocks>
