@@ -285,7 +285,6 @@
   <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">脚本执行</block>
   <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">现在，您可以将自定义脚本注入故障转移工作流，以协调应用程序的静默和恢复。此功能有助于确保在复制和还原快照之前正确准备应用程序，从而在故障转移后无缝恢复操作。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">创建复制计划</block>
-  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">要了解如何注入自定义脚本，请参见 <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>。</block>
   <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">新建工作负载页面</block>
   <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">Disaster Recovery 已将"工作负载"页面添加到 UI，可提供所有已发现工作负载及其保护状态的综合视图。"工作负载"页面使您能够更有效地监控和管理工作负载。</block>
   <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">在 Disaster Recovery 中查看运行状况和保护状态</block>
@@ -382,9 +381,7 @@
   <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">面向 NetApp Console 的 Workload Factory 文档</block>
   <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
   <block id="1c335a9c5603264a97d8d84cb6c6faf0" category="doc">Kubernetes 资源组的可选引导顺序</block>
-  <block id="84af32d37767e36e149339ec37e513b1" category="paragraph">NetApp Disaster Recovery 现在支持通过指定资源的优先级顺序和可选的延迟时间来为 Kubernetes 复制计划中的资源组设置可选的引导顺序。此选项使您能够在必要时同时启动资源，并延迟启动依赖于其他资源的资源，从而支持应用程序以健康的方式恢复联机。</block>
   <block id="f2497ae428eba83b3f39732433d3cb44" category="inline-link-macro">创建复制计划</block>
-  <block id="9e29609c3bbaf3dd61657f73add99007" category="paragraph">有关详细信息，请参见 <block ref="b368f0a73ce8108f9547ecd0643b331f" category="inline-link-macro-rx"></block>。</block>
   <block id="05316212411905c51cdd49deaf78a58e" category="section-title">SnapLock 卷支持</block>
   <block id="a547512ac8a0a093f138ab19fb5f9c67" category="paragraph">灾难恢复现在支持 SnapLock 卷，使您可以故障转移防篡改快照。对 SnapLock 卷执行故障恢复时，您必须使用 *立即拍摄快照* 选项以确保成功完成故障恢复。</block>
   <block id="3ad6e9988864aeae2ef386345946dc6d" category="inline-link-macro">故障转移</block>
@@ -479,4 +476,7 @@
   <block id="6d572acb72c5f88a011bfcc18bed3f7c" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="24d237f3bd3266db09db22a59e1e6ebf" category="inline-link-rx"></block>。</block>
   <block id="f43f719a34848bc68a0e2e9868d020db" category="paragraph">在本版本中，NetApp Backup and Recovery 为 Oracle Database 工作负载引入了以下增强功能：</block>
   <block id="98c9ad4f11120c6a90c4a25b439d1228" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="ce12149fe5cc827258d1b858aab8e2cc" category="inline-link-rx"></block>。</block>
+  <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">要了解如何注入自定义脚本，请参见 <block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>。</block>
+  <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp Disaster Recovery 现在支持通过指定资源的优先级顺序和可选的延迟时间，为 Kubernetes 复制计划中的资源组设置可选的启动顺序。此选项使您能够在必要时同时启动资源，并延迟启动依赖于其他资源的资源，从而支持您的应用程序以健康的方式恢复联机。</block>
+  <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">有关详细信息，请参见 <block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block>。</block>
 </blocks>
