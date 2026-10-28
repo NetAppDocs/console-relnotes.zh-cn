@@ -483,4 +483,7 @@
   <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">NetApp Console 的发行说明索引</block>
   <block id="424a10335c5c90e5b96111de1934acec" category="doc">AI Data Engine</block>
   <block id="14015aff561b018e4e547f246698e0b4" category="list-text"><block ref="14015aff561b018e4e547f246698e0b4" category="inline-link-rx"></block></block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console 代理 4.12.0</block>
+  <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">4.12.0 版本同时支持标准模式和受限模式。</block>
+  <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">此版本包括安全性改进和错误修复。</block>
 </blocks>
