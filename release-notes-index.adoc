@@ -61,6 +61,7 @@ summary: 查看NetApp Console管理和存储功能以及NetApp数据服务的完
 [[data-services]]
 == 数据服务
 
+* https://docs.netapp.com/us-en/ai-data-engine/release-notes/whats-new.html["AI Data Engine"^]
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["备份和恢复"^]
 * https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["数据分类"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["复制和同步"^]
