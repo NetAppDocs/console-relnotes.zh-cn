@@ -84,8 +84,7 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 
 
 
-[[new-manual-workflow-for-creating-a-user-activity-agent]]
-=== 用于创建用户活动代理的新手动工作流程
+==== 用于创建用户活动代理的新手动工作流程
 
 Ransomware Resilience 现在提供手动用户活动代理创建工作流程，使您能够更好地控制如何在虚拟机上创建用户活动代理。使用此新工作流程，您可以直接安装用户活动代理并配置代理设置，而无需提供 VM SSH 密钥。
 
