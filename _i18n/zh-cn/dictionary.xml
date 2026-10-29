@@ -486,4 +486,8 @@
   <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Console 代理 4.12.0</block>
   <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">4.12.0 版本同时支持标准模式和受限模式。</block>
   <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">此版本包括安全性改进和错误修复。</block>
+  <block id="2be8ebee916d12326ebe44540fa72ba0" category="doc">用于创建用户活动代理的新手动工作流程</block>
+  <block id="2ffea3ae8ed4896a570069b1313e624e" category="paragraph">Ransomware Resilience 现在提供手动用户活动代理创建工作流程，使您能够更好地控制如何在虚拟机上创建用户活动代理。使用此新工作流程，您可以直接安装用户活动代理并配置代理设置，而无需提供 VM SSH 密钥。</block>
+  <block id="59ad45573dbf4296a202cefa7894c118" category="inline-link-macro">创建用户活动代理</block>
+  <block id="77330beb10dbe494866c425493911f54" category="paragraph">有关详细信息，请参见 <block ref="d3340d58befe5e951629759650e09b2d" category="inline-link-macro-rx"></block>。</block>
 </blocks>
