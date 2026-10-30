@@ -35,6 +35,48 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 
 
 
+[[ai-data-engine]]
+=== AI Data Engine
+
+
+
+==== AI Data Engine 1.3
+
+AI Data Engine 是一项元数据智能服务，通过 NetApp Console 进行管理，可扫描您连接的系统，构建元数据目录，并为您提供可见性和工具，以大规模优化存储和治理数据。您可以将 AI Data Engine 部署为 https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["AIDE 单节点部署"^]，或者如果您的环境需要大规模基于 Kubernetes 的高可用性，则可以将其部署为 AIDE 多节点部署。
+
+AI Data Engine 1.3 是第一个通用（GA）版本。
+
+.部署和连接您的数据
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["以您的环境所需的规模进行部署"^]:: 选择 AIDE 单节点部署以便在单个虚拟机上快速启动，或者在您自己的 Kubernetes 集群上选择 AIDE 多节点部署以实现高可用性和更大规模。如果您的环境需要代理才能访问互联网， https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["了解 AIDE 的代理"^]并使用代理进行部署。
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["将您的数据纳入范围"^]:: 连接文件共享、数据库服务器和 StorageGRID 系统，并选择要扫描的数据资源。
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["保持扫描正常"^]:: 监控部署的运行状况，以确定可能中断扫描的问题，并收集解决这些问题所需的详细信息。
+
+
+.优化存储并调查您的数据
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["恢复存储容量"^]:: 根据您配置的阈值，识别连接系统中的冷数据、过时数据和重复数据，并查看哪些系统和数据所有者拥有最高浓度的此类数据。
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["为您的组织定义冷数据和过时数据"^]:: 设置阈值，以确定哪些数据被分类为冷数据或陈旧数据，以匹配您的保留策略。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["确定关于数据的联系人"^]:: 从仪表板中识别哪些数据所有者拥有最高浓度的冷数据、过时数据或重复数据。然后在调查视图中按所有者或组进行筛选，以查看结果并找出要联系的人员。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["降低成本和风险"^]:: 按访问时间、修改日期、创建日期、文件大小、重复状态和其他条件筛选所有连接的系统，以查找符合组织数据管理目标的文件。直接对结果采取操作，或将条件保存为策略。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["消除重复数据"^]:: 查找在连接的系统中具有重复副本的文件。按重复项属性或文件哈希过滤以查看重复组，然后清理重复副本。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["查找访问风险"^]:: 识别具有开放权限的目录，以便优先对其进行权限审查。
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["调查结构化数据"^]:: 跨连接的数据库服务器查找超大或未使用的数据库表。
+
+
+.对数据采取行动并随着时间的推移进行监控
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["降低存储成本"^]:: 通过将文件复制和归档到 NFS 或 SMB 目标、标记要跟踪的项目或根据保留要求永久删除文件，强制实施组织的数据生命周期策略。
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["持续监控数据状况"^]:: 将筛选器条件保存为命名策略，以跟踪一段时间内的重复数据条件，例如冷文件或超大文件，并在受影响的文件计数发生变化时接收通知。
+
+
+.受管理的 AI 访问
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["授予 AI 客户端对元数据的管理访问权限"^]:: 通过模型上下文协议（MCP），将 Claude Code、Claude Desktop、Cursor 或 OpenCode 连接到 AI Data Engine。启用 AI 客户端可以搜索的集合，并使用 Microsoft Entra ID 作用域来控制谁可以搜索每个集合。AI 客户端可以搜索元数据和标记文件。
+
+
+.管理
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["分配管理员和查看者角色"^]:: 通过将 AI Data Engine 管理员或查看者角色分配给组织中的用户，控制谁可以调查数据并采取行动。
+
+
+
+
 [[backup-and-recovery]]
 === 备份和恢复
 
