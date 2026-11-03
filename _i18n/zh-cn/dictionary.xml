@@ -524,4 +524,101 @@
   <block id="93a6a64e1df6cd0e2f07d8b931635a5f" category="paragraph">有关详细信息，请参阅<block ref="12c9bbef01f1c6198b57112eba5f4e7e" category="inline-link-rx"></block>。</block>
   <block id="a2b19abf4eb1b38f190f7260dec9b0ee" category="paragraph">对于 Cloud Volumes ONTAP 系统，可能会提示您在 NetApp Console 中升级到这些修补程序。但是，仅当 Console 代理版本为 4.12.0 或更高版本时，才支持这些修补程序。如果 Console 代理版本低于 4.12.0，请忽略提示。</block>
   <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">2026年11月2日</block>
+  <block id="f5740048ddae6de6c98d146bef8a05eb" category="doc">Workload Factory 管理增强功能</block>
+  <block id="d5700d6fbdfdaa11c8c6dcbd565d8446" category="section-title">检查和刷新自定义仪表板数据</block>
+  <block id="a2ace9589bb1ff3e1b64e40ba9982721" category="paragraph">现在，您可以查看上次更新自定义控制面板指标的时间，并手动刷新这些指标。将鼠标悬停在*刷新数据*上以查看上次更新的日期和时间。</block>
+  <block id="6497706c70a607634590a156941b4e50" category="paragraph">选择*刷新数据*以开始新的扫描。横幅将确认扫描已开始，并且该按钮将被禁用，直到扫描完成。</block>
+  <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">有新数据可用时，请在通知横幅中选择*立即加载*以更新控制面板。</block>
+  <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">*刷新数据*和*立即加载*均会在 Tracker 中创建数据收集事件。</block>
+  <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">了解如何刷新自定义仪表板数据</block>
+  <block id="d6592fddba6a07bb0a917566a4081fc5" category="paragraph"><block ref="d6592fddba6a07bb0a917566a4081fc5" category="inline-link-macro-rx"></block></block>
+  <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">指定自定义仪表板的区域</block>
+  <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">如果您的请求未包含区域，自定义控制面板现在会要求您选择一个或多个区域。控制面板数据仅限于您选择的区域。</block>
+  <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">了解如何创建自定义仪表板</block>
+  <block id="265c60992e7c3b3f876f80926a9c3a65" category="paragraph"><block ref="265c60992e7c3b3f876f80926a9c3a65" category="inline-link-macro-rx"></block></block>
+  <block id="639dc972d056a14ca9535d40d9ba48bb" category="section-title">FSx for ONTAP 链接创建的 IAM 策略</block>
+  <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">用于创建链接的 CloudFormation 模板和 Terraform 代码现在使用 IAM 策略而不是内联 Lambda 权限。</block>
+  <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">了解如何创建链接</block>
+  <block id="2f101cc9d5d0dd23089ae6fca31ac27f" category="paragraph"><block ref="2f101cc9d5d0dd23089ae6fca31ac27f" category="inline-link-macro-rx"></block></block>
+  <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">审核和跟踪 AI 代理操作</block>
+  <block id="5aecb2747daa4a62ad221d70aaf568df" category="paragraph">您现在可以使用 Tracker 查看 AI 代理设置的更改，并在读/写模式下查看每个审批请求，包括代理的问题和用户的答案。</block>
+  <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">通过 Workload Factory API 进行的资源更改由执行该操作的 Workload Factory 服务记录。</block>
+  <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">了解审核和跟踪代理操作的相关信息</block>
+  <block id="d280606d2d970fea6313288893352119" category="paragraph"><block ref="d280606d2d970fea6313288893352119" category="inline-link-macro-rx"></block></block>
+  <block id="9e81dbda2a0d084e31f85eea0c371131" category="section-title">Amazon FSx for NetApp ONTAP 增强功能</block>
+  <block id="230227ce1631475a082d9f0865ea84b2" category="section-title">启动程序组图增强功能</block>
+  <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。</block>
+  <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">针对架构完善的问题的电子邮件增强功能</block>
+  <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">新的电子邮件设计为 Workload Factory 检测到的配置问题提供了更多详细信息和上下文。该电子邮件包括已分析的资源数量、存在警告或严重问题的资源数量，以及这些问题是什么。该电子邮件还链接到 FSx for ONTAP 架构完善的控制面板，以便您可以立即解决问题。</block>
+  <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">精心设计的仪表板增强功能</block>
+  <block id="4640bfbf90e44f31ffe06c764207a151" category="section-title">支持选定的配置检查</block>
+  <block id="4baa1879436d89821519b031a9b29e1d" category="paragraph">您可以对选定配置手动运行分析，以便仅分析您感兴趣的配置并减少等待时间。</block>
+  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">精心设计的分析中的新建议</block>
+  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：</block>
+  <block id="696836fc5f2a32266d0ffc0fb5047e3b" category="paragraph">对于存储工作负载：</block>
+  <block id="c244576dbf541429d6bef056ce769d1b" category="list-text">*将主机连接到故障转移节点*：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，以确保可靠性。</block>
+  <block id="6ebacaf65862325841aba88bf388a132" category="list-text">*将主机连接到首选节点*：检查主机是否使用首选节点连接到其块设备，以提高性能效率。</block>
+  <block id="b25392745f1a47aaf9f1983cd8b1eff5" category="list-text">*ARP/AI 多设备检测差距*：当卷仅连接了一个块设备时，ARP/AI 可提供全面的保护覆盖。如果卷连接了多个块设备，Workload Factory 会将这些块设备移动到新卷，以便每个卷只有一个块设备。</block>
+  <block id="034f9073833298cb75f90f7455203432" category="list-text">*克隆清理*：检查是否有任何超过 30 天的卷克隆可以删除，以优化存储使用并降低成本。</block>
+  <block id="8e5f97675e6b58e2c142d4e3623f4e20" category="list-text">*将 igroup OS 与主机匹配*：检查启动器组（igroup）的操作系统是否与主机的操作系统匹配，以防止 I/O 或性能问题。</block>
+  <block id="68545ea02d5d413d5558618d4f250fed" category="paragraph">对于 Kubernetes 工作负载：</block>
+  <block id="92ea527417ca1a6f10e672dd5dc590fb" category="list-text">*QoS 配置*：检查 Kubernetes 持久卷是否受到 ONTAP QoS 策略的保护，以提高性能效率。</block>
+  <block id="a48d1b9cc2b4fca01a8c056a0f21ca0b" category="list-text">*专用 Kubernetes 存储虚拟机*：检查文件系统是否正在为 Kubernetes 工作负载使用专用存储虚拟机，以提高隔离度并简化存储管理。</block>
+  <block id="e8b78d1ad4445d483c25f605f3dcd508" category="list-text">*专用 Kubernetes 导出策略*：检查每个 Kubernetes 持久卷是否具有仅允许从集群的工作节点访问的专用导出策略。</block>
+  <block id="15c94f3b03de47c250527326d660fabe" category="list-text">*Kubernetes iSCSI 后端的双向 CHAP*：检查 Trident iSCSI 后端是否启用了双向 CHAP 身份验证以确保安全。</block>
+  <block id="a9f15f720c325ed93ec2ae6e8f017053" category="list-text">*在应用程序存储 VM 上禁用<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>*：检查是否在应用程序存储 VM 上禁用了<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>，以防止客户端列出其无法访问的导出。</block>
+  <block id="8c491145be7052ead6caabd40f13d8d8" category="paragraph">对于数据库工作负载：</block>
+  <block id="109086be5976370a05137d1276790c52" category="list-text">*SAP HANA 快照策略*：检查 SAP HANA 卷的快照策略是否设置为“无”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="f516997bc5858804907fffead3bf17bc" category="list-text">*MySQL 快照策略*：检查 MySQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="326acdfcec515bde261a6c24416222fc" category="list-text">*PostgreSQL 快照策略*：检查 PostgreSQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="b37f9a2971bf4d3f39ba06b420da1cf6" category="section-title">配置的当前值和建议值</block>
+  <block id="da748e56834f287fe9b9c164de80a667" category="paragraph">您可以在架构完善的仪表板中查看某些未优化配置的当前值和推荐值。这可让您在进行修复之前了解推荐值。</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">冷数据分层</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot 策略</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">固态硬盘容量余量</block>
+  <block id="4c3fd0f1c4be65a2279b728897c84838" category="section-title">成本改进</block>
+  <block id="7d9291e210fb85e5195b3fd168c5441e" category="section-title">成本预测和见解</block>
+  <block id="abc7b1907c0e0856759e4d13b2c516f0" category="paragraph">现在，您可以使用成本预测功能预测 FSx for ONTAP 文件系统的成本。这有助于您规划预算并有效优化资源。您还可以查看有关成本和使用模式的见解，以确定成本优化的机会。</block>
+  <block id="0e1d8ca59fdf60970c2d4a8bbabe2e5b" category="section-title">AWS 成本和使用情况报告（CUR）</block>
+  <block id="133a30124f90912db7b6e93321823906" category="paragraph">Workload Factory 现在使用 AWS Cost and Usage Reports（CUR）而不是 AWS Cost Explorer 来提供交付给客户拥有的 S3 存储桶的详细计费记录。CUR 提供了更好的成本粒度，并作为高级 FinOps、内部计费和成本分配用例的基础。</block>
+  <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">Storage VM 迁移改进</block>
+  <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factory 在用户界面中为迁移存储虚拟机提供增强的指导。这包括分步说明以及在将迁移提交到生产环境之前进行测试运行。</block>
+  <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">详细了解存储虚拟机迁移</block>
+  <block id="f9aacc67b23285dcf36836993d0a0240" category="paragraph"><block ref="f9aacc67b23285dcf36836993d0a0240" category="inline-link-macro-rx"></block></block>
+  <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">复制滞后电子邮件通知改进</block>
+  <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">当发生大量相关复制延迟事件时，Workload Factory 会自动将其合并为一封电子邮件通知，以免您收到过多通知。</block>
+  <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">自动容量管理增强</block>
+  <block id="cc7093a020c173b1abf32b6436684cd2" category="paragraph">现在，您可以在要求 Workload Factory 自动管理您的容量之前，打开自动容量管理通知以试用此功能。当您的文件系统容量不足时，您将收到通知。</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="section-title">精心设计的仪表板中包含的数据库配置</block>
+  <block id="17d52f36b5492e8aeada41d949434243" category="paragraph">精心设计的仪表板现在包含针对您的数据库配置的建议，使您能够根据最佳实践评估和优化设置。仪表板中包含的首批配置包括：</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">存储效率</block>
+  <block id="ea87fe154a3b0752922812472bd1e33d" category="list-text">块设备空间管理</block>
+  <block id="6fcd25081a49cfc1b0ec4806afa3d35f" category="list-text">OS 类型</block>
+  <block id="935aff9bc7bcf43dd1fe5825226b72c1" category="list-text">将块设备操作系统类型与主机匹配</block>
+  <block id="868e9efce60d04bdf51fc2494a73a9ce" category="list-text">非活动的数据块设备（LUN）</block>
+  <block id="797a6fe95ffc7bef7107556bac722567" category="list-text">数据文件（.mdf）放置</block>
+  <block id="27c70398ced593abb96a3c33b5e1072b" category="list-text">日志文件（.ldf）放置</block>
+  <block id="346c87aaab415cd5adb218f88181ede8" category="list-text">多路径 I/O 状态</block>
+  <block id="92a6dbd219f1455bd74f5d666b1b27c5" category="list-text">多路径 I/O 超时</block>
+  <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">集群仲裁</block>
+  <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">计算资源合理调整</block>
+  <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">在 Workload Factory 控制台中选择主菜单，然后选择 *Well-architected* 以查找架构完善的仪表板。</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中的架构完善菜单选项</block>
+  <block id="907c87089cf5fa75c43bfe9077e20f0d" category="paragraph"><block ref="907c87089cf5fa75c43bfe9077e20f0d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">吞吐量决策点</block>
+  <block id="b9b80cf2e741a86ab9f6e9dd0b8f44ac" category="paragraph">您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。</block>
+  <block id="490c092a516d299c8fbfc8f3e4bca146" category="section-title">Google Cloud NetApp Volumes 增强功能</block>
+  <block id="6d3b86d67ca631d6e7b36cd36908e1a9" category="section-title">查看 Google Cloud NetApp Volumes 存储池</block>
+  <block id="655c266ebeabfc3d2b4a982b26cfc3a8" category="paragraph">您现在可以在 NetApp Workload Factory 中查看您的 Google Cloud NetApp Volumes 存储池。按项目、凭据和区域进行筛选，并选择存储池的名称以查看其完整详细信息，包括可用区、副本可用区、吞吐量、描述和标签。</block>
+  <block id="d96dd657e1823dcd531c1900f529272e" category="section-title">OCI NetApp 存储服务增强功能</block>
+  <block id="3fbce80cc4c6eedf8f73c5f9b6c3f793" category="section-title">针对 OCI NSS 系统的架构完善的分析</block>
+  <block id="9f5fa839697eb430476ab0306b2d577b" category="paragraph">NetApp Workload Factory 包括针对 OCI NSS 系统的架构完善的评估。该评估提供了见解、建议和修复措施，以帮助您实现卓越运营。</block>
+  <block id="d7662b370716819187607c075f76f667" category="paragraph">配置评估可用于 OCI Well-Architected Framework 的以下支柱：</block>
+  <block id="9d065ca994a324833e03b9b5b5ed7cd9" category="list-text">可靠性：文件对象容量、快照策略和 SSD 容量空间</block>
+  <block id="4ddeff02856cd810ad47ff7e36c7b39c" category="list-text">卓越运营：主机可见容量报告和卷容量余量</block>
+  <block id="7dc11e8b104c8a8c4a3b0a79dfe90760" category="list-text">成本优化：冷数据分层、快照清理和存储效率</block>
+  <block id="4c08f7b0400f82cb6607401bcdf078f1" category="inline-link-macro">针对 OCI NSS 系统的架构完善分析</block>
+  <block id="5514a97cb8286872cf232b29c81405be" category="inline-link-macro">实施精心设计的配置</block>
+  <block id="6c5cb49a519e4001a13828cd8f9f28ab" category="paragraph">详细了解<block ref="026b7813287d66b370ca6b12a499c052" category="inline-link-macro-rx"></block>和<block ref="503539a9757057d0d19762cf2dfced52" category="inline-link-macro-rx"></block>。</block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
 </blocks>
