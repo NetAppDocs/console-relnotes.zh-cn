@@ -531,20 +531,16 @@
   <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">有新数据可用时，请在通知横幅中选择*立即加载*以更新控制面板。</block>
   <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">*刷新数据*和*立即加载*均会在 Tracker 中创建数据收集事件。</block>
   <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">了解如何刷新自定义仪表板数据</block>
-  <block id="d6592fddba6a07bb0a917566a4081fc5" category="paragraph"><block ref="d6592fddba6a07bb0a917566a4081fc5" category="inline-link-macro-rx"></block></block>
   <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">指定自定义仪表板的区域</block>
   <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">如果您的请求未包含区域，自定义控制面板现在会要求您选择一个或多个区域。控制面板数据仅限于您选择的区域。</block>
   <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">了解如何创建自定义仪表板</block>
-  <block id="265c60992e7c3b3f876f80926a9c3a65" category="paragraph"><block ref="265c60992e7c3b3f876f80926a9c3a65" category="inline-link-macro-rx"></block></block>
   <block id="639dc972d056a14ca9535d40d9ba48bb" category="section-title">FSx for ONTAP 链接创建的 IAM 策略</block>
   <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">用于创建链接的 CloudFormation 模板和 Terraform 代码现在使用 IAM 策略而不是内联 Lambda 权限。</block>
   <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">了解如何创建链接</block>
-  <block id="2f101cc9d5d0dd23089ae6fca31ac27f" category="paragraph"><block ref="2f101cc9d5d0dd23089ae6fca31ac27f" category="inline-link-macro-rx"></block></block>
   <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">审核和跟踪 AI 代理操作</block>
   <block id="5aecb2747daa4a62ad221d70aaf568df" category="paragraph">您现在可以使用 Tracker 查看 AI 代理设置的更改，并在读/写模式下查看每个审批请求，包括代理的问题和用户的答案。</block>
   <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">通过 Workload Factory API 进行的资源更改由执行该操作的 Workload Factory 服务记录。</block>
   <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">了解审核和跟踪代理操作的相关信息</block>
-  <block id="d280606d2d970fea6313288893352119" category="paragraph"><block ref="d280606d2d970fea6313288893352119" category="inline-link-macro-rx"></block></block>
   <block id="9e81dbda2a0d084e31f85eea0c371131" category="section-title">Amazon FSx for NetApp ONTAP 增强功能</block>
   <block id="230227ce1631475a082d9f0865ea84b2" category="section-title">启动程序组图增强功能</block>
   <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。</block>
@@ -619,7 +615,11 @@
   <block id="7dc11e8b104c8a8c4a3b0a79dfe90760" category="list-text">成本优化：冷数据分层、快照清理和存储效率</block>
   <block id="4c08f7b0400f82cb6607401bcdf078f1" category="inline-link-macro">针对 OCI NSS 系统的架构完善分析</block>
   <block id="5514a97cb8286872cf232b29c81405be" category="inline-link-macro">实施精心设计的配置</block>
-  <block id="6c5cb49a519e4001a13828cd8f9f28ab" category="paragraph">详细了解<block ref="026b7813287d66b370ca6b12a499c052" category="inline-link-macro-rx"></block>和<block ref="503539a9757057d0d19762cf2dfced52" category="inline-link-macro-rx"></block>。</block>
   <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
   <block id="b2aa5fc60892f4965eac1f9ee3c256a9" category="paragraph"><block ref="b2aa5fc60892f4965eac1f9ee3c256a9" category="inline-link-rx"></block></block>
+  <block id="07cf94dbd86831dbe155ce2ae452142d" category="paragraph"><block ref="07cf94dbd86831dbe155ce2ae452142d" category="inline-link-macro-rx"></block></block>
+  <block id="9f67b96a0ca41faa533cd001e1dfb1b1" category="paragraph"><block ref="9f67b96a0ca41faa533cd001e1dfb1b1" category="inline-link-macro-rx"></block></block>
+  <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
+  <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
+  <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph">详细了解<block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block>和<block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>。</block>
 </blocks>
