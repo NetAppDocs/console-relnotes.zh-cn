@@ -116,18 +116,11 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">NetApp Console管理</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">这些发行说明介绍了NetApp Console及其支持的数据服务的最新增强功能。提供各服务完整版本说明的链接。</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">了解NetApp Console的功能和数据服务的最新变化。要查看完整的版本发布历史记录，请参阅每个服务的完整版本说明。</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作负载增强功能</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">相关链接</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作负载增强功能</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保护 Kubernetes 工作负载概述</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">要了解有关保护 Kubernetes 工作负载的详细信息，请参阅<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复。</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">以下服务已被弃用：</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保护 VMware 工作负载概述</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">要了解有关保护 VMware 工作负载的详细信息，请参阅<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保护 ONTAP 卷工作负载概述</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">要了解有关保护 ONTAP Volumes 工作负载的详细信息，请参阅<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
@@ -137,39 +130,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">有关详细信息，请参见<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">单节点</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用区域冗余存储 (ZRS) 在多个可用区中实现 HA</block>
-  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">改进的控制面板</block>
-  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">已更新 Disaster Recovery 控制面板，提供增强的体验，让您一目了然地全面了解整个 Disaster Recovery 资产。全新控制面板包括：</block>
-  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*统一工作负载可见性* — 从单一窗格监控 VMware 和 Kubernetes 工作负载以及底层基础设施的运行状况。</block>
-  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*主动显示问题* — 控制面板现在自动突出显示环境问题，从而实现更快的诊断并缩短解决时间。</block>
-  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*容量利用率* — 容量指标现在直接显示在仪表板中，从而更轻松地了解资源消耗情况。</block>
-  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">在控制面板上查看 NetApp Disaster Recovery 计划的运行状况</block>
-  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">有关详细信息，请参见 <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>。</block>
-  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">改进报告</block>
-  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">报告功能已得到扩展，可以更深入地了解整个环境中的 Disaster Recovery 活动：</block>
-  <block id="7f09e48950606d1acab05c889751f513" category="list-text">生成适用于 VMware 工作负载、Kubernetes 工作负载或两者的报告，让您可以灵活地为受众定制报告。</block>
-  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">每个报告提供指定时间段的完整活动摘要，确保灾难恢复环境中的事件完全可见。</block>
-  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">创建 NetApp Disaster Recovery 报告</block>
-  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">有关详细信息，请参见 <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>。</block>
-  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">用户作业日志记录</block>
-  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">Disaster Recovery 通过用户级作业日志记录提高了作业的可问责性和可审计性。现在，执行的每个作业都会记录发起该作业的用户，为合规性和故障排除目的提供清晰的审计跟踪。Disaster Recovery 自动触发的作业被标识为"system"，便于区分用户发起的活动和服务发起的活动。</block>
-  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">监控 NetApp Disaster Recovery 作业</block>
-  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">有关详细信息，请参见 <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>。</block>
-  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">性能和资源优化</block>
-  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">已进行了各种底层改进，以减少整体系统资源消耗并提高 Disaster Recovery 操作的性能。</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*支持 NetApp Console 本地部署*：此版本的 NetApp Backup and Recovery 支持处于预览状态的 NetApp Console 本地部署。</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 天的作业保留*：Backup and Recovery 现在会在 Job Monitor 中保留作业信息 90 天。</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">在此版本中，VMware 工作负载引入了以下增强功能：</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*还原到备用位置支持（适用于 SAN VM）*：现在，您可以将基于 SAN 的 VM 备份还原到备用位置。</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Multiple backup delete support*：您现在可以一次删除多个备份。</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*预览对气隙资源的支持*：如果在 NetApp Console 本地部署中运行 NetApp Backup and Recovery，您可以发现、保护和还原气隙 Kubernetes 资源。此功能在此版本中处于预览状态。</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">在此版本中，ONTAP Volumes 工作负载引入了以下增强功能：</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*在不激活 Backup and Recovery 的情况下发现 ONTAP 系统和卷*：您现在可以在不激活 Backup and Recovery 的情况下发现系统和卷。</block>
-  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">活动扫描选项卡可增强扫描管理</block>
-  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">数据分类现在在配置菜单中提供了 *Active scans* 选项卡，为管理扫描提供了增强的体验。Active scans 选项卡提供了您已激活扫描的所有卷的概述，并提供熟悉的筛选器以对资源进行排序。该选项卡还提供了一个集中位置，用于确定扫描优先级、暂停扫描和查看错误。</block>
-  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">管理扫描</block>
-  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">有关详细信息，请参见 <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>。</block>
   <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Console 代理 4.10.0</block>
   <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">4.10.0 版本同时支持标准模式和受限模式。</block>
   <block id="657b18a162285732ef5f46d679b05663" category="section-title">提高云中介的响应速度和可靠性</block>
@@ -180,8 +140,6 @@
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">勒索软件弹性现在支持删除数据收集器。对工作负载启用用户活动检测时，将自动创建数据收集器；如果数据收集器过时，您现在可以手动删除它。</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">有关详细信息，请参见 <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>。</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
-  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">Config Drift 功能将于 2026 年 9 月在 Digital Advisor 中弃用。</block>
-  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">2026年8月12日</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*将对象存储备份还原到备用位置*：您现在可以将 Hyper-V 虚拟机、文件和文件夹从对象存储还原到备用存储位置。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载</block>
@@ -313,7 +271,6 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">常规 NetApp Backup and Recovery 增强功能</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*在虚拟机主机发现期间进行凭据选择* ：现在，当您发现 KVM、Hyper-V 或 VMware 主机时，您可以使用已添加到 Backup and Recovery 中的凭据。</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Hyper-V 工作负载增强</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*将还原作业优先于备份*：现在，在还原卷、文件或文件夹时，您可以将还原作业优先于备份作业。</block>
   <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Value Insights Dashboard 的内容更新</block>
   <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">已发布价值洞察仪表板文档的更新。</block>
   <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">如何在 Digital Advisor 中使用 Value Insights Dashboard</block>
@@ -622,4 +579,22 @@
   <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
   <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
   <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph">详细了解<block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block>和<block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>。</block>
+  <block id="da3e6d90947db5a87778a986ff1db5ba" category="section-title">Workload Factory for EDA 增强功能</block>
+  <block id="0c8274ed6d395bfacc0daf3070e64c0c" category="paragraph">这些增强功能涵盖了延迟分析中的卷详细信息、文件系统压力检查、吞吐量决策点以及再次运行延迟分析。</block>
+  <block id="f65838a0505e6828c4b2c1ae8ce1218d" category="section-title">在延迟分析期间查看卷详细信息</block>
+  <block id="34649924d5b9e1477b2428d04da725a3" category="paragraph">在分析延迟事件时，您可以在 Workload Factory 中查看更多卷详细信息，以便了解卷的配置方式。详细延迟分析页面显示 *卷类型*（RW 或 DP）和 *卷样式*（FlexVol 或 FlexGroup）。</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link-macro">了解如何分析延迟趋势</block>
+  <block id="10686b705e0e365002c272bd2719b69a" category="paragraph"><block ref="10686b705e0e365002c272bd2719b69a" category="inline-link-macro-rx"></block></block>
+  <block id="59d6e00f849e1dd27d91bb4c786299b8" category="section-title">检查延迟事件的文件系统压力</block>
+  <block id="6f204454acf5d87a64a6daf9900777eb" category="paragraph">在 Workload Factory 中，您可以检查延迟事件发生时文件系统压力是否影响了性能，以便您决定是否调查文件系统。对于出现延迟警报的卷，您可以查看事件发生前 40 分钟的 CloudWatch 数据，并打开文件系统以进行进一步调查。</block>
+  <block id="dfa004f6c9736368068fe71bacbee74e" category="inline-link-macro">了解文件系统压力检查</block>
+  <block id="c6351fb1f8b9c7124503e2dd773f4a6f" category="paragraph"><block ref="c6351fb1f8b9c7124503e2dd773f4a6f" category="inline-link-macro-rx"></block></block>
+  <block id="f8240ccc3d3033d0a4d027c0acb6a2fd" category="section-title">审查 EDA 的吞吐量决策点</block>
+  <block id="8591045ae6ed3a89acd6e3756c7561dc" category="paragraph">您可以在 EDA 概述仪表板上查看客户端吞吐量决策点，以便查看 Workload Factory 何时建议或应用了吞吐量更改。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标。</block>
+  <block id="8f60994adbdba3c89dc164460dbd5fe7" category="inline-link-macro">了解如何查看吞吐量决策点</block>
+  <block id="08935aa85ac8d6983a754c391dc22299" category="paragraph"><block ref="08935aa85ac8d6983a754c391dc22299" category="inline-link-macro-rx"></block></block>
+  <block id="afaff13c48c5bdfb3e3a3820005ef966" category="section-title">再次运行延迟分析</block>
+  <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">您可以在 Workload Factory 中再次对卷运行延迟分析，以便在调查或进行更改后刷新结果。选择 *再次运行分析* 以开始新的分析并更新结果。</block>
+  <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">了解如何分析延迟问题</block>
+  <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
 </blocks>
