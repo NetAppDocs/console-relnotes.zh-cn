@@ -935,17 +935,6 @@ NetApp 建议对所有私有模式的 Cloud Volumes ONTAP 部署使用基于容�
 
 
 
-[[data-classification]]
-=== 数据分类
-
-
-
-==== 常规改进
-
-此版本的 Data Classification 包括安全性改进和性能增强。
-
-
-
 [[disaster-recovery]]
 === 灾难恢复
 
