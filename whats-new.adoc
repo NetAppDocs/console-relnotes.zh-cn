@@ -30,6 +30,57 @@ Kubernetes:: 2024 年 8 月 7 日，对发现和管理 Kubernetes 集群的支�
 ====
 
 
+[[16-november-2026]]
+== 2026年11月16日
+
+
+
+[[ransomware-resilience]]
+=== 勒索软件抵御能力
+
+
+
+==== MetroCluster 支持
+
+Ransomware Resilience 现在支持 MetroCluster，可为镜像的 MetroCluster 配置提供勒索软件保护、检测和恢复功能。在 MetroCluster 配置上启用勒索软件保护时，必须将 MetroCluster 配对中的两个系统都添加到控制台。当您在配对的一侧发现并启用保护时，另一侧会自动启用。
+
+在 MetroCluster 工作负载遭受勒索软件攻击后进行恢复时，当前只能使用自定义还原。
+
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#metrocluster-discovery["MetroCluster 发现"]。
+
+
+
+[[09-november-2026]]
+== 2026年11月9日
+
+
+
+[[disaster-recovery]]
+=== 灾难恢复
+
+
+
+==== 重新运行作业时的作业监控增强
+
+如果重新运行某些失败、取消或超时的操作，NetApp Disaster Recovery 现在会将这些操作注册为新作业，并标识启动操作的用户。以前，Disaster Recovery 在初始作业下列出了新作业。只要请求未被编辑，此增强功能就会为 Disaster Recovery 中的作业创建更明显的审计跟踪。它仅适用于发现、重新同步、合规性、保护、复制计划和备份保留作业。重新运行故障恢复、故障转移和迁移操作未列为新作业。只有重新运行链中的最新作业才符合条件，并且最多可以在正在运行的作业后面排队进行一次重新运行。
+
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["在灾难恢复中监控作业"^]。
+
+
+
+[[ransomware-resilience]]
+=== 勒索软件抵御能力
+
+
+
+==== 受管被阻止的文件扩展名
+
+启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。如果您使用 FPolicy 迁移现有工作负载以通过 Ransomware Resilience 阻止可疑文件扩展名，则默认情况下会使用更精心策划的扩展名列表，但您可以自定义该列表。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。
+
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["在 Ransomware Resilience 中管理被阻止的文件扩展名"]。
+
+
+
 [[02-november-2026]]
 == 2026年11月2日
 

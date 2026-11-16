@@ -1,0 +1,12 @@
+= 重新运行作业时的作业监控增强
+:allow-uri-read: 
+
+
+
+
+[[job-monitoring-enhancement-when-rerunning-jobs]]
+=== 重新运行作业时的作业监控增强
+
+如果重新运行某些失败、取消或超时的操作，NetApp Disaster Recovery 现在会将这些操作注册为新作业，并标识启动操作的用户。以前，Disaster Recovery 在初始作业下列出了新作业。只要请求未被编辑，此增强功能就会为 Disaster Recovery 中的作业创建更明显的审计跟踪。它仅适用于发现、重新同步、合规性、保护、复制计划和备份保留作业。重新运行故障恢复、故障转移和迁移操作未列为新作业。只有重新运行链中的最新作业才符合条件，并且最多可以在正在运行的作业后面排队进行一次重新运行。
+
+有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["在灾难恢复中监控作业"^]。
