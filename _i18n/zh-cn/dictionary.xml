@@ -590,7 +590,6 @@
   <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">在灾难恢复中监控作业</block>
   <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">有关详细信息，请参见<block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>。</block>
   <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">受管被阻止的文件扩展名</block>
-  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。如果您使用 FPolicy 迁移现有工作负载以通过 Ransomware Resilience 阻止可疑文件扩展名，则默认情况下会使用更精心策划的扩展名列表，但您可以自定义该列表。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。</block>
   <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">在 Ransomware Resilience 中管理被阻止的文件扩展名</block>
   <block id="746947620a1677afde977abf37019b8c" category="paragraph">有关详细信息，请参见<block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>。</block>
   <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">MetroCluster 支持</block>
@@ -600,4 +599,11 @@
   <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">有关详细信息，请参见<block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>。</block>
   <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">2026年11月16日</block>
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
+  <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console 代理 4.13.0</block>
+  <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 版本同时支持标准模式和受限模式。</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
+  <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">部署 Console 代理时自动创建 AWS 部署角色</block>
+  <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">了解如何从 Console 在 AWS 中部署 Console 代理</block>
+  <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">在开始之前，您不再需要为在 AWS 中部署 Console 代理创建 IAM 角色。NetApp Console 可以为您创建该角色。 <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
+  <block id="d8a7fd7644a3770509948debea790466" category="paragraph">启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。</block>
 </blocks>

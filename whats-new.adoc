@@ -55,6 +55,28 @@ Ransomware Resilience 现在支持 MetroCluster，可为镜像的 MetroCluster �
 
 
 
+[[console-setup-and-administration]]
+=== 控制台设置和管理
+
+
+
+==== Console 代理 4.13.0
+
+4.13.0 版本同时支持标准模式和受限模式。
+
+此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。
+
+.部署 Console 代理时自动创建 AWS 部署角色
+在开始之前，您不再需要为在 AWS 中部署 Console 代理创建 IAM 角色。NetApp Console 可以为您创建该角色。 link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["了解如何从 Console 在 AWS 中部署 Console 代理"^]
+
+
+
+==== NetApp Console管理
+
+此版本包括安全性改进和错误修复。
+
+
+
 [[disaster-recovery]]
 === 灾难恢复
 
@@ -75,7 +97,7 @@ Ransomware Resilience 现在支持 MetroCluster，可为镜像的 MetroCluster �
 
 ==== 受管被阻止的文件扩展名
 
-启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。如果您使用 FPolicy 迁移现有工作负载以通过 Ransomware Resilience 阻止可疑文件扩展名，则默认情况下会使用更精心策划的扩展名列表，但您可以自定义该列表。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。
+启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。
 
 有关详细信息，请参见link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["在 Ransomware Resilience 中管理被阻止的文件扩展名"]。
 
