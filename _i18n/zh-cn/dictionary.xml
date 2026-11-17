@@ -227,7 +227,6 @@
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">NetApp Backup and Recovery 页面中的新增功能</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">转到 <block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>。</block>
   <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="669d8c7c23d7c1df9de525a93369bb8f" category="cell">1.546.0（2026 年 8 月 10 日）</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">NetApp Classification 页面中的新增功能</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">转到 <block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>。</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">2026年9月17日</block>
@@ -601,9 +600,15 @@
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">2026年11月9日</block>
   <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Console 代理 4.13.0</block>
   <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">4.13.0 版本同时支持标准模式和受限模式。</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">此版本的 Console 代理包括安全性改进和错误修复以及以下新功能。</block>
   <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">部署 Console 代理时自动创建 AWS 部署角色</block>
   <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">了解如何从 Console 在 AWS 中部署 Console 代理</block>
   <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">在开始之前，您不再需要为在 AWS 中部署 Console 代理创建 IAM 角色。NetApp Console 可以为您创建该角色。 <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
   <block id="d8a7fd7644a3770509948debea790466" category="paragraph">启用 *阻止可疑文件扩展名* 保护选项后，Ransomware Resilience 现在可以自定义工作负载上允许或阻止的文件扩展名列表。通过此增强功能，您可以将工作负载配置为仅允许存储虚拟机（SVM）上的特定文件类型或阻止特定文件扩展名。此增强功能支持对文件扩展名选项进行更精细的控制，还允许您为不同的 SVM 创建不同的列表。</block>
+  <block id="daa04540ede89ebe21aa75e4bb91c101" category="cell">1.56.0（2026 年 8 月 10 日）</block>
+  <block id="d68cd763bb6443bb6e7c8aa2306f8ef4" category="paragraph">此版本的控制台代理包括安全性改进和错误修复以及以下新功能。使用 ISO 将 vCenter 部署的控制台代理升级到 4.13.0 时，请确保在升级完成后重新启动虚拟机。虚拟机可能会自动重新启动。</block>
+  <block id="fb37b2b6fa74940a30d42aec5c20c8f5" category="paragraph">此版本包括安全性改进和错误修复以及以下新功能。</block>
+  <block id="d2033ec1ec99f494b181d63a27d56e2d" category="section-title">分配 Cloud Volumes ONTAP 贡献者角色</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">详细了解 Cloud Volumes ONTAP 基于角色的访问</block>
+  <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">现在，您可以分配 Cloud Volumes ONTAP 贡献者角色，为成员提供管理 Cloud Volumes ONTAP 系统的广泛访问权限，而不允许他们删除系统、卷、聚合或复制关系<block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>。</block>
+  <block id="3cc38715797be469f39edd81c803bf02" category="section-title">2026年11月17日</block>
 </blocks>
