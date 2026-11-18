@@ -633,4 +633,11 @@
   <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">此功能作为公开预览版提供。仅支持通过 ONTAP CLI 进行配置。目前尚不支持 NetApp Console 集成。</block>
   <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">为 SMB 配置 Microsoft Entra ID 身份验证</block>
   <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="8e185e7635097d7251137556c4d7b148" category="doc">AWS Marketplace 中 Cloud Volumes ONTAP 的单独 PAYGO 列表</block>
+  <block id="e22492ae15b7a204416f84c3bc5e2d1e" category="paragraph">NetApp 现在通过 NetApp 独立列表（NSL）在 AWS Marketplace 中为 Cloud Volumes ONTAP 提供单独的按需付费（PAYGO）列表。NetApp 此前推出了独立的 Cloud Volumes ONTAP 订阅，以适应 AWS Enterprise Discount Program（EDP）的更改。PAYGO 列表现在与 Cloud Volumes ONTAP 年度合同一起在同一 NSL 产品下提供，从而更轻松地跟踪 PAYGO 使用情况、监控超额费用并管理消耗成本。</block>
+  <block id="76d4be3bca7251e78e8b9d340a9e88e6" category="paragraph">Cloud Volumes ONTAP 年度合同和 PAYGO 列表仍与 NetApp Intelligence Services（NIS）年度合同和 PAYGO 列表分开，从而实现 Cloud Volumes ONTAP 容量和数据服务的单独计费。</block>
+  <block id="79ef9f61ccfcabc1d70e24a061eef1a5" category="inline-link">详细了解账单偏好设置</block>
+  <block id="90354e46cc101991e55370e682628f58" category="inline-link">使用 AWS Marketplace 上的独立列表部署 Cloud Volumes ONTAP</block>
+  <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
+  <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">2026年11月18日</block>
 </blocks>
