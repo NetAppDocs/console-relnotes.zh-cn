@@ -1,0 +1,16 @@
+= Hyper-V 工作负载增强
+:allow-uri-read: 
+
+
+
+
+[[hyper-v-workloads-enhancement]]
+=== Hyper-V 工作负载增强
+
+在此版本中，NetApp Backup and Recovery 为 Hyper-V 工作负载引入了以下增强功能：
+
+*NetApp MetroCluster 支持增强功能*：NetApp Backup and Recovery 现在支持在切换或回切操作前后的 NetApp MetroCluster 配置中保护 Hyper-V 主机。
+
+有关在 NetApp MetroCluster 配置中保护 Hyper-V 主机的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-discover-hyperv.html["发现并管理 Hyper-V 工作负载"^]。
+
+有关保护 Hyper-V 工作负载的详细信息，请参阅 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载"^]。
