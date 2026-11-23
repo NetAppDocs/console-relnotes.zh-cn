@@ -123,13 +123,8 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作负载增强</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作负载增强功能</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中，Kubernetes 工作负载引入了以下增强功能：</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">Well-architected 仪表板</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">如有问题或需要分享反馈，请发送邮件至：ng-activeiq-feedback@netapp.com[联系 Active IQ 团队]。</block>
-  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">配置 SIEM 系统</block>
-  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">有关详细信息，请参见<block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>。</block>
-  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">单节点</block>
-  <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">使用区域冗余存储 (ZRS) 在多个可用区中实现 HA</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Config Drift 的弃用通知</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">在此版本中，Hyper-V 工作负载引入了以下增强功能：</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Hyper-V 工作负载</block>
@@ -139,12 +134,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Oracle Database 工作负载增强</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保护 Oracle 数据库工作负载</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">要了解有关保护 Oracle Database 工作负载的详细信息，请参阅<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
-  <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">支持 Azure 中的奥地利东部和比利时中部地区</block>
-  <block id="44e833213a99257d69192896111996f4" category="paragraph">现在，您可以在 Azure 的奥地利东部 (austriaeast) 和比利时中部 (belgiumcentral) 区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：</block>
-  <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">2026年8月25日</block>
-  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">通过 Console 代理交付 SIEM 事件</block>
-  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience 现在支持通过 Console 代理传送 SIEM 事件，以及通过 NetApp Console 传送事件的现有选项。</block>
-  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">当您通过 Console 代理交付 SIEM 事件时，您可以将 SIEM 事件交付保持在您的网络边界内。这简化了具有严格 IP 地址允许列表的本地环境的部署，并且可以更好地与现有安全控制保持一致。要使用此选项，请确保 Console 代理能够通过任何防火墙或代理控件解析并连接到所需端口上的 SIEM 端点。</block>
   <block id="e10cb273323f88df11fadb5507d738a0" category="doc">改进的 SnapMirror Snapshot 管理</block>
   <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">现在，您可以使用最新的快照触发故障转移，这是不拍摄新快照时的首选方法。</block>
   <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">选择特定的快照基线时，默认情况下，SnapMirror 传输快照是隐藏的。这是因为它们可能在故障转移过程中被删除，导致由于"未找到公共快照"错误而无法在故障转移后重新保护工作负载。您仍然可以使用这些快照，但必须完成额外的确认提示以确认风险。</block>
@@ -262,7 +251,6 @@
   <block id="ffc6d9152a780992794d0684b51c6723" category="section-title">私有模式 4.10.0 支持 Red Hat Enterprise Linux (RHEL) 9.6</block>
   <block id="e8df4a2f18a880c577818fb8618fed77" category="inline-link-macro">了解私有模式的主机要求</block>
   <block id="a40f09cfdf03cc6659d4d7e08024fda0" category="paragraph">私有模式现在可以在 Red Hat Enterprise Linux （RHEL） 9.6 上安装和运行，为用户提供最新支持的操作系统，以增强安全性和性能。 <block ref="0ce7e93392d1f71f6b7bb5b508ff4113" category="inline-link-macro-rx"></block></block>
-  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有关所有受支持区域的列表，请参阅<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">适用于美国政府任务的云</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
@@ -341,7 +329,6 @@
   <block id="17b21ea825fede0731081b59fb813a26" category="inline-link-macro">在 Digital Advisor 中发现价值洞察</block>
   <block id="5f7557e3e7c5d2167dadb72a1bb3fc0e" category="paragraph"><block ref="81a04c9dae4ab018e9b02972f88cb56a" category="inline-link-macro-rx"></block>。</block>
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">2026年10月15日</block>
-  <block id="f06295aec82b8045d499f988d711565d" category="list-text">使用本地冗余存储（LRS）的单个可用区中的 HA</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">在 Azure 中部署 Cloud Volumes ONTAP 之前，请确认您的环境满足以下先决条件：</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 支持*：NetApp Backup and Recovery 现在支持使用保护组来保护使用 Oracle Data Guard 实现高可用性的主数据库和备用数据库。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026年10月19日</block>
@@ -645,4 +632,14 @@
   <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">发现并管理 Hyper-V 工作负载</block>
   <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">有关在 NetApp MetroCluster 配置中保护 Hyper-V 主机的详细信息，请参阅<block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>。</block>
   <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">有关保护 Hyper-V 工作负载的详细信息，请参阅<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>。</block>
+  <block id="fe137bb7e7054941bc9c91c50085f74f" category="list-text">*Amazon FSx for NetApp ONTAP 支持磁盘到磁盘备份架构*：您现在可以在相同的 AWS 区域或不同的 AWS 区域中创建 Kubernetes 保护策略，该策略使用磁盘到磁盘备份架构，其中 Amazon FSx for NetApp ONTAP 作为主存储，另一个 FSx for NetApp ONTAP 文件系统作为辅助存储。您还可以将 Cloud Volumes ONTAP 作为主存储，将 FSx for NetApp ONTAP 作为辅助存储。</block>
+  <block id="f0fe6c245af38530401dcf0ad8dfed35" category="list-text">*修复了 qtree 还原问题*：ontap-nas-economy 卷还原以前还原的 qtree 目录的所有者和权限不正确。此问题已在此版本中得到解决。</block>
+  <block id="ae4951a992a8d5e6e6132772ba1d8a9e" category="inline-link">在 NetApp Backup and Recovery 中创建和管理 Kubernetes 备份策略</block>
+  <block id="28a7fe5c0d3dddc8f87571ff9c276c1d" category="paragraph">有关创建 Kubernetes 保护策略的详细信息，请参阅<block ref="bfe6c4e3e3b18b6562d50ee9cf2c4f82" category="inline-link-rx"></block>。</block>
+  <block id="04df59aebaa27ff65cee06cd27064bff" category="list-text">*还原界面改进*：ONTAP 卷的还原向导采用了全新的布局并改进了导航：</block>
+  <block id="335272593837dc282e2df95a4a0177c6" category="list-text">*改进的选择表*：选择表一次显示更多行和列。还原屏幕使用精细的间距和面包屑，因此您可以查看自己在工作流中的位置。</block>
+  <block id="f0e5c0e1059e3a13f23bf2b09cc506f2" category="list-text">*分步导航*：*下一步*和*继续*按钮功能已得到改进，因此您不会不小心跳到下一个主要步骤。*上一步*按钮将返回到您完成的最后一个屏幕，并保留您之前的选择，因此您无需重新启动该步骤。</block>
+  <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*选择源卷时的更多详细信息*：卷列表现在显示卷类型、卷样式、SnapLock 类型、现有保护和保护运行状况。现有保护列更宽，因此您可以看到所有保护指标（快照、复制和备份）。</block>
+  <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*支持保护 Azure 中国区域中托管的卷*：您现在可以将 ONTAP 卷备份到 Azure 中国（世纪互联）中的 Azure Blob 存储。此支持适用于 Cloud Volumes ONTAP 和本地 ONTAP 系统。商业 Azure 和 Azure 政府区域保持不变。</block>
+  <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026年11月23日</block>
 </blocks>
