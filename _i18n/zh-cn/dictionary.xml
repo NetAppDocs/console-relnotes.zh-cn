@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*选择源卷时的更多详细信息*：卷列表现在显示卷类型、卷样式、SnapLock 类型、现有保护和保护运行状况。现有保护列更宽，因此您可以看到所有保护指标（快照、复制和备份）。</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*支持保护 Azure 中国区域中托管的卷*：您现在可以将 ONTAP 卷备份到 Azure 中国（世纪互联）中的 Azure Blob 存储。此支持适用于 Cloud Volumes ONTAP 和本地 ONTAP 系统。商业 Azure 和 Azure 政府区域保持不变。</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">2026年11月23日</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">支持 Azure 中的丹麦东部和印度中南部地区</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">您现在可以在 Azure 的丹麦东部（denmarkeast）和印度中南部（indiasouthcentral）区域部署 Cloud Volumes ONTAP 9.12.1 GA 及更高版本。支持以下部署类型：</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">单节点</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">使用本地冗余存储（LRS）的单个可用区中的 HA</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">使用区域冗余存储（ZRS）的多个可用区中的 HA - 仅适用于印度中南部</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的全局区域地图</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">有关所有受支持区域的列表，请参阅<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>。</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">2026年11月24日</block>
 </blocks>
