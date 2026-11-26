@@ -138,7 +138,7 @@ Workload Factory 现在使用 AWS Cost and Usage Reports（CUR）而不是 AWS C
 
 Workload Factory 在用户界面中为迁移存储虚拟机提供增强的指导。这包括分步说明以及在将迁移提交到生产环境之前进行测试运行。
 
-link:fsx-storage/create-replication.html["详细了解存储虚拟机迁移"]
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-replication.html["详细了解存储虚拟机迁移"]
 
 
 
