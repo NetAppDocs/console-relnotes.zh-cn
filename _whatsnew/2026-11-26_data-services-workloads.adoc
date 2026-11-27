@@ -1,0 +1,153 @@
+= Amazon FSx for NetApp ONTAP 增强功能
+:allow-uri-read: 
+
+
+
+
+[[amazon-fsx-for-netapp-ontap-enhancements]]
+=== Amazon FSx for NetApp ONTAP 增强功能
+
+
+
+==== 将多个 FSx for ONTAP 文件系统与链接相关联
+
+现在，您可以在一个工作流中将多个 FSx for ONTAP 文件系统与新建或现有链接关联，而无需为每个文件系统重复执行关联操作。您可以通过为每个文件系统输入 ONTAP 凭据，或将相同凭据应用于多个文件系统来验证链接。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/setup/links-overview.html["详细了解链接"]
+
+
+
+==== 有关 storage VM 名称服务的新建议
+
+Workload Factory 现在在架构完善的分析中包含以下有关存储 VM 名称服务的建议：
+
+*DNS 和 LDAP 服务器冗余*：建议在使用 DNS 的存储虚拟机上至少配置两个 DNS 服务器，并在使用 LDAP 的存储虚拟机上至少配置两个 LDAP 服务器。单个服务器故障可能会阻止名称解析、域身份验证或 NFS 访问。
+
+
+
+==== 卷资源管理器增强功能
+
+
+
+===== 新增卷资源管理器表列
+
+卷资源管理器表包含以下新列：
+
+* *Logical used size*：显示客户端在存储效率节省之前所看到的已用空间。此列默认显示。
+* *接合路径*：显示卷的接合路径。
+
+
+
+
+===== 管理挂载点
+
+现在，您可以直接从 Volumes explorer 管理卷在存储 VM 命名空间中的挂载位置。从卷的 *Advanced* 菜单中选择 *Manage mount points*，以树状结构查看存储 VM 命名空间，然后挂载、卸载或更改卷的接合路径。Workload Factory 在卸载卷之前会检查依赖项。您无法卸载其下挂载有其他卷的卷，并且当该卷具有 SMB 共享时，您会收到警告。
+
+
+
+===== 新卷的嵌套连接路径
+
+创建 volume 时，您现在可以在 *Advanced configuration* 部分输入嵌套连接路径，例如 `/test1/test2`。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/create-volume.html["了解如何创建卷"]
+
+
+
+==== 将精心设计的配置定制为自定义规则
+
+您可以从精心设计的配置中启动自定义规则，以便在保持原始最佳实践的同时应用自己的阈值或范围。Workload Factory 可根据该配置以可编辑的提示打开自定义规则。规则以草稿形式开始，其描述说明了它所基于的配置。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/improve-configurations.html["了解如何自定义精心设计的配置"]
+
+
+
+==== 接收已计划自定义规则运行的通知
+
+为计划的自定义规则启用通知，以便在不登录 Workload Factory 的情况下获取结果。您可以在每次计划运行后接收通知，也可以仅在运行失败或部分成功时接收通知。通知将通过您已设置的渠道发送。手动测试不发送通知。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-storage/manage-custom-rules.html["了解如何接收已计划自定义规则的通知"]
+
+
+
+[[workload-factory-administration-enhancements]]
+=== Workload Factory 管理增强功能
+
+这些增强功能涵盖 Workload Factory 中的自定义仪表板和其他管理任务。
+
+
+
+==== 编辑自定义控制面板标题和描述
+
+您可以从仪表板目录或仪表板视图中编辑自定义仪表板的标题和描述，以便在仪表板发生变化时保持其准确性。这两个字段都是必填字段，两个仪表板可以具有相同的标题。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/admin/manage-custom-dashboards-fsx.html["了解如何管理自定义仪表板"]
+
+
+
+[[workload-factory-for-eda-enhancements]]
+=== Workload Factory for EDA 增强功能
+
+这些增强功能涵盖跟踪卷的自动 AI 分析、AI 分析中更清晰的根本原因解释以及保留延迟分析结果的时间。
+
+
+
+==== 跟踪卷以进行自动 AI 分析
+
+您可以将卷标记为在检测到延迟问题时自动进行 AI 分析。分析结果将保存 72 小时，并包含在通知电子邮件中，以便您无需自行运行分析即可查看原因。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解有关分析延迟问题的信息"^]。
+
+
+
+==== 更清晰地解释 AI 分析的根本原因
+
+使用 AI 分析可以更清楚地解释可能导致延迟事件的原因。该分析会检查与 FlexCache、容量池和文件系统相关的问题，以及吞吐量和 IOPS 限制、高 SSD 使用率、写入饱和度以及使用相同资源的其他卷。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解有关分析延迟问题的信息"^]。
+
+
+
+==== 延迟分析结果保存 72 小时
+
+延迟分析结果现在可在界面中显示 72 小时而不是 24 小时，因此您可以查看以前对卷的分析。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解有关分析延迟问题的信息"^]。
+
+
+
+[[google-cloud-netapp-volumes-enhancements]]
+=== Google Cloud NetApp Volumes 增强功能
+
+这些增强功能包括删除存储池、从系统打开存储池清单、跨区域添加系统以及从右侧面板管理系统。
+
+
+
+==== 删除存储池
+
+您可以删除没有卷且处于“就绪”或“错误”状态的 Google Cloud NetApp Volumes 存储池。删除操作无法撤消。如果删除失败，该池将保留在清单中，并且错误会显示在 Tracker 中。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/delete-storage-pool.html["了解如何删除存储池"]
+
+
+
+==== 从系统打开存储池清单
+
+在 Google Cloud NetApp Volumes 系统上的 *Enter system* 会在 Workload Factory 中打开存储池清单，并且已选择该系统的项目、凭据和区域。覆盖所有区域的系统在打开时会选中每个区域。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["了解如何查看存储池"]
+
+
+
+==== 跨所有区域添加系统
+
+添加 Google Cloud NetApp Volumes 系统时，区域是可选的，默认为所有区域。Workload Factory 会为您选择的凭据在每个区域中发现存储池。所选区域设置系统在画布上显示的内容以及合规性和 DRaaS 使用的内容。它不限制发现。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/create-discover-systems.html["了解如何添加系统"]
+
+
+
+==== 从右侧面板管理系统
+
+通过 Google Cloud NetApp Volumes 系统的右侧面板，您可以查看其卷，并从 NetApp Console 进入系统。
+
+link:https://docs.netapp.com/us-en/data-services-workloads/gcnv/view-storage-pools.html["了解如何查看存储池"]
